@@ -1,18 +1,25 @@
+# A GitHub Action to download RSS feeds from various sources
+# Runs each night, used to populate my website's activity feed
+
 name: 📥 Download RSS Feeds
 
 on:
   workflow_dispatch: # Manual dispatch
   schedule:
-    - cron: '0 23 * * 0' # At 23:00 on Sunday
+    - cron: '0 23 * * *' # At 23:00 each day
     
 jobs:
   download:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout 🛎️
         uses: actions/checkout@v3.3.0
+        
+      - name: Get Date 📅
+        id: date
+        run: echo "::set-output name=date::$(date +'%d-%b-%Y')"
                 
-      - name: Download Feeds
+      - name: Download Feeds 📬
         run: |
           fetch_feed() { curl "${1}" --fail --connect-timeout 10 --max-time 15 --retry 3 --retry-delay 10 --retry-max-time 90 -o "${2}"; }
           
@@ -20,20 +27,20 @@ jobs:
           fetch_feed "https://dev.to/feed/lissy93" "./dev-to.atom"
           fetch_feed "https://lissy93.blogspot.com/feeds/posts/default" "./blogger.atom"
           fetch_feed "https://github.com/lissy93.atom" "./github.atom"
-          fetch_feed "https://nitter.net/lissy_sykes/rss" "./twitter.atom"
+          # fetch_feed "https://nitter.net/lissy_sykes/rss" "./twitter.atom"
           fetch_feed "https://stackoverflow.com/feeds/user/979052" "./stackoverflow.atom"
           fetch_feed "http://reddit.com/user/lissy93/submitted.rss" "./reddit.atom"
           fetch_feed "https://mastodon.social/users/lissy93.rss" "./mastodon.atom"
           fetch_feed "https://www.youtube.com/feeds/videos.xml?channel_id=UCY_XiFwLImCn3arzomg8eRA" "./youtube.atom"
 
-      - name: Commit
+      - name: Commit ✒️
         run: |
           git config --local user.email "alicia-gh-bot@mail.as93.net"
           git config --local user.name "liss-bot"
           git add .
-          git commit -m "Updates RSS Feeds"
+          git commit -m "🗞️ Downloads RSS Feed - Updated on ${{ steps.date.outputs.date }}"
           
-      - name: Push
+      - name: Push ⤴️
         uses: ad-m/github-push-action@master
         with:
           github_token:  ${{ secrets.BOT_GITHUB_TOKEN || github.token }}
