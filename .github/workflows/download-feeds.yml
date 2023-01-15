@@ -18,7 +18,7 @@ jobs:
           curl https://dev.to/feed/lissy93 -o ./dev-to.atom
           curl https://lissy93.blogspot.com/feeds/posts/default -o ./blogger.atom
           curl https://github.com/lissy93.atom -o ./github.atom
-          curl https://nitter.net/lissy_sykes/rss -o ./twitter.atom
+          # curl https://nitter.net/lissy_sykes/rss -o ./twitter.atom
           curl https://stackoverflow.com/feeds/user/979052 -o ./stackoverflow.atom
           curl http://reddit.com/user/lissy93/submitted.rss -o ./reddit.atom
           curl https://mastodon.social/users/lissy93.rss -o ./mastodon.atom
