@@ -1,0 +1,38 @@
+name: 📥 Download RSS Feeds
+
+on:
+  workflow_dispatch: # Manual dispatch
+  schedule:
+    - cron: '0 23 * * 0' # At 23:00 on Sunday
+    
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+                
+      - name: Download Feeds
+        run: |
+          curl https://notes.aliciasykes.com/feed -o ./blog.atom
+          curl https://dev.to/feed/lissy93 -o ./dev-to.atom
+          curl https://lissy93.blogspot.com/feeds/posts/default -o ./blogger.atom
+          curl https://github.com/lissy93.atom -o ./github.atom
+          curl https://nitter.net/lissy_sykes/rss -o ./twitter.atom
+          curl https://stackoverflow.com/feeds/user/979052 -o ./stackoverflow.atom
+          curl http://reddit.com/user/lissy93/submitted.rss -o ./reddit.atom
+          curl https://mastodon.social/users/lissy93.rss -o ./mastodon.atom
+          curl https://www.youtube.com/feeds/videos.xml?channel_id=UCY_XiFwLImCn3arzomg8eRA -o ./youtube.atom
+
+      - name: Commit
+        run: |
+          git config --local user.email "alicia-gh-bot@mail.as93.net"
+          git config --local user.name "liss-bot"
+          git add .
+          git commit -m "Updates RSS Feeds"
+          
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token:  ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
