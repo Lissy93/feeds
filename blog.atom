@@ -7,6 +7,1037 @@
     <link>http://aliciasykes.com</link>
     <language>en</language>
     <item>
+      <title>CLI tools you can't live without 🔧</title>
+      <author>Alicia's Notes 🚀</author>
+      <pubDate>Thu, 19 Jan 2023 17:42:01 +0000</pubDate>
+      <link>https://notes.aliciasykes.com/41983/cli-tools-you-can-t-live-without</link>
+      <guid>https://notes.aliciasykes.com/41983/cli-tools-you-can-t-live-without</guid>
+      <description>&lt;p&gt;&lt;p&gt;As developers, we spend a lot of our time in the terminal. There's a lot of helpful CLI tools, which can make your life in the command line easier, faster and generally more fun.&lt;/p&gt;
+
+&lt;p&gt;This post outlines my top 50 must-have CLI tools, which I've come to rely on. If there's anything I'm missing - do let me know in the comments :)&lt;/p&gt;
+
+&lt;p&gt;At the end of the article, I've included some scripts to help you automate the installation and updating of these tools on various systems/ distros.&lt;/p&gt;
+
+&lt;h2&gt;Utils&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/nvbn/thefuck" rel="noopener nofollow" target="_blank"&gt;thefuck&lt;/a&gt; -  Auto-correct miss-typed commands&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;thefuck&lt;/code&gt; is one of those utilities you won't be able to live without once you've tried it. Whenever you mis-type a command and get an error, just run &lt;code class="prettyprint"&gt;fuck&lt;/code&gt; and it'll auto-correct it. Use up/down to choose a correction, or just run &lt;code class="prettyprint"&gt;fuck --yeah&lt;/code&gt; to just execute the most likely immediately.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/J55hWKX/thefuck.gif" alt="the-fuck-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/nvbn/thefuck"&gt;&lt;img src="https://img.shields.io/github/stars/nvbn/thefuck?color=232323&amp;amp;label=thefuck&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View thefuck on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/nvbn"&gt;&lt;img src="https://img.shields.io/badge/nvbn-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author nvbn"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install thefuck
+
+# Arch Linux
+sudo pacman -S thefuck
+
+# FreeBSD
+pkg install thefuck
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/ajeetdsouza/zoxide" rel="noopener nofollow" target="_blank"&gt;zoxide&lt;/a&gt; - Easy navigation &lt;em&gt;(better cd)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;z&lt;/code&gt; lets you jump to any directory without needing to remember or specify its full path. It remembers which directories you've visited, so you can jump around quickly - you don't even need to type the full folder name. It also has an interactive selection option, using &lt;code class="prettyprint"&gt;fzf&lt;/code&gt; so you can live-filter directory results&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/6Z960jq/zoxide.gif" alt="zoxide-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/ajeetdsouza/zoxide"&gt;&lt;img src="https://img.shields.io/github/stars/ajeetdsouza/zoxide?color=232323&amp;amp;label=zoxide&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View zoxide on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/ajeetdsouza"&gt;&lt;img src="https://img.shields.io/badge/ajeetdsouza-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author ajeetdsouza"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install zoxide
+
+# Arch Linux
+sudo pacman -S zoxide
+
+# Debian / Ubuntu
+sudo apt install zoxide
+
+# FreeBSD
+pkg install zoxide
+
+# Other (via Rust Creates)
+cargo install zoxide --locked
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/tldr-pages/tldr" rel="noopener nofollow" target="_blank"&gt;tldr&lt;/a&gt; - Community-maintained docs &lt;em&gt;(better &lt;code class="prettyprint"&gt;man&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;tldr&lt;/code&gt; is a huge collection of community-maintained man pages. Unlike traditional man pages, they're summarized, contain useful usage examples and nicely colourized for easy reading&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/jTW9knx/tlfr.gif" alt="tldr-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/tldr-pages/tldr"&gt;&lt;img src="https://img.shields.io/github/stars/tldr-pages/tldr?color=232323&amp;amp;label=tldr&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View tldr on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/tldr-pages"&gt;&lt;img src="https://img.shields.io/badge/tldr-pages-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author tldr-pages"&gt;&lt;/a&gt; &lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install tldr
+
+# Other (via NPM)
+npm install -g tldr
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/boyter/scc" rel="noopener nofollow" target="_blank"&gt;scc&lt;/a&gt; -  Count lines of code &lt;em&gt;(better &lt;code class="prettyprint"&gt;cloc&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;scc&lt;/code&gt; gives you a breakdown of number of lines of code written in each language for a specific directory. It also shows some fun stats, like estimated cost to develop and complexity info. It's incredibly fast, very accurate and has support for a wide range of languages&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/NygHWXt/scc.png" alt="scc-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/boyter/scc"&gt;&lt;img src="https://img.shields.io/github/stars/boyter/scc?color=232323&amp;amp;label=scc&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View scc on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/boyter"&gt;&lt;img src="https://img.shields.io/badge/boyter-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author boyter"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Go%20Lang&amp;amp;color=00ADD8&amp;amp;logo=go&amp;amp;logoColor=FFFFFF" alt="Written in Go"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install scc
+
+# Other (via go)
+go install github.com/boyter/scc/v3@latest
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/ogham/exa" rel="noopener nofollow" target="_blank"&gt;exa&lt;/a&gt; - Listing Files &lt;em&gt;(better &lt;code class="prettyprint"&gt;ls&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;exa&lt;/code&gt; is a modern Rust-based replacement for the &lt;code class="prettyprint"&gt;ls&lt;/code&gt; command, for listing files. It can display file-type icons, colors, file/folder info and has several output formats - tree, grid or list&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/cTs0wQ5/exa.png" alt="exa-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/ogham/exa"&gt;&lt;img src="https://img.shields.io/github/stars/ogham/exa?color=232323&amp;amp;label=exa&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View exa on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/ogham"&gt;&lt;img src="https://img.shields.io/badge/ogham-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author ogham"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install exa
+
+# Arch Linux
+sudo pacman -S exa
+
+# Debian / Ubuntu
+sudo apt install exa
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/muesli/duf" rel="noopener nofollow" target="_blank"&gt;duf&lt;/a&gt; - Disk Usage &lt;em&gt;(better &lt;code class="prettyprint"&gt;df&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;duf&lt;/code&gt; is great for showing info about mounted disks and checking free space. It produces a clear and colorful output, and includes options for sorting and customizing results.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/sP59DKd/duf.png" alt="duf-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/muesli/duf"&gt;&lt;img src="https://img.shields.io/github/stars/muesli/duf?color=232323&amp;amp;label=duf&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View duf on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/muesli"&gt;&lt;img src="https://img.shields.io/badge/muesli-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author muesli"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Go%20Lang&amp;amp;color=00ADD8&amp;amp;logo=go&amp;amp;logoColor=FFFFFF" alt="Written in Go"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install duf
+
+# Arch Linux
+sudo pacman -S duf
+
+# Debian / Ubuntu
+sudo apt install duf
+
+# FreeBSD
+pkg install duf
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/aria2/aria2" rel="noopener nofollow" target="_blank"&gt;aria2&lt;/a&gt; - Download Utility &lt;em&gt;(better &lt;code class="prettyprint"&gt;wget&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;aria2&lt;/code&gt; is a lightweight, multi-protocol, resuming download utility for HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink, with support for controlling via an RPC interface. It's incredibly &lt;a href="https://aria2.github.io/manual/en/html/README.html" rel="noopener nofollow" target="_blank"&gt;feature rich&lt;/a&gt;, and has tons of &lt;a href="https://aria2.github.io/manual/en/html/aria2c.html" rel="noopener nofollow" target="_blank"&gt;options&lt;/a&gt;. There's also &lt;a href="https://github.com/ziahamza/webui-aria2" rel="noopener nofollow" target="_blank"&gt;ziahamza/webui-aria2&lt;/a&gt; - a nice web interface companion.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/pJkkX6x/aria2c.png" alt="aria2c-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/aria2/aria2"&gt;&lt;img src="https://img.shields.io/github/stars/aria2/aria2?color=232323&amp;amp;label=aria2&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View aria2 on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/aria2"&gt;&lt;img src="https://img.shields.io/badge/aria2-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author aria2"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C++&amp;amp;color=00599C&amp;amp;logo=cplusplus&amp;amp;logoColor=FFFFFF" alt="Written in C++"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install aria2
+
+# Arch Linux
+sudo pacman -S aria2
+
+# Debian / Ubuntu
+sudo apt install aria2
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/sharkdp/bat" rel="noopener nofollow" target="_blank"&gt;bat&lt;/a&gt; - Reading Files &lt;em&gt;(better &lt;code class="prettyprint"&gt;cat&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;bat&lt;/code&gt; is a clone of &lt;code class="prettyprint"&gt;cat&lt;/code&gt; with syntax highlighting and git integration. Written in Rust, it's very performant, and has several options for customizing output and theming. There's support for automatic piping and file concatenation&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/VND3Y9s/bat.png" alt="bat-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/sharkdp/bat"&gt;&lt;img src="https://img.shields.io/github/stars/sharkdp/bat?color=232323&amp;amp;label=bat&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View bat on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/sharkdp"&gt;&lt;img src="https://img.shields.io/badge/sharkdp-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author sharkdp"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install bat
+
+# Arch Linux
+sudo pacman -S bat
+
+# Debian / Ubuntu
+sudo apt install bat
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/so-fancy/diff-so-fancy" rel="noopener nofollow" target="_blank"&gt;diff-so-fancy&lt;/a&gt; - File Comparisons &lt;em&gt;(better &lt;code class="prettyprint"&gt;diff&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;diff-so-fancy&lt;/code&gt; gives you better looking diffs for comparing strings, files, directories and git changes. The change highlighting makes spotting changes much easier, and you can customize the output layout and colors&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/RGKLhQk/diff-so-fancy.png" alt="diff-so-fancy-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/so-fancy/diff-so-fancy"&gt;&lt;img src="https://img.shields.io/github/stars/so-fancy/diff-so-fancy?color=232323&amp;amp;label=diff-so-fancy&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View diff-so-fancy on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/so-fancy"&gt;&lt;img src="https://img.shields.io/badge/so-fancy-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author so-fancy"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Perl&amp;amp;color=39457E&amp;amp;logo=perl&amp;amp;logoColor=FFFFFF" alt="Written in Perl"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install diff-so-fancy
+
+# Arch Linux
+sudo pacman -S diff-so-fancy
+
+# Debian / Ubuntu
+sudo apt install diff-so-fancy
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/eradman/entr" rel="noopener nofollow" target="_blank"&gt;entr&lt;/a&gt; - Watch for changes&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;entr&lt;/code&gt; lets you run an arbitrary command whenever file changes. You can pass a file, directory, symlink or regex to specify which files it should watch. It's really useful for automatically rebuilding projects, reacting to logs, automated testing, etc. Unlike similar projects, it uses kqueue(2) or inotify(7) to avoid polling, and improve performance&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/HHKQx2H/entr.png" alt="entr-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/eradman/entr"&gt;&lt;img src="https://img.shields.io/github/stars/eradman/entr?color=232323&amp;amp;label=entr&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View entr on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/eradman"&gt;&lt;img src="https://img.shields.io/badge/eradman-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author eradman"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C&amp;amp;color=A8B9CC&amp;amp;logo=c&amp;amp;logoColor=FFFFFF" alt="Written in C"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install entr
+
+# Arch Linux
+sudo pacman -S entr
+
+# Debian / Ubuntu
+sudo apt install entr
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/exiftool/exiftool" rel="noopener nofollow" target="_blank"&gt;exiftool&lt;/a&gt; - Reading + writing metadata&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ExifTool is handy utility for reading, writing, stripping and creating meta information for a wide variety of file types. Never accidentally leak your location when sharing a photo again!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/Gv5PN6v/exiftool.png" alt="exiftool-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/exiftool/exiftool"&gt;&lt;img src="https://img.shields.io/github/stars/exiftool/exiftool?color=232323&amp;amp;label=exiftool&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View exiftool on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/exiftool"&gt;&lt;img src="https://img.shields.io/badge/exiftool-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author exiftool"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Perl&amp;amp;color=39457E&amp;amp;logo=perl&amp;amp;logoColor=FFFFFF" alt="Written in Perl"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/jbruchon/jdupes" rel="noopener nofollow" target="_blank"&gt;fdupes&lt;/a&gt; - Duplicate file finder&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;jdupes&lt;/code&gt; is used for identifying and/or deleting duplicate files within specified directories. It's useful for freeing up disk space when you've got two or more identical files&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/jhSY2Nn/fdupes.png" alt="fdupes-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jbruchon/jdupes"&gt;&lt;img src="https://img.shields.io/github/stars/jbruchon/jdupes?color=232323&amp;amp;label=jdupes&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View jdupes on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/jbruchon"&gt;&lt;img src="https://img.shields.io/badge/jbruchon-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author jbruchon"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C&amp;amp;color=A8B9CC&amp;amp;logo=c&amp;amp;logoColor=FFFFFF" alt="Written in C"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/junegunn/fzf" rel="noopener nofollow" target="_blank"&gt;fzf&lt;/a&gt; - Fuzzy file finder &lt;em&gt;(better &lt;code class="prettyprint"&gt;find&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;fzf&lt;/code&gt; is an extremely powerful, and easy to use fuzzy file finder and filtering tool. It lets you search for a string or pattern across files. fzf also has &lt;a href="https://github.com/junegunn/fzf/wiki/Related-projects" rel="noopener nofollow" target="_blank"&gt;plugins&lt;/a&gt; available for most  shells and IDEs, for showing instant results while searching. This &lt;a href="https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/" rel="noopener nofollow" target="_blank"&gt;post&lt;/a&gt; by Alexey Samoshkin highlights some of it's use cases.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/LNcwjWm/fzf.gif" alt="fzf-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/junegunn/fzf"&gt;&lt;img src="https://img.shields.io/github/stars/junegunn/fzf?color=232323&amp;amp;label=fzf&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View fzf on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/junegunn"&gt;&lt;img src="https://img.shields.io/badge/junegunn-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author junegunn"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Go%20Lang&amp;amp;color=00ADD8&amp;amp;logo=go&amp;amp;logoColor=FFFFFF" alt="Written in Go"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install fzf
+
+# Arch Linux
+sudo pacman -S fzf
+
+# Debian / Ubuntu
+sudo apt install fzf
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/sharkdp/hyperfine" rel="noopener nofollow" target="_blank"&gt;hyperfine&lt;/a&gt; - Command benchmarking&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;hyperfine&lt;/code&gt; makes it easy to accurately benchmark and compare arbitrary commands or scripts. It takes care of warm-up runs, clearing the cache for accurate results and preventing interference from other programs. It can also export results as raw data and generate charts.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/tKNR5gr/hyperfine.png" alt="hyperfine-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/sharkdp/hyperfine"&gt;&lt;img src="https://img.shields.io/github/stars/sharkdp/hyperfine?color=232323&amp;amp;label=hyperfine&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View hyperfine on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/sharkdp"&gt;&lt;img src="https://img.shields.io/badge/sharkdp-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author sharkdp"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install hyperfine
+
+# Arch Linux
+sudo pacman -S hyperfine
+
+# Debian / Ubuntu
+sudo apt install hyperfine
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/casey/just" rel="noopener nofollow" target="_blank"&gt;just&lt;/a&gt; - Modern command runner &lt;em&gt;(better &lt;code class="prettyprint"&gt;make&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;just&lt;/code&gt; is similar to &lt;code class="prettyprint"&gt;make&lt;/code&gt; but with some nice additions. It let's you group your projects commands together into recopies, which can be easily listed and run. Supports aliases, positional arguments, different shells, dot env integration, string interprulation, and pretty much everything else you could need&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/casey/just"&gt;&lt;img src="https://img.shields.io/github/stars/casey/just?color=232323&amp;amp;label=just&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View just on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/casey"&gt;&lt;img src="https://img.shields.io/badge/casey-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author casey"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;details&gt;
+&lt;summary&gt;Install&lt;/summary&gt;
+
+```bash
+# MacOS (via Homebrew)
+brew install just
+
+# Arch Linux
+sudo pacman -S just
+
+# Debian / Ubuntu
+sudo apt install just
+```
+
+&lt;/details&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/stedolan/jq" rel="noopener nofollow" target="_blank"&gt;jq&lt;/a&gt; - JSON processor&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;jq&lt;/code&gt; is like &lt;code class="prettyprint"&gt;sed&lt;/code&gt;, but for JSON -  you can use it to slice and filter and map and transform structured data with ease. It can be used to write complex queries to extract or manipulate JSON data. There's also a &lt;a href="https://jqplay.org/" rel="noopener nofollow" target="_blank"&gt;jq playground&lt;/a&gt; that you can use to try it out, or formulate queries with live feedback&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/stedolan/jq"&gt;&lt;img src="https://img.shields.io/github/stars/stedolan/jq?color=232323&amp;amp;label=jq&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View jq on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/stedolan"&gt;&lt;img src="https://img.shields.io/badge/stedolan-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author stedolan"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C&amp;amp;color=A8B9CC&amp;amp;logo=c&amp;amp;logoColor=FFFFFF" alt="Written in C"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://www.jedsoft.org/most/" rel="noopener nofollow" target="_blank"&gt;most&lt;/a&gt; - Multi-window scroll pager &lt;em&gt;(better less)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;most&lt;/code&gt; is a pager, for reading through long files or command outputs. &lt;code class="prettyprint"&gt;most&lt;/code&gt; supports multi-windows and has the option to not wrap text &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://www.jedsoft.org/aboutme.html"&gt;&lt;img src="https://img.shields.io/badge/jed-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author Jed"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=S_Lang&amp;amp;color=000000&amp;amp;logo=simkl&amp;amp;logoColor=FFFFFF" alt="Written in S-Lang"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/dalance/procs" rel="noopener nofollow" target="_blank"&gt;procs&lt;/a&gt; - Process viewer &lt;em&gt;(better ps)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;procs&lt;/code&gt; is an easy to navigate process viewer, it has colored highlighting, makes sorting and searching for processes easy, has tree view and updates in real-time&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/y6qhgDX/procs-demo.gif" alt="procs-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/dalance/procs"&gt;&lt;img src="https://img.shields.io/github/stars/dalance/procs?color=232323&amp;amp;label=procs&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View procs on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/dalance"&gt;&lt;img src="https://img.shields.io/badge/dalance-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author dalance"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/nivekuil/rip" rel="noopener nofollow" target="_blank"&gt;rip&lt;/a&gt; - Deletion tool &lt;em&gt;(better rm)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;rip&lt;/code&gt; is a safe, ergonomic and performant deletion tool. It let's you intuitively remove files and directories, and easily restore deleted files&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/10DTvT2/rip.gif" alt="rip-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/nivekuil/rip"&gt;&lt;img src="https://img.shields.io/github/stars/nivekuil/rip?color=232323&amp;amp;label=rip&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View rip on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/nivekuil"&gt;&lt;img src="https://img.shields.io/badge/nivekuil-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author nivekuil"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/BurntSushi/ripgrep" rel="noopener nofollow" target="_blank"&gt;ripgrep&lt;/a&gt; - Search within files &lt;em&gt;(better &lt;code class="prettyprint"&gt;grep&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;ripgrep&lt;/code&gt; is a line-oriented search tool that recursively searches the current directory for a regex pattern. It can ignore the contents of &lt;code class="prettyprint"&gt;.gitignore&lt;/code&gt; and skip binary files. It's able to search within compressed archives, or only search specific extension, and understands files using various encoding methods&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/qkMgQm9/ripgrep.png" alt="ripgrep-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/BurntSushi/ripgrep"&gt;&lt;img src="https://img.shields.io/github/stars/BurntSushi/ripgrep?color=232323&amp;amp;label=ripgrep&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View ripgrep on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/BurntSushi"&gt;&lt;img src="https://img.shields.io/badge/BurntSushi-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author BurntSushi"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://rsync.samba.org/" rel="noopener nofollow" target="_blank"&gt;rsync&lt;/a&gt; -  Fast, incremental file transfer&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;rsync&lt;/code&gt; lets you copy large files locally or to or from remote hosts or external drives. It can be used to keep files across multiple locations synced, and is perfect for creating, updating and restoring backups&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/WayneD/rsync"&gt;&lt;img src="https://img.shields.io/github/stars/WayneD/rsync?color=232323&amp;amp;label=rsync&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View rsync on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/WayneD"&gt;&lt;img src="https://img.shields.io/badge/WayneD-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author WayneD"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C&amp;amp;color=A8B9CC&amp;amp;logo=c&amp;amp;logoColor=FFFFFF" alt="Written in C"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/chmln/sd" rel="noopener nofollow" target="_blank"&gt;sd&lt;/a&gt; -  Find and replace &lt;em&gt;(better &lt;code class="prettyprint"&gt;sed&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;sd&lt;/code&gt; is an easy, fast and intuitive find and replace tool, based on string literals. It can be executed on a file, an entire directory, or  any piped text&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/G9CfcGS/sd.png" alt="sd-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/chmln/sd"&gt;&lt;img src="https://img.shields.io/github/stars/chmln/sd?color=232323&amp;amp;label=sd&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View sd on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/chmln"&gt;&lt;img src="https://img.shields.io/badge/chmln-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author chmln"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/dduan/tre" rel="noopener nofollow" target="_blank"&gt;tre&lt;/a&gt; - Directory hierarchy &lt;em&gt;(better &lt;code class="prettyprint"&gt;tree&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;tre&lt;/code&gt; outputs a tree stye list of files for your current or a specified directory, with colors. When running with the &lt;code class="prettyprint"&gt;-e&lt;/code&gt; option, it numbers each item, and creates a temporary alias that you can use to quickly jump to that location&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/CmMrZLB/tre.png" alt="tre-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/dduan/tre"&gt;&lt;img src="https://img.shields.io/github/stars/dduan/tre?color=232323&amp;amp;label=tre&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View tre on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/dduan"&gt;&lt;img src="https://img.shields.io/badge/dduan-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author dduan"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/kfish/xsel" rel="noopener nofollow" target="_blank"&gt;xsel&lt;/a&gt; - Access the clipboard&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;xsel&lt;/code&gt; let's you read and write to the X Selection clipboard via the command line. It's useful for piping command output to the clipboard, or a copied data into a command &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/kfish/xsel"&gt;&lt;img src="https://img.shields.io/github/stars/kfish/xsel?color=232323&amp;amp;label=xsel&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View xsel on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/kfish"&gt;&lt;img src="https://img.shields.io/badge/kfish-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author kfish"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C&amp;amp;color=A8B9CC&amp;amp;logo=c&amp;amp;logoColor=FFFFFF" alt="Written in C"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;CLI Monitoring and Performance Apps&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/imsnif/bandwhich" rel="noopener nofollow" target="_blank"&gt;bandwhich&lt;/a&gt; - Bandwidth utilization monitor&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Show bandwidth usage, connection information, outgoing hosts and DNS queries in real-time&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/8jHHBD3/Screenshot-from-2023-01-18-22-45-32.png" alt="bandwhich-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/imsnif/bandwhich"&gt;&lt;img src="https://img.shields.io/github/stars/imsnif/bandwhich?color=232323&amp;amp;label=bandwhich&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View bandwhich on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/imsnif"&gt;&lt;img src="https://img.shields.io/badge/imsnif-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author imsnif"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/bcicen/ctop" rel="noopener nofollow" target="_blank"&gt;ctop&lt;/a&gt; - Container metrics and monitoring&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Like &lt;code class="prettyprint"&gt;top&lt;/code&gt;, but for monitoring resource usage for running (Docker and runC) containers. It shows real-time CPU, memory and network bandwidth as well as the name, status and ID of each container. There's also a built-in log viewer, and options to manage (stop, start, exec, etc) containers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/xGjyzZ2/ctop.gif" alt="ctop-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/bcicen/ctop"&gt;&lt;img src="https://img.shields.io/github/stars/bcicen/ctop?color=232323&amp;amp;label=ctop&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View ctop on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/bcicen"&gt;&lt;img src="https://img.shields.io/badge/bcicen-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author bcicen"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Go%20Lang&amp;amp;color=00ADD8&amp;amp;logo=go&amp;amp;logoColor=FFFFFF" alt="Written in Go"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/aristocratos/bpytop" rel="noopener nofollow" target="_blank"&gt;bpytop&lt;/a&gt; - Resource monitoring &lt;em&gt;(better &lt;code class="prettyprint"&gt;htop&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;bpytop&lt;/code&gt; is a fast, interactive, visual resource monitor. It shows top running processes, recent CPU, mem, disk and network history. From the interface you can navigate, sort and search - there's also support for custom color themes&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/nj9jrhr/bpytop.gif" alt="bpytop-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/aristocratos/bpytop"&gt;&lt;img src="https://img.shields.io/github/stars/aristocratos/bpytop?color=232323&amp;amp;label=bpytop&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View bpytop on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/aristocratos"&gt;&lt;img src="https://img.shields.io/badge/aristocratos-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author aristocratos"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/nicolargo/glances" rel="noopener nofollow" target="_blank"&gt;glances&lt;/a&gt; - Resource monitor + web and API&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;glances&lt;/code&gt; is another resource monitor, but with a different feature set. It includes a fully responsive web view, a REST API and historical monitoring. It's easily extendable, and can be integrated with other services&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/6g65Qy4/glances.gif" alt="glances-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/nicolargo/glances"&gt;&lt;img src="https://img.shields.io/github/stars/nicolargo/glances?color=232323&amp;amp;label=glances&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View glances on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/nicolargo"&gt;&lt;img src="https://img.shields.io/badge/nicolargo-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author nicolargo"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/orf/gping" rel="noopener nofollow" target="_blank"&gt;gping&lt;/a&gt; - Interactive ping tool &lt;em&gt;(better &lt;code class="prettyprint"&gt;ping&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;gping&lt;/code&gt; can run ping tests on multiple hosts, while showing results in real-time graph. It can also be used to monitor execution time, when used with the &lt;code class="prettyprint"&gt;--cmd&lt;/code&gt; flag&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/CvG6xt0/gping.gif" alt="gping-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/orf/gping"&gt;&lt;img src="https://img.shields.io/github/stars/orf/gping?color=232323&amp;amp;label=gping&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View gping on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/orf"&gt;&lt;img src="https://img.shields.io/badge/orf-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author orf"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/Byron/dua-cli" rel="noopener nofollow" target="_blank"&gt;dua-cli&lt;/a&gt; - Disk usage analyzer and monitor &lt;em&gt;(better &lt;code class="prettyprint"&gt;du&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;dua-cli&lt;/code&gt; let's you interactively view used and available disk space for each mounted drive, and makes freeing up storage easy&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/x3NbDLR/dua.gif" alt="dua-cli-usage-example"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Byron/dua-cli"&gt;&lt;img src="https://img.shields.io/github/stars/Byron/dua-cli?color=232323&amp;amp;label=dua-cli&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View dua-cli on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/Byron"&gt;&lt;img src="https://img.shields.io/badge/Byron-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author Byron"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/sivel/speedtest-cli" rel="noopener nofollow" target="_blank"&gt;speedtest-cli&lt;/a&gt; - Command line speed test utility&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;speedtest-cli&lt;/code&gt; just runs an internet speed test, via speedtest.net - but straight from the terminal :)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/25QCbdF/speedtest-cli.gif" alt="speedtest-cli-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/sivel/speedtest-cli"&gt;&lt;img src="https://img.shields.io/github/stars/sivel/speedtest-cli?color=232323&amp;amp;label=speedtest-cli&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View speedtest-cli on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/sivel"&gt;&lt;img src="https://img.shields.io/badge/sivel-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author sivel"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/ogham/dog" rel="noopener nofollow" target="_blank"&gt;dog&lt;/a&gt;  - DNS lookup client &lt;em&gt;(better &lt;code class="prettyprint"&gt;dig&lt;/code&gt;)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;dog&lt;/code&gt; is an easy-to-use DNS lookup client, with support for DoT and DoH, nicely coloured outputs and the option to emit JSON&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/48n617Q/dog.png" alt="dog-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/ogham/dog"&gt;&lt;img src="https://img.shields.io/github/stars/ogham/dog?color=232323&amp;amp;label=dog&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View dog on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/ogham"&gt;&lt;img src="https://img.shields.io/badge/ogham-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author ogham"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;CLI Productivity Apps&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Surf the web, play music, check emails, manage calendars, read the news and more, all without leaving the terminal!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/browsh-org/browsh" rel="noopener nofollow" target="_blank"&gt;browsh&lt;/a&gt; - CLI web browser&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;browsh&lt;/code&gt; is a fully interactive, real-time, and modern text-based browser rendered to TTYs and browsers. It supports both mouse and keyboard navigation, and is surprisingly feature rich for a purely terminal based application. It also mitigates battery drain issues that plague modern browsers, and with support for MoSH, you can experience faster load times due to reduced bandwidth&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/S7nLFX5/browsh.gif" alt="browsh-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/browsh-org/browsh"&gt;&lt;img src="https://img.shields.io/github/stars/browsh-org/browsh?color=232323&amp;amp;label=browsh&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View browsh on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/browsh-org"&gt;&lt;img src="https://img.shields.io/badge/browsh-org-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author browsh-org"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=JavaScript&amp;amp;color=F7DF1E&amp;amp;logo=javascript&amp;amp;logoColor=FFFFFF" alt="Written in JavaScript"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/jarun/buku" rel="noopener nofollow" target="_blank"&gt;buku&lt;/a&gt; - Bookmark manager&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;buku&lt;/code&gt; is a terminal-based bookmark manager, with tons of configuration, storage and usage options. There's also an optional &lt;a href="https://github.com/jarun/buku/tree/master/bukuserver#screenshots" rel="noopener nofollow" target="_blank"&gt;web UI&lt;/a&gt; and &lt;a href="https://github.com/samhh/bukubrow-webext#installation" rel="noopener nofollow" target="_blank"&gt;browser plugin&lt;/a&gt;, for accessing your bookmarks outside of the terminal&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/CWQsf1x/buku.png" alt="buku-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jarun/buku"&gt;&lt;img src="https://img.shields.io/github/stars/jarun/buku?color=232323&amp;amp;label=buku&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View buku on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/jarun"&gt;&lt;img src="https://img.shields.io/badge/jarun-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author jarun"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/cmus/cmus" rel="noopener nofollow" target="_blank"&gt;cmus&lt;/a&gt; - Music browser / player&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;cmus&lt;/code&gt; is terminal music player, controlled with keyboard shortcuts. It has support for a wide range of audio formats and codecs, and allows organising tracks into playlists and applying playback settings&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/dP6b3bd/cmus.png" alt="cmus-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/cmus/cmus"&gt;&lt;img src="https://img.shields.io/github/stars/cmus/cmus?color=232323&amp;amp;label=cmus&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View cmus on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/cmus"&gt;&lt;img src="https://img.shields.io/badge/cmus-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author cmus"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C&amp;amp;color=A8B9CC&amp;amp;logo=c&amp;amp;logoColor=FFFFFF" alt="Written in C"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/cointop-sh/cointop" rel="noopener nofollow" target="_blank"&gt;cointop&lt;/a&gt; - Track crypto prices&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;cointop&lt;/code&gt; show current crypto prices, and track the price history of your portfolio. Supports price alerts, historical charts, currency conversion, fuzzy searching, and much more. You can try the demo via the web at &lt;a href="https://cointop.sh/" rel="noopener nofollow" target="_blank"&gt;cointop.sh&lt;/a&gt;, or by running &lt;code class="prettyprint"&gt;ssh cointop.sh&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/JBf9y4y/cointop.png" alt="cointop-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/cointop-sh/cointop"&gt;&lt;img src="https://img.shields.io/github/stars/cointop-sh/cointop?color=232323&amp;amp;label=cointop&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View cointop on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/cointop-sh"&gt;&lt;img src="https://img.shields.io/badge/cointop-sh-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author cointop-sh"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Go%20Lang&amp;amp;color=00ADD8&amp;amp;logo=go&amp;amp;logoColor=FFFFFF" alt="Written in Go"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/jarun/ddgr" rel="noopener nofollow" target="_blank"&gt;ddgr&lt;/a&gt; - Search the web from the terminal&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;ddgr&lt;/code&gt; is like &lt;a href="https://github.com/jarun/googler" rel="noopener nofollow" target="_blank"&gt;googler&lt;/a&gt;, but for DuckDuckGo. It's fast, clean and easy, with support for instant answers, search completion, search bangs, and advanced search. It respects your privacy by default, and also has HTTPS proxy support, and works with Tor&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/S0H21QH/dggr.png" alt="dggr-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jarun/ddgr"&gt;&lt;img src="https://img.shields.io/github/stars/jarun/ddgr?color=232323&amp;amp;label=ddgr&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View ddgr on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/jarun"&gt;&lt;img src="https://img.shields.io/badge/jarun-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author jarun"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/pimutils/khal" rel="noopener nofollow" target="_blank"&gt;khal&lt;/a&gt; - Calendar client&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;khal&lt;/code&gt; is a terminal calendar app, which shows upcoming events, month and agenda views. You can sync it with any CalDAV calendar, and add, edit and remove events directly&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/hLCdjZW/khal.png" alt="khal-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/pimutils/khal"&gt;&lt;img src="https://img.shields.io/github/stars/pimutils/khal?color=232323&amp;amp;label=khal&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View khal on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/pimutils"&gt;&lt;img src="https://img.shields.io/badge/pimutils-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author pimutils"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://gitlab.com/muttmua/mutt" rel="noopener nofollow" target="_blank"&gt;mutt&lt;/a&gt; - Email client&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;mut&lt;/code&gt; is a classic, a terminal based mail client for sending, reading and managing emails. It supports all mainstream email protocols and mailbox formats, allows for attachments, BCC/CC, threads, mailing lists and delivery status notifications&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/zVVsG3s/mutt.webp" alt="mutt-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://gitlab.com/muttmua/mutt"&gt;&lt;img src="https://img.shields.io/github/stars/muttmua/mutt?color=232323&amp;amp;label=mutt&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View mutt on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/muttmua"&gt;&lt;img src="https://img.shields.io/badge/muttmua-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author muttmua"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C&amp;amp;color=A8B9CC&amp;amp;logo=c&amp;amp;logoColor=FFFFFF" alt="Written in C"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/newsboat/newsboat" rel="noopener nofollow" target="_blank"&gt;newsboat&lt;/a&gt; - RSS / ATOM news reader&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;newsboat&lt;/code&gt; is an RSS feed reader and aggregator, for reading the news, blogs and following updates directly from the terminal&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/fvT4YzD/newsboat.png" alt="newsboat-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/newsboat/newsboat"&gt;&lt;img src="https://img.shields.io/github/stars/newsboat/newsboat?color=232323&amp;amp;label=newsboat&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View newsboat on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/newsboat"&gt;&lt;img src="https://img.shields.io/badge/newsboat-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author newsboat"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C++&amp;amp;color=00599C&amp;amp;logo=cplusplus&amp;amp;logoColor=FFFFFF" alt="Written in C++"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/rclone/rclone" rel="noopener nofollow" target="_blank"&gt;rclone&lt;/a&gt; - Manage cloud storage&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;rclone&lt;/code&gt; is a handy utility for syncing files and folders to various cloud storage providers. It can be either invoked directly from the command line, or easily integrated into a script as a replacement for heavy desktop sync apps&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/rclone/rclone"&gt;&lt;img src="https://img.shields.io/github/stars/rclone/rclone?color=232323&amp;amp;label=rclone&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View rclone on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/rclone"&gt;&lt;img src="https://img.shields.io/badge/rclone-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author rclone"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Go%20Lang&amp;amp;color=00ADD8&amp;amp;logo=go&amp;amp;logoColor=FFFFFF" alt="Written in Go"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/GothenburgBitFactory/taskwarrior" rel="noopener nofollow" target="_blank"&gt;taskwarrior&lt;/a&gt; - Todo + task management&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;task&lt;/code&gt; is a CLI task management/ todo app. It's both simple and unobtrusive, but also incredibly powerful and scalable, with advanced organisation and query features built in. There's also a lot (700+!) of extra &lt;a href="https://taskwarrior.org/tools/" rel="noopener nofollow" target="_blank"&gt;plugins&lt;/a&gt; for extending it's functionality and integrating with third-party services&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/7k6M37g/taskwarrior.jpg" alt="task-warrior-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/GothenburgBitFactory/taskwarrior"&gt;&lt;img src="https://img.shields.io/github/stars/GothenburgBitFactory/taskwarrior?color=232323&amp;amp;label=taskwarrior&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View taskwarrior on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/GothenburgBitFactory"&gt;&lt;img src="https://img.shields.io/badge/GothenburgBitFactory-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author GothenburgBitFactory"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C++&amp;amp;color=00599C&amp;amp;logo=cplusplus&amp;amp;logoColor=FFFFFF" alt="Written in C++"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://gitlab.com/ajak/tuir" rel="noopener nofollow" target="_blank"&gt;tuir&lt;/a&gt; - Terminal UI for Reddit&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;tuir&lt;/code&gt; is a great one if you want to look like you're working, while actually browsing Reddit! It's got intuitive keybindings, custom themes, and can render images and multi-media content too. There's also &lt;a href="https://github.com/donnemartin/haxor-news" rel="noopener nofollow" target="_blank"&gt;haxor&lt;/a&gt; for hacker news&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/vzSw7s5/tuir.png" alt="tuir-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://gitlab.com/ajak/tuir"&gt;&lt;img src="https://img.shields.io/gitlab/stars/ajak/tuir?color=fc6d26&amp;amp;label=tuir&amp;amp;logo=gitlab&amp;amp;labelColor=232323" alt="View tuir on GitLab"&gt;&lt;/a&gt;&lt;a href="https://github.com/ajak"&gt;&lt;img src="https://img.shields.io/badge/ajak-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author ajak"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;CLI Dev Suits&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/httpie/httpie" rel="noopener nofollow" target="_blank"&gt;httpie&lt;/a&gt; - HTTP / API testing testing client&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;httpie&lt;/code&gt; is a HTTP client, for testing, debugging and using APIs. It supports everything you'd expect - HTTPS, proxies, authentication, custom headers, persistent sessions, JSON parsing. Usage is simple with an expressive syntax and colourized output. Like other HTTP clients (Postman, Hopscotch, Insomnia, etc) HTTPie also includes a web UI&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/Wk5S19g/httpie.png" alt="httpie-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/httpie/httpie"&gt;&lt;img src="https://img.shields.io/github/stars/httpie/httpie?color=232323&amp;amp;label=httpie&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View httpie on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/httpie"&gt;&lt;img src="https://img.shields.io/badge/httpie-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author httpie"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/jesseduffield/lazydocker" rel="noopener nofollow" target="_blank"&gt;lazydocker&lt;/a&gt; - Full Docker management app&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;lazydocker&lt;/code&gt; is a Docker management app, that lets you view all containers and images, manage their state, read logs, check resource usage, restart/ rebuild, analyse layers, prune unused containers, images and volumes, and so much more. It saves you from needing remember, type and chain multiple Docker commands.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/MD8MWNH/lazydocker.png" alt="lazy-docker-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazydocker"&gt;&lt;img src="https://img.shields.io/github/stars/jesseduffield/lazydocker?color=232323&amp;amp;label=lazydocker&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View lazydocker on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/jesseduffield"&gt;&lt;img src="https://img.shields.io/badge/jesseduffield-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author jesseduffield"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Go%20Lang&amp;amp;color=00ADD8&amp;amp;logo=go&amp;amp;logoColor=FFFFFF" alt="Written in Go"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/jesseduffield/lazygit" rel="noopener nofollow" target="_blank"&gt;lazygit&lt;/a&gt; - Full Git management app&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;lazygit&lt;/code&gt; is a visual git client, on the command line. Easily add, commit and puch files, resolve conflicts, compare diffs, manage logs, and do complex operations like squashes and rewinds. There's keybindings for everything, colors, and it's easily configurable and extenable&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/KLF3C6s/lazygit.png" alt="lazy-git-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazygit"&gt;&lt;img src="https://img.shields.io/github/stars/jesseduffield/lazygit?color=232323&amp;amp;label=lazygit&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View lazygit on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/jesseduffield"&gt;&lt;img src="https://img.shields.io/badge/jesseduffield-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author jesseduffield"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Go%20Lang&amp;amp;color=00ADD8&amp;amp;logo=go&amp;amp;logoColor=FFFFFF" alt="Written in Go"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/kdash-rs/kdash/" rel="noopener nofollow" target="_blank"&gt;kdash&lt;/a&gt; - Kubernetes dashboard app&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;kdash&lt;/code&gt; is an all-in-one Kubernetes management tool. View node metrics, watch resources, stream container logs, analyse contexts and manage nodes, pods and namespaces&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/kdash-rs/kdash/"&gt;&lt;img src="https://img.shields.io/github/stars/kdash-rs/kdash?color=232323&amp;amp;label=kdash&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View kdash on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/kdash-rs"&gt;&lt;img src="https://img.shields.io/badge/kdash-rs-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author kdash-rs"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/cyrus-and/gdb-dashboard" rel="noopener nofollow" target="_blank"&gt;gdp-dashboard&lt;/a&gt; - Visual GDP debugger&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;gdp-dashboard&lt;/code&gt; adds a visual element to the GNU Debugger, for debugging C and C++ programs. Easily analyse memory, step through breakpoints, and view registers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/2g2hVLh/gdp-dashboard.png" alt="gdp-dashboard-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/cyrus-and/gdb-dashboard"&gt;&lt;img src="https://img.shields.io/github/stars/cyrus-and/gdb-dashboard?color=232323&amp;amp;label=gdb-dashboard&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View gdb-dashboard on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/cyrus-and"&gt;&lt;img src="https://img.shields.io/badge/cyrus-and-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author cyrus-and"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;CLI External Sercvices&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href="https://ngrok.com/" rel="noopener nofollow" target="_blank"&gt;ngrok&lt;/a&gt; - Reverse proxy for sharing localhost&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;ngrok&lt;/code&gt; safely* exposes your localhost to the internet behind a unique URL. This lets you share what you're working on with you're remote colleagues, in real-time. Usage is &lt;a href="https://notes.aliciasykes.com/p/RUi22QSyWe"&gt;very simple&lt;/a&gt;, but it's also got a lot of advanced features for things like authentication, webhooks, firewalls, traffic inspection, custom/ wildcard domains and much more&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/4WPZNGx/ngrok.png" alt="ngrok-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/inconshreveable/ngrok"&gt;&lt;img src="https://img.shields.io/github/stars/inconshreveable/ngrok?color=232323&amp;amp;label=ngrok&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View ngrok on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/inconshreveable"&gt;&lt;img src="https://img.shields.io/badge/inconshreveable-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author inconshreveable"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Go%20Lang&amp;amp;color=00ADD8&amp;amp;logo=go&amp;amp;logoColor=FFFFFF" alt="Written in Go"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://tmate.io/" rel="noopener nofollow" target="_blank"&gt;tmate&lt;/a&gt; - Share a terminal session via internet&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;tmate&lt;/code&gt; let's you instantly share a live terminal session with someone elsewhere in the world. It works across different systems, supports access control/ auth, can be self-hosted, and has all the features of Tmux&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/tmate-io/tmate"&gt;&lt;img src="https://img.shields.io/github/stars/tmate-io/tmate?color=232323&amp;amp;label=tmate&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View tmate on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/tmate-io"&gt;&lt;img src="https://img.shields.io/badge/tmate-io-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author tmate-io"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C&amp;amp;color=A8B9CC&amp;amp;logo=c&amp;amp;logoColor=FFFFFF" alt="Written in C"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://asciinema.org/" rel="noopener nofollow" target="_blank"&gt;asciinema&lt;/a&gt; - Recording + sharing terminal sessions&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;asciinema&lt;/code&gt; is very useful for easily recording, sharing and embedding a terminal session. Great to showcase something you've built, or to show the command-line steps for a tutorial. Unlike screenrecording videos, the user can copy-paste the content, change the theme on the fly and control playback&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;{% embed &lt;a href="https://asciinema.org/a/335480?speed=3" rel="noopener nofollow" target="_blank"&gt;https://asciinema.org/a/335480?speed=3&lt;/a&gt; %}&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/asciinema/asciinema"&gt;&lt;img src="https://img.shields.io/github/stars/asciinema/asciinema?color=232323&amp;amp;label=asciinema&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View asciinema on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/asciinema"&gt;&lt;img src="https://img.shields.io/badge/asciinema-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author asciinema"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/denisidoro/navi" rel="noopener nofollow" target="_blank"&gt;navi&lt;/a&gt; - Interactive cheat sheet&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;navi&lt;/code&gt; allows you to browse through cheatsheets and execute commands. Suggested values for arguments are dynamically displayed in a list. Type less, reduce mistakes and save yourself from having to memorise thousands of commands. It integrates with &lt;a href="https://github.com/tldr-pages/tldr" rel="noopener nofollow" target="_blank"&gt;tldr&lt;/a&gt; and &lt;a href="https://github.com/chubin/cheat.sh" rel="noopener nofollow" target="_blank"&gt;cheat.sh&lt;/a&gt; to get content, but you can also import other cheatsheets, or even write your own&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;{% embed &lt;a href="https://asciinema.org/a/406461?speed=2" rel="noopener nofollow" target="_blank"&gt;https://asciinema.org/a/406461?speed=2&lt;/a&gt; %}&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/denisidoro/navi"&gt;&lt;img src="https://img.shields.io/github/stars/denisidoro/navi?color=232323&amp;amp;label=navi&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View navi on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/denisidoro"&gt;&lt;img src="https://img.shields.io/badge/denisidoro-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author denisidoro"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Rust&amp;amp;color=e86243&amp;amp;logo=rust&amp;amp;logoColor=FFFFFF" alt="Written in Rust"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/dutchcoders/transfer.sh/" rel="noopener nofollow" target="_blank"&gt;transfer.sh&lt;/a&gt; - Fast file sharing&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;transfer&lt;/code&gt; makes uploading and sharing files really easy, directly from the command line. It's free, supports encryption, gives you a unique URL, and can also be self-hosted.&lt;br&gt;
+I've written a Bash helper function to make usage a bit easier, you can &lt;a href="https://github.com/Lissy93/dotfiles/blob/master/utils/transfer.sh" rel="noopener nofollow" target="_blank"&gt;find it here&lt;/a&gt; or try it out by running &lt;code class="prettyprint"&gt;bash &amp;lt;(curl -L -s https://alicia.url.lol/transfer)&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/cCqDb1k/transfer-sh.png" alt="transfer-sh-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/dutchcoders/transfer.sh"&gt;&lt;img src="https://img.shields.io/github/stars/dutchcoders/transfer.sh?color=232323&amp;amp;label=transfer.sh&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View transfer.sh on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/dutchcoders"&gt;&lt;img src="https://img.shields.io/badge/dutchcoders-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author dutchcoders"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Go%20Lang&amp;amp;color=00ADD8&amp;amp;logo=go&amp;amp;logoColor=FFFFFF" alt="Written in Go"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://surge.sh/" rel="noopener nofollow" target="_blank"&gt;surge&lt;/a&gt; - Deploy a site in seconds&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;surge&lt;/code&gt; is a free static hosting provider, that you can deploy to directly from the terminal in a single command, just run &lt;code class="prettyprint"&gt;surge&lt;/code&gt; from within your &lt;code class="prettyprint"&gt;dist&lt;/code&gt; directory! It supports custom domains, auto SSL certs, pushState support, cross-origin resource support - and it's free!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/NynprxZ/surge-sh.png" alt="surge-sh-example-usage"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/chubin/wttr.in" rel="noopener nofollow" target="_blank"&gt;wttr.in&lt;/a&gt; - Check the weather&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;wttr.in&lt;/code&gt; is a service that displays the weather in a format that's digestible in the command line. Just run &lt;code class="prettyprint"&gt;curl wttr.in&lt;/code&gt; or &lt;code class="prettyprint"&gt;curl wttr.in/London&lt;/code&gt; to try it out. There's URL parameters to customise what data is returned, as well as the format&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/J2JWnYT/Screenshot-from-2023-01-18-21-10-54.png" alt="wrrt-in-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/chubin/wttr.in"&gt;&lt;img src="https://img.shields.io/github/stars/chubin/wttr.in?color=232323&amp;amp;label=wttr.in&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View wttr.in on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/chubin"&gt;&lt;img src="https://img.shields.io/badge/chubin-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author chubin"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Python&amp;amp;color=3C78A9&amp;amp;logo=python&amp;amp;logoColor=FFFFFF" alt="Written in Python"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;CLI Fun&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href="https://en.wikipedia.org/wiki/Cowsay" rel="noopener nofollow" target="_blank"&gt;cowsay&lt;/a&gt; - Have an ASCII cow say your message&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;cowsay&lt;/code&gt;  is a configurable talking cow. It's based off the &lt;a href="https://github.com/tnalpgge/rank-amateur-cowsay" rel="noopener nofollow" target="_blank"&gt;original&lt;/a&gt; by Tony Monroe&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/TRqW3jD/cowsay.png" alt="cowsay-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/piuccio/cowsay"&gt;&lt;img src="https://img.shields.io/github/stars/piuccio/cowsay?color=232323&amp;amp;label=cowsay&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View cowsay on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/piuccio"&gt;&lt;img src="https://img.shields.io/badge/piuccio-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author piuccio"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=JavaScript&amp;amp;color=F7DF1E&amp;amp;logo=javascript&amp;amp;logoColor=FFFFFF" alt="Written in JavaScript"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="http://www.figlet.org/" rel="noopener nofollow" target="_blank"&gt;figlet&lt;/a&gt; - Output text as big ASCII art text&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;figlet&lt;/code&gt; outputs text as ASCII art&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/fk4T7D0/figlet.png" alt="figlet-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/cmatsuoka/figlet"&gt;&lt;img src="https://img.shields.io/github/stars/cmatsuoka/figlet?color=232323&amp;amp;label=figlet&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View figlet on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/cmatsuoka"&gt;&lt;img src="https://img.shields.io/badge/cmatsuoka-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author cmatsuoka"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=C&amp;amp;color=A8B9CC&amp;amp;logo=c&amp;amp;logoColor=FFFFFF" alt="Written in C"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/busyloop/lolcat" rel="noopener nofollow" target="_blank"&gt;lolcat&lt;/a&gt; - Make console output raibow colored&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;lolcat&lt;/code&gt; makes any text passed to it rainbow coloured&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/nfp9Ycx/lolcat.png" alt="lolcat-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/busyloop/lolcat"&gt;&lt;img src="https://img.shields.io/github/stars/busyloop/lolcat?color=232323&amp;amp;label=lolcat&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View lolcat on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/busyloop"&gt;&lt;img src="https://img.shields.io/badge/busyloop-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author busyloop"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Ruby&amp;amp;color=CC342D&amp;amp;logo=ruby&amp;amp;logoColor=FFFFFF" alt="Written in Ruby"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/dylanaraps/neofetch" rel="noopener nofollow" target="_blank"&gt;neofetch&lt;/a&gt; - Show system data and ditstro info&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class="prettyprint"&gt;neofetch&lt;/code&gt; prints distro and system info (so you can flex that you use Arch btw on r/unixporn)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/x1PHpFC/Screenshot-from-2023-01-18-22-44-28.png" alt="neofetch-example-usage"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/dylanaraps/neofetch"&gt;&lt;img src="https://img.shields.io/github/stars/dylanaraps/neofetch?color=232323&amp;amp;label=neofetch&amp;amp;logo=github&amp;amp;labelColor=232323" alt="View neofetch on GitHub"&gt;&lt;/a&gt;&lt;a href="https://github.com/dylanaraps"&gt;&lt;img src="https://img.shields.io/badge/dylanaraps-b820f9?labelColor=b820f9&amp;amp;logo=githubsponsors&amp;amp;logoColor=fff" alt="Author dylanaraps"&gt;&lt;/a&gt; &lt;img src="https://img.shields.io/static/v1?label=&amp;amp;message=Bash&amp;amp;color=green&amp;amp;logo=gnubash&amp;amp;logoColor=FFFFFF" alt="Written in Bash"&gt;&lt;/p&gt;
+
+&lt;p&gt;As an example, I'm using &lt;code class="prettyprint"&gt;cowsay&lt;/code&gt;, &lt;code class="prettyprint"&gt;figlet&lt;/code&gt;, &lt;code class="prettyprint"&gt;lolcat&lt;/code&gt; and &lt;code class="prettyprint"&gt;neofetch&lt;/code&gt; to create a custom time-based MOTD shown to the user when they first log in. It greets them by their name, shows server info and time, date, weather and IP. &lt;a href="https://github.com/Lissy93/dotfiles/blob/master/utils/welcome-banner.sh" rel="noopener nofollow" target="_blank"&gt;Here's the source code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/cTg0jyn/Screenshot-from-2023-01-18-22-59-28.png" alt="welcome"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Installations and Management&lt;/h2&gt;
+
+&lt;p&gt;Most of us have a core set of CLI apps and utils that we rely upon. Setting up a new machine, and individually installing each program would get tiresome very quickly. So the task of installing and updating your terminal apps is the perfect candidate for automation. &lt;a href="https://github.com/Lissy93/dotfiles/tree/master/scripts/installs" rel="noopener nofollow" target="_blank"&gt;Here&lt;/a&gt; are some example scripts I've written, which can be easily dropped into your dotfiles or just run independently to ensure you're never missing an app. &lt;/p&gt;
+
+&lt;p&gt;For MacOS users, the easiest method is using &lt;a href="https://brew.sh/" rel="noopener nofollow" target="_blank"&gt;Homebrew&lt;/a&gt;. Just create a Brewfile (with &lt;code class="prettyprint"&gt;touch ~/.Brewfile&lt;/code&gt;), then list each of your apps, and run &lt;code class="prettyprint"&gt;brew bundle&lt;/code&gt;. You can keep your package list backed up, by putting it in a Git repo. Here's an example one, to get you started: &lt;a href="https://github.com/Lissy93/Brewfile" rel="noopener nofollow" target="_blank"&gt;https://github.com/Lissy93/Brewfile&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On Linux, you usually want to use the native package manager (e.g. &lt;code class="prettyprint"&gt;pacman&lt;/code&gt;, &lt;code class="prettyprint"&gt;apt&lt;/code&gt;). As an example, &lt;a href="https://github.com/Lissy93/dotfiles/blob/master/scripts/installs/arch-pacman.sh" rel="noopener nofollow" target="_blank"&gt;here's a script&lt;/a&gt; to install the above apps on Arch Linux systems&lt;/p&gt;
+
+&lt;p&gt;Desktop apps on Linux can be managed in a similar way, via Flatpak. Again, &lt;a href="https://github.com/Lissy93/dotfiles/blob/master/scripts/installs/flatpak.sh" rel="noopener nofollow" target="_blank"&gt;here's an example script&lt;/a&gt; :)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;... So that's it - a list of handy CLI apps, and a method for installing and keeping them up-to-date across your systems.&lt;/p&gt;
+
+&lt;p&gt;Hopefully some of these will be useful to some of you :)&lt;/p&gt;
+
+&lt;h4&gt;What wasn't included&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This list doesn't include the basics, like Vim, Tmux, Ranger, ZSH, Git, etc - which you're likely already using&lt;/li&gt;
+&lt;li&gt;I've also not included anything too niche, or only specific to a small number of users&lt;/li&gt;
+&lt;li&gt;Nothing system-specific, or that isn't cross-platform (Linux/ Unix, MacOS) is included&lt;/li&gt;
+&lt;li&gt;And I've not included apps which relate to the terminal, but are not CLI apps (like terminal emulators)&lt;/li&gt;
+&lt;li&gt;For most of the projects listed, there's a plethora of alternatives that achieve similar things, for brevity those also weren't included&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Credit&lt;/h4&gt;
+
+&lt;p&gt;Huge kudos to the authors, and communities behind each of these apps. Without them and their hard work, our life in the command line would be much less awesome. Where possible, I've tried to credit the authors, but if I've missed any - let me know below, and I'll push an update&lt;/p&gt;
+
+&lt;h4&gt;Find More&lt;/h4&gt;
+
+&lt;p&gt;If you were enjoying this, I recommend also checking out:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://github.com/k4m4/terminals-are-sexy" rel="noopener nofollow" target="_blank"&gt;terminals-are-sexy&lt;/a&gt;&lt;/strong&gt; by  Nikolaos Kamarinakis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://github.com/alebcay/awesome-shell" rel="noopener nofollow" target="_blank"&gt;awesome-shell&lt;/a&gt;&lt;/strong&gt; by Caleb Xu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://github.com/agarrharr/awesome-cli-apps" rel="noopener nofollow" target="_blank"&gt;awesome-cli-apps&lt;/a&gt;&lt;/strong&gt; by Adam Garrett-Harris&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you're new to the command line, then &lt;strong&gt;&lt;a href="https://github.com/jlevy/the-art-of-command-line" rel="noopener nofollow" target="_blank"&gt;The Art of Command Line&lt;/a&gt;&lt;/strong&gt; by  Joshua Levy is an excellent resource, as is the &lt;strong&gt;&lt;a href="https://github.com/Idnan/bash-guide" rel="noopener nofollow" target="_blank"&gt;Bash Guide&lt;/a&gt;&lt;/strong&gt; by  Adnan Ahmed.&lt;/p&gt;
+
+&lt;p&gt;And if you are looking for inspiration, you'll love &lt;strong&gt;&lt;a href="https://www.reddit.com/r/unixporn/" rel="noopener nofollow" target="_blank"&gt;r/unixporn&lt;/a&gt;&lt;/strong&gt; ⚡&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;small&gt;If you like this kind of stuff&lt;/small&gt;,&lt;br&gt;&lt;small&gt;consider following for more :)&lt;/small&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://github.com/Lissy93"&gt;&lt;img src="https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&amp;amp;logo=GitHub&amp;amp;logoColor=white" alt="Follow Lissy93 on GitHub"&gt;&lt;/a&gt;&lt;a href="https://twitter.com/Lissy_Sykes"&gt;&lt;img src="https://img.shields.io/badge/-@Lissy_Sykes-00acee?style=flat&amp;amp;logo=Twitter&amp;amp;logoColor=white" alt="Follow Lissy_Sykes on Twitter"&gt;&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;style&gt;
+.post-body.p1 img,
+.post-body.p1 small,
+.post-body.p1 blockquote {
+    max-width: 600px !important;
+    margin: 0.25rem auto;
+    border-radius: 5px;
+}
+
+.post-body.p1 blockquote {
+    margin: 1rem auto;
+}
+.post-body.p1 img {
+    box-shadow: 1px 2px 4px 2px #090909cf;
+}
+.post-body.p1 h2 {
+    font-size: 1.8rem !important;
+    max-width: 800px;
+    margin: 1rem auto 0.25rem auto;
+    text-align: center;
+}
+.post-body.p1 h3 {
+    font-size: 1.5rem !important;
+    border-top: 3px solid var(--post-code-border-color);
+    padding: 1rem 0 0;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+&lt;/style&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>20 Git Commands you (probably) didn't know 🧙‍♂️</title>
       <author>Alicia's Notes 🚀</author>
       <pubDate>Sat, 17 Dec 2022 20:46:47 +0000</pubDate>

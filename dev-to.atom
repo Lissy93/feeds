@@ -12,6 +12,1673 @@
     <atom:link rel="self" type="application/rss+xml" href="https://dev.to/feed/lissy93"/>
     <language>en</language>
     <item>
+      <title>CLI tools you won't be able to live without 🔧</title>
+      <dc:creator>Alicia Sykes</dc:creator>
+      <pubDate>Thu, 19 Jan 2023 01:30:42 +0000</pubDate>
+      <link>https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6</link>
+      <guid>https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6</guid>
+      <description>&lt;p&gt;As developers, we spend a lot of our time in the terminal. There's a lot of helpful CLI tools, which can make your life in the command line easier, faster and generally more fun.&lt;/p&gt;
+
+&lt;p&gt;This post outlines my top 50 must-have CLI tools, which I've come to rely on. If there's anything I'm missing - do let me know in the comments :)&lt;/p&gt;
+
+&lt;p&gt;At the end of the article, I've included some scripts to help you automate the installation and updating of these tools on various systems/ distros.&lt;/p&gt;
+
+&lt;p&gt;
+  ↕️ &lt;strong&gt;Contents&lt;/strong&gt; (click to expand)
+  &lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+Utils
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;code&gt;thefuck&lt;/code&gt; -  Auto-correct miss-typed commands&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;zoxide&lt;/code&gt; - Easy navigation &lt;em&gt;(better cd)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;tldr&lt;/code&gt; - Community-maintained docs &lt;em&gt;(better &lt;code&gt;man&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;scc&lt;/code&gt; -  Count lines of code &lt;em&gt;(better &lt;code&gt;cloc&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;exa&lt;/code&gt; - Listing Files &lt;em&gt;(better &lt;code&gt;ls&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;duf&lt;/code&gt; - Disk Usage &lt;em&gt;(better &lt;code&gt;df&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;aria2&lt;/code&gt; - Download Utility &lt;em&gt;(better &lt;code&gt;wget&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;bat&lt;/code&gt; - Reading Files &lt;em&gt;(better &lt;code&gt;cat&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;diff-so-fancy&lt;/code&gt; - File Comparisons &lt;em&gt;(better &lt;code&gt;diff&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;entr&lt;/code&gt; - Watch for changes&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;exiftool&lt;/code&gt; - Reading + writing metadata&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;fdupes&lt;/code&gt; - Duplicate file finder&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;fzf&lt;/code&gt; - Fuzzy file finder &lt;em&gt;(better &lt;code&gt;find&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;hyperfine&lt;/code&gt; - Command benchmarking&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;just&lt;/code&gt; - Modern command runner &lt;em&gt;(better &lt;code&gt;make&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;jq&lt;/code&gt; - JSON processor&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;most&lt;/code&gt; - Multi-window scroll pager &lt;em&gt;(better less)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;procs&lt;/code&gt; - Process viewer &lt;em&gt;(better ps)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;rip&lt;/code&gt; - Deletion tool &lt;em&gt;(better rm)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;ripgrep&lt;/code&gt; - Search within files &lt;em&gt;(better &lt;code&gt;grep&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;rsync&lt;/code&gt; -  Fast, incremental file transfer&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;sd&lt;/code&gt; -  Find and replace &lt;em&gt;(better &lt;code&gt;sed&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;tre&lt;/code&gt; - Directory hierarchy &lt;em&gt;(better &lt;code&gt;tree&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;xsel&lt;/code&gt; - Access the clipboard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+CLI Monitoring and Performance Apps
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;code&gt;bandwhich&lt;/code&gt; - Bandwidth utilization monitor&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;ctop&lt;/code&gt; - Container metrics and monitoring&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;bpytop&lt;/code&gt; - Resource monitoring &lt;em&gt;(better &lt;code&gt;htop&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;glances&lt;/code&gt; - Resource monitor + web and API&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;gping&lt;/code&gt; - Interactive ping tool &lt;em&gt;(better &lt;code&gt;ping&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;dua-cli&lt;/code&gt; - Disk usage analyzer and monitor &lt;em&gt;(better &lt;code&gt;du&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;speedtest-cli&lt;/code&gt; - Command line speed test utility&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;dog&lt;/code&gt;  - DNS lookup client &lt;em&gt;(better &lt;code&gt;dig&lt;/code&gt;)&lt;/em&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+CLI Productivity Apps
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;code&gt;browsh&lt;/code&gt; - CLI web browser&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;buku&lt;/code&gt; - Bookmark manager&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;cmus&lt;/code&gt; - Music browser / player&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;cointop&lt;/code&gt; - Track crypto prices&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;ddgr&lt;/code&gt; - Search the web from the terminal&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;khal&lt;/code&gt; - Calendar client&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;mutt&lt;/code&gt; - Email client&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;newsboat&lt;/code&gt; - RSS / ATOM news reader&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;rclone&lt;/code&gt; - Manage cloud storage&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;taskwarrior&lt;/code&gt; - Todo + task management&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;tuir&lt;/code&gt; - Terminal UI for Reddit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+CLI Dev Suits
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;code&gt;httpie&lt;/code&gt; - HTTP / API testing testing client&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;lazydocker&lt;/code&gt; - Full Docker management app&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;lazygit&lt;/code&gt; - Full Git management app&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;kdash&lt;/code&gt; - Kubernetes dashboard app&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;gdp-dashboard&lt;/code&gt; - Visual GDP debugger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+CLI External Sercvices
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;code&gt;ngrok&lt;/code&gt; - Reverse proxy for sharing localhost&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;tmate&lt;/code&gt; - Share a terminal session via internet&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;asciinema&lt;/code&gt; - Recording + sharing terminal sessions&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;navi&lt;/code&gt; - Interactive cheat sheet&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;transfer.sh&lt;/code&gt; - Fast file sharing&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;surge&lt;/code&gt; - Deploy a site in seconds&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;wttr.in&lt;/code&gt; - Check the weather&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+CLI Fun
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;code&gt;cowsay&lt;/code&gt; - Have an ASCII cow say your message&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;figlet&lt;/code&gt; - Output text as big ASCII art text&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;lolcat&lt;/code&gt; - Make console output raibow colored&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;neofetch&lt;/code&gt; - Show system data and ditstro info&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Installations and Management&lt;/li&gt;
+&lt;li&gt;
+Conclusion
+
+&lt;ul&gt;
+&lt;li&gt;What wasn't included&lt;/li&gt;
+&lt;li&gt;Credit&lt;/li&gt;
+&lt;li&gt;Feedback&lt;/li&gt;
+&lt;li&gt;
+Find More
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+&lt;/p&gt;
+&lt;h2&gt;
+  
+  
+  Utils
+&lt;/h2&gt;
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/nvbn/thefuck"&gt;&lt;code&gt;thefuck&lt;/code&gt;&lt;/a&gt; -  Auto-correct miss-typed commands
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;thefuck&lt;/code&gt; is one of those utilities you won't be able to live without once you've tried it. Whenever you mis-type a command and get an error, just run &lt;code&gt;fuck&lt;/code&gt; and it'll auto-correct it. Use up/down to choose a correction, or just run &lt;code&gt;fuck --yeah&lt;/code&gt; to just execute the most likely immediately.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--u7SIvxke--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/J55hWKX/thefuck.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--u7SIvxke--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/J55hWKX/thefuck.gif" alt="the-fuck-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/nvbn/thefuck"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--KxN6ggWN--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/nvbn/thefuck%3Fcolor%3D232323%26label%3Dthefuck%26logo%3Dgithub%26labelColor%3D232323" alt="View thefuck on GitHub" width="99" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/nvbn"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--S5h3q0Nw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/nvbn-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author nvbn" width="61" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;thefuck
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; thefuck
+
+&lt;span class="c"&gt;# FreeBSD&lt;/span&gt;
+pkg &lt;span class="nb"&gt;install &lt;/span&gt;thefuck
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/ajeetdsouza/zoxide"&gt;&lt;code&gt;zoxide&lt;/code&gt;&lt;/a&gt; - Easy navigation &lt;em&gt;(better cd)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;z&lt;/code&gt; lets you jump to any directory without needing to remember or specify its full path. It remembers which directories you've visited, so you can jump around quickly - you don't even need to type the full folder name. It also has an interactive selection option, using &lt;code&gt;fzf&lt;/code&gt; so you can live-filter directory results&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--XDmbmZKz--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/6Z960jq/zoxide.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--XDmbmZKz--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/6Z960jq/zoxide.gif" alt="zoxide-example-usage" width="880" height="470"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/ajeetdsouza/zoxide"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--M0QrGEHB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/ajeetdsouza/zoxide%3Fcolor%3D232323%26label%3Dzoxide%26logo%3Dgithub%26labelColor%3D232323" alt="View zoxide on GitHub" width="97" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/ajeetdsouza"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--MFq3IwSb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/ajeetdsouza-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author ajeetdsouza" width="101" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;zoxide
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; zoxide
+
+&lt;span class="c"&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt &lt;span class="nb"&gt;install &lt;/span&gt;zoxide
+
+&lt;span class="c"&gt;# FreeBSD&lt;/span&gt;
+pkg &lt;span class="nb"&gt;install &lt;/span&gt;zoxide
+
+&lt;span class="c"&gt;# Other (via Rust Creates)&lt;/span&gt;
+cargo &lt;span class="nb"&gt;install &lt;/span&gt;zoxide &lt;span class="nt"&gt;--locked&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/tldr-pages/tldr"&gt;&lt;code&gt;tldr&lt;/code&gt;&lt;/a&gt; - Community-maintained docs &lt;em&gt;(better &lt;code&gt;man&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;tldr&lt;/code&gt; is a huge collection of community-maintained man pages. Unlike traditional man pages, they're summarized, contain useful usage examples and nicely colourized for easy reading&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--NCt0wa_e--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/jTW9knx/tlfr.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--NCt0wa_e--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/jTW9knx/tlfr.gif" alt="tldr-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/tldr-pages/tldr"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s---ow3kUG2--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/tldr-pages/tldr%3Fcolor%3D232323%26label%3Dtldr%26logo%3Dgithub%26labelColor%3D232323" alt="View tldr on GitHub" width="77" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/tldr-pages"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lqs7vHQ6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/tldr-pages-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author tldr-pages" width="89" height="20"&gt;&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;tldr
+
+&lt;span class="c"&gt;# Other (via NPM)&lt;/span&gt;
+npm &lt;span class="nb"&gt;install&lt;/span&gt; &lt;span class="nt"&gt;-g&lt;/span&gt; tldr
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/boyter/scc"&gt;&lt;code&gt;scc&lt;/code&gt;&lt;/a&gt; -  Count lines of code &lt;em&gt;(better &lt;code&gt;cloc&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;scc&lt;/code&gt; gives you a breakdown of number of lines of code written in each language for a specific directory. It also shows some fun stats, like estimated cost to develop and complexity info. It's incredibly fast, very accurate and has support for a wide range of languages&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--Rx6T-QOU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/NygHWXt/scc.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Rx6T-QOU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/NygHWXt/scc.png" alt="scc-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/boyter/scc"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--cznNqLPm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/boyter/scc%3Fcolor%3D232323%26label%3Dscc%26logo%3Dgithub%26labelColor%3D232323" alt="View scc on GitHub" width="79" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/boyter"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--DIb0Yhou--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/boyter-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author boyter" width="69" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;scc
+
+&lt;span class="c"&gt;# Other (via go)&lt;/span&gt;
+go &lt;span class="nb"&gt;install &lt;/span&gt;github.com/boyter/scc/v3@latest
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/ogham/exa"&gt;&lt;code&gt;exa&lt;/code&gt;&lt;/a&gt; - Listing Files &lt;em&gt;(better &lt;code&gt;ls&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;exa&lt;/code&gt; is a modern Rust-based replacement for the &lt;code&gt;ls&lt;/code&gt; command, for listing files. It can display file-type icons, colors, file/folder info and has several output formats - tree, grid or list&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--mdHy9jvg--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/cTs0wQ5/exa.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--mdHy9jvg--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/cTs0wQ5/exa.png" alt="exa-example-usage" width="880" height="470"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/ogham/exa"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--1QGF4ma8--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/ogham/exa%3Fcolor%3D232323%26label%3Dexa%26logo%3Dgithub%26labelColor%3D232323" alt="View exa on GitHub" width="77" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/ogham"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QC1gNgew--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/ogham-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author ogham" width="71" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;exa
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; exa
+
+&lt;span class="c"&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt &lt;span class="nb"&gt;install &lt;/span&gt;exa
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/muesli/duf"&gt;&lt;code&gt;duf&lt;/code&gt;&lt;/a&gt; - Disk Usage &lt;em&gt;(better &lt;code&gt;df&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;duf&lt;/code&gt; is great for showing info about mounted disks and checking free space. It produces a clear and colorful output, and includes options for sorting and customizing results.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--ubkhFYhh--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/sP59DKd/duf.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ubkhFYhh--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/sP59DKd/duf.png" alt="duf-example-usage" width="880" height="470"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/muesli/duf"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--FWVId5Hh--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/muesli/duf%3Fcolor%3D232323%26label%3Dduf%26logo%3Dgithub%26labelColor%3D232323" alt="View duf on GitHub" width="75" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/muesli"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--mhF1BOG_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/muesli-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author muesli" width="69" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;duf
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; duf
+
+&lt;span class="c"&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt &lt;span class="nb"&gt;install &lt;/span&gt;duf
+
+&lt;span class="c"&gt;# FreeBSD&lt;/span&gt;
+pkg &lt;span class="nb"&gt;install &lt;/span&gt;duf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/aria2/aria2"&gt;&lt;code&gt;aria2&lt;/code&gt;&lt;/a&gt; - Download Utility &lt;em&gt;(better &lt;code&gt;wget&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;aria2&lt;/code&gt; is a lightweight, multi-protocol, resuming download utility for HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink, with support for controlling via an RPC interface. It's incredibly &lt;a href="https://aria2.github.io/manual/en/html/README.html"&gt;feature rich&lt;/a&gt;, and has tons of &lt;a href="https://aria2.github.io/manual/en/html/aria2c.html"&gt;options&lt;/a&gt;. There's also &lt;a href="https://github.com/ziahamza/webui-aria2"&gt;ziahamza/webui-aria2&lt;/a&gt; - a nice web interface companion.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--IpOODsJu--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/pJkkX6x/aria2c.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--IpOODsJu--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/pJkkX6x/aria2c.png" alt="aria2c-example-usage" width="880" height="470"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/aria2/aria2"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--iB0qdzpz--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/aria2/aria2%3Fcolor%3D232323%26label%3Daria2%26logo%3Dgithub%26labelColor%3D232323" alt="View aria2 on GitHub" width="85" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/aria2"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--2EADhfq_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/aria2-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author aria2" width="61" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--tO0jFOIW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--tO0jFOIW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF" alt="Written in C++" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;aria2
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; aria2
+
+&lt;span class="c"&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt &lt;span class="nb"&gt;install &lt;/span&gt;aria2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/sharkdp/bat"&gt;&lt;code&gt;bat&lt;/code&gt;&lt;/a&gt; - Reading Files &lt;em&gt;(better &lt;code&gt;cat&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;bat&lt;/code&gt; is a clone of &lt;code&gt;cat&lt;/code&gt; with syntax highlighting and git integration. Written in Rust, it's very performant, and has several options for customizing output and theming. There's support for automatic piping and file concatenation&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--hPPPnAo8--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/VND3Y9s/bat.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--hPPPnAo8--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/VND3Y9s/bat.png" alt="bat-example-usage" width="880" height="470"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/sharkdp/bat"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Ww4gfxNu--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/sharkdp/bat%3Fcolor%3D232323%26label%3Dbat%26logo%3Dgithub%26labelColor%3D232323" alt="View bat on GitHub" width="75" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/sharkdp"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--SxH6JTRb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/sharkdp-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author sharkdp" width="79" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;bat
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; bat
+
+&lt;span class="c"&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt &lt;span class="nb"&gt;install &lt;/span&gt;bat
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/so-fancy/diff-so-fancy"&gt;&lt;code&gt;diff-so-fancy&lt;/code&gt;&lt;/a&gt; - File Comparisons &lt;em&gt;(better &lt;code&gt;diff&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;diff-so-fancy&lt;/code&gt; gives you better looking diffs for comparing strings, files, directories and git changes. The change highlighting makes spotting changes much easier, and you can customize the output layout and colors&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--BahI35Zk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/RGKLhQk/diff-so-fancy.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--BahI35Zk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/RGKLhQk/diff-so-fancy.png" alt="diff-so-fancy-example-usage" width="880" height="470"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/so-fancy/diff-so-fancy"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--y8GbgCuJ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/so-fancy/diff-so-fancy%3Fcolor%3D232323%26label%3Ddiff-so-fancy%26logo%3Dgithub%26labelColor%3D232323" alt="View diff-so-fancy on GitHub" width="127" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/so-fancy"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s---TRjUa8j--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/so-fancy-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author so-fancy" width="79" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--4p7NP6eo--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPerl%26color%3D39457E%26logo%3Dperl%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--4p7NP6eo--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPerl%26color%3D39457E%26logo%3Dperl%26logoColor%3DFFFFFF" alt="Written in Perl" width="49" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;diff-so-fancy
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; diff-so-fancy
+
+&lt;span class="c"&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt &lt;span class="nb"&gt;install &lt;/span&gt;diff-so-fancy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/eradman/entr"&gt;&lt;code&gt;entr&lt;/code&gt;&lt;/a&gt; - Watch for changes
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;entr&lt;/code&gt; lets you run an arbitrary command whenever file changes. You can pass a file, directory, symlink or regex to specify which files it should watch. It's really useful for automatically rebuilding projects, reacting to logs, automated testing, etc. Unlike similar projects, it uses kqueue(2) or inotify(7) to avoid polling, and improve performance&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--7isTJ7zR--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/HHKQx2H/entr.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--7isTJ7zR--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/HHKQx2H/entr.png" alt="entr-example-usage" width="880" height="470"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/eradman/entr"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--NFDMuGwi--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/eradman/entr%3Fcolor%3D232323%26label%3Dentr%26logo%3Dgithub%26labelColor%3D232323" alt="View entr on GitHub" width="85" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/eradman"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--3k8d1ieo--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/eradman-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author eradman" width="83" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" alt="Written in C" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;entr
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; entr
+
+&lt;span class="c"&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt &lt;span class="nb"&gt;install &lt;/span&gt;entr
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/exiftool/exiftool"&gt;&lt;code&gt;exiftool&lt;/code&gt;&lt;/a&gt; - Reading + writing metadata
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ExifTool is handy utility for reading, writing, stripping and creating meta information for a wide variety of file types. Never accidentally leak your location when sharing a photo again!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--R3gSjE8h--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/Gv5PN6v/exiftool.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--R3gSjE8h--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/Gv5PN6v/exiftool.png" alt="exiftool-example-usage" width="880" height="470"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/exiftool/exiftool"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--nSGITJDc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/exiftool/exiftool%3Fcolor%3D232323%26label%3Dexiftool%26logo%3Dgithub%26labelColor%3D232323" alt="View exiftool on GitHub" width="103" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/exiftool"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--O9Az2q4U--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/exiftool-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author exiftool" width="75" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--4p7NP6eo--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPerl%26color%3D39457E%26logo%3Dperl%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--4p7NP6eo--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPerl%26color%3D39457E%26logo%3Dperl%26logoColor%3DFFFFFF" alt="Written in Perl" width="49" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/jbruchon/jdupes"&gt;&lt;code&gt;fdupes&lt;/code&gt;&lt;/a&gt; - Duplicate file finder
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jdupes&lt;/code&gt; is used for identifying and/or deleting duplicate files within specified directories. It's useful for freeing up disk space when you've got two or more identical files&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--u0WU9v67--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/jhSY2Nn/fdupes.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--u0WU9v67--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/jhSY2Nn/fdupes.png" alt="fdupes-example-usage" width="880" height="470"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jbruchon/jdupes"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--99_CghNS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/jbruchon/jdupes%3Fcolor%3D232323%26label%3Djdupes%26logo%3Dgithub%26labelColor%3D232323" alt="View jdupes on GitHub" width="99" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/jbruchon"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vgIP6u8c--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/jbruchon-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author jbruchon" width="83" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" alt="Written in C" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/junegunn/fzf"&gt;&lt;code&gt;fzf&lt;/code&gt;&lt;/a&gt; - Fuzzy file finder &lt;em&gt;(better &lt;code&gt;find&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;fzf&lt;/code&gt; is an extremely powerful, and easy to use fuzzy file finder and filtering tool. It lets you search for a string or pattern across files. fzf also has &lt;a href="https://github.com/junegunn/fzf/wiki/Related-projects"&gt;plugins&lt;/a&gt; available for most  shells and IDEs, for showing instant results while searching. This &lt;a href="https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/"&gt;post&lt;/a&gt; by Alexey Samoshkin highlights some of it's use cases.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s---VBiXRJW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/LNcwjWm/fzf.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s---VBiXRJW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/LNcwjWm/fzf.gif" alt="fzf-example-usage" width="880" height="472"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/junegunn/fzf"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--X-I9wLp_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/junegunn/fzf%3Fcolor%3D232323%26label%3Dfzf%26logo%3Dgithub%26labelColor%3D232323" alt="View fzf on GitHub" width="71" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/junegunn"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--9-7AwB7k--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/junegunn-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author junegunn" width="85" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;fzf
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; fzf
+
+&lt;span class="c"&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt &lt;span class="nb"&gt;install &lt;/span&gt;fzf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/sharkdp/hyperfine"&gt;&lt;code&gt;hyperfine&lt;/code&gt;&lt;/a&gt; - Command benchmarking
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;hyperfine&lt;/code&gt; makes it easy to accurately benchmark and compare arbitrary commands or scripts. It takes care of warm-up runs, clearing the cache for accurate results and preventing interference from other programs. It can also export results as raw data and generate charts.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--n63ClWNS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/tKNR5gr/hyperfine.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--n63ClWNS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/tKNR5gr/hyperfine.png" alt="hyperfine-example-usage" width="880" height="470"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/sharkdp/hyperfine"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--p3eYWOF1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/sharkdp/hyperfine%3Fcolor%3D232323%26label%3Dhyperfine%26logo%3Dgithub%26labelColor%3D232323" alt="View hyperfine on GitHub" width="109" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/sharkdp"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--SxH6JTRb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/sharkdp-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author sharkdp" width="79" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;hyperfine
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; hyperfine
+
+&lt;span class="c"&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt &lt;span class="nb"&gt;install &lt;/span&gt;hyperfine
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/casey/just"&gt;&lt;code&gt;just&lt;/code&gt;&lt;/a&gt; - Modern command runner &lt;em&gt;(better &lt;code&gt;make&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;just&lt;/code&gt; is similar to &lt;code&gt;make&lt;/code&gt; but with some nice additions. It let's you group your projects commands together into recopies, which can be easily listed and run. Supports aliases, positional arguments, different shells, dot env integration, string interprulation, and pretty much everything else you could need&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/casey/just"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--KK8XfNDy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/casey/just%3Fcolor%3D232323%26label%3Djust%26logo%3Dgithub%26labelColor%3D232323" alt="View just on GitHub" width="79" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/casey"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s---zs_ps7T--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/casey-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author casey" width="65" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Install
+  &lt;br&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# MacOS (via Homebrew)&lt;/span&gt;
+brew &lt;span class="nb"&gt;install &lt;/span&gt;just
+
+&lt;span class="c"&gt;# Arch Linux&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pacman &lt;span class="nt"&gt;-S&lt;/span&gt; just
+
+&lt;span class="c"&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt &lt;span class="nb"&gt;install &lt;/span&gt;just
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/stedolan/jq"&gt;&lt;code&gt;jq&lt;/code&gt;&lt;/a&gt; - JSON processor
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jq&lt;/code&gt; is like &lt;code&gt;sed&lt;/code&gt;, but for JSON -  you can use it to slice and filter and map and transform structured data with ease. It can be used to write complex queries to extract or manipulate JSON data. There's also a &lt;a href="https://jqplay.org/"&gt;jq playground&lt;/a&gt; that you can use to try it out, or formulate queries with live feedback&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/stedolan/jq"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lBG91BRc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/stedolan/jq%3Fcolor%3D232323%26label%3Djq%26logo%3Dgithub%26labelColor%3D232323" alt="View jq on GitHub" width="69" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/stedolan"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--2MCWjr-u--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/stedolan-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author stedolan" width="81" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" alt="Written in C" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://www.jedsoft.org/most/"&gt;&lt;code&gt;most&lt;/code&gt;&lt;/a&gt; - Multi-window scroll pager &lt;em&gt;(better less)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;most&lt;/code&gt; is a pager, for reading through long files or command outputs. &lt;code&gt;most&lt;/code&gt; supports multi-windows and has the option to not wrap text &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://www.jedsoft.org/aboutme.html"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--X-YeqwJj--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/jed-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author Jed" width="51" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--_iwHMPfg--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DS_Lang%26color%3D000000%26logo%3Dsimkl%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--_iwHMPfg--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DS_Lang%26color%3D000000%26logo%3Dsimkl%26logoColor%3DFFFFFF" alt="Written in S-Lang" width="69" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/dalance/procs"&gt;&lt;code&gt;procs&lt;/code&gt;&lt;/a&gt; - Process viewer &lt;em&gt;(better ps)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;procs&lt;/code&gt; is an easy to navigate process viewer, it has colored highlighting, makes sorting and searching for processes easy, has tree view and updates in real-time&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--WqRp_Xe5--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/y6qhgDX/procs-demo.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--WqRp_Xe5--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/y6qhgDX/procs-demo.gif" alt="procs-example-usage" width="880" height="537"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/dalance/procs"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--j-vghycc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/dalance/procs%3Fcolor%3D232323%26label%3Dprocs%26logo%3Dgithub%26labelColor%3D232323" alt="View procs on GitHub" width="91" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/dalance"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Q8a5m3Y0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/dalance-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author dalance" width="77" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/nivekuil/rip"&gt;&lt;code&gt;rip&lt;/code&gt;&lt;/a&gt; - Deletion tool &lt;em&gt;(better rm)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;rip&lt;/code&gt; is a safe, ergonomic and performant deletion tool. It let's you intuitively remove files and directories, and easily restore deleted files&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--nAwxn-IP--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/10DTvT2/rip.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--nAwxn-IP--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/10DTvT2/rip.gif" alt="rip-example-usage" width="" height=""&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/nivekuil/rip"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--BGH30FEd--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/nivekuil/rip%3Fcolor%3D232323%26label%3Drip%26logo%3Dgithub%26labelColor%3D232323" alt="View rip on GitHub" width="73" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/nivekuil"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--FxIi2281--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/nivekuil-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author nivekuil" width="77" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/BurntSushi/ripgrep"&gt;&lt;code&gt;ripgrep&lt;/code&gt;&lt;/a&gt; - Search within files &lt;em&gt;(better &lt;code&gt;grep&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;ripgrep&lt;/code&gt; is a line-oriented search tool that recursively searches the current directory for a regex pattern. It can ignore the contents of &lt;code&gt;.gitignore&lt;/code&gt; and skip binary files. It's able to search within compressed archives, or only search specific extension, and understands files using various encoding methods&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--CmvC7yAB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/qkMgQm9/ripgrep.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--CmvC7yAB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/qkMgQm9/ripgrep.png" alt="ripgrep-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/BurntSushi/ripgrep"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--HlBm8eGc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/BurntSushi/ripgrep%3Fcolor%3D232323%26label%3Dripgrep%26logo%3Dgithub%26labelColor%3D232323" alt="View ripgrep on GitHub" width="97" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/BurntSushi"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--7JP-Jeyh--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/BurntSushi-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author BurntSushi" width="95" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://rsync.samba.org/"&gt;&lt;code&gt;rsync&lt;/code&gt;&lt;/a&gt; -  Fast, incremental file transfer
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;rsync&lt;/code&gt; lets you copy large files locally or to or from remote hosts or external drives. It can be used to keep files across multiple locations synced, and is perfect for creating, updating and restoring backups&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/WayneD/rsync"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--TE03uonE--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/WayneD/rsync%3Fcolor%3D232323%26label%3Drsync%26logo%3Dgithub%26labelColor%3D232323" alt="View rsync on GitHub" width="91" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/WayneD"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ZHFZ704t--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/WayneD-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author WayneD" width="79" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" alt="Written in C" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/chmln/sd"&gt;&lt;code&gt;sd&lt;/code&gt;&lt;/a&gt; -  Find and replace &lt;em&gt;(better &lt;code&gt;sed&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;sd&lt;/code&gt; is an easy, fast and intuitive find and replace tool, based on string literals. It can be executed on a file, an entire directory, or  any piped text&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--5oTimteF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/G9CfcGS/sd.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--5oTimteF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/G9CfcGS/sd.png" alt="sd-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/chmln/sd"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--g4plX8A5--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/chmln/sd%3Fcolor%3D232323%26label%3Dsd%26logo%3Dgithub%26labelColor%3D232323" alt="View sd on GitHub" width="75" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/chmln"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--3SZhtztB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/chmln-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author chmln" width="67" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/dduan/tre"&gt;&lt;code&gt;tre&lt;/code&gt;&lt;/a&gt; - Directory hierarchy &lt;em&gt;(better &lt;code&gt;tree&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;tre&lt;/code&gt; outputs a tree stye list of files for your current or a specified directory, with colors. When running with the &lt;code&gt;-e&lt;/code&gt; option, it numbers each item, and creates a temporary alias that you can use to quickly jump to that location&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--AltLlVoH--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/CmMrZLB/tre.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--AltLlVoH--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/CmMrZLB/tre.png" alt="tre-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/dduan/tre"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--HSyAtyGc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/dduan/tre%3Fcolor%3D232323%26label%3Dtre%26logo%3Dgithub%26labelColor%3D232323" alt="View tre on GitHub" width="73" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/dduan"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--7I0zM0fX--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/dduan-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author dduan" width="69" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/kfish/xsel"&gt;&lt;code&gt;xsel&lt;/code&gt;&lt;/a&gt; - Access the clipboard
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;xsel&lt;/code&gt; let's you read and write to the X Selection clipboard via the command line. It's useful for piping command output to the clipboard, or a copied data into a command &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/kfish/xsel"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--uz8hh1N---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/kfish/xsel%3Fcolor%3D232323%26label%3Dxsel%26logo%3Dgithub%26labelColor%3D232323" alt="View xsel on GitHub" width="79" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/kfish"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--It91r1bB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/kfish-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author kfish" width="61" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" alt="Written in C" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;h2&gt;
+  
+  
+  CLI Monitoring and Performance Apps
+&lt;/h2&gt;
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/imsnif/bandwhich"&gt;&lt;code&gt;bandwhich&lt;/code&gt;&lt;/a&gt; - Bandwidth utilization monitor
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Show bandwidth usage, connection information, outgoing hosts and DNS queries in real-time&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--y_6Dadgj--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/8jHHBD3/Screenshot-from-2023-01-18-22-45-32.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--y_6Dadgj--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/8jHHBD3/Screenshot-from-2023-01-18-22-45-32.png" alt="bandwhich-example-usage" width="880" height="539"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/imsnif/bandwhich"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--YaBK0m0Q--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/imsnif/bandwhich%3Fcolor%3D232323%26label%3Dbandwhich%26logo%3Dgithub%26labelColor%3D232323" alt="View bandwhich on GitHub" width="121" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/imsnif"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--1jwkugBA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/imsnif-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author imsnif" width="67" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/bcicen/ctop"&gt;&lt;code&gt;ctop&lt;/code&gt;&lt;/a&gt; - Container metrics and monitoring
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Like &lt;code&gt;top&lt;/code&gt;, but for monitoring resource usage for running (Docker and runC) containers. It shows real-time CPU, memory and network bandwidth as well as the name, status and ID of each container. There's also a built-in log viewer, and options to manage (stop, start, exec, etc) containers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--vdKvkGu6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/xGjyzZ2/ctop.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vdKvkGu6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/xGjyzZ2/ctop.gif" alt="ctop-example-usage" width="880" height="457"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/bcicen/ctop"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--_c0PKhrS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/bcicen/ctop%3Fcolor%3D232323%26label%3Dctop%26logo%3Dgithub%26labelColor%3D232323" alt="View ctop on GitHub" width="81" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/bcicen"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--D5Zufd7K--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/bcicen-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author bcicen" width="69" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/aristocratos/bpytop"&gt;&lt;code&gt;bpytop&lt;/code&gt;&lt;/a&gt; - Resource monitoring &lt;em&gt;(better &lt;code&gt;htop&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;bpytop&lt;/code&gt; is a fast, interactive, visual resource monitor. It shows top running processes, recent CPU, mem, disk and network history. From the interface you can navigate, sort and search - there's also support for custom color themes&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--xRcMVtCB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/nj9jrhr/bpytop.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--xRcMVtCB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/nj9jrhr/bpytop.gif" alt="bpytop-example-usage" width="880" height="455"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/aristocratos/bpytop"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--La1slgzg--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/aristocratos/bpytop%3Fcolor%3D232323%26label%3Dbpytop%26logo%3Dgithub%26labelColor%3D232323" alt="View bpytop on GitHub" width="101" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/aristocratos"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--OWZPdkTK--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/aristocratos-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author aristocratos" width="99" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/nicolargo/glances"&gt;&lt;code&gt;glances&lt;/code&gt;&lt;/a&gt; - Resource monitor + web and API
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;glances&lt;/code&gt; is another resource monitor, but with a different feature set. It includes a fully responsive web view, a REST API and historical monitoring. It's easily extendable, and can be integrated with other services&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6Wp2nhqx--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/6g65Qy4/glances.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6Wp2nhqx--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/6g65Qy4/glances.gif" alt="glances-example-usage" width="880" height="457"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/nicolargo/glances"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--BiqyIr4q--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/nicolargo/glances%3Fcolor%3D232323%26label%3Dglances%26logo%3Dgithub%26labelColor%3D232323" alt="View glances on GitHub" width="99" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/nicolargo"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ngsgYxo---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/nicolargo-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author nicolargo" width="85" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/orf/gping"&gt;&lt;code&gt;gping&lt;/code&gt;&lt;/a&gt; - Interactive ping tool &lt;em&gt;(better &lt;code&gt;ping&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;gping&lt;/code&gt; can run ping tests on multiple hosts, while showing results in real-time graph. It can also be used to monitor execution time, when used with the &lt;code&gt;--cmd&lt;/code&gt; flag&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--YMe9lAFT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/CvG6xt0/gping.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--YMe9lAFT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/CvG6xt0/gping.gif" alt="gping-example-usage" width="880" height="467"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/orf/gping"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--VRt0ZkHq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/orf/gping%3Fcolor%3D232323%26label%3Dgping%26logo%3Dgithub%26labelColor%3D232323" alt="View gping on GitHub" width="81" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/orf"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--BjIBTvQQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/orf-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author orf" width="49" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/Byron/dua-cli"&gt;&lt;code&gt;dua-cli&lt;/code&gt;&lt;/a&gt; - Disk usage analyzer and monitor &lt;em&gt;(better &lt;code&gt;du&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;dua-cli&lt;/code&gt; let's you interactively view used and available disk space for each mounted drive, and makes freeing up storage easy&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--nle07K3Z--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/x3NbDLR/dua.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--nle07K3Z--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/x3NbDLR/dua.gif" alt="dua-cli-usage-example" width="880" height="474"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Byron/dua-cli"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--uSqjiQ8o--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/Byron/dua-cli%3Fcolor%3D232323%26label%3Ddua-cli%26logo%3Dgithub%26labelColor%3D232323" alt="View dua-cli on GitHub" width="99" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/Byron"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lnGYFEPy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/Byron-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author Byron" width="67" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/sivel/speedtest-cli"&gt;&lt;code&gt;speedtest-cli&lt;/code&gt;&lt;/a&gt; - Command line speed test utility
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;speedtest-cli&lt;/code&gt; just runs an internet speed test, via speedtest.net - but straight from the terminal :)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--qFJxYj0D--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/25QCbdF/speedtest-cli.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--qFJxYj0D--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/25QCbdF/speedtest-cli.gif" alt="speedtest-cli-example-usage" width="880" height="467"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/sivel/speedtest-cli"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--iSo8TCej--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/sivel/speedtest-cli%3Fcolor%3D232323%26label%3Dspeedtest-cli%26logo%3Dgithub%26labelColor%3D232323" alt="View speedtest-cli on GitHub" width="129" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/sivel"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ko5jqrC6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/sivel-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author sivel" width="59" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/ogham/dog"&gt;&lt;code&gt;dog&lt;/code&gt;&lt;/a&gt;  - DNS lookup client &lt;em&gt;(better &lt;code&gt;dig&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;dog&lt;/code&gt; is an easy-to-use DNS lookup client, with support for DoT and DoH, nicely coloured outputs and the option to emit JSON&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--iOnIsJRk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/48n617Q/dog.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--iOnIsJRk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/48n617Q/dog.png" alt="dog-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/ogham/dog"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--0wchjDFj--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/ogham/dog%3Fcolor%3D232323%26label%3Ddog%26logo%3Dgithub%26labelColor%3D232323" alt="View dog on GitHub" width="83" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/ogham"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QC1gNgew--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/ogham-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author ogham" width="71" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;h2&gt;
+  
+  
+  CLI Productivity Apps
+&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Surf the web, play music, check emails, manage calendars, read the news and more, all without leaving the terminal!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/browsh-org/browsh"&gt;&lt;code&gt;browsh&lt;/code&gt;&lt;/a&gt; - CLI web browser
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;browsh&lt;/code&gt; is a fully interactive, real-time, and modern text-based browser rendered to TTYs and browsers. It supports both mouse and keyboard navigation, and is surprisingly feature rich for a purely terminal based application. It also mitigates battery drain issues that plague modern browsers, and with support for MoSH, you can experience faster load times due to reduced bandwidth&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--sO3TkLzU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/S7nLFX5/browsh.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--sO3TkLzU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.ibb.co/S7nLFX5/browsh.gif" alt="browsh-example-usage" width="480" height="270"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/browsh-org/browsh"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--B0DoDYCJ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/browsh-org/browsh%3Fcolor%3D232323%26label%3Dbrowsh%26logo%3Dgithub%26labelColor%3D232323" alt="View browsh on GitHub" width="97" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/browsh-org"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--T9t-an-Z--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/browsh-org-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author browsh-org" width="95" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--cgqT0lN_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DJavaScript%26color%3DF7DF1E%26logo%3Djavascript%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--cgqT0lN_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DJavaScript%26color%3DF7DF1E%26logo%3Djavascript%26logoColor%3DFFFFFF" alt="Written in JavaScript" width="85" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/jarun/buku"&gt;&lt;code&gt;buku&lt;/code&gt;&lt;/a&gt; - Bookmark manager
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;buku&lt;/code&gt; is a terminal-based bookmark manager, with tons of configuration, storage and usage options. There's also an optional &lt;a href="https://github.com/jarun/buku/tree/master/bukuserver#screenshots"&gt;web UI&lt;/a&gt; and &lt;a href="https://github.com/samhh/bukubrow-webext#installation"&gt;browser plugin&lt;/a&gt;, for accessing your bookmarks outside of the terminal&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--vcrdyl0t--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/CWQsf1x/buku.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vcrdyl0t--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/CWQsf1x/buku.png" alt="buku-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jarun/buku"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--GfhqzUB1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/jarun/buku%3Fcolor%3D232323%26label%3Dbuku%26logo%3Dgithub%26labelColor%3D232323" alt="View buku on GitHub" width="89" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/jarun"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--WtZ39WFW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/jarun-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author jarun" width="63" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/cmus/cmus"&gt;&lt;code&gt;cmus&lt;/code&gt;&lt;/a&gt; - Music browser / player
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;cmus&lt;/code&gt; is terminal music player, controlled with keyboard shortcuts. It has support for a wide range of audio formats and codecs, and allows organising tracks into playlists and applying playback settings&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--X-hFmnWf--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/dP6b3bd/cmus.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--X-hFmnWf--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/dP6b3bd/cmus.png" alt="cmus-example-usage" width="880" height="617"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/cmus/cmus"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--SrUzdOws--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/cmus/cmus%3Fcolor%3D232323%26label%3Dcmus%26logo%3Dgithub%26labelColor%3D232323" alt="View cmus on GitHub" width="91" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/cmus"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--XhG1tvtx--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/cmus-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author cmus" width="63" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" alt="Written in C" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/cointop-sh/cointop"&gt;&lt;code&gt;cointop&lt;/code&gt;&lt;/a&gt; - Track crypto prices
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;cointop&lt;/code&gt; show current crypto prices, and track the price history of your portfolio. Supports price alerts, historical charts, currency conversion, fuzzy searching, and much more. You can try the demo via the web at &lt;a href="https://cointop.sh/"&gt;cointop.sh&lt;/a&gt;, or by running &lt;code&gt;ssh cointop.sh&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--t890F5P5--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/JBf9y4y/cointop.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--t890F5P5--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/JBf9y4y/cointop.png" alt="cointop-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/cointop-sh/cointop"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--FRegAPoj--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/cointop-sh/cointop%3Fcolor%3D232323%26label%3Dcointop%26logo%3Dgithub%26labelColor%3D232323" alt="View cointop on GitHub" width="103" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/cointop-sh"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--HtEsM_Y1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/cointop-sh-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author cointop-sh" width="91" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/jarun/ddgr"&gt;&lt;code&gt;ddgr&lt;/code&gt;&lt;/a&gt; - Search the web from the terminal
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;ddgr&lt;/code&gt; is like &lt;a href="https://github.com/jarun/googler"&gt;googler&lt;/a&gt;, but for DuckDuckGo. It's fast, clean and easy, with support for instant answers, search completion, search bangs, and advanced search. It respects your privacy by default, and also has HTTPS proxy support, and works with Tor&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--xbxemVB3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/S0H21QH/dggr.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--xbxemVB3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/S0H21QH/dggr.png" alt="dggr-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jarun/ddgr"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--H8HIfCdf--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/jarun/ddgr%3Fcolor%3D232323%26label%3Dddgr%26logo%3Dgithub%26labelColor%3D232323" alt="View ddgr on GitHub" width="87" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/jarun"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--WtZ39WFW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/jarun-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author jarun" width="63" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/pimutils/khal"&gt;&lt;code&gt;khal&lt;/code&gt;&lt;/a&gt; - Calendar client
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;khal&lt;/code&gt; is a terminal calendar app, which shows upcoming events, month and agenda views. You can sync it with any CalDAV calendar, and add, edit and remove events directly&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--9YOqO5S5--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/hLCdjZW/khal.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--9YOqO5S5--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/hLCdjZW/khal.png" alt="khal-example-usage" width="640" height="430"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/pimutils/khal"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--hfkwGpeh--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/pimutils/khal%3Fcolor%3D232323%26label%3Dkhal%26logo%3Dgithub%26labelColor%3D232323" alt="View khal on GitHub" width="85" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/pimutils"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--36DhLHOm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/pimutils-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author pimutils" width="77" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://gitlab.com/muttmua/mutt"&gt;&lt;code&gt;mutt&lt;/code&gt;&lt;/a&gt; - Email client
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;mut&lt;/code&gt; is a classic, a terminal based mail client for sending, reading and managing emails. It supports all mainstream email protocols and mailbox formats, allows for attachments, BCC/CC, threads, mailing lists and delivery status notifications&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--VwdNaLYL--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/zVVsG3s/mutt.webp" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--VwdNaLYL--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/zVVsG3s/mutt.webp" alt="mutt-example-usage" width="880" height="507"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://gitlab.com/muttmua/mutt"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--bDGB9Uh1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/muttmua/mutt%3Fcolor%3D232323%26label%3Dmutt%26logo%3Dgithub%26labelColor%3D232323" alt="View mutt on GitHub" width="85" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/muttmua"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--WUXrosd1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/muttmua-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author muttmua" width="85" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" alt="Written in C" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/newsboat/newsboat"&gt;&lt;code&gt;newsboat&lt;/code&gt;&lt;/a&gt; - RSS / ATOM news reader
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;newsboat&lt;/code&gt; is an RSS feed reader and aggregator, for reading the news, blogs and following updates directly from the terminal&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--BPuEuPaC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/fvT4YzD/newsboat.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--BPuEuPaC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/fvT4YzD/newsboat.png" alt="newsboat-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/newsboat/newsboat"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Tou5KnGz--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/newsboat/newsboat%3Fcolor%3D232323%26label%3Dnewsboat%26logo%3Dgithub%26labelColor%3D232323" alt="View newsboat on GitHub" width="115" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/newsboat"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--2eLnD5li--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/newsboat-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author newsboat" width="87" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--tO0jFOIW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--tO0jFOIW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF" alt="Written in C++" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/rclone/rclone"&gt;&lt;code&gt;rclone&lt;/code&gt;&lt;/a&gt; - Manage cloud storage
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;rclone&lt;/code&gt; is a handy utility for syncing files and folders to various cloud storage providers. It can be either invoked directly from the command line, or easily integrated into a script as a replacement for heavy desktop sync apps&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/rclone/rclone"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Ql0VUkv2--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/rclone/rclone%3Fcolor%3D232323%26label%3Drclone%26logo%3Dgithub%26labelColor%3D232323" alt="View rclone on GitHub" width="91" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/rclone"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--9kE435sB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/rclone-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author rclone" width="67" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/GothenburgBitFactory/taskwarrior"&gt;&lt;code&gt;taskwarrior&lt;/code&gt;&lt;/a&gt; - Todo + task management
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;task&lt;/code&gt; is a CLI task management/ todo app. It's both simple and unobtrusive, but also incredibly powerful and scalable, with advanced organisation and query features built in. There's also a lot (700+!) of extra &lt;a href="https://taskwarrior.org/tools/"&gt;plugins&lt;/a&gt; for extending it's functionality and integrating with third-party services&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QeqQw1O0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/7k6M37g/taskwarrior.jpg" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QeqQw1O0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/7k6M37g/taskwarrior.jpg" alt="task-warrior-example-usage" width="818" height="421"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/GothenburgBitFactory/taskwarrior"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--DZ1p5A9N--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/GothenburgBitFactory/taskwarrior%3Fcolor%3D232323%26label%3Dtaskwarrior%26logo%3Dgithub%26labelColor%3D232323" alt="View taskwarrior on GitHub" width="113" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/GothenburgBitFactory"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--qZ_quxiy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/GothenburgBitFactory-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author GothenburgBitFactory" width="155" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--tO0jFOIW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--tO0jFOIW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%2B%2B%26color%3D00599C%26logo%3Dcplusplus%26logoColor%3DFFFFFF" alt="Written in C++" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://gitlab.com/ajak/tuir"&gt;&lt;code&gt;tuir&lt;/code&gt;&lt;/a&gt; - Terminal UI for Reddit
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;tuir&lt;/code&gt; is a great one if you want to look like you're working, while actually browsing Reddit! It's got intuitive keybindings, custom themes, and can render images and multi-media content too. There's also &lt;a href="https://github.com/donnemartin/haxor-news"&gt;haxor&lt;/a&gt; for hacker news&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QttDR9ja--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/vzSw7s5/tuir.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QttDR9ja--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/vzSw7s5/tuir.png" alt="tuir-example-usage" width="433" height="407"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://gitlab.com/ajak/tuir"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--E80F2_ic--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/gitlab/stars/ajak/tuir%3Fcolor%3Dfc6d26%26label%3Dtuir%26logo%3Dgitlab%26labelColor%3D232323" alt="View tuir on GitLab" width="77" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/ajak"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--oqGk8Nye--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/ajak-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author ajak" width="57" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;h2&gt;
+  
+  
+  CLI Dev Suits
+&lt;/h2&gt;
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/httpie/httpie"&gt;&lt;code&gt;httpie&lt;/code&gt;&lt;/a&gt; - HTTP / API testing testing client
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;httpie&lt;/code&gt; is a HTTP client, for testing, debugging and using APIs. It supports everything you'd expect - HTTPS, proxies, authentication, custom headers, persistent sessions, JSON parsing. Usage is simple with an expressive syntax and colourized output. Like other HTTP clients (Postman, Hopscotch, Insomnia, etc) HTTPie also includes a web UI&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--GCvEbIXw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/Wk5S19g/httpie.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--GCvEbIXw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/Wk5S19g/httpie.png" alt="httpie-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/httpie/httpie"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Dnl_-FV6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/httpie/httpie%3Fcolor%3D232323%26label%3Dhttpie%26logo%3Dgithub%26labelColor%3D232323" alt="View httpie on GitHub" width="91" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/httpie"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--i8Sspvsd--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/httpie-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author httpie" width="67" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/jesseduffield/lazydocker"&gt;&lt;code&gt;lazydocker&lt;/code&gt;&lt;/a&gt; - Full Docker management app
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;lazydocker&lt;/code&gt; is a Docker management app, that lets you view all containers and images, manage their state, read logs, check resource usage, restart/ rebuild, analyse layers, prune unused containers, images and volumes, and so much more. It saves you from needing remember, type and chain multiple Docker commands.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--t3qjWKXi--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/MD8MWNH/lazydocker.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--t3qjWKXi--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/MD8MWNH/lazydocker.png" alt="lazy-docker-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazydocker"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--SXsHiDMk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/jesseduffield/lazydocker%3Fcolor%3D232323%26label%3Dlazydocker%26logo%3Dgithub%26labelColor%3D232323" alt="View lazydocker on GitHub" width="117" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/jesseduffield"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--k-sMPQEG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/jesseduffield-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author jesseduffield" width="103" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/jesseduffield/lazygit"&gt;&lt;code&gt;lazygit&lt;/code&gt;&lt;/a&gt; - Full Git management app
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;lazygit&lt;/code&gt; is a visual git client, on the command line. Easily add, commit and puch files, resolve conflicts, compare diffs, manage logs, and do complex operations like squashes and rewinds. There's keybindings for everything, colors, and it's easily configurable and extenable&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--rF4wSFzE--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/KLF3C6s/lazygit.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--rF4wSFzE--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/KLF3C6s/lazygit.png" alt="lazy-git-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jesseduffield/lazygit"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--MPsuMx8k--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/jesseduffield/lazygit%3Fcolor%3D232323%26label%3Dlazygit%26logo%3Dgithub%26labelColor%3D232323" alt="View lazygit on GitHub" width="95" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/jesseduffield"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--k-sMPQEG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/jesseduffield-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author jesseduffield" width="103" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/kdash-rs/kdash/"&gt;&lt;code&gt;kdash&lt;/code&gt;&lt;/a&gt; - Kubernetes dashboard app
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;kdash&lt;/code&gt; is an all-in-one Kubernetes management tool. View node metrics, watch resources, stream container logs, analyse contexts and manage nodes, pods and namespaces&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/kdash-rs/kdash/"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Vzqnocxw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/kdash-rs/kdash%3Fcolor%3D232323%26label%3Dkdash%26logo%3Dgithub%26labelColor%3D232323" alt="View kdash on GitHub" width="91" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/kdash-rs"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--7GpSXjoX--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/kdash-rs-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author kdash-rs" width="81" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/cyrus-and/gdb-dashboard"&gt;&lt;code&gt;gdp-dashboard&lt;/code&gt;&lt;/a&gt; - Visual GDP debugger
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;gdp-dashboard&lt;/code&gt; adds a visual element to the GNU Debugger, for debugging C and C++ programs. Easily analyse memory, step through breakpoints, and view registers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--kbRmT8iS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/2g2hVLh/gdp-dashboard.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--kbRmT8iS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/2g2hVLh/gdp-dashboard.png" alt="gdp-dashboard-example-usage" width="880" height="1665"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/cyrus-and/gdb-dashboard"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--t2fhQI36--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/cyrus-and/gdb-dashboard%3Fcolor%3D232323%26label%3Dgdb-dashboard%26logo%3Dgithub%26labelColor%3D232323" alt="View gdb-dashboard on GitHub" width="145" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/cyrus-and"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--0wBnPb3Q--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/cyrus-and-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author cyrus-and" width="87" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;h2&gt;
+  
+  
+  CLI External Sercvices
+&lt;/h2&gt;
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://ngrok.com/"&gt;&lt;code&gt;ngrok&lt;/code&gt;&lt;/a&gt; - Reverse proxy for sharing localhost
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;ngrok&lt;/code&gt; safely* exposes your localhost to the internet behind a unique URL. This lets you share what you're working on with you're remote colleagues, in real-time. Usage is &lt;a href="https://notes.aliciasykes.com/p/RUi22QSyWe"&gt;very simple&lt;/a&gt;, but it's also got a lot of advanced features for things like authentication, webhooks, firewalls, traffic inspection, custom/ wildcard domains and much more&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--SIjfLNwV--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/4WPZNGx/ngrok.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--SIjfLNwV--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/4WPZNGx/ngrok.png" alt="ngrok-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/inconshreveable/ngrok"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--EkQ3uF4g--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/inconshreveable/ngrok%3Fcolor%3D232323%26label%3Dngrok%26logo%3Dgithub%26labelColor%3D232323" alt="View ngrok on GitHub" width="89" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/inconshreveable"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--XAQdMrb6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/inconshreveable-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author inconshreveable" width="123" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://tmate.io/"&gt;&lt;code&gt;tmate&lt;/code&gt;&lt;/a&gt; - Share a terminal session via internet
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;tmate&lt;/code&gt; let's you instantly share a live terminal session with someone elsewhere in the world. It works across different systems, supports access control/ auth, can be self-hosted, and has all the features of Tmux&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/tmate-io/tmate"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--HsJ28khW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/tmate-io/tmate%3Fcolor%3D232323%26label%3Dtmate%26logo%3Dgithub%26labelColor%3D232323" alt="View tmate on GitHub" width="83" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/tmate-io"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--gzhBPUaT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/tmate-io-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author tmate-io" width="79" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" alt="Written in C" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://asciinema.org/"&gt;&lt;code&gt;asciinema&lt;/code&gt;&lt;/a&gt; - Recording + sharing terminal sessions
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;asciinema&lt;/code&gt; is very useful for easily recording, sharing and embedding a terminal session. Great to showcase something you've built, or to show the command-line steps for a tutorial. Unlike screenrecording videos, the user can copy-paste the content, change the theme on the fly and control playback&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;div class="ltag_asciinema"&gt;
+  
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href="https://github.com/asciinema/asciinema"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--VrN2hZMU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/asciinema/asciinema%3Fcolor%3D232323%26label%3Dasciinema%26logo%3Dgithub%26labelColor%3D232323" alt="View asciinema on GitHub" width="113" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/asciinema"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--VpxT2-Ie--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/asciinema-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author asciinema" width="89" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/denisidoro/navi"&gt;&lt;code&gt;navi&lt;/code&gt;&lt;/a&gt; - Interactive cheat sheet
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;navi&lt;/code&gt; allows you to browse through cheatsheets and execute commands. Suggested values for arguments are dynamically displayed in a list. Type less, reduce mistakes and save yourself from having to memorise thousands of commands. It integrates with &lt;a href="https://github.com/tldr-pages/tldr"&gt;tldr&lt;/a&gt; and &lt;a href="https://github.com/chubin/cheat.sh"&gt;cheat.sh&lt;/a&gt; to get content, but you can also import other cheatsheets, or even write your own&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;div class="ltag_asciinema"&gt;
+  
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href="https://github.com/denisidoro/navi"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--deBs-uAe--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/denisidoro/navi%3Fcolor%3D232323%26label%3Dnavi%26logo%3Dgithub%26labelColor%3D232323" alt="View navi on GitHub" width="81" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/denisidoro"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--wZCh1Ptl--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/denisidoro-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author denisidoro" width="91" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QnEL4tqy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRust%26color%3De86243%26logo%3Drust%26logoColor%3DFFFFFF" alt="Written in Rust" width="53" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/dutchcoders/transfer.sh/"&gt;&lt;code&gt;transfer.sh&lt;/code&gt;&lt;/a&gt; - Fast file sharing
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;transfer&lt;/code&gt; makes uploading and sharing files really easy, directly from the command line. It's free, supports encryption, gives you a unique URL, and can also be self-hosted.&lt;br&gt;
+I've written a Bash helper function to make usage a bit easier, you can &lt;a href="https://github.com/Lissy93/dotfiles/blob/master/utils/transfer.sh"&gt;find it here&lt;/a&gt; or try it out by running &lt;code&gt;bash &amp;lt;(curl -L -s https://alicia.url.lol/transfer)&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--3Xa_MJUD--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/cCqDb1k/transfer-sh.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--3Xa_MJUD--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/cCqDb1k/transfer-sh.png" alt="transfer-sh-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/dutchcoders/transfer.sh"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--oQoapBbc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/dutchcoders/transfer.sh%3Fcolor%3D232323%26label%3Dtransfer.sh%26logo%3Dgithub%26labelColor%3D232323" alt="View transfer.sh on GitHub" width="119" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/dutchcoders"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--04qamyZq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/dutchcoders-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author dutchcoders" width="101" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://surge.sh/"&gt;&lt;code&gt;surge&lt;/code&gt;&lt;/a&gt; - Deploy a site in seconds
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;surge&lt;/code&gt; is a free static hosting provider, that you can deploy to directly from the terminal in a single command, just run &lt;code&gt;surge&lt;/code&gt; from within your &lt;code&gt;dist&lt;/code&gt; directory! It supports custom domains, auto SSL certs, pushState support, cross-origin resource support - and it's free!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--iKFo9ur---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/NynprxZ/surge-sh.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--iKFo9ur---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/NynprxZ/surge-sh.png" alt="surge-sh-example-usage" width="880" height="469"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/chubin/wttr.in"&gt;&lt;code&gt;wttr.in&lt;/code&gt;&lt;/a&gt; - Check the weather
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;wttr.in&lt;/code&gt; is a service that displays the weather in a format that's digestible in the command line. Just run &lt;code&gt;curl wttr.in&lt;/code&gt; or &lt;code&gt;curl wttr.in/London&lt;/code&gt; to try it out. There's URL parameters to customise what data is returned, as well as the format&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--d24wQ08X--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/J2JWnYT/Screenshot-from-2023-01-18-21-10-54.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--d24wQ08X--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/J2JWnYT/Screenshot-from-2023-01-18-21-10-54.png" alt="wrrt-in-example-usage" width="880" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/chubin/wttr.in"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--VQFj_GZA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/chubin/wttr.in%3Fcolor%3D232323%26label%3Dwttr.in%26logo%3Dgithub%26labelColor%3D232323" alt="View wttr.in on GitHub" width="95" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/chubin"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QLlgb-tx--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/chubin-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author chubin" width="71" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--piMR3xQn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DPython%26color%3D3C78A9%26logo%3Dpython%26logoColor%3DFFFFFF" alt="Written in Python" width="67" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;h2&gt;
+  
+  
+  CLI Fun
+&lt;/h2&gt;
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://en.wikipedia.org/wiki/Cowsay"&gt;&lt;code&gt;cowsay&lt;/code&gt;&lt;/a&gt; - Have an ASCII cow say your message
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;cowsay&lt;/code&gt;  is a configurable talking cow. It's based off the &lt;a href="https://github.com/tnalpgge/rank-amateur-cowsay"&gt;original&lt;/a&gt; by Tony Monroe&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--qNjdMj8x--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/TRqW3jD/cowsay.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--qNjdMj8x--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/TRqW3jD/cowsay.png" alt="cowsay-example-usage" width="880" height="357"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/piuccio/cowsay"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--4xYaURYG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/piuccio/cowsay%3Fcolor%3D232323%26label%3Dcowsay%26logo%3Dgithub%26labelColor%3D232323" alt="View cowsay on GitHub" width="99" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/piuccio"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--UybCoy_u--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/piuccio-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author piuccio" width="71" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--cgqT0lN_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DJavaScript%26color%3DF7DF1E%26logo%3Djavascript%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--cgqT0lN_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DJavaScript%26color%3DF7DF1E%26logo%3Djavascript%26logoColor%3DFFFFFF" alt="Written in JavaScript" width="85" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="http://www.figlet.org/"&gt;&lt;code&gt;figlet&lt;/code&gt;&lt;/a&gt; - Output text as big ASCII art text
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;figlet&lt;/code&gt; outputs text as ASCII art&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--Jala8Oxw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/fk4T7D0/figlet.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Jala8Oxw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/fk4T7D0/figlet.png" alt="figlet-example-usage" width="880" height="222"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/cmatsuoka/figlet"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--7zjEEvB8--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/cmatsuoka/figlet%3Fcolor%3D232323%26label%3Dfiglet%26logo%3Dgithub%26labelColor%3D232323" alt="View figlet on GitHub" width="89" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/cmatsuoka"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--MeViFs3A--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/cmatsuoka-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author cmatsuoka" width="93" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RIZ8ybsm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DC%26color%3DA8B9CC%26logo%3Dc%26logoColor%3DFFFFFF" alt="Written in C" width="35" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/busyloop/lolcat"&gt;&lt;code&gt;lolcat&lt;/code&gt;&lt;/a&gt; - Make console output raibow colored
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;lolcat&lt;/code&gt; makes any text passed to it rainbow coloured&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--AUO8rVMr--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/nfp9Ycx/lolcat.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--AUO8rVMr--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/nfp9Ycx/lolcat.png" alt="lolcat-example-usage" width="880" height="481"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/busyloop/lolcat"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--XIldTiim--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/busyloop/lolcat%3Fcolor%3D232323%26label%3Dlolcat%26logo%3Dgithub%26labelColor%3D232323" alt="View lolcat on GitHub" width="91" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/busyloop"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--CRMo5JJ0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/busyloop-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author busyloop" width="83" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--DaahHts3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRuby%26color%3DCC342D%26logo%3Druby%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--DaahHts3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DRuby%26color%3DCC342D%26logo%3Druby%26logoColor%3DFFFFFF" alt="Written in Ruby" width="55" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  &lt;a href="https://github.com/dylanaraps/neofetch"&gt;&lt;code&gt;neofetch&lt;/code&gt;&lt;/a&gt; - Show system data and ditstro info
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;neofetch&lt;/code&gt; prints distro and system info (so you can flex that you use Arch btw on r/unixporn)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--9vGUZc_0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/x1PHpFC/Screenshot-from-2023-01-18-22-44-28.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--9vGUZc_0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/x1PHpFC/Screenshot-from-2023-01-18-22-44-28.png" alt="neofetch-example-usage" width="681" height="407"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/dylanaraps/neofetch"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--2s91PX3a--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/dylanaraps/neofetch%3Fcolor%3D232323%26label%3Dneofetch%26logo%3Dgithub%26labelColor%3D232323" alt="View neofetch on GitHub" width="105" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/dylanaraps"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s---pytlKVd--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/dylanaraps-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author dylanaraps" width="95" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--PYCRrB0c--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DBash%26color%3Dgreen%26logo%3Dgnubash%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--PYCRrB0c--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DBash%26color%3Dgreen%26logo%3Dgnubash%26logoColor%3DFFFFFF" alt="Written in Bash" width="55" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As an example, I'm using &lt;code&gt;cowsay&lt;/code&gt;, &lt;code&gt;figlet&lt;/code&gt;, &lt;code&gt;lolcat&lt;/code&gt; and &lt;code&gt;neofetch&lt;/code&gt; to create a custom time-based MOTD shown to the user when they first log in. It greets them by their name, shows server info and time, date, weather and IP. &lt;a href="https://github.com/Lissy93/dotfiles/blob/master/utils/welcome-banner.sh"&gt;Here's the source code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--2Zp8xWf0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/cTg0jyn/Screenshot-from-2023-01-18-22-59-28.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--2Zp8xWf0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/cTg0jyn/Screenshot-from-2023-01-18-22-59-28.png" alt="welcome" width="628" height="537"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Installations and Management
+&lt;/h2&gt;
+
+&lt;p&gt;Most of us have a core set of CLI apps and utils that we rely upon. Setting up a new machine, and individually installing each program would get tiresome very quickly. So the task of installing and updating your terminal apps is the perfect candidate for automation. &lt;a href="https://github.com/Lissy93/dotfiles/tree/master/scripts/installs"&gt;Here&lt;/a&gt; are some example scripts I've written, which can be easily dropped into your dotfiles or just run independently to ensure you're never missing an app. &lt;/p&gt;
+
+&lt;p&gt;For MacOS users, the easiest method is using &lt;a href="https://brew.sh/"&gt;Homebrew&lt;/a&gt;. Just create a Brewfile (with &lt;code&gt;touch ~/.Brewfile&lt;/code&gt;), then list each of your apps, and run &lt;code&gt;brew bundle&lt;/code&gt;. You can keep your package list backed up, by putting it in a Git repo. Here's an example one, to get you started: &lt;a href="https://github.com/Lissy93/Brewfile"&gt;https://github.com/Lissy93/Brewfile&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On Linux, you usually want to use the native package manager (e.g. &lt;code&gt;pacman&lt;/code&gt;, &lt;code&gt;apt&lt;/code&gt;). As an example, &lt;a href="https://github.com/Lissy93/dotfiles/blob/master/scripts/installs/arch-pacman.sh"&gt;here's a script&lt;/a&gt; to install the above apps on Arch Linux systems&lt;/p&gt;
+
+&lt;p&gt;Desktop apps on Linux can be managed in a similar way, via Flatpak. Again, &lt;a href="https://github.com/Lissy93/dotfiles/blob/master/scripts/installs/flatpak.sh"&gt;here's an example script&lt;/a&gt; :)&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Conclusion
+&lt;/h2&gt;
+
+&lt;p&gt;... So that's it - a list of handy CLI apps, and a method for installing and keeping them up-to-date across your systems.&lt;/p&gt;
+
+&lt;p&gt;Hopefully some of these will be useful to some of you :)&lt;/p&gt;
+
+&lt;p&gt;I'd love to hear what you're favourite CLI apps are, let me know in the comments below!&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Additional Info
+&lt;/h3&gt;
+
+&lt;h4&gt;
+  
+  
+  What wasn't included
+&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This list doesn't include the basics, like Vim, Tmux, Ranger, ZSH, Git, etc - which you're likely already using&lt;/li&gt;
+&lt;li&gt;I've also not included anything too niche, or only specific to a small number of users&lt;/li&gt;
+&lt;li&gt;Nothing system-specific, or that isn't cross-platform (Linux/ Unix, MacOS) is included&lt;/li&gt;
+&lt;li&gt;And I've not included apps which relate to the terminal, but are not CLI apps (like terminal emulators)&lt;/li&gt;
+&lt;li&gt;For most of the projects listed, there's a plethora of alternatives that achieve similar things, for brevity those also weren't included&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;
+  
+  
+  Credit
+&lt;/h4&gt;
+
+&lt;p&gt;Huge kudos to the authors, and communities behind each of these apps. Without them and their hard work, our life in the command line would be much less awesome. Where possible, I've tried to credit the authors, but if I've missed any - let me know below, and I'll push an update&lt;/p&gt;
+
+&lt;h4&gt;
+  
+  
+  Feedback
+&lt;/h4&gt;
+
+&lt;p&gt;What have I missed? I'd love to hear your favourite CLI apps, especially if there's something awesome that I've missed!&lt;/p&gt;
+
+&lt;p&gt;I'd also like to hear your thoughts and suggestions - I'm always looking to improve :)&lt;/p&gt;
+
+&lt;h4&gt;
+  
+  
+  Find More
+&lt;/h4&gt;
+
+&lt;p&gt;If you were enjoying this, I recommend also checking out:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;strong&gt;&lt;a href="https://github.com/k4m4/terminals-are-sexy"&gt;terminals-are-sexy&lt;/a&gt;&lt;/strong&gt; by  Nikolaos Kamarinakis&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;&lt;a href="https://github.com/alebcay/awesome-shell"&gt;awesome-shell&lt;/a&gt;&lt;/strong&gt; by Caleb Xu&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;&lt;a href="https://github.com/agarrharr/awesome-cli-apps"&gt;awesome-cli-apps&lt;/a&gt;&lt;/strong&gt; by Adam Garrett-Harris&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you're new to the command line, then &lt;strong&gt;&lt;a href="https://github.com/jlevy/the-art-of-command-line"&gt;The Art of Command Line&lt;/a&gt;&lt;/strong&gt; by  Joshua Levy is an excellent resource, as is the &lt;strong&gt;&lt;a href="https://github.com/Idnan/bash-guide"&gt;Bash Guide&lt;/a&gt;&lt;/strong&gt; by  Adnan Ahmed.&lt;/p&gt;
+
+&lt;p&gt;And if you are looking for inspiration, you'll love &lt;strong&gt;&lt;a href="https://www.reddit.com/r/unixporn/"&gt;r/unixporn&lt;/a&gt;&lt;/strong&gt; ⚡&lt;/p&gt;
+
+
+
+
+&lt;div class="table-wrapper-paragraph"&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;small&gt;If you like this kind of stuff&lt;/small&gt;,&lt;br&gt;&lt;small&gt;consider following for more :)&lt;/small&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;a href="https://github.com/Lissy93"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--8_HGggCT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/-Lissy93-3a3a3a%3Fstyle%3Dflat%26logo%3DGitHub%26logoColor%3Dwhite" alt="Follow Lissy93 on GitHub" width="69" height="20"&gt;&lt;/a&gt;&lt;a href="https://twitter.com/Lissy_Sykes"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--BhCWBIgy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/-%40Lissy_Sykes-00acee%3Fstyle%3Dflat%26logo%3DTwitter%26logoColor%3Dwhite" alt="Follow Lissy_Sykes on Twitter" width="103" height="20"&gt;&lt;/a&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;
+
+</description>
+      <category>bash</category>
+      <category>rust</category>
+      <category>tooling</category>
+      <category>productivity</category>
+    </item>
+    <item>
       <title>20 Git Commands you (probably) didn't know about 🧙‍♂️</title>
       <dc:creator>Alicia Sykes</dc:creator>
       <pubDate>Sun, 18 Dec 2022 13:32:40 +0000</pubDate>
