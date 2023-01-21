@@ -18,7 +18,7 @@ jobs:
           file: RECENT.md
           max_entry: 5
           allow_empty: true
-          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
           url: https://raw.githubusercontent.com/Lissy93/feeds/main/blog.atom
           start_flag: '<!-- blog-feed start -->'
           end_flag: '<!-- blog-feed end -->'
@@ -28,7 +28,7 @@ jobs:
 #          file: RECENT.md
 #          max_entry: 5
 #          allow_empty: true
-#          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+#          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
 #          url: https://raw.githubusercontent.com/Lissy93/feeds/main/reddit.atom
 #          start_flag: '<!-- reddit-feed start -->'
 #          end_flag: '<!-- reddit-feed end -->'
@@ -38,7 +38,7 @@ jobs:
           file: RECENT.md
           max_entry: 5
           allow_empty: true
-          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
           url: https://raw.githubusercontent.com/Lissy93/feeds/main/mastodon.atom
           start_flag: '<!-- mastodon-feed start -->'
           end_flag: '<!-- mastodon-feed end -->'
@@ -48,7 +48,7 @@ jobs:
           file: RECENT.md
           max_entry: 5
           allow_empty: true
-          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
           url: https://raw.githubusercontent.com/Lissy93/feeds/main/stackoverflow.atom
           start_flag: '<!-- stackoverflow-feed start -->'
           end_flag: '<!-- stackoverflow-feed end -->'
@@ -58,7 +58,7 @@ jobs:
           file: RECENT.md
           max_entry: 5
           allow_empty: true
-          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
           url: https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom
           start_flag: '<!-- github-feed start -->'
           end_flag: '<!-- github-feed end -->'
@@ -68,7 +68,7 @@ jobs:
           file: RECENT.md
           max_entry: 5
           allow_empty: true
-          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
           url: https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom
           start_flag: '<!-- youtube-feed start -->'
           end_flag: '<!-- youtube-feed end -->'
@@ -78,7 +78,7 @@ jobs:
           file: RECENT.md
           max_entry: 5
           allow_empty: true
-          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
           url: https://raw.githubusercontent.com/Lissy93/feeds/main/dev-to.atom
           start_flag: '<!-- dev-to-feed start -->'
           end_flag: '<!-- dev-to-feed end -->'
@@ -88,10 +88,16 @@ jobs:
           file: RECENT.md
           max_entry: 5
           allow_empty: true
-          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
           url: https://raw.githubusercontent.com/Lissy93/feeds/main/blogger.atom
           start_flag: '<!-- blogger-feed start -->'
           end_flag: '<!-- blogger-feed end -->'
       - name: Commit
-        uses: sarisia/actions-commit@master
-
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'RECENT.md'
+          author_name: Liss-Bot
+          author_email: alicia-gh-bot@mail.as93.net
+          default_author: github_actor
+          message: '📎 Updates links to recent updates'
+          push: true
