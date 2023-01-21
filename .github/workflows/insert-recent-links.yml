@@ -92,3 +92,6 @@ jobs:
           url: https://raw.githubusercontent.com/Lissy93/feeds/main/blogger.atom
           start_flag: '<!-- blogger-feed start -->'
           end_flag: '<!-- blogger-feed end -->'
+      - name: Commit
+        uses: sarisia/actions-commit@master
+
