@@ -1160,6 +1160,23 @@ brew &lt;span class="nb"&gt;install &lt;/span&gt;just
 &lt;h3&gt;
   
   
+  &lt;a href="https://github.com/zyedidia/micro"&gt;&lt;code&gt;micro&lt;/code&gt;&lt;/a&gt; - Code editor &lt;em&gt;(better &lt;code&gt;nano&lt;/code&gt;)&lt;/em&gt;
+&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;micro&lt;/code&gt; is an easy to use, fast and extendable code editor with mouse support. Since it's packaged into a single binary, installation is as simple as &lt;code&gt;curl https://getmic.ro | bash&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--IzOVcyTT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/cgNcH7w/Screenshot-from-2023-01-21-19-18-04.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--IzOVcyTT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.ibb.co/cgNcH7w/Screenshot-from-2023-01-21-19-18-04.png" alt="micro-screenshot" width="880" height="642"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/zyedidia/micro"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--KRGBV_BC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/zyedidia/micro%3Fcolor%3D232323%26label%3Dmicro%26logo%3Dgithub%26labelColor%3D232323" alt="View micro on GitHub" width="89" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/zyedidia"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6uyJKAc1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/zyedidia-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author zyedidia" width="79" height="20"&gt;&lt;/a&gt; &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6zXuw3Pb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/static/v1%3Flabel%3D%26message%3DGo%2520Lang%26color%3D00ADD8%26logo%3Dgo%26logoColor%3DFFFFFF" alt="Written in Go" width="73" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
   &lt;a href="https://github.com/pimutils/khal"&gt;&lt;code&gt;khal&lt;/code&gt;&lt;/a&gt; - Calendar client
 &lt;/h3&gt;
 
@@ -1632,6 +1649,83 @@ I've written a Bash helper function to make usage a bit easier, you can &lt;a hr
 &lt;p&gt;What have I missed? I'd love to hear your favourite CLI apps, especially if there's something awesome that I've missed!&lt;/p&gt;
 
 &lt;p&gt;I'd also like to hear your thoughts and suggestions - I'm always looking to improve :)&lt;/p&gt;
+
+&lt;h4&gt;
+  
+  
+  Badges
+&lt;/h4&gt;
+
+&lt;p&gt;Here's the script that I made to generate the author, language and GitHub star badges: &lt;/p&gt;
+
+&lt;p&gt;
+  Repo Badge Generator
+  
+&lt;div class="ltag-github-readme-tag"&gt;
+  &lt;div class="readme-overview"&gt;
+    &lt;h2&gt;
+      &lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--566lAguM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--566lAguM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" alt="GitHub logo"&gt;&lt;/a&gt;
+      &lt;a href="https://github.com/Lissy93"&gt;
+        Lissy93
+      &lt;/a&gt; / &lt;a href="https://github.com/Lissy93/repo-badge-maker"&gt;
+        repo-badge-maker
+      &lt;/a&gt;
+    &lt;/h2&gt;
+    &lt;h3&gt;
+      🛡️ Very, very quick script to generate repo badges for blog posts
+    &lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div class="ltag-github-body"&gt;
+    
+
+&lt;div class="md"&gt;
+&lt;h1&gt;
+🛡️ Repo Badge Generator&lt;/h1&gt;
+&lt;p&gt;
+  &lt;i&gt;Very, very quick script to quickly generate repository badges&lt;/i&gt;&lt;br&gt;
+  &lt;b&gt;&lt;a href="https://repo-badges.as93.net"&gt;repo-badges.as93.net&lt;/a&gt;&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a href="https://repo-badges.as93.net"&gt;
+    &lt;img width="600" src="https://camo.githubusercontent.com/c1a6e829ff32fb8eb3982555592d84a97f375c6a54f1ee1e750c76cc1eff3af8/68747470733a2f2f692e6962622e636f2f3756397837646b2f7265706f2d62616467652d67656e657261746f722d73637265656e73686f742d322e706e67"&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+&lt;h2&gt;
+About&lt;/h2&gt;
+&lt;p&gt;I made this to quickly generate the project links, for this post: &lt;a href="https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6"&gt;CLI tools you won't be able to live without 🔧 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Just a simple script to generate markdown repo badges using the &lt;a href="https://shields.io/"&gt;Shields.io&lt;/a&gt; and GitHub APIs.&lt;br&gt;
+Includes a badge for + link to the author, the repo + star count, and the language used.&lt;br&gt;
+Paste in the URL to a repo, hit 'Generate', and results will be copied to your clipboard.&lt;/p&gt;
+&lt;h2&gt;
+Deployment&lt;/h2&gt;
+&lt;p&gt;It's just a static HTML page, so serve it with any web server, CDN or static host.&lt;br&gt;
+There's a demo hosted on GH Pages, at: &lt;a href="https://lissy93.github.io/repo-badge-maker/"&gt;lissy93.github.io/repo-badge-maker&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;
+License&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;&lt;a href="https://github.com/Lissy93/repo-badge-maker"&gt;Lissy93/repo-badge-maker&lt;/a&gt;&lt;/strong&gt; is licensed under &lt;a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17"&gt;MIT&lt;/a&gt; © &lt;a href="https://aliciasykes.com"&gt;Alicia Sykes&lt;/a&gt; 2022.&lt;/em&gt;&lt;br&gt;
+&lt;sup&gt;For information, see &lt;a href="https://tldrlegal.com/license/mit-license"&gt;TLDR Legal &amp;gt; MIT&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+Expand License
+&lt;div class="snippet-clipboard-content notranslate position-relative overflow-auto"&gt;
+&lt;pre class="notranslate"&gt;&lt;code&gt;The MIT License (MIT)
+Copyright (c) Alicia Sykes &amp;lt;alicia@omg.com&amp;amp;gt
+Permission is hereby granted, free of charge, to&lt;/code&gt;&lt;/pre&gt;…&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;br&gt;
+  &lt;div class="gh-btn-container"&gt;&lt;a class="gh-btn" href="https://github.com/Lissy93/repo-badge-maker"&gt;View on GitHub&lt;/a&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/repo-badge-maker"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--VPee_IQV--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/stars/Lissy93/repo-badge-maker%3Fcolor%3D232323%26label%3Drepo-badge-maker%26logo%3Dgithub%26labelColor%3D232323" alt="View repo-badge-maker on GitHub" width="147" height="20"&gt;&lt;/a&gt; &lt;a href="https://github.com/Lissy93"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--br1jY6vC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/Lissy93-b820f9%3FlabelColor%3Db820f9%26logo%3Dgithubsponsors%26logoColor%3Dfff" alt="Author Lissy93" width="75" height="20"&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4&gt;
   
