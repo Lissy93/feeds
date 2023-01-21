@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `20 Jan 2023` - **[Lissy93 starred restic/restic](https://github.com/restic/restic)**
-- `20 Jan 2023` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/0cf0c9d351...cfd87296c9)**
-- `20 Jan 2023` - **[Lissy93 merged a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/149)**
-- `20 Jan 2023` - **[Lissy93 pushed to patch-1 in BrunoBernardino/awesome-privacy-1](https://github.com/BrunoBernardino/awesome-privacy-1/compare/eaf2951f62...0b7b2a91f3)**
-- `19 Jan 2023` - **[Lissy93 pushed to master in Lissy93/repo-badge-maker](https://github.com/Lissy93/repo-badge-maker/compare/9d067c0ec4...18dd093061)**
+- `21 Jan 2023` - **[Lissy93 pushed to master in Lissy93/repo-badge-maker](https://github.com/Lissy93/repo-badge-maker/compare/18dd093061...ea12a02751)**
+- `21 Jan 2023` - **[Lissy93 starred Lissy93/repo-badge-maker](https://github.com/Lissy93/repo-badge-maker)**
+- `21 Jan 2023` - **[Lissy93 closed a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/151)**
+- `21 Jan 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/4a5024ce26...ddd7c0f4be)**
+- `21 Jan 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1076)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
