@@ -1,0 +1,94 @@
+
+name: 📎 Link to Recent Updates
+
+on:
+  workflow_dispatch: # Manual dispatch
+  schedule:
+    - cron: '30 23 * * *' # At 23:30 each day
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3.3.0
+      - name: Notes Links
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          file: RECENT.md
+          max_entry: 5
+          allow_empty: true
+          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          url: https://raw.githubusercontent.com/Lissy93/feeds/main/blog.atom
+          start_flag: '<!-- blog-feed start -->'
+          end_flag: '<!-- blog-feed end -->'
+      - name: Reddit Links
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          file: RECENT.md
+          max_entry: 5
+          allow_empty: true
+          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          url: https://raw.githubusercontent.com/Lissy93/feeds/main/reddit.atom
+          start_flag: '<!-- reddit-feed start -->'
+          end_flag: '<!-- reddit-feed end -->'
+      - name: Mastodon Links
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          file: RECENT.md
+          max_entry: 5
+          allow_empty: true
+          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          url: https://raw.githubusercontent.com/Lissy93/feeds/main/mastodon.atom
+          start_flag: '<!-- mastodon-feed start -->'
+          end_flag: '<!-- mastodon-feed end -->'
+      - name: StackOverflow Links
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          file: RECENT.md
+          max_entry: 5
+          allow_empty: true
+          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          url: https://raw.githubusercontent.com/Lissy93/feeds/main/stackoverflow.atom
+          start_flag: '<!-- stackoverflow-feed start -->'
+          end_flag: '<!-- stackoverflow-feed end -->'
+      - name: GitHub Links
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          file: RECENT.md
+          max_entry: 5
+          allow_empty: true
+          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          url: https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom
+          start_flag: '<!-- github-feed start -->'
+          end_flag: '<!-- github-feed end -->'
+      - name: YouTube Links
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          file: RECENT.md
+          max_entry: 5
+          allow_empty: true
+          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          url: https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom
+          start_flag: '<!-- youtube-feed start -->'
+          end_flag: '<!-- youtube-feed end -->'
+      - name: DevTo Links
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          file: RECENT.md
+          max_entry: 5
+          allow_empty: true
+          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          url: https://raw.githubusercontent.com/Lissy93/feeds/main/dev-to.atom
+          start_flag: '<!-- dev-to-feed start -->'
+          end_flag: '<!-- dev-to-feed end -->'
+      - name: Blogger Links
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          file: RECENT.md
+          max_entry: 5
+          allow_empty: true
+          format: '- **[${title}](${url})** - `${day} ${monthshort} ${year}`'
+          url: https://raw.githubusercontent.com/Lissy93/feeds/main/blogger.atom
+          start_flag: '<!-- blogger-feed start -->'
+          end_flag: '<!-- blogger-feed end -->'
