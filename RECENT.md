@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `26 Jan 2023` - **[Lissy93 starred LazyVim/LazyVim](https://github.com/LazyVim/LazyVim)**
+- `26 Jan 2023` - **[Lissy93 pushed to master in Lissy93/uptime](https://github.com/Lissy93/uptime/compare/1393bac3d6...9873b4af56)**
 - `25 Jan 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/18c2af774d...adf56fa334)**
 - `25 Jan 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1048)**
 - `25 Jan 2023` - **[Lissy93 created a branch snyk-upgrade-b82f491ff3f21f764da9b55e3d408d9b in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/snyk-upgrade-b82f491ff3f21f764da9b55e3d408d9b)**
-- `25 Jan 2023` - **[Lissy93 pushed to snyk-upgrade-b82f491ff3f21f764da9b55e3d408d9b in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/18c2af774d...2c665f0c96)**
-- `23 Jan 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/a91a283f1b...18c2af774d)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
