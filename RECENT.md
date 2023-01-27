@@ -2,11 +2,11 @@
 
 ## Blog [![Notes - notes.aliciasykes.com](https://img.shields.io/badge/-Notes-262654?style=flat&logo=micro.blog&logoColor=white)](https://notes.aliciasykes.com "Personal Blog - notes.aliciasykes.com") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/blog.atom)
 <!-- blog-feed start -->
+- `27 Jan 2023` - **[20 Amazing Collections for Self-Taught Developers 🎓](https://notes.aliciasykes.com/42310/20-amazing-collections-for-self-taught-developers)**
 - `19 Jan 2023` - **[CLI tools you can't live without 🔧](https://notes.aliciasykes.com/41983/cli-tools-you-can-t-live-without)**
 - `17 Dec 2022` - **[20 Git Commands you (probably) didn't know 🧙‍♂️](https://notes.aliciasykes.com/41171/20-git-commands-you-probably-didn-t-know)**
 - ` 3 Dec 2022` - **[Super Useful CSS Resources 🌈](https://notes.aliciasykes.com/40638/super-useful-css-resources)**
 - `26 Nov 2022` - **[Generate Pretty Code / App Screenshots 📸](https://notes.aliciasykes.com/40473/generate-pretty-code-app-screenshots)**
-- `13 Nov 2022` - **[50+ Awesome Dev Tool Tips 🔥](https://notes.aliciasykes.com/40065/50-awesome-dev-tool-tips)**
 <!-- blog-feed end -->
 
 ## Reddit [![Reddit - u/lissy93](https://img.shields.io/badge/-Lissy93-ff4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/lissy93 "Reddit - u/lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/reddit.atom)
@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `26 Jan 2023` - **[Lissy93 starred LazyVim/LazyVim](https://github.com/LazyVim/LazyVim)**
-- `26 Jan 2023` - **[Lissy93 pushed to master in Lissy93/uptime](https://github.com/Lissy93/uptime/compare/1393bac3d6...9873b4af56)**
-- `25 Jan 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/18c2af774d...adf56fa334)**
-- `25 Jan 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1048)**
-- `25 Jan 2023` - **[Lissy93 created a branch snyk-upgrade-b82f491ff3f21f764da9b55e3d408d9b in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/snyk-upgrade-b82f491ff3f21f764da9b55e3d408d9b)**
+- `27 Jan 2023` - **[Lissy93 pushed to main in Lissy93/bullet-convertor](https://github.com/Lissy93/bullet-convertor/compare/2459efd027...de324740a4)**
+- `27 Jan 2023` - **[Lissy93 pushed to master in Lissy93/Lissy93](https://github.com/Lissy93/Lissy93/compare/f8bc43df52...cb6aaadee3)**
+- `27 Jan 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/adf56fa334...f731c0f755)**
+- `27 Jan 2023` - **[Lissy93 starred GitJournal/GitJournal](https://github.com/GitJournal/GitJournal)**
+- `27 Jan 2023` - **[Lissy93 starred neatnik/omg.lol](https://github.com/neatnik/omg.lol)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
