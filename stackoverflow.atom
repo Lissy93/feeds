@@ -4,7 +4,7 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2023-01-29T23:03:35Z</updated>
+    <updated>2023-01-30T23:03:42Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
@@ -428,6 +428,32 @@
         <summary type="html">&lt;p&gt;You need to create a new route, with a custom param regexp to catch all routes which haven&#x27;t been defined. You&#x27;ll also need to create a &lt;code&gt;NotFound&lt;/code&gt; component to be your 404 view.&lt;/p&gt;&#xA;&lt;h3&gt;Vue 3&lt;/h3&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;const routes: RouteConfig[] = [&#xA;  { path: &#x27;/&#x27;, name: &#x27;Home&#x27;, component: Home },&#xA;  { path: &#x27;/home&#x27;, redirect: &#x27;/&#x27; },&#xA;  { path: &#x27;/:pathMatch(.*)*&#x27;, name: &#x27;NotFound&#x27;, component: NotFound },&#xA;];&#xA;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3&gt;Vue 2&lt;/h3&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;export const new Router({&#xA;  routes: [&#xA;    ...&#xA;    {&#xA;      path: &#x27;*&#x27;,&#xA;      name: &#x27;404&#x27;,&#xA;      component: () =&amp;gt; import(&#x27;./views/404.vue&#x27;),&#xA;    },&#xA;  ]&#xA;});&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;</summary>
     </entry>
                <entry>
+        <id>https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will?cid=132848321</id>
+        <title type="text">Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will" />
+        <published>2023-01-30T15:07:20Z</published>
+        <updated>2023-01-30T15:07:20Z</updated>
+        <summary type="html">This should be possible to do with just pure CSS, no need for the JS. If you can share the rest of your code, that&amp;#39;d help us write an answer. But it&amp;#39;s probably going to be using flexbox, and flex wrap to make use of available space</summary>
+    </entry>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/75286188/unexpected-output-from-array-method?cid=132848223</id>
+        <title type="text">Comment by Lissy93 on Unexpected Output from Array() Method</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75286188/unexpected-output-from-array-method" />
+        <published>2023-01-30T15:03:11Z</published>
+        <updated>2023-01-30T15:03:11Z</updated>
+        <summary type="html">The output is &lt;code&gt;abcabcabc&lt;/code&gt; (so abc 3x times) - which is expected, because your passing in &lt;code&gt;3&lt;/code&gt;</summary>
+    </entry>
+
+               <entry>
         <id>https://stackoverflow.com/questions/57354001/how-to-focus-on-input-field-loaded-from-component-in-svelte/57355578?cid=132303963#57355578</id>
         <title type="text">Comment by Lissy93 on How to focus on input field loaded from component in Svelte?</title>
         <author>
@@ -594,32 +620,6 @@
         <published>2022-12-06T20:08:13Z</published>
         <updated>2022-12-06T20:08:13Z</updated>
         <summary type="html">You may have better luck in the &lt;a href=&quot;https://github.com/photonstorm/phaser/discussions&quot; rel=&quot;nofollow noreferrer&quot;&gt;Phaser Discussions&lt;/a&gt;, since this is about a specific framework</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74648804/loader-pops-up-and-hangs-when-there-is-a-form-error-on-page-submission?cid=131762357</id>
-        <title type="text">Comment by Lissy93 on Loader pops up and hangs when there is a form error on page submission</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74648804/loader-pops-up-and-hangs-when-there-is-a-form-error-on-page-submission" />
-        <published>2022-12-01T22:46:31Z</published>
-        <updated>2022-12-01T22:46:31Z</updated>
-        <summary type="html">Without a lot more context it&amp;#39;s quite hard to help, and the question is too broad for StackOverflow. I reccomend breaking it down into small steps. E.g. for checking that a text field is empty, see &lt;a href=&quot;https://stackoverflow.com/a/14659279/979052&quot;&gt;this answer&lt;/a&gt; :)</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74648804/loader-pops-up-and-hangs-when-there-is-a-form-error-on-page-submission?cid=131762282</id>
-        <title type="text">Comment by Lissy93 on Loader pops up and hangs when there is a form error on page submission</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74648804/loader-pops-up-and-hangs-when-there-is-a-form-error-on-page-submission" />
-        <published>2022-12-01T22:42:08Z</published>
-        <updated>2022-12-01T22:42:08Z</updated>
-        <summary type="html">Doesn&amp;#39;t look like you&amp;#39;ve got any error handling there yet.  Within that function (after submit button pressed), but before you show the loader, add some code which checks that the required fields are completed properly - if they are, show the loader, if they&amp;#39;re not show an error message.</summary>
     </entry>
 
 </feed>
