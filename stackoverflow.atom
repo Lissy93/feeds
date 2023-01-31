@@ -4,7 +4,7 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2023-01-30T23:03:42Z</updated>
+    <updated>2023-01-31T23:04:06Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
@@ -178,7 +178,7 @@
     </entry>
             <entry>
         <id>https://stackoverflow.com/questions/71873824/-/71876238#71876238</id>
-        <re:rank scheme="https://stackoverflow.com">50</re:rank>
+        <re:rank scheme="https://stackoverflow.com">51</re:rank>
         <title type="text">Answer by Lissy93 for Copy text to clipboard: Cannot read properties of undefined reading &#x27;writeText&#x27;</title>
         <author>
             <name>Lissy93</name>
@@ -428,6 +428,19 @@
         <summary type="html">&lt;p&gt;You need to create a new route, with a custom param regexp to catch all routes which haven&#x27;t been defined. You&#x27;ll also need to create a &lt;code&gt;NotFound&lt;/code&gt; component to be your 404 view.&lt;/p&gt;&#xA;&lt;h3&gt;Vue 3&lt;/h3&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;const routes: RouteConfig[] = [&#xA;  { path: &#x27;/&#x27;, name: &#x27;Home&#x27;, component: Home },&#xA;  { path: &#x27;/home&#x27;, redirect: &#x27;/&#x27; },&#xA;  { path: &#x27;/:pathMatch(.*)*&#x27;, name: &#x27;NotFound&#x27;, component: NotFound },&#xA;];&#xA;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3&gt;Vue 2&lt;/h3&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;export const new Router({&#xA;  routes: [&#xA;    ...&#xA;    {&#xA;      path: &#x27;*&#x27;,&#xA;      name: &#x27;404&#x27;,&#xA;      component: () =&amp;gt; import(&#x27;./views/404.vue&#x27;),&#xA;    },&#xA;  ]&#xA;});&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;</summary>
     </entry>
                <entry>
+        <id>https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will?cid=132857300</id>
+        <title type="text">Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will" />
+        <published>2023-01-30T23:56:14Z</published>
+        <updated>2023-01-30T23:56:14Z</updated>
+        <summary type="html">You don&amp;#39;t need to create new elements, all the overflow capabilities should be able to be handled with proper CSS.</summary>
+    </entry>
+
+               <entry>
         <id>https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will?cid=132848321</id>
         <title type="text">Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions</title>
         <author>
@@ -607,19 +620,6 @@
         <published>2022-12-07T15:33:36Z</published>
         <updated>2022-12-07T15:33:36Z</updated>
         <summary type="html">Try adding &lt;code&gt;{transform: [{scaleX: -1}]}&lt;/code&gt; to the container. I think you can also use the &lt;code&gt;autoPlayReverse&lt;/code&gt; prop too</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74708418/stop-animation-at-specific-frame?cid=131856980</id>
-        <title type="text">Comment by Lissy93 on Stop animation at specific frame?</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74708418/stop-animation-at-specific-frame" />
-        <published>2022-12-06T20:08:13Z</published>
-        <updated>2022-12-06T20:08:13Z</updated>
-        <summary type="html">You may have better luck in the &lt;a href=&quot;https://github.com/photonstorm/phaser/discussions&quot; rel=&quot;nofollow noreferrer&quot;&gt;Phaser Discussions&lt;/a&gt;, since this is about a specific framework</summary>
     </entry>
 
 </feed>
