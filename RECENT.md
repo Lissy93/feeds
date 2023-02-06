@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- ` 6 Feb 2023` - **[Lissy93 starred phoenixframework/phoenix](https://github.com/phoenixframework/phoenix)**
 - ` 5 Feb 2023` - **[Lissy93 starred gleam-lang/gleam](https://github.com/gleam-lang/gleam)**
 - ` 5 Feb 2023` - **[Lissy93 starred mhkeller/layercake](https://github.com/mhkeller/layercake)**
 - ` 5 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/4078c9da9f...bccb24041b)**
 - ` 5 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/a665855a7b...4078c9da9f)**
-- ` 5 Feb 2023` - **[Lissy93 made Lissy93/devolio public](https://github.com/Lissy93/devolio)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
