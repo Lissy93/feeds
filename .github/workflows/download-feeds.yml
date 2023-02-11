@@ -30,7 +30,7 @@ jobs:
           # fetch_feed "https://nitter.net/lissy_sykes/rss" "./twitter.atom"
           fetch_feed "https://nitter.unixfox.eu/Lissy_Sykes/rss" "./twitter.atom"
           fetch_feed "https://stackoverflow.com/feeds/user/979052" "./stackoverflow.atom"
-          fetch_feed "http://reddit.com/user/lissy93/submitted.rss" "./reddit.atom"
+          fetch_feed "https://reddit.com/user/lissy93/submitted.rss" "./reddit.atom"
           fetch_feed "https://mastodon.social/users/lissy93.rss" "./mastodon.atom"
           fetch_feed "https://www.youtube.com/feeds/videos.xml?channel_id=UCY_XiFwLImCn3arzomg8eRA" "./youtube.atom"
 
