@@ -22,16 +22,16 @@ jobs:
           url: https://raw.githubusercontent.com/Lissy93/feeds/main/blog.atom
           start_flag: '<!-- blog-feed start -->'
           end_flag: '<!-- blog-feed end -->'
-#      - name: Reddit Links
-#        uses: sarisia/actions-readme-feed@v1
-#        with:
-#          file: RECENT.md
-#          max_entry: 5
-#          allow_empty: true
-#          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
-#          url: https://raw.githubusercontent.com/Lissy93/feeds/main/reddit.atom
-#          start_flag: '<!-- reddit-feed start -->'
-#          end_flag: '<!-- reddit-feed end -->'
+      - name: Reddit Links
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          file: RECENT.md
+          max_entry: 5
+          allow_empty: true
+          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
+          url: https://raw.githubusercontent.com/Lissy93/feeds/main/reddit.atom
+          start_flag: '<!-- reddit-feed start -->'
+          end_flag: '<!-- reddit-feed end -->'
       - name: Mastodon Links
         uses: sarisia/actions-readme-feed@v1
         with:
