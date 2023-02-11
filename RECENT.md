@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `10 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/84ec8756ca...e5a3979871)**
-- `10 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/8e9e215bc5...84ec8756ca)**
-- ` 9 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/ec58465340...8e9e215bc5)**
-- ` 8 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/bccb24041b...ec58465340)**
-- ` 7 Feb 2023` - **[Lissy93 starred motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas)**
+- `11 Feb 2023` - **[Lissy93 pushed to main in Lissy93/feeds](https://github.com/Lissy93/feeds/compare/1b8a4826e4...4aaae993f1)**
+- `11 Feb 2023` - **[Lissy93 pushed to master in Lissy93/go-apod](https://github.com/Lissy93/go-apod/compare/498273f4dd...cb8d3cab1e)**
+- `11 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/eb8e95ae2a...1cfac86e45)**
+- `11 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/e5a3979871...eb8e95ae2a)**
+- `11 Feb 2023` - **[Lissy93 starred replydev/cotp](https://github.com/replydev/cotp)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
@@ -64,6 +64,21 @@
 
 ## Twitter [![Twitter - @Lissy_Sykes](https://img.shields.io/badge/-@Lissy_Sykes-00acee?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/Lissy_Sykes "Twitter - @Lissy_Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom)
 <!-- twitter-feed start -->
+- `19 Jan 2023` - **[Latest post is up, on #Dev 
+A big list of eipc CLI tools, that will make your life way easier (or at least, more colourful)
+Anything I'm missing?
+https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6 #Linux #developer](http://nitter.fdn.fr/Lissy_Sykes/status/1616104945362833408#m)**
+- `24 Dec 2022` - **[RT by @Lissy_Sykes: 20 Git Commands you (probably) didn't know about 🧙‍♂️
+
+https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o by @Lissy_Sykes 
+
+#Git #CLI #CommandLine](http://nitter.fdn.fr/nucliweb/status/1606581915859169280#m)**
+- `19 Dec 2022` - **[RT by @Lissy_Sykes: This post briefly outlines the top 10 neat tricks you can use to level up your logging experience.
+
+{ author: @Lissy_Sykes } #DEVCommunity #BestOfDEV2022 
+https://dev.to/lissy93/fun-with-consolelog-3i59](http://nitter.fdn.fr/ThePracticalDev/status/1604630845993656320#m)**
+- ` 9 Dec 2022` - **[http://PrivacyTests.org is by far the most comprehensive browser comparison site out there (in terms of privacy and security). If you've not already checked it out, I highly  recommend! 🔐✨](http://nitter.fdn.fr/Lissy_Sykes/status/1601301921750401025#m)**
+- ` 7 Dec 2022` - **[Thank you so much @bioinf_infosec 💖 :)](http://nitter.fdn.fr/Lissy_Sykes/status/1600476196415803392#m)**
 <!-- twitter-feed end -->
 
 
