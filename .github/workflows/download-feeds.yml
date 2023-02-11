@@ -28,6 +28,7 @@ jobs:
           fetch_feed "https://lissy93.blogspot.com/feeds/posts/default" "./blogger.atom"
           fetch_feed "https://github.com/lissy93.atom" "./github.atom"
           # fetch_feed "https://nitter.net/lissy_sykes/rss" "./twitter.atom"
+          fetch_feed "https://nitter.fdn.fr/Lissy_Sykes/rss" "./twitter.atom"
           fetch_feed "https://stackoverflow.com/feeds/user/979052" "./stackoverflow.atom"
           fetch_feed "http://reddit.com/user/lissy93/submitted.rss" "./reddit.atom"
           fetch_feed "https://mastodon.social/users/lissy93.rss" "./mastodon.atom"
