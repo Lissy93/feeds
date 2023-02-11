@@ -42,6 +42,16 @@ jobs:
           url: https://raw.githubusercontent.com/Lissy93/feeds/main/mastodon.atom
           start_flag: '<!-- mastodon-feed start -->'
           end_flag: '<!-- mastodon-feed end -->'
+      - name: Twitter Links
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          file: RECENT.md
+          max_entry: 5
+          allow_empty: true
+          format: '- `${2day} ${monthshort} ${year}` - **[${title}](${url})**'
+          url: https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom
+          start_flag: '<!-- twitter-feed start -->'
+          end_flag: '<!-- twitter-feed end -->'
       - name: StackOverflow Links
         uses: sarisia/actions-readme-feed@v1
         with:
