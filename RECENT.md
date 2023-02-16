@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `15 Feb 2023` - **[Lissy93 starred Fyrd/caniuse](https://github.com/Fyrd/caniuse)**
-- `13 Feb 2023` - **[Lissy93 pushed to master in Lissy93/intern-magnet](https://github.com/Lissy93/intern-magnet/compare/970dbdbf31...7abf338ecb)**
-- `13 Feb 2023` - **[Lissy93 pushed to dev in Lissy93/got-home-safe](https://github.com/Lissy93/got-home-safe/compare/59e877168b...d219f423e4)**
-- `12 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/d0b0f8b171...794fc9c2d9)**
-- `12 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/ddd9d934c2...d0b0f8b171)**
+- `16 Feb 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/e839ab2d77...5221bc3622)**
+- `16 Feb 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/acf411dc59...e839ab2d77)**
+- `16 Feb 2023` - **[Lissy93 starred Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)**
+- `16 Feb 2023` - **[Lissy93 starred borgbase/vorta](https://github.com/borgbase/vorta)**
+- `16 Feb 2023` - **[Lissy93 starred kubero-dev/kubero](https://github.com/kubero-dev/kubero)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
