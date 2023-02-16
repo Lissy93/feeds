@@ -4665,6 +4665,389 @@ img{ margin: 0 auto 0.25rem auto; background: #ffffff0a; border: 2px solid #00cc
 &lt;/p&gt;</description>
     </item>
     <item>
+      <title>Errors and Solutions 🤬➡️🥳</title>
+      <author>Alicia's Notes 🚀</author>
+      <pubDate>Thu, 25 Mar 2021 14:54:43 +0000</pubDate>
+      <link>https://notes.aliciasykes.com/24099/errors-and-solutions</link>
+      <guid>https://notes.aliciasykes.com/24099/errors-and-solutions</guid>
+      <description>&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;Common error messages, along with their solutions.&lt;br&gt;
+Saves me having to figure the same thing out twice.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Categories&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#linux"&gt;Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#web-development"&gt;Web Development&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#misc"&gt;Misc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;hr id="linux"&gt;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2&gt;Linux&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Error running a shell script with systemd: &lt;code class="prettyprint"&gt;Failed to execute command: Exec format error&lt;/code&gt;&lt;br&gt;
+✅ Solution: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Caused by missing shebang at  the start of the sh script&lt;/li&gt;
+&lt;li&gt;Add the correct hash band identifier, e.g. &lt;code class="prettyprint"&gt;#!/bin/bash&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Error: -bash: '\r': command not found&lt;br&gt;
+✅ Solution:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Caused by Windows-style newline character&lt;/li&gt;
+&lt;li&gt;Run &lt;code class="prettyprint"&gt;dos2unix&lt;/code&gt; over the file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Error with pakepkg: Cannot find the fakeroot binary&lt;br&gt;
+✅ Install the base-devel package group: &lt;code class="prettyprint"&gt;sudo pacman -S base-devel&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Yarn Error: There are no scenarios; must have at least one.&lt;br&gt;
+✅ Caused by the wrong yarn being installed, lol. Just remove it and reinstall it&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;sudo apt remove yarn&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;sudo apt update &amp;amp;&amp;amp; sudo apt install yarn&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ℹ️ Sources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://classic.yarnpkg.com/en/docs/install" rel="noopener nofollow" target="_blank"&gt;https://classic.yarnpkg.com/en/docs/install&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/yarnpkg/yarn/issues/2821" rel="noopener nofollow" target="_blank"&gt;https://github.com/yarnpkg/yarn/issues/2821&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ FAILED (unknown public key XXXXX) - One or more PGP signatures could not be verified&lt;br&gt;
+✅ Solution: Add the PGP public key to your keychain, &lt;code class="prettyprint"&gt;gpg --recv-key [key ID]&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Docker, Service failed to build: cgroups: cgroup mountpoint does not exist: unknown&lt;br&gt;
+✅ Temporary workaround:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;sudo mkdir /sys/fs/cgroup/systemd&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;sudo mount -t cgroup -o none,name=systemd cgroup /sys/fs/cgroup/systemd&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Cargo: Failed to parse lock file at: path/to/Cargo.lock&lt;/p&gt;
+
+&lt;p&gt;✅ This is often caused by using an older version of Cargo. &lt;code class="prettyprint"&gt;rustup&lt;/code&gt; can be used to update both Cargo and Rust to their latest versions. So just run: &lt;code class="prettyprint"&gt;rustup update stable&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Pacman: [package-name]: [/usr/share/path/to/pakage@latest/file.compiled] exists in filesystem&lt;/p&gt;
+
+&lt;p&gt;This is caused by a file already existing, and Pacman not being intended to replace files. It usually happens when you've installed something manually, or using a third-party package manager, and hence it is not being tracked by Pacman.&lt;/p&gt;
+
+&lt;p&gt;✅ Solutions:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update Mirrors&lt;/strong&gt;&lt;br&gt;
+Sometimes this can be fixed by simply updating the mirrors, with: &lt;br&gt;
+&lt;code class="prettyprint"&gt;sudo pacman-mirrors --fasttrack &amp;amp;&amp;amp; sudo pacman -Syyu&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Move / Remove Conflicting File&lt;/strong&gt;&lt;br&gt;
+If not, then you can identify which packages owns the offending file, with:&lt;br&gt;
+&lt;code class="prettyprint"&gt;pacman -Qo /path/to/file&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If the package is managed by Pacman, then you can move is with &lt;code class="prettyprint"&gt;pacman -R&lt;/code&gt;. &lt;/li&gt;
+&lt;li&gt;Or if it's not linked to anything then either move or remove the file manually (renaming the file to &lt;code class="prettyprint"&gt;*.backup&lt;/code&gt; will enable you to roll back if needed).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Overwrite Files&lt;/strong&gt;&lt;br&gt;
+Alternatively there's also an &lt;code class="prettyprint"&gt;--overwrite&lt;/code&gt; option, that will force Pacman to replace any conflicting files.  E.g. &lt;code class="prettyprint"&gt;sudo pacman -S [package-name] --overwrite '*'&lt;/code&gt;. This is useful when your local database has been "lost", causing every single installed package to throw a "conflicts" error.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;
+ℹ️ For more information, see:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bbs.archlinux.org/viewtopic.php?id=56373" rel="noopener nofollow" target="_blank"&gt;https://bbs.archlinux.org/viewtopic.php?id=56373&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://forum.manjaro.org/t/update-or-package-installation-returns-failed-to-commit-transaction-conflicting-files-filename-exists-in-filesystem/3598" rel="noopener nofollow" target="_blank"&gt;https://forum.manjaro.org/t/update-or-package-installation-returns-failed-to-commit-transaction-conflicting-files-filename-exists-in-filesystem/3598&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;A note for preventing this in the future&lt;/strong&gt;: When using a third-party installer, always specify an alternative installation location, e.g. &lt;code class="prettyprint"&gt;/home&lt;/code&gt;, &lt;code class="prettyprint"&gt;/opt&lt;/code&gt; or &lt;code class="prettyprint"&gt;/usr/local/&lt;/code&gt;. But never install directly under &lt;code class="prettyprint"&gt;/&lt;/code&gt; or &lt;code class="prettyprint"&gt;/usr&lt;/code&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Pacman error: failed retrieving file '_&lt;em&gt;' from _&lt;/em&gt;  Connection timed out after 10001 milliseconds&lt;/p&gt;
+
+&lt;p&gt;✅ Update mirrors: &lt;code class="prettyprint"&gt;sudo pacman-mirrors --country United_Kingdom&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Warning: High IOWait. Raspberry Pi 4, booted from a USB running incredibly slowly&lt;/p&gt;
+
+&lt;p&gt;✅ Run &lt;code class="prettyprint"&gt;lsusb -t&lt;/code&gt; if it shows &lt;code class="prettyprint"&gt;usb-storage&lt;/code&gt;, then UAS is not supported out of the box and you need to either enable it with quirks mode, or use a UAS-compatible drive.&lt;/p&gt;
+
+&lt;p&gt;ℹ️ More Info:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.raspberrypi.org/forums/viewtopic.php?f=28&amp;amp;t=245931" rel="noopener nofollow" target="_blank"&gt;https://www.raspberrypi.org/forums/viewtopic.php?f=28&amp;amp;t=245931&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711_bootloader_config.md" rel="noopener nofollow" target="_blank"&gt;https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711_bootloader_config.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Error: Using Powerlevel10k in ZSH on R Pi: &lt;code class="prettyprint"&gt;gitstatus failed to initialize&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;✅ Solution:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Caused by the binary for the gitstatusd module (used to show git into by P10K) not being available for the current architecture&lt;/li&gt;
+&lt;li&gt;There are two solutions:
+
+&lt;ul&gt;
+&lt;li&gt;Either manually compile the binary, and set &lt;code class="prettyprint"&gt;GITSTATUS_DAEMON=/path/to/gitstatusd&lt;/code&gt; in &lt;code class="prettyprint"&gt;~/.zshrc&lt;/code&gt;. See: &lt;a href="https://github.com/romkatv/gitstatus/blob/master/README.md#compiling" rel="noopener nofollow" target="_blank"&gt;https://github.com/romkatv/gitstatus/blob/master/README.md#compiling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Or, if you don't need git display, then just comment out &lt;code class="prettyprint"&gt;POWERLEVEL9K_LEFT_PROMPT_ELEMENTS&lt;/code&gt; from the &lt;code class="prettyprint"&gt;vcs&lt;/code&gt; section in &lt;code class="prettyprint"&gt;~/.p10k.zsh&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ℹ️ More Info:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/romkatv/gitstatus/issues/73#issuecomment-548046415" rel="noopener nofollow" target="_blank"&gt;https://github.com/romkatv/gitstatus/issues/73#issuecomment-548046415&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/romkatv/powerlevel10k/issues/246#issuecomment-765509082" rel="noopener nofollow" target="_blank"&gt;https://github.com/romkatv/powerlevel10k/issues/246#issuecomment-765509082&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ wget: WGETRC points to /home/user/.config/wget/wgetrc, which couldn't be accessed because of error: No such file or directory.&lt;br&gt;
+✅ Caused my missing config file, just: &lt;code class="prettyprint"&gt;mkdir -p ~/.config/wget/ &amp;amp;&amp;amp; touch ~/.config/wget/wgetrc&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ ".": Permission denied (os error 13)&lt;/p&gt;
+
+&lt;p&gt;✅ sudo chown -R $(whoami) ./&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ &lt;code class="prettyprint"&gt;/usr/lib/libc.so.6: version&lt;/code&gt;GLIBC_2.34' not found`&lt;/p&gt;
+
+&lt;p&gt;✅ &lt;code class="prettyprint"&gt;pacman -S glibc lib32-glibc&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Running ssh-add shows: &lt;code class="prettyprint"&gt;Error connecting to agent: Connection refused&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;✅ Start the SSH Agent, by running: &lt;code class="prettyprint"&gt;eval "$(ssh-agent)"&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Git error: only one config file at a time&lt;/p&gt;
+
+&lt;p&gt;✅ unset GIT_CONFIG&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;hr id="web-development"&gt;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2&gt;Web Development&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Flutter Web: No devices detected.&lt;br&gt;
+✅ Run &lt;code class="prettyprint"&gt;which [browser-name]&lt;/code&gt;, then store the path in &lt;code class="prettyprint"&gt;CHROME_EXECUTABLE&lt;/code&gt; environmental variable&lt;br&gt;
+E.g. in .zshrc: &lt;code class="prettyprint"&gt;export CHROME_EXECUTABLE="/opt/brave.com/brave/brave-browser"&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Node Sass does not yet support your current environment: Windows 64-bit with Unsupported runtime (88)&lt;br&gt;
+✅ Solution: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Caused by node-sass's binaries being built for a for a different architecture&lt;/li&gt;
+&lt;li&gt;To fix this, just run: &lt;code class="prettyprint"&gt;npm rebuild node-sass&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ TypeError: Cannot assign to read only property 'exports' of object '#' error&lt;br&gt;
+✅ Solution:&lt;p&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Caused by using CommonJS syntax instead of ES Modules&lt;/li&gt;
+&lt;li&gt;To fix it, just replace &lt;code class="prettyprint"&gt;module.exports = myFunc;&lt;/code&gt; with &lt;code class="prettyprint"&gt;export default myFunc;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Error: Cannot find module './_baseValues'&lt;/p&gt;
+
+&lt;p&gt;✅ Solution:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Clearing the cache fixed this: &lt;code class="prettyprint"&gt;yarn cache clean&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If the issue persists, remove (&lt;code class="prettyprint"&gt;rm -rf node_modules\ yarn.lock&lt;/code&gt;) and reinstall (&lt;code class="prettyprint"&gt;yarn&lt;/code&gt;) node_modules&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Error: Gatsby.js randomly decides that it cannot find a certain dependency&lt;br&gt;
+    - e.g.: &lt;code class="prettyprint"&gt;No files matching '\x\x\x\node_modules\@gatsbyjs\x\x\x.js' were found.&lt;/code&gt;&lt;br&gt;
+✅ Solution: Remove the cache and restart. &lt;code class="prettyprint"&gt;rm -rf .cache &amp;amp;&amp;amp; yarn develop&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ 'React' was used before it was defined&lt;br&gt;
+✅ Solution: Within .eslintrc under &lt;code class="prettyprint"&gt;rules&lt;/code&gt;, disable the base rule, and add a TypeScript specific rule&lt;br&gt;
+    - &lt;code class="prettyprint"&gt;"no-use-before-define": "off",&lt;/code&gt;&lt;br&gt;
+    - &lt;code class="prettyprint"&gt;"@typescript-eslint/no-use-before-define": ["error"]&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Error: Delete '␍' prettier/prettier&lt;br&gt;
+✅ Solution: &lt;br&gt;
+    - Either change VS Codes end of line sequence from LF to CRLF&lt;br&gt;
+    - Or add &lt;code class="prettyprint"&gt;endOfLine: 'auto'&lt;/code&gt; into .prettierrc&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ JSX not allowed in files with extension '.tsx'&lt;br&gt;
+✅ In &lt;code class="prettyprint"&gt;eslintrc&lt;/code&gt;, under the &lt;code class="prettyprint"&gt;rules&lt;/code&gt; section, add:&lt;br&gt;
+    - &lt;code class="prettyprint"&gt;'react/jsx-filename-extension': [2, { 'extensions': ['.js', '.jsx', '.ts', '.tsx'] }]&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Start/ end value has mixed support, consider using flex-end instead&lt;br&gt;
+✅ When using flexbox layout, replace &lt;code class="prettyprint"&gt;align-items: end;&lt;/code&gt; with &lt;code class="prettyprint"&gt;align-items: flex-end;&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Project published to GitHub pages using GitHub actions shows as a 404 (even though code is correct)&lt;br&gt;
+✅ This seems to be a known reliability issues for new sites, and the following things (for some reason) help:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ensure that none of your files and sub-folders begin with an &lt;code class="prettyprint"&gt;_&lt;/code&gt;, as GitHub / Jekyll ignores these&lt;/li&gt;
+&lt;li&gt;If you're not using Jekyll, then place a file called &lt;code class="prettyprint"&gt;.nojekyll&lt;/code&gt; in your projects root&lt;/li&gt;
+&lt;li&gt;Remember that URLs are case-sensitive, ensure it's typed correctly, and that you're using &lt;code class="prettyprint"&gt;https&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Check an older version is not cached, try clearing your site data, appending a string after &lt;code class="prettyprint"&gt;?&lt;/code&gt; in the URL, or use a different browser&lt;/li&gt;
+&lt;li&gt;Double check that GitHub pages is enabled, pointing to the correct branch, and that there are no errors in the Actions logs&lt;/li&gt;
+&lt;li&gt;Ensure your index.html is valid, has a doctype, e.g. &lt;code class="prettyprint"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;, and doesn't include any non UTF-8 special characters&lt;/li&gt;
+&lt;li&gt;Push an empty commit to trigger a rebuild: &lt;code class="prettyprint"&gt;git commit --allow-empty -m "Trigger rebuild" &amp;amp;&amp;amp; git push origin master&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If you bound your domain, before GH pages was deployed, then GitHub caches the broken domain, try removing and re-adding your domain&lt;/li&gt;
+&lt;li&gt;Try deleting and re-creating GH Pages branch: &lt;code class="prettyprint"&gt;git checkout gh-pages &amp;amp;&amp;amp; git push origin --delete gh-pages &amp;amp;&amp;amp; git push origin&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Wait for a few hours... Sometimes this issue just fixes itself&lt;/li&gt;
+&lt;li&gt;If nothing worked, then open a support ticket. This is a known issue with GitHub pages, and is usually quickly resolved by customer support from their end&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Npm Install global modules fails: Missing write access in mac to /usr/local/lib/node&lt;em&gt;modules&lt;br&gt;
+✅ Just update the permissions of global node&lt;/em&gt;modules&lt;br&gt;
+sudo chown -R $USER ~/.npm&lt;br&gt;
+sudo chown -R $USER /usr/lib/node&lt;em&gt;modules&lt;br&gt;
+sudo chown -R $USER /usr/local/lib/node&lt;/em&gt;modules&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ npm ERR! code UNABLE&lt;em&gt;TO&lt;/em&gt;GET&lt;em&gt;ISSUER&lt;/em&gt;CERT_LOCALLY&lt;br&gt;
+✅ Run: &lt;code class="prettyprint"&gt;npm config set registry http://registry.npmjs.org/&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Yarn Error: unable to get local issuer certificate&lt;br&gt;
+✅ yarn config set "strict-ssl" false -g&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;hr id="misc"&gt;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2&gt;Misc&lt;/h2&gt;
+
+&lt;p&gt;❌ Cargo error &lt;code class="prettyprint"&gt;no such subcommand: 'make'&lt;/code&gt;&lt;br&gt;
+✅ Just install cargo make: &lt;code class="prettyprint"&gt;cargo install --no-default-features --force cargo-make&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Error on Windows: error during connect: This error may indicate that the docker daemon is not running.: Get http://%2F%2F.%2Fpipe%2Fdocker&lt;em&gt;engine/v1.24/containers/json: open //./pipe/docker&lt;/em&gt;engine: The system cannot find the file specified.&lt;br&gt;
+✅ Solution:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Update the security permissions for the docker.exe file, to include "Users" (Right click --&amp;gt; Properties --&amp;gt; Security). This file is usually located in &lt;code class="prettyprint"&gt;C:\Program Files/Docker/Docker/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Then restart Docker: As admin, run &lt;code class="prettyprint"&gt;Net stop com.docker.service&lt;/code&gt; and &lt;code class="prettyprint"&gt;Net start com.docker.service&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also, ensure that you have the latest version of Docker installed, and WSL is set to version 2 (with &lt;code class="prettyprint"&gt;wsl --set-default-version 2&lt;/code&gt;)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Docker inspect throws error on Windows: Template parsing error: template: :1: unclosed action&lt;br&gt;
+✅ Double quotes are required for the JSON keys, e.g. &lt;code class="prettyprint"&gt;docker inspect --format="{{json .State.Health}}" my-container&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ VirtualBox in Windows shows error: &lt;code class="prettyprint"&gt;VERR_CPUM_RAISE_GP_0 with WSL2&lt;/code&gt;&lt;br&gt;
+✅ Solution:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;As admin, run: &lt;code class="prettyprint"&gt;bcdedit /set hypervisorlaunchtype off&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Then shutdown and restart the PC with &lt;code class="prettyprint"&gt;shutdown -s -t 2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Ngrok throws an error with react dev server: Invalid Host Header &lt;br&gt;
+✅ Add the -host-header flag, e.g. &lt;code class="prettyprint"&gt;ngrok http 8080 -host-header="localhost:8080"&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Gimp: Unable to apply Rounded Corners (Filters --&amp;gt; Décor --&amp;gt; xx)&lt;br&gt;
+✅ Solution:&lt;br&gt;
+    - Some filters cannot be used with an alpha layer.&lt;br&gt;
+    - Right-click on the current layer, and "Remove Alpha Channel"&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Ledger: Stuck on "Touch Security Key" using MetaMask on Windows with Ledger Nano X&lt;br&gt;
+✅ Solution:&lt;br&gt;
+    - First, allow contract data in transactions (within the Eth app on the Ledger device)&lt;br&gt;
+    - Disable Bluetooth, in order confirm transactions over USB (on Ledger's device Settings)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Ledger: On Linux, cannot detect device&lt;br&gt;
+✅ Solution: Install udev rules&lt;br&gt;
+    - wget -q -O - &lt;a href="https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh" rel="noopener nofollow" target="_blank"&gt;https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh&lt;/a&gt; | sudo bash&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Listed.to - Custom domain does not work, even when DNS records are all correct&lt;br&gt;
+✅ Ensure that DNS records are not proxied through Cloudflare's servers&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Standard Notes Linux - Unable to login, incorrect email and password even when correct&lt;br&gt;
+✅ Manually update the app to the latest version&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ Flutter Web - No devices found&lt;/p&gt;
+
+&lt;p&gt;✅ If you don't have Chrome installed, then you can use Chromium or any other Chromium-based browser instead. You'll need to set the &lt;code class="prettyprint"&gt;CHROME_EXECUTABLE&lt;/code&gt; environmental variable to point to it's executable so that Flutter can launch it.&lt;br&gt;
+E.g. &lt;code class="prettyprint"&gt;export CHROME_EXECUTABLE=/usr/bin/brave&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;style&gt;p{margin-bottom: 0 !important;} ul{margin-top: 0 !important;}&lt;/style&gt;
+&lt;/p&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Quick How-To Guides 💫</title>
       <author>Alicia's Notes 🚀</author>
       <pubDate>Wed, 17 Mar 2021 20:05:24 +0000</pubDate>
