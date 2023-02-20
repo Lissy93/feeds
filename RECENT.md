@@ -2,11 +2,11 @@
 
 ## Blog [![Notes - notes.aliciasykes.com](https://img.shields.io/badge/-Notes-262654?style=flat&logo=micro.blog&logoColor=white)](https://notes.aliciasykes.com "Personal Blog - notes.aliciasykes.com") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/blog.atom)
 <!-- blog-feed start -->
+- `20 Feb 2023` - **[SvelteKit 1.0 - Building a Blog that fetches from RSS 🦄](https://notes.aliciasykes.com/42764/sveltekit-1-0-building-a-blog-that-fetches-from-rss)**
 - `27 Jan 2023` - **[20 Amazing Collections for Self-Taught Developers 🎓](https://notes.aliciasykes.com/42310/20-amazing-collections-for-self-taught-developers)**
 - `19 Jan 2023` - **[CLI tools you can't live without 🔧](https://notes.aliciasykes.com/41983/cli-tools-you-can-t-live-without)**
 - `17 Dec 2022` - **[20 Git Commands you (probably) didn't know 🧙‍♂️](https://notes.aliciasykes.com/41171/20-git-commands-you-probably-didn-t-know)**
 - ` 3 Dec 2022` - **[Super Useful CSS Resources 🌈](https://notes.aliciasykes.com/40638/super-useful-css-resources)**
-- `26 Nov 2022` - **[Generate Pretty Code / App Screenshots 📸](https://notes.aliciasykes.com/40473/generate-pretty-code-app-screenshots)**
 <!-- blog-feed end -->
 
 ## Reddit [![Reddit - u/lissy93](https://img.shields.io/badge/-Lissy93-ff4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/lissy93 "Reddit - u/lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/reddit.atom)
@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `19 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/1d594b302d...d8cdfef3d5)**
-- `19 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/a19af9de19...a13e68b963)**
-- `19 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/9e76f516b5...a19af9de19)**
-- `19 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/262451aa22...9e76f516b5)**
-- `19 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/27fd8d12bf...262451aa22)**
+- `20 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/15fd9725a0...35e5c6a675)**
+- `20 Feb 2023` - **[Lissy93 starred sharkdp/fd](https://github.com/sharkdp/fd)**
+- `20 Feb 2023` - **[Lissy93 starred Lissy93/devolio](https://github.com/Lissy93/devolio)**
+- `20 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/20348f8ea9...15fd9725a0)**
+- `20 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/d8cdfef3d5...20348f8ea9)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
@@ -46,11 +46,11 @@
 
 ## Dev.to [![Dev.to - @Lissy93](https://img.shields.io/badge/-Lissy93-a75fff?style=flat&logo=Dev.to&logoColor=white)](https://dev.to/lissy93 "Dev.to - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/dev-to.atom)
 <!-- dev-to-feed start -->
+- `20 Feb 2023` - **[SvelteKit 1.0 - Build an blog, fetching posts from your DEV profile 🦄](https://dev.to/lissy93/sveltekit-10-build-an-blog-fetching-posts-from-your-dev-profile-29f)**
 - `19 Jan 2023` - **[CLI tools you won't be able to live without 🔧](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)**
 - `18 Dec 2022` - **[20 Git Commands you (probably) didn't know about 🧙‍♂️](https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o)**
 - ` 3 Dec 2022` - **[Super Useful CSS Resources 🌈](https://dev.to/lissy93/super-useful-css-resources-1ba3)**
 - `20 Nov 2022` - **[Fun with console.log() 💿](https://dev.to/lissy93/fun-with-consolelog-3i59)**
-- `14 Nov 2022` - **[Awesome Dev Tool Tips 🔥](https://dev.to/lissy93/awesome-dev-tool-tips-32oo)**
 <!-- dev-to-feed end -->
 
 ## Blogger [![Blogger - Lissy93](https://img.shields.io/badge/-Lissy93-FF5722?style=flat&logo=blogger&logoColor=white)](https://lissy93.blogspot.com/ "Blogger - Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/blogger.atom)
