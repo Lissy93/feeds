@@ -7,6 +7,499 @@
     <link>http://aliciasykes.com</link>
     <language>en</language>
     <item>
+      <title>SvelteKit 1.0 - Building a Blog that fetches from RSS 🦄</title>
+      <author>Alicia's Notes 🚀</author>
+      <pubDate>Mon, 20 Feb 2023 22:10:08 +0000</pubDate>
+      <link>https://notes.aliciasykes.com/42764/sveltekit-1-0-building-a-blog-that-fetches-from-rss</link>
+      <guid>https://notes.aliciasykes.com/42764/sveltekit-1-0-building-a-blog-that-fetches-from-rss</guid>
+      <description>&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;The aim of this post is to provide a whistle-stop tour of the latest version of SvelteKit. We're going to build a developer portfolio and blog website, that fetches data from your RSS feed, as well as the GitHub API.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#intro-to-sveltekit"&gt;Intro to SvelteKit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#what-were-going-to-build"&gt;What we're going to build&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lets-get-started"&gt;Let's get Started!&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#step-0-prerequisites"&gt;Step #0 - Prerequisites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#step-1-project-setup"&gt;Step #1 - Project Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#step-2-finish-setup"&gt;Step #2 - Finish Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#step-3-components"&gt;Step #3 - Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#step-4-creating-a-route"&gt;Step #4 - Creating a Route&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#step-5-special-routes"&gt;Step #5 - Special Routes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#step-6-fetching-data"&gt;Step #6 - Fetching Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#step-7-render-results"&gt;Step #7 - Render Results&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#step-8-serverside"&gt;Step #8 - Server-Side&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#step-9-build-the-post-page"&gt;Step #9 - The Post Route&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#step-10-deploy"&gt;Step #10 - Deploy!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#the-project"&gt;The Final Project&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#blog-page-fetched-from-rss"&gt;Blog Page (fetched from RSS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#projects-page-fetched-from-github"&gt;Projects Page (fetched from GitHub)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#social-media-links-stats-fetched-from-apis"&gt;Social Media Links (stats fetched from APIs)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Intro to SvelteKit&lt;/h2&gt;
+
+&lt;p&gt;Svelte has pretty quickly taken the top spot for most loved web framework &lt;sup&gt;&lt;a href="https://insights.stackoverflow.com/survey/2021#web-frameworks" rel="noopener nofollow" target="_blank"&gt;[SO Survey]&lt;/a&gt;&lt;/sup&gt;, and with the recent release of SvelteKit 1.0, you should expect to see demand for Svelte + SvelteKit developers increase, as more projects adopt it.&lt;/p&gt;
+
+&lt;p&gt;SvelteKit to Svelte, is sort of like what Next.js is to React - it handles routing, layouts, server-side rendering, deployment and makes developing quality web apps quicker, easier and much more fun.&lt;/p&gt;
+
+&lt;p&gt;But why SvekteKit? ... You'll see! It's just so easy to get a fully-featured dynamic web application up and running, with all the quality metrics which would usually take days, or even weeks to implement in traditional frameworks. Think great performance, simple deployments, easy code structures and a sweet sweet developer experience.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;What we're going to build&lt;/h2&gt;
+
+&lt;p&gt;Most of us have a blog, weather it's here on Dev.to, or on another platform. Today we're going to build and deploy you a personal blog, that aggregates all your posts from other platforms, into a single site.&lt;/p&gt;
+
+&lt;p&gt;Since I don't know what blogging platforms you're using, I don't want to rely on individual APIs. But thankfully there's a simple solution to this - RSS! Almost all modern (and old) providers support RSS, and it'll let us easily fetch all your posts from a single URL. (For example, here on DEV: &lt;code class="prettyprint"&gt;https://dev.to/feed/[your-username]&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Here's a live demo: &lt;strong&gt;&lt;a href="https://devolio.netlify.app/blog" rel="noopener nofollow" target="_blank"&gt;devolio.netlify.app/blog&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And here's the full source: &lt;strong&gt;&lt;a href="https://github.com/Lissy93/devolio" rel="noopener nofollow" target="_blank"&gt;@Lissy93/Devolio&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To deploy it yourself - just fork it, update the config with your RSS feed URL(s), and use one of the 1-click deploy options.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Let's get Started!&lt;/h2&gt;
+
+&lt;h3&gt;Step #0 - Prerequisites&lt;/h3&gt;
+
+&lt;p&gt;You'll need &lt;a href="https://nodejs.org/en/" rel="noopener nofollow" target="_blank"&gt;Node.js&lt;/a&gt; (LTS or latest) installed. It's also recommended to have &lt;a href="https://git-scm.com/" rel="noopener nofollow" target="_blank"&gt;Git&lt;/a&gt;, a code editor (like &lt;a href="https://code.visualstudio.com/" rel="noopener nofollow" target="_blank"&gt;VS Code&lt;/a&gt;), and access to a terminal. Alternatively, you can use a cloud service, like &lt;a href="https://github.com/codespaces/" rel="noopener nofollow" target="_blank"&gt;Codespaces&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Step #1 - Project Setup&lt;/h3&gt;
+
+&lt;p&gt;We can easily create our project by running:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;npm create svelte@latest dev-blog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;When prompted, select SvelteKit, then decide weather you'd like TypeScript, ESLint, Prettier, Playwright, Vitest.&lt;/p&gt;
+
+&lt;p&gt;Next, we need to navigate into our project (with &lt;code class="prettyprint"&gt;cd dev-blog&lt;/code&gt;), and install dependencies (with &lt;code class="prettyprint"&gt;npm install&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;To launch the app, with live reload enabled, run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;npm run dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then open &lt;a href="http://localhost:5173/" rel="noopener nofollow" target="_blank"&gt;localhost:5173&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Step #2 - Finish Setup&lt;/h3&gt;
+
+&lt;p&gt;To avoid the typical ugly &lt;code class="prettyprint"&gt;../../../&lt;/code&gt; in import statements, we're going to add an alias within our &lt;code class="prettyprint"&gt;svelte.config.js&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;p&gt;This can be done by just adding &lt;code class="prettyprint"&gt;alias&lt;/code&gt; object under &lt;code class="prettyprint"&gt;config.sveltekit&lt;/code&gt;. Here's an example, where I'll map &lt;code class="prettyprint"&gt;./src/&lt;/code&gt; to &lt;code class="prettyprint"&gt;$src&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;adapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-auto&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;vitePreprocess&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/kit/vite&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="cm"&gt;/** @type {import('@sveltejs/kit').Config} */&lt;/span&gt;
+&lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;config&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="na"&gt;preprocess&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;vitePreprocess&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt;
+  &lt;span class="na"&gt;kit&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="na"&gt;adapter&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;adapter&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt;
+    &lt;span class="na"&gt;alias&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;$src/*&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;src/*&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+  &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+
+&lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt; &lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We can come back to the svelte.config file later, as it's where we put adaptors to deploy to various platforms, like Netlify.&lt;/p&gt;
+
+&lt;p&gt;If you'd like to use your own Prettier, ESLint or TypeScript config, you can update &lt;code class="prettyprint"&gt;.prettierrc&lt;/code&gt;, &lt;code class="prettyprint"&gt;.eslintrc.cjsprett&lt;/code&gt; and &lt;code class="prettyprint"&gt;tsconfig.json&lt;/code&gt; respectively. Run &lt;code class="prettyprint"&gt;npm run format&lt;/code&gt; to apply Prettier rules, and &lt;code class="prettyprint"&gt;npm run check&lt;/code&gt; to verify.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Step #3 - Components&lt;/h3&gt;
+
+&lt;p&gt;Before we proceed, we need to know the basics of components.&lt;br&gt;
+One of the reason that Svelte (and SvelteKit) is so easy to work with, is because pretty much everything is just a component. And the structure of components are really, really simple. Here's an example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+&lt;span class="c1"&gt;// All JavaScript logic and imports go here&lt;/span&gt;
+&lt;span class="c1"&gt;// Append lang="ts" to use TypeScript&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class="c"&gt;&amp;lt;!-- All markup goes here --&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Example Component&lt;span class="nt"&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+&lt;span class="o"&gt;//&lt;/span&gt; &lt;span class="nt"&gt;All&lt;/span&gt; &lt;span class="nt"&gt;styles&lt;/span&gt; &lt;span class="nt"&gt;go&lt;/span&gt; &lt;span class="nt"&gt;here&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;and&lt;/span&gt; &lt;span class="nt"&gt;are&lt;/span&gt; &lt;span class="nt"&gt;scoped&lt;/span&gt; &lt;span class="nt"&gt;to&lt;/span&gt; &lt;span class="nt"&gt;the&lt;/span&gt; &lt;span class="nt"&gt;current&lt;/span&gt; &lt;span class="nt"&gt;component&lt;/span&gt;
+&lt;span class="o"&gt;//&lt;/span&gt; &lt;span class="nt"&gt;Append&lt;/span&gt; &lt;span class="nt"&gt;lang&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;"scss"&lt;/span&gt; &lt;span class="nt"&gt;to&lt;/span&gt; &lt;span class="nt"&gt;use&lt;/span&gt; &lt;span class="nt"&gt;SCSS&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;or&lt;/span&gt; &lt;span class="nt"&gt;another&lt;/span&gt; &lt;span class="nt"&gt;pre-processor&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="no"&gt;hotpink&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here's a real-world example, where we're making a re-usable heading component, with optional level (h1, h2, etc), color, size and font.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Parameters&lt;/span&gt;
+&lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;level&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h1&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h2&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h3&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h4&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h5&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h6&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h1&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;// The semantic heading level&lt;/span&gt;
+&lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;string&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;// An optional override color (defaults to accent)&lt;/span&gt;
+&lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;string&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;// An optional override size (default depends on level)&lt;/span&gt;
+&lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;font&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;string&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;// An optional override font (defaults to FiraCode)&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Computed values, for reactivity&lt;/span&gt;
+&lt;span class="nl"&gt;$&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;computedColor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;color&lt;/span&gt; &lt;span class="p"&gt;?&lt;/span&gt; &lt;span class="s2"&gt;`--headingColor: &lt;/span&gt;&lt;span class="p"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;color&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;;`&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="dl"&gt;''&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nl"&gt;$&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;computedSize&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;size&lt;/span&gt; &lt;span class="p"&gt;?&lt;/span&gt; &lt;span class="s2"&gt;`--headingSize: &lt;/span&gt;&lt;span class="p"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;size&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;;`&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="dl"&gt;''&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nl"&gt;$&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;computedFont&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;font&lt;/span&gt; &lt;span class="p"&gt;?&lt;/span&gt; &lt;span class="s2"&gt;`--headingFont: &lt;/span&gt;&lt;span class="p"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;font&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;;`&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="dl"&gt;''&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nl"&gt;$&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;computedStyles&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;`&lt;/span&gt;&lt;span class="p"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;computedColor&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; &lt;/span&gt;&lt;span class="p"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;computedSize&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; &lt;/span&gt;&lt;span class="p"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;computedFont&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;`&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;svelte:element&lt;/span&gt; &lt;span class="na"&gt;this=&lt;/span&gt;&lt;span class="s"&gt;{level}&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;{computedStyles}&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;slot&amp;gt;&amp;lt;/slot&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/svelte:element&amp;gt;&lt;/span&gt;
+
+
+&lt;span class="nt"&gt;&amp;lt;style &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"scss"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;h3&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;h4&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;h5&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;h6&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;font-weight&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;700&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;transition&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="m"&gt;.25s&lt;/span&gt; &lt;span class="n"&gt;ease-in-out&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--headingFont&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--headingColor&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+
+  &lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;h3&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nl"&gt;margin&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;1rem&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="nt"&gt;h4&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;h5&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;h6&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nl"&gt;margin&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;0.5rem&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+
+  &lt;span class="nt"&gt;h1&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--headingSize&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;2.8rem&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="nt"&gt;h2&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--headingSize&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;2rem&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="nt"&gt;h3&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--headingSize&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1.75rem&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="nt"&gt;h4&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--headingSize&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1.5rem&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="nt"&gt;h5&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--headingSize&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1.25rem&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="nt"&gt;h6&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--headingSize&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1rem&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Couple of things to note:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We are defining props with &lt;code class="prettyprint"&gt;export let propName&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;We can make props optional, by giving them a default value&lt;/li&gt;
+&lt;li&gt;We can access any of these variables within our component, just surround them in braces &lt;code class="prettyprint"&gt;{}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If we need attributes to be reactive, we use the &lt;code class="prettyprint"&gt;$: variabeName&lt;/code&gt; syntax&lt;/li&gt;
+&lt;li&gt;We can specify what type of semantic element is used, with &lt;code class="prettyprint"&gt;&amp;lt;svelte:element this="div"&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;A method of passing styles from JS into CSS is to define CSS variables, and pass them into the style prop
+
+&lt;ul&gt;
+&lt;li&gt;(This isn't as bad as it sounds, as all styles are scoped only to the current component!)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Step #4 - Creating a Route&lt;/h3&gt;
+
+&lt;p&gt;Next we're going to create a blog page, where all our posts will be displayed. (This could be done on the homepage, in &lt;code class="prettyprint"&gt;src/routes/+page.svelte&lt;/code&gt;, but this is a good opportunity to explain routeing)&lt;/p&gt;
+
+&lt;p&gt;SvelteKit will automatically create routes based on the directory structure within the &lt;code class="prettyprint"&gt;routes&lt;/code&gt; directory. All you need is a directory named after the route name, containing a Svelte file names &lt;code class="prettyprint"&gt;+page.svelte&lt;/code&gt;. So let's create that route, with: &lt;code class="prettyprint"&gt;touch src/routes/blog/+page.svelte&lt;/code&gt; - the contents of this file will just be a normal Svelte component, like what we saw above.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;title&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;Blog Page&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;svelte:head&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;title&amp;gt;&lt;/span&gt;{title}&lt;span class="nt"&gt;&amp;lt;/title&amp;gt;&lt;/span&gt; 
+&lt;span class="nt"&gt;&amp;lt;/svelte:head&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;{title}&lt;span class="nt"&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;style &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"scss"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;h2&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="no"&gt;hotpink&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We'll also need a route that can render individual posts, but we want that URL path to be dynamic, maybe based on the posts title. For this we can create a directory called &lt;code class="prettyprint"&gt;[slug]&lt;/code&gt; that the user will land on when they visit &lt;code class="prettyprint"&gt;example.com/blog/example-post&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Step #5 - Special Routes&lt;/h3&gt;
+
+&lt;p&gt;Now's a good time to mention that we can have our routed inherit certain components that will appear on all pages, like a navbar and footer. For this, we can create a layout file, which needs to be called &lt;code class="prettyprint"&gt;+layout.svelte&lt;/code&gt;, and since we want this on all pages, we'll put it into &lt;code class="prettyprint"&gt;src/routes&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Populate this with something like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;NavBar&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;$src/components/NavBar.svelte&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;Footer&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;$src/components/Footer.svelte&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;fade&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;svelte/transition&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;page&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;$app/stores&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;svelte:head&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;title&amp;gt;&lt;/span&gt;{$page.url.pathname.replaceAll('-', ' ')}&lt;span class="nt"&gt;&amp;lt;/title&amp;gt;&lt;/span&gt; 
+&lt;span class="nt"&gt;&amp;lt;/svelte:head&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;NavBar&lt;/span&gt; &lt;span class="nt"&gt;/&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;main&lt;/span&gt; &lt;span class="na"&gt;in:fade&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;slot&lt;/span&gt; &lt;span class="nt"&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/main&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;Footer&lt;/span&gt; &lt;span class="nt"&gt;/&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;style &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"scss"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="k"&gt;@import&lt;/span&gt; &lt;span class="s1"&gt;"$src/styles/color-palette.scss"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="k"&gt;@import&lt;/span&gt; &lt;span class="s1"&gt;"$src/styles/media-queries.scss"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="k"&gt;@import&lt;/span&gt; &lt;span class="s1"&gt;"$src/styles/typography.scss"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="k"&gt;@import&lt;/span&gt; &lt;span class="s1"&gt;"$src/styles/dimensions.scss"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+  &lt;span class="nd"&gt;:global&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="py"&gt;scroll-behavior&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;smooth&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="nd"&gt;:global&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nd"&gt;::selection&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;background-color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--accent&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--background&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A couple of things to note here:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The main site content will be rendered where &lt;code class="prettyprint"&gt;&amp;lt;slot /&amp;gt;&lt;/code&gt; is placed&lt;/li&gt;
+&lt;li&gt;We're adding a page transition animation, by importing &lt;code class="prettyprint"&gt;svelte/transition&lt;/code&gt; and setting &lt;code class="prettyprint"&gt;in:fade&lt;/code&gt; on the part of the page which will change&lt;/li&gt;
+&lt;li&gt;We can get information about the current page (like path), by using the &lt;code class="prettyprint"&gt;page&lt;/code&gt; object (imported from &lt;code class="prettyprint"&gt;$app/stores&lt;/code&gt;) - precede it with a &lt;code class="prettyprint"&gt;$&lt;/code&gt; to keep the value updated&lt;/li&gt;
+&lt;li&gt;If we need to set any tags within the &lt;code class="prettyprint"&gt;&amp;lt;head&amp;gt;&lt;/code&gt; we can use &lt;code class="prettyprint"&gt;&amp;lt;svelte:head&amp;gt;&lt;/code&gt; to do so&lt;/li&gt;
+&lt;li&gt;We can also pop any global style, like a reset or import CSS variables&lt;/li&gt;
+&lt;li&gt;Global styles can be applied using &lt;code class="prettyprint"&gt;:global(body)&lt;/code&gt; (or whatever selector you're targeting) - but use this sparingly!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Another special route within SvelteKit, is &lt;code class="prettyprint"&gt;+error.svelte&lt;/code&gt;, which will be rendered in place of the current route if an error is thrown within the &lt;code class="prettyprint"&gt;load()&lt;/code&gt; function of any route.&lt;/p&gt;
+
+&lt;p&gt;Again, let's create that file in &lt;code class="prettyprint"&gt;src/routes/+error.svelte&lt;/code&gt; and populate it with something like this. (Again, we can get info about the current route, including error code from the &lt;code class="prettyprint"&gt;$page&lt;/code&gt; object)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+    &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;page&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;$app/stores&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+    &lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;emojis&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="c1"&gt;// TODO add the rest!&lt;/span&gt;
+        &lt;span class="mi"&gt;404&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;🧱&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="mi"&gt;420&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;🫠&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="mi"&gt;500&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;💥&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;
+    &lt;span class="p"&gt;};&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;{$page.status} {$page.error.message}&lt;span class="nt"&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;"font-size: 10em"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+    {emojis[$page.status] ?? emojis[500]}
+&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It's also worth noting, that you can create layout and error pages that are specific to certain routes, by nesting them within the correct route directory. If you need several layout pages, which share characteristics, you can extract those elements out into their own component, to make them more reusable.&lt;/p&gt;
+
+&lt;p&gt;By now, our routes directory structure should look something like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;src/routes
+├── +error.svelte
+├── +layout.svelte
+├── +page.svelte
+├── about
+│  └── +page.svelte
+└── blog
+   ├── +page.svelte
+   ├── +page.ts
+   └── [slug]
+      ├── +page.svelte
+      └── +page.ts
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Step #6 - Fetching Data&lt;/h3&gt;
+
+&lt;p&gt;Now it's time to get into the good stuff! We're going to fetch the list of blog posts, from the users RSS feed.&lt;/p&gt;
+
+&lt;p&gt;Now is a good time to mention, that within the path directory for each route, we can also have a &lt;code class="prettyprint"&gt;+page.js&lt;/code&gt; / &lt;code class="prettyprint"&gt;+page.ts&lt;/code&gt; file (alongside the &lt;code class="prettyprint"&gt;+page.svelte&lt;/code&gt;). This is where we'll do our data fetching. &lt;/p&gt;
+
+&lt;p&gt;To keep things simple, we're going to use &lt;a href="https://www.npmjs.com/package/fast-xml-parser" rel="noopener nofollow" target="_blank"&gt;fast-xml-parser&lt;/a&gt; to parse the XML response, into JSON.&lt;/p&gt;
+
+&lt;p&gt;The following script simply fetches and parses feeds from a given XML RSS feed.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;XMLParser&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;fast-xml-parser&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;parseXml&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;rawRssData&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;parser&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nx"&gt;XMLParser&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+  &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;parser&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;parse&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;rawRssData&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+
+&lt;span class="cm"&gt;/** @type {import('./$types').PageLoad} */&lt;/span&gt;
+&lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;load&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;RSS_URL&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;`https://notes.aliciasykes.com/feed`&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;posts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;fetch&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;RSS_URL&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;then&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nx"&gt;response&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;response&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;text&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;then&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nx"&gt;rawXml&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;parseXml&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;rawXml&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;rss&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;channel&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;item&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+  &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;posts&lt;/span&gt; &lt;span class="p"&gt;};&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Step #7 - Render Results&lt;/h3&gt;
+
+&lt;p&gt;Rendering the results from the returned data is really easy. In the &lt;code class="prettyprint"&gt;blog/+page.svelte&lt;/code&gt; component (next to the &lt;code class="prettyprint"&gt;+page.ts&lt;/code&gt; file), simply include &lt;code class="prettyprint"&gt;export let data&lt;/code&gt; - this will be the result returned by our fetch function. We can now reference this data in the markup.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="cm"&gt;/** @type {import('./$types').PageData} */&lt;/span&gt;
+  &lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;data&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+Blog
+
+{#each data.posts as post}
+  &lt;span class="nt"&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;target=&lt;/span&gt;&lt;span class="s"&gt;"_blank"&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;{post.link}&lt;/span&gt; &lt;span class="na"&gt;rel=&lt;/span&gt;&lt;span class="s"&gt;"noreferrer"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+      {post.title}
+    &lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+{/each}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You'll notice we're using &lt;code class="prettyprint"&gt;{#each data.posts as post}&lt;/code&gt; - this is just a for loop, as the data returned is an array.&lt;/p&gt;
+
+&lt;p&gt;This is part of Svelte's &lt;a href="https://svelte.dev/docs#template-syntax" rel="noopener nofollow" target="_blank"&gt;template syntax&lt;/a&gt;. There are other properties also, like &lt;code class="prettyprint"&gt;{#if expression}...{/if}&lt;/code&gt; for conditionals, or &lt;code class="prettyprint"&gt;{#await expression}...{:then name}...{/await}&lt;/code&gt; for promises, as well as a whole host of other useful features.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Step #8 - Server-Side&lt;/h3&gt;
+
+&lt;p&gt;What we've got so far works great, but there are a few issues we may encounter with it:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Load times - RSS feeds are large, and fetching them client-side on each load isn't efficient&lt;/li&gt;
+&lt;li&gt;SEO - Dynamically loaded content isn't going to be crawlable by most search engine bots&lt;/li&gt;
+&lt;li&gt;CORS - Some RSS feeds won't allow client-side requests from cross-origin hosts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thankfully, there's an easy fix for this. Renaming &lt;code class="prettyprint"&gt;+page.ts&lt;/code&gt; to &lt;code class="prettyprint"&gt;+page.server.ts&lt;/code&gt; will cause it to be rendered server-side, instead of on the users browser. This should fix those issues, and won't require any code changes. &lt;/p&gt;
+
+&lt;p&gt;Note that for server-side code, we cannot use any of the browser APIs. Since a lot of our code will be capable of being run both server and client-side, we will need to check certain features are available before attempting to use them. We can do this, by importing &lt;code class="prettyprint"&gt;browser&lt;/code&gt; from &lt;code class="prettyprint"&gt;$app/environment&lt;/code&gt;, then using &lt;code class="prettyprint"&gt;if (browser) { /* Can access browser API here */ }&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Step #9 - Build the Post Page&lt;/h3&gt;
+
+&lt;p&gt;Finally, when the user clicks on a post, we'd like to render it. This is pretty straitforward, as the RSS response is already in HTML format, so it's just a case of using the &lt;code class="prettyprint"&gt;@html&lt;/code&gt; directive, then styling it.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;main&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;"article-content"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  {@html content}
+&lt;span class="nt"&gt;&amp;lt;/main&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Step #10 - Deploy!&lt;/h3&gt;
+
+&lt;p&gt;Now, let's get deploys setup. This is another reason why SvelteKit is so awesome, as deploying to pretty much any provider is just so easy!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Install the adapter for your desired provider
+
+&lt;ul&gt;
+&lt;li&gt;E.g. for Netlify: &lt;code class="prettyprint"&gt;npm i --save-dev @sveltejs/adapter-netlify&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Import said adaptor in your &lt;code class="prettyprint"&gt;svelte.config.js&lt;/code&gt; file
+
+&lt;ul&gt;
+&lt;li&gt;E.g. &lt;code class="prettyprint"&gt;import netlifyAdapter from '@sveltejs/adapter-netlify';&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Initiate the adaptor, within the config object, under &lt;code class="prettyprint"&gt;kit&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kit: &lt;code class="prettyprint"&gt;{ adapter: netlifyAdapter() }&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Deploy! Now just head to your Netlify dashboard, and import the project&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you wish to run your project on a VPS, we can use the &lt;code class="prettyprint"&gt;@sveltejs/adapter-node&lt;/code&gt;. Repeat the process above, then run &lt;code class="prettyprint"&gt;yarn build&lt;/code&gt;, and start the node server by running &lt;code class="prettyprint"&gt;node build/index.js&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;We may want to use multiple adapters, so that our project is compatible with several different hosting providers. Here's an example of my config file which does just this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;autoAdapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-auto&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;netlifyAdapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-netlify&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;vercelAdapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-vercel&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;nodeAdapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-node&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;vitePreprocess&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/kit/vite&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;multiAdapter&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;adapters&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;async&lt;/span&gt; &lt;span class="nx"&gt;adapt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;argument&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="nb"&gt;Promise&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;adapters&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;map&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;item&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt;
+        &lt;span class="nb"&gt;Promise&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;resolve&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;item&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;then&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;resolved&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;resolved&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;adapt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;argument&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+      &lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="p"&gt;};&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+
+&lt;span class="cm"&gt;/** @type {import('@sveltejs/kit').Config} */&lt;/span&gt;
+&lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;config&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="na"&gt;preprocess&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;vitePreprocess&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt;
+  &lt;span class="na"&gt;kit&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="na"&gt;adapter&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;multiAdapter&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="nx"&gt;autoAdapter&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="nx"&gt;netlifyAdapter&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="nx"&gt;vercelAdapter&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="nx"&gt;nodeAdapter&lt;/span&gt;&lt;span class="p"&gt;()]),&lt;/span&gt;
+    &lt;span class="na"&gt;alias&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;$src/*&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;src/*&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+  &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+
+&lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt; &lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;(don't forget to npm i any adapters before using!)&lt;/p&gt;
+
+&lt;p&gt;Finally, let's talk about Docker. As it's a popular deployment method, here's a multi-arch &lt;strong&gt;&lt;a href="https://github.com/Lissy93/devolio/blob/master/Dockerfile" rel="noopener nofollow" target="_blank"&gt;Dockerfile&lt;/a&gt;&lt;/strong&gt; I've written, with a build stage, deploy stage, and some healthchecks.&lt;/p&gt;
+
+&lt;p&gt;It's also published to DockerHub (under &lt;a href="https://hub.docker.com/r/lissy93/devolio" rel="noopener nofollow" target="_blank"&gt;lissy93/devolio&lt;/a&gt;), so you should be able to use it with &lt;code class="prettyprint"&gt;docker run -p 3000:80 lissy93/devolio&lt;/code&gt; - or use the &lt;a href="https://github.com/Lissy93/devolio/blob/master/docker-compose.yml" rel="noopener nofollow" target="_blank"&gt;docker-compose.yml&lt;/a&gt; as an template for your own container.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;The Project&lt;/h2&gt;
+
+&lt;p&gt;I've had to skip over a few details for the sake of brevity, but all &lt;a href="https://github.com/Lissy93/devolio" rel="noopener nofollow" target="_blank"&gt;the code is available on GitHub&lt;/a&gt;, so that should clear up anything that doesn't yet make sense - if it's still not, feel free to ask below :)&lt;/p&gt;
+
+&lt;p&gt;There's a few extra features that I also added:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Extracted all data into a config file, for easy usage, and made it stylable with custom colors and themes&lt;/li&gt;
+&lt;li&gt;I used a store to keep track of posts (in &lt;a href="https://github.com/Lissy93/devolio/blob/master/src/store/BlogStore.ts" rel="noopener nofollow" target="_blank"&gt;BlogStore.ts&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Added functionality for loading and combining multiple RSS feeds, as well as sorting and filtering results&lt;/li&gt;
+&lt;li&gt;Added internationalization functionality (in &lt;a href="https://github.com/Lissy93/devolio/blob/master/src/store/Language.ts" rel="noopener nofollow" target="_blank"&gt;Language.ts&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;I built a page to showcase your projects, with data fetched from your GitHub, via their API&lt;/li&gt;
+&lt;li&gt;And a contact page, with an email form, social media links and GPG keys&lt;/li&gt;
+&lt;li&gt;Added more adapters for deploying to various cloud services, and wrote a Dockerfile&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here's some screenshots (with just the plain theme)&lt;/p&gt;
+
+&lt;h5&gt;Blog Page (fetched from RSS)&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/XVC9YZy/blog-page-gif.gif" alt="Blog Page"&gt;&lt;/p&gt;
+
+&lt;h5&gt;Projects Page (fetched from GitHub)&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/nmwLZTr/projects-page.gif" alt="Projects Page"&gt;&lt;/p&gt;
+
+&lt;h5&gt;Social Media Links (stats fetched from APIs)&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/xSvJRbZ/social-previews.gif" alt="Social Media Links"&gt;&lt;/p&gt;
+
+&lt;p&gt;I do plan on expanding the project, add some features and make it into an easily configurable, themeable developer portfolio website, that anyone can easily use. If you'd like to see the updates, drop the repo a star on GitHub :)&lt;/p&gt;
+
+&lt;p&gt;And if you'd like to contribute to the source, it's &lt;a href="https://github.com/Lissy93/devolio" rel="noopener nofollow" target="_blank"&gt;here&lt;/a&gt; (&lt;code class="prettyprint"&gt;MIT&lt;/code&gt;) on GitHub, and I'll drop you a mention in the credits if you're able to submit a PR!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Thanks for sticking by this far! I know this post has been quite long, and is a little different from my usual format. If you've got any feedback, questions, suggestions, or comments - drop them below and I'll reply :)&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;small&gt;If you like this kind of stuff&lt;/small&gt;,&lt;br&gt;&lt;small&gt;consider following for more :)&lt;/small&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://github.com/Lissy93"&gt;&lt;img src="https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&amp;amp;logo=GitHub&amp;amp;logoColor=white" alt="Follow Lissy93 on GitHub"&gt;&lt;/a&gt;&lt;a href="https://twitter.com/Lissy_Sykes"&gt;&lt;img src="https://img.shields.io/badge/-@Lissy_Sykes-00acee?style=flat&amp;amp;logo=Twitter&amp;amp;logoColor=white" alt="Follow Lissy_Sykes on Twitter"&gt;&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>20 Amazing Collections for Self-Taught Developers 🎓</title>
       <author>Alicia's Notes 🚀</author>
       <pubDate>Fri, 27 Jan 2023 17:45:35 +0000</pubDate>
