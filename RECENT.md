@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `20 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/15fd9725a0...35e5c6a675)**
-- `20 Feb 2023` - **[Lissy93 starred sharkdp/fd](https://github.com/sharkdp/fd)**
-- `20 Feb 2023` - **[Lissy93 starred Lissy93/devolio](https://github.com/Lissy93/devolio)**
-- `20 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/20348f8ea9...15fd9725a0)**
-- `20 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/d8cdfef3d5...20348f8ea9)**
+- `22 Feb 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/b45aa7c95a...fc73d55ab3)**
+- `21 Feb 2023` - **[Lissy93 created a branch lang/turkish-bengali-and-refactor in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/lang/turkish-bengali-and-refactor)**
+- `21 Feb 2023` - **[Lissy93 pushed to master in zcq100/dashy](https://github.com/zcq100/dashy/compare/e0db8e725b...74304c8b32)**
+- `21 Feb 2023` - **[Lissy93 commented on pull request Lissy93/dashy#1111](https://github.com/Lissy93/dashy/pull/1111#discussion_r1113384837)**
+- `21 Feb 2023` - **[Lissy93 starred qmk/qmk_firmware](https://github.com/qmk/qmk_firmware)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
@@ -46,7 +46,7 @@
 
 ## Dev.to [![Dev.to - @Lissy93](https://img.shields.io/badge/-Lissy93-a75fff?style=flat&logo=Dev.to&logoColor=white)](https://dev.to/lissy93 "Dev.to - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/dev-to.atom)
 <!-- dev-to-feed start -->
-- `20 Feb 2023` - **[SvelteKit 1.0 - Build an blog, fetching posts from your DEV profile 🦄](https://dev.to/lissy93/sveltekit-10-build-an-blog-fetching-posts-from-your-dev-profile-29f)**
+- `20 Feb 2023` - **[SvelteKit 1.0 - Building a personal blog, that shows your DEV posts 🦄](https://dev.to/lissy93/sveltekit-10-build-an-blog-fetching-posts-from-your-dev-profile-29f)**
 - `19 Jan 2023` - **[CLI tools you won't be able to live without 🔧](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)**
 - `18 Dec 2022` - **[20 Git Commands you (probably) didn't know about 🧙‍♂️](https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o)**
 - ` 3 Dec 2022` - **[Super Useful CSS Resources 🌈](https://dev.to/lissy93/super-useful-css-resources-1ba3)**
