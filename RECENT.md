@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `22 Feb 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/b45aa7c95a...fc73d55ab3)**
-- `21 Feb 2023` - **[Lissy93 created a branch lang/turkish-bengali-and-refactor in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/lang/turkish-bengali-and-refactor)**
-- `21 Feb 2023` - **[Lissy93 pushed to master in zcq100/dashy](https://github.com/zcq100/dashy/compare/e0db8e725b...74304c8b32)**
-- `21 Feb 2023` - **[Lissy93 commented on pull request Lissy93/dashy#1111](https://github.com/Lissy93/dashy/pull/1111#discussion_r1113384837)**
-- `21 Feb 2023` - **[Lissy93 starred qmk/qmk_firmware](https://github.com/qmk/qmk_firmware)**
+- `24 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/7633a1cc1d...657df96dcb)**
+- `24 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/d6fea4287e...7633a1cc1d)**
+- `24 Feb 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/35e5c6a675...d6fea4287e)**
+- `24 Feb 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/c1b4f532e2...8223da75ad)**
+- `24 Feb 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/fc73d55ab3...c1b4f532e2)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
