@@ -3757,18 +3757,9 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
       <link>https://notes.aliciasykes.com/36402/github-markdown-tricks</link>
       <guid>https://notes.aliciasykes.com/36402/github-markdown-tricks</guid>
       <description>&lt;p&gt;&lt;blockquote&gt;
-&lt;p&gt;A collection of 15 &lt;em&gt;things&lt;/em&gt; you can do with GitHub-flavoured markdown to spice-up your projects readme.&lt;/p&gt;
+&lt;p&gt;A collection of 20 &lt;em&gt;things&lt;/em&gt; you can do with GitHub-flavoured markdown to spice-up your projects readme.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;hr&gt;
-
-&lt;h3&gt;Centre an image or other content&lt;/h3&gt;
-
-&lt;p&gt;Make the title, sub-title and / or logo image centred (&lt;a href="https://github.com/Lissy93/dashy#readme" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;p&lt;/span&gt; &lt;span class="na"&gt;align=&lt;/span&gt;&lt;span class="s"&gt;"center"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;lt;img&lt;/span&gt; &lt;span class="na"&gt;width=&lt;/span&gt;&lt;span class="s"&gt;"500"&lt;/span&gt; &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;"---"&lt;/span&gt; &lt;span class="na"&gt;alt=&lt;/span&gt;&lt;span class="s"&gt;"---"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="nt"&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
 
 &lt;h3&gt;Include Notes and Warnings&lt;/h3&gt;
@@ -3786,10 +3777,29 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
 
 &lt;hr&gt;
 
+&lt;h3&gt;Mermaid Diagrams&lt;/h3&gt;
+
+&lt;p&gt;You can add live diagrams to your documentation, using &lt;a href="https://mermaid.js.org/" rel="noopener nofollow" target="_blank"&gt;Mermaid Syntax&lt;/a&gt;. Check &lt;a href="https://mermaid.js.org/intro/n00b-syntaxReference.html" rel="noopener nofollow" target="_blank"&gt;the docs&lt;/a&gt; for syntax, then use the &lt;a href="https://mermaid.live/edit" rel="noopener nofollow" target="_blank"&gt;Live Editor&lt;/a&gt; to build out your diagrams, then embed the code into your readme, where they'll be rendered.&lt;/p&gt;
+
+&lt;p&gt;Just add the &lt;code class="prettyprint"&gt;mermaid&lt;/code&gt; identifier to the start of your code block. For some examples, see the &lt;a href="https://github.com/mermaid-js/mermaid#examples" rel="noopener nofollow" target="_blank"&gt;mermaid repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/mermaid-js/mermaid#examples"&gt;&lt;img width="600" src="https://i.ibb.co/tKtD3QK/Screen-Shot-2023-02-24-at-15-20-58.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Embedding Files&lt;/h3&gt;
+
+&lt;p&gt;You can embed any code, markdown or media file into GitHub markdown, by copying it's permalink, and pasting it into your document. Note that the content must be located in the same repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;img width="600" src="https://i.ibb.co/wcg9wxS/Screen-Shot-2023-02-24-at-15-32-27.png"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
 &lt;h3&gt;Tiny Text&lt;/h3&gt;
 
-&lt;p&gt;Using the &lt;code class="prettyprint"&gt;&amp;lt;sub&amp;gt;&amp;lt;/sub&amp;gt;&lt;/code&gt; (Subscript) and &lt;code class="prettyprint"&gt;&amp;lt;sup&amp;gt;&amp;lt;/sup&amp;gt;&lt;/code&gt; (superscript) will generate tiny text. But to keep it vertically-centred, you can combine the two with: &lt;code class="prettyprint"&gt;&amp;lt;sub&amp;gt;&amp;lt;sup&amp;gt;Small Text!&amp;lt;/sup&amp;gt;&amp;lt;/sub&amp;gt;&lt;br&gt;
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Using the &lt;code class="prettyprint"&gt;&amp;lt;sub&amp;gt;&amp;lt;/sub&amp;gt;&lt;/code&gt; (Subscript) and &lt;code class="prettyprint"&gt;&amp;lt;sup&amp;gt;&amp;lt;/sup&amp;gt;&lt;/code&gt; (superscript) will generate tiny text. But to keep it vertically-centred, you can combine the two with: &lt;code class="prettyprint"&gt;&amp;lt;sub&amp;gt;&amp;lt;sup&amp;gt;Small Text!&amp;lt;/sup&amp;gt;&amp;lt;/sub&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/3Bq6Syz/Screen-Shot-2023-02-24-at-12-50-17.png" width="400"&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -3798,6 +3808,8 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
 &lt;p&gt;Great for visually showing which keys to press, or drawing attention to something (&lt;a href="https://github.com/Lissy93/dashy/blob/master/docs/searching.md#navigating" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;kbd&amp;gt;&lt;/span&gt;Key&lt;span class="nt"&gt;&amp;lt;/kbd&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://i.ibb.co/HG82RJd/Screen-Shot-2023-02-24-at-12-53-43.png" width="400"&gt;&lt;/p&gt;
+
 &lt;hr&gt;
 
 &lt;h3&gt;Collapsible Sections&lt;/h3&gt;
@@ -3808,13 +3820,45 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
     &amp;lt;p&amp;gt;Put Content Here&amp;lt;/p&amp;gt;
 &amp;lt;/details&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://i.ibb.co/82pn1rX/2023-02-24-12-56-24.gif" width="300"&gt;&lt;/p&gt;
+
 &lt;p&gt;Note that to include markdown within the &lt;code class="prettyprint"&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; content block, you must pad it with blank lines, both top and bottom&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Indentation&lt;/h3&gt;
+
+&lt;p&gt;Using &lt;code class="prettyprint"&gt;&amp;lt;dl&amp;gt;&lt;/code&gt;, &lt;code class="prettyprint"&gt;&amp;lt;dt&amp;gt;&lt;/code&gt; and &lt;code class="prettyprint"&gt;&amp;lt;dd&amp;gt;&lt;/code&gt; you can create indented paragraphs, with a nicer aphetic. The indented text can wrap multiple lines, while maintaining indentation.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&amp;lt;dl&amp;gt;
+  &amp;lt;dt&amp;gt;This is a list&amp;lt;/dt&amp;gt;
+  &amp;lt;dd&amp;gt;With hanging indentation&amp;lt;/dd&amp;gt;
+&amp;lt;/dl&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img width="400" src="https://i.ibb.co/3S4b6yv/Screen-Shot-2023-02-24-at-15-41-19.png"&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
 &lt;h3&gt;Embedding a Video&lt;/h3&gt;
 
 &lt;p&gt;You can embed an MP4, simply by including the URL to the raw video in your markdown file (&lt;a href="https://github.com/bjesus/muxile" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.ibb.co/L8XxmbH/Screen-Shot-2023-02-24-at-13-01-55.png" width="500"&gt;&lt;/p&gt;
+
+&lt;p&gt;This doesn't (yet) work with YouTube videos (unless you download and re-upload them). But here's a trick to embed a frame, which will take the user to the video on-click:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;"http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=YOUTUBE_VIDEO_ID_HERE"&lt;/span&gt; &lt;span class="na"&gt;target=&lt;/span&gt;&lt;span class="s"&gt;"_blank"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+ &lt;span class="nt"&gt;&amp;lt;img&lt;/span&gt; &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;"http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"&lt;/span&gt; &lt;span class="na"&gt;alt=&lt;/span&gt;&lt;span class="s"&gt;"IMAGE ALT TEXT HERE"&lt;/span&gt; &lt;span class="na"&gt;width=&lt;/span&gt;&lt;span class="s"&gt;"240"&lt;/span&gt; &lt;span class="na"&gt;height=&lt;/span&gt;&lt;span class="s"&gt;"180"&lt;/span&gt; &lt;span class="na"&gt;border=&lt;/span&gt;&lt;span class="s"&gt;"10"&lt;/span&gt; &lt;span class="nt"&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Centre an image or other content&lt;/h3&gt;
+
+&lt;p&gt;Make the title, sub-title and / or logo image centred (&lt;a href="https://github.com/Lissy93/dashy#readme" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;p&lt;/span&gt; &lt;span class="na"&gt;align=&lt;/span&gt;&lt;span class="s"&gt;"center"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;img&lt;/span&gt; &lt;span class="na"&gt;width=&lt;/span&gt;&lt;span class="s"&gt;"500"&lt;/span&gt; &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;"---"&lt;/span&gt; &lt;span class="na"&gt;alt=&lt;/span&gt;&lt;span class="s"&gt;"---"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://github.com/lissy93/dotfiles"&gt;&lt;img src="https://i.ibb.co/Vmp1DdZ/Screen-Shot-2023-02-24-at-14-51-59.png" width="600"&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -3850,54 +3894,11 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
 
 &lt;hr&gt;
 
-&lt;h3&gt;Moving Readme&lt;/h3&gt;
-
-&lt;p&gt;If it bothers you having your &lt;code class="prettyprint"&gt;README.md&lt;/code&gt; file cluttering up your projects root directory, then you can place it in &lt;code class="prettyprint"&gt;.github/README.md&lt;/code&gt; (along with any other GH stuff or assets). It will still be rendered as normal in your repositories home, but now you've got one less file in your project's base directory. (&lt;a href="https://github.com/Lissy93/go-apod" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h3&gt;Including the code quote symbol (&lt;code class="prettyprint"&gt;`&lt;/code&gt;) in a code block&lt;/h3&gt;
-
-&lt;p&gt;Sometimes you may need to use the ` symbol within a code block.&lt;/p&gt;
-
-&lt;p&gt;Just wrap the code with double quotes &lt;code class="prettyprint"&gt;&lt;/code&gt; ``, and ensure there is a space around the quote symbol&lt;/p&gt;
-
-&lt;p&gt;(here, I'm including quotes inside quotes inside quotes!)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.cl.cam.ac.uk/%7Emgk25/ucs/quotes.html" rel="noopener nofollow" target="_blank"&gt;https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h3&gt;Single-Cell Tables&lt;/h3&gt;
-
-&lt;p&gt;This is a great way to draw attention to an important message&lt;/p&gt;
-
-&lt;table&gt;&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Hello World!&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;&lt;tbody&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-
-&lt;hr&gt;
-
-&lt;h3&gt;Creating Home Page .md&lt;/h3&gt;
-
-&lt;p&gt;You can display a short markdown document at the top of your GitHub profile. To do so, just create a public repository with the same name as your GitHub username, and populate it with a non-empty &lt;code class="prettyprint"&gt;README.md&lt;/code&gt;. For more info, see the &lt;a href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme" rel="noopener nofollow" target="_blank"&gt;Profile Readme Docs&lt;/a&gt;, or (&lt;a href="https://github.com/Lissy93" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
-
-&lt;hr&gt;
-
 &lt;h3&gt;Syntax Highlighting in Code Blocks&lt;/h3&gt;
 
 &lt;p&gt;Code blocks become much easier to read with syntax highlighting. To use this, you must specify the language immediatley after the first &lt;code&gt;```&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;&lt;br&gt;
-&lt;code class="prettyprint"&gt;&lt;/code&gt;&lt;code class="prettyprint"&gt;typescript`&lt;br&gt;
-const name = 'Alicia';&lt;br&gt;
-`&lt;/code&gt;&lt;code class="prettyprint"&gt;&lt;/code&gt;&lt;br&gt;
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.ibb.co/BzYLYpL/Screen-Shot-2023-02-24-at-13-56-03.png" width="400"&gt;&lt;/p&gt;
 
 &lt;p&gt;You can view a full list of supported languages, &lt;a href="https://github.com/jincheng9/markdown_supported_languages" rel="noopener nofollow" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;
 
@@ -3907,30 +3908,7 @@ const name = 'Alicia';&lt;br&gt;
 
 &lt;p&gt;Set the language type to &lt;code class="prettyprint"&gt;diff&lt;/code&gt;, and then precede each line which indicates an addition with &lt;code class="prettyprint"&gt;+&lt;/code&gt;, or a &lt;code class="prettyprint"&gt;-&lt;/code&gt; if it's a deletion. Note that the sign must be the first character of the line (watch out for white space), and should be followed by at least one blank space/ tab.&lt;/p&gt;
 
-&lt;hr&gt;
-
-&lt;h3&gt;Create Buttons&lt;/h3&gt;
-
-&lt;p&gt;In GitHub-flavoured markdown, the &lt;code class="prettyprint"&gt;&amp;lt;kbd&amp;gt;&lt;/code&gt; tags also make great buttons. for your readme header.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;---
-
-**[&amp;lt;kbd&amp;gt; &amp;lt;br&amp;gt; Install &amp;lt;br&amp;gt; &amp;lt;/kbd&amp;gt;][Install]** 
-**[&amp;lt;kbd&amp;gt; &amp;lt;br&amp;gt; Quick Start &amp;lt;br&amp;gt; &amp;lt;/kbd&amp;gt;][Quick Start]** 
-**[&amp;lt;kbd&amp;gt; &amp;lt;br&amp;gt; Configure &amp;lt;br&amp;gt; &amp;lt;/kbd&amp;gt;][Configure]** 
-**[&amp;lt;kbd&amp;gt; &amp;lt;br&amp;gt; Contribute &amp;lt;br&amp;gt; &amp;lt;/kbd&amp;gt;][Contribute]**
-
----
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;hr&gt;
-
-&lt;h3&gt;Small Text&lt;/h3&gt;
-
-&lt;p&gt;Both superscript (top of line, &lt;sup&gt;like this&lt;/sup&gt;) and subscript (bottom of line, &lt;sub&gt;and this&lt;/sub&gt;) are supported.&lt;br&gt;
-Just use the &lt;code class="prettyprint"&gt;&amp;lt;sup&amp;gt;&amp;lt;/sup&amp;gt;&lt;/code&gt; or &lt;code class="prettyprint"&gt;&amp;lt;sub&amp;gt;&amp;lt;/sub&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
-
-&lt;p&gt;You can wrap these elements with non-HTML markers (like bullet lists, tables or titles) too. (&lt;a href="https://github.com/Lissy93/dashy/blob/master/docs/showcase.md" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.ibb.co/72rBJVH/Screen-Shot-2023-02-24-at-13-05-43.png" width="400"&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -3939,6 +3917,22 @@ Just use the &lt;code class="prettyprint"&gt;&amp;lt;sup&amp;gt;&amp;lt;/sup&amp
 &lt;p&gt;In a similar way to centering images, you can also right align them, where the text will flow down the left-side. An example of this can be seen in the &lt;a href="https://github.com/Bugswriter/tuxi" rel="noopener nofollow" target="_blank"&gt;tuxi&lt;/a&gt; repo. (&lt;a href="https://github.com/Lissy93/Lissy93" rel="noopener nofollow" target="_blank"&gt;See example&lt;/a&gt;)&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&amp;lt;img src="https://i.ibb.co/sCwYpZ8/general.gif" alt="Video Preview Gif" align="right" width="500px"/&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img width="600" src="https://i.ibb.co/8zvZCc8/Screen-Shot-2023-02-24-at-15-10-21.png"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Moving Readme&lt;/h3&gt;
+
+&lt;p&gt;If it bothers you having your &lt;code class="prettyprint"&gt;README.md&lt;/code&gt; file cluttering up your projects root directory, then you can place it in &lt;code class="prettyprint"&gt;.github/README.md&lt;/code&gt; (along with any other GH stuff or assets). It will still be rendered as normal in your repositories home, but now you've got one less file in your project's base directory. (&lt;a href="https://github.com/Lissy93/go-apod" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Creating Home Page .md&lt;/h3&gt;
+
+&lt;p&gt;You can display a short markdown document at the top of your GitHub profile. To do so, just create a public repository with the same name as your GitHub username, and populate it with a non-empty &lt;code class="prettyprint"&gt;README.md&lt;/code&gt;. For more info, see the &lt;a href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme" rel="noopener nofollow" target="_blank"&gt;Profile Readme Docs&lt;/a&gt;, or (&lt;a href="https://github.com/Lissy93" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/lissy93/lissy93"&gt;&lt;img src="https://i.ibb.co/BPtg0Pq/Screen-Shot-2023-02-24-at-13-58-27.png" width="800"&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;hr&gt;
 
 &lt;h3&gt;Merging Cells in Tables&lt;/h3&gt;
@@ -3951,6 +3945,56 @@ Just use the &lt;code class="prettyprint"&gt;&amp;lt;sup&amp;gt;&amp;lt;/sup&amp
 &lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt; &lt;span class="nt"&gt;&amp;lt;td&lt;/span&gt; &lt;span class="na"&gt;colspan=&lt;/span&gt;&lt;span class="s"&gt;"2"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;I take up two columns!&lt;span class="nt"&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You can also set the text align property here too, using &lt;code class="prettyprint"&gt;align="center"&lt;/code&gt; to centre text.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/Lissy93/blob/tech-stack-merged-cells/TECH-STACK.md"&gt;&lt;img src="https://i.ibb.co/y5cL10p/Screen-Shot-2023-02-24-at-14-40-28.png" width="600"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Single-Cell Tables&lt;/h3&gt;
+
+&lt;p&gt;This is a great way to draw attention to an important message&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;| Hello World! |
+|-|
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://i.ibb.co/jHk6c9R/Screen-Shot-2023-02-24-at-13-04-00.png" width="300"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Create Buttons&lt;/h3&gt;
+
+&lt;p&gt;In GitHub-flavoured markdown, the &lt;code class="prettyprint"&gt;&amp;lt;kbd&amp;gt;&lt;/code&gt; tags also make great buttons. for your readme header.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;**[&amp;lt;kbd&amp;gt; &amp;lt;br&amp;gt; Install &amp;lt;br&amp;gt; &amp;lt;/kbd&amp;gt;][Install]** 
+**[&amp;lt;kbd&amp;gt; &amp;lt;br&amp;gt; Quick Start &amp;lt;br&amp;gt; &amp;lt;/kbd&amp;gt;][Quick Start]** 
+**[&amp;lt;kbd&amp;gt; &amp;lt;br&amp;gt; Configure &amp;lt;br&amp;gt; &amp;lt;/kbd&amp;gt;][Configure]** 
+**[&amp;lt;kbd&amp;gt; &amp;lt;br&amp;gt; Contribute &amp;lt;br&amp;gt; &amp;lt;/kbd&amp;gt;][Contribute]**
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://github.com/lissy93/cyber-defence-presentation"&gt;&lt;img src="https://i.ibb.co/f9mbT3D/Screen-Shot-2023-02-24-at-14-47-01.png" width="800"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Task Lists&lt;/h3&gt;
+
+&lt;p&gt;You can create tasks lists too, useful for adding into Pull Request templates or showing task progress in readme.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;A list of things:
+- [X] Googley Eyes
+- [X] Tesco Clubcard
+- [ ] The Elizibeth Line
+- [ ] Beans on Toast
+- [ ] My Current Account
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://i.ibb.co/vX6GYDT/Screen-Shot-2023-02-24-at-15-50-22.png" width="400"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Including the code quote symbol (&lt;code class="prettyprint"&gt;`&lt;/code&gt;) in a code block&lt;/h3&gt;
+
+&lt;p&gt;Sometimes you may need to use the ` symbol within a code block.&lt;/p&gt;
+
+&lt;p&gt;Just wrap the code with double quotes &lt;code class="prettyprint"&gt;&lt;/code&gt; ``, and ensure there is a space around the quote symbol&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.cl.cam.ac.uk/%7Emgk25/ucs/quotes.html" rel="noopener nofollow" target="_blank"&gt;https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
