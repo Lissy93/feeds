@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- ` 1 Mar 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/0d8d7fc28c...8798dcf5e3)**
-- ` 1 Mar 2023` - **[Lissy93 closed an issue in Lissy93/dashy](https://github.com/Lissy93/dashy/issues/1128)**
-- ` 1 Mar 2023` - **[Lissy93 commented on issue Lissy93/dashy#1128](https://github.com/Lissy93/dashy/issues/1128#issuecomment-1450315131)**
-- `28 Feb 2023` - **[Lissy93 starred coollabsio/coolify](https://github.com/coollabsio/coolify)**
-- `28 Feb 2023` - **[Lissy93 pushed to master in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/7ba226f7f8...e5de44622d)**
+- ` 3 Mar 2023` - **[Lissy93 pushed to feat/api in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/f11ecd9a45...c02e5dd7a5)**
+- ` 3 Mar 2023` - **[Lissy93 created a branch feat/api in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/feat/api)**
+- ` 3 Mar 2023` - **[Lissy93 commented on issue Lissy93/dashy#1086](https://github.com/Lissy93/dashy/issues/1086#issuecomment-1453244040)**
+- ` 2 Mar 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/8798dcf5e3...8fbf769a62)**
+- ` 2 Mar 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1106)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
