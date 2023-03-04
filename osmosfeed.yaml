@@ -1,0 +1,26 @@
+# `cacheUrl`: A URL that contains previous build output. (required)
+cacheUrl: https://lissy93.github.io/feeds/cache.json
+
+# `sources`: An array of RSS subscriptions. (required)
+sources:
+  # `href`: A URL that returns content in RSS 1.0, RSS 2.0, or Atom format. (required for each source)
+  - href: https://raw.githubusercontent.com/Lissy93/feeds/main/blog.atom
+  - href: https://raw.githubusercontent.com/Lissy93/feeds/main/dev-to.atom
+  - href: https://raw.githubusercontent.com/Lissy93/feeds/main/blogger.atom
+  - href: https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom
+  - href: https://raw.githubusercontent.com/Lissy93/feeds/main/stackoverflow.atom
+  - href: https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom
+  - href: https://raw.githubusercontent.com/Lissy93/feeds/main/reddit.atom
+  - href: https://raw.githubusercontent.com/Lissy93/feeds/main/mastodon.atom
+  - href: https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom
+
+# `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
+siteTitle: "lissy93::feed"
+
+# `timezone`: Specify your local timezone so server can group content by weekday
+# Find yours from the "TZ database name" column of this page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+# Examples: America/Los_Angeles, America/New_York, Asia/Shanghai, Asia/Tokyo
+timezone: 'Europe/London'
+
+# `cacheMaxDays` Max number of days to keep the feed content in cache. A very large value can increase the initial load time of the site. (optional)
+cacheMaxDays: 30
