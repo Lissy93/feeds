@@ -1,0 +1,377 @@
+{
+  "sources": [
+    {
+      "title": "Alicia's Notes 🚀",
+      "feedUrl": "https://raw.githubusercontent.com/Lissy93/feeds/main/blog.atom",
+      "siteUrl": "http://aliciasykes.com",
+      "articles": [
+        {
+          "id": "https://notes.aliciasykes.com/42764/sveltekit-1-0-building-a-blog-that-fetches-from-rss",
+          "author": "Alicia's Notes 🚀",
+          "description": "The aim of this post is to provide a whistle-stop tour of the latest version of SvelteKit. We're going to build a developer portfolio and blog website, that fetches data from your RSS feed, as well as the GitHub API.\nContents\nIntro to SvelteKit\nWhat we're going to build\nLet's get Started!\n\n\nStep #0 - Prerequisites\nStep #1 - Project Setup\nStep #2 - Finish Setup\nStep #3 - Components\nStep #4 - Creating a Route\nStep #5 - Special Routes\nStep #6 - Fetching Data\nStep #7 - Render Results\nStep #8 - Server-Side\nStep #9 - The Post Route\nStep #10 - Deploy!\n\nThe Final Project\n\n\nBlog Page (fetched from RSS)\nProjects Page (fetched from GitHub)\nSocial Media Links (stats fetched from APIs)\n\n\n\n\n\nIntro to SvelteKit\nSvelte has pretty quickly taken the top spot for most loved web framework [SO Survey], and wit…",
+          "link": "https://notes.aliciasykes.com/42764/sveltekit-1-0-building-a-blog-that-fetches-from-rss",
+          "publishedOn": "2023-02-20T22:10:08.000Z",
+          "wordCount": 7520,
+          "title": "SvelteKit 1.0 - Building a Blog that fetches from RSS 🦄",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "DEV Community: Alicia Sykes",
+      "feedUrl": "https://raw.githubusercontent.com/Lissy93/feeds/main/dev-to.atom",
+      "siteUrl": "https://dev.to/lissy93",
+      "articles": [
+        {
+          "id": "https://dev.to/lissy93/sveltekit-10-build-an-blog-fetching-posts-from-your-dev-profile-29f",
+          "author": "Alicia Sykes",
+          "description": "The aim of this post is to provide a whistle-stop tour of the latest version of SvelteKit. We're going to build a developer portfolio and blog website, that fetches data from your RSS feed, as well as the GitHub API.\nContents\nIntro to SvelteKit\nWhat we're going to build\nStep #0 - Prerequisites\nStep #1 - Project Setup\nStep #2 - Finish Setup\nStep #3 - Components\nStep #4 - Creating a Route\nStep #5 - Special Routes\nStep #6 - Fetching Data\nStep #7 - Render Results\nStep #8 - Server-Side\nStep #9 - The Post Route\nStep #10 - Deploy!\nBlog Page (fetched from RSS)\nProjects Page (fetched from GitHub)\nSocial Media Links (stats fetched from APIs)\nSvelte has pretty quickly taken the top spot for most loved web framework [SO Survey], and with the recent release of SvelteKit 1.0, you should expect to see de…",
+          "link": "https://dev.to/lissy93/sveltekit-10-build-an-blog-fetching-posts-from-your-dev-profile-29f",
+          "publishedOn": "2023-02-20T21:58:07.000Z",
+          "wordCount": 4581,
+          "title": "SvelteKit 1.0 - Building a personal blog, that shows your DEV posts 🦄",
+          "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--iYjROJkd--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://i.ibb.co/jbzfSzs/Screenshot-from-2023-02-20-16-59-37.png"
+        }
+      ]
+    },
+    {
+      "title": "Alicia Sykes's Blog",
+      "feedUrl": "https://raw.githubusercontent.com/Lissy93/feeds/main/blogger.atom",
+      "siteUrl": "https://lissy93.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "GitHub Public Timeline Feed",
+      "feedUrl": "https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom",
+      "siteUrl": "https://github.com/lissy93",
+      "articles": [
+        {
+          "id": "https://github.com/Lissy93/currency-flags/compare/f11ecd9a45...c02e5dd7a5",
+          "author": null,
+          "description": "Lissy93\n      \n      pushed to\n        feat/api\n        in\n      Lissy93/currency-flags\n      \n        · March 3, 2023 18:27\n      \n\n        \n1 commit to\n          feat/api\n\n          \n\n                  \n                  c02e5dd",
+          "link": "https://github.com/Lissy93/currency-flags/compare/f11ecd9a45...c02e5dd7a5",
+          "publishedOn": "2023-03-03T18:27:52.000Z",
+          "wordCount": 430,
+          "title": "Lissy93 pushed to feat/api in Lissy93/currency-flags",
+          "imageUrl": "https://repository-images.githubusercontent.com/606902172/6c4a9d76-e827-4b1e-b3a7-57ed87c0286b"
+        },
+        {
+          "id": "https://github.com/Lissy93/currency-flags/compare/feat/api",
+          "author": null,
+          "description": "Lissy93\n              \n              created a\n              branch\n              in\n              Lissy93/currency-flags\n\n            \n              · March 3, 2023 18:15\n            \n          \n\n              \nfeat/api in Lissy93/currency-flags\n                  \nUpdated Mar 3",
+          "link": "https://github.com/Lissy93/currency-flags/compare/feat/api",
+          "publishedOn": "2023-03-03T18:15:44.000Z",
+          "wordCount": 452,
+          "title": "Lissy93 created a branch feat/api in Lissy93/currency-flags",
+          "imageUrl": "https://repository-images.githubusercontent.com/606902172/6c4a9d76-e827-4b1e-b3a7-57ed87c0286b"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/1086#issuecomment-1453244040",
+          "author": null,
+          "description": "Lissy93\n          \n          commented on\n          Lissy93/dashy#1086\n          \n            · March 3, 2023 09:40\n          \n        \n Lissy93 commented Mar 3, 2023\n      \nAs if right on que, OpenAI has released the firtst version of the ChatGPT API :) However, although it's reasonably priced, it is not free. Maybe ju…",
+          "link": "https://github.com/Lissy93/dashy/issues/1086#issuecomment-1453244040",
+          "publishedOn": "2023-03-03T09:40:56.000Z",
+          "wordCount": 1121,
+          "title": "Lissy93 commented on issue Lissy93/dashy#1086",
+          "imageUrl": "https://opengraph.githubassets.com/9eb3ab44b227b0ca3a18041f089608ef912e7e4bc34b18fa8dae945c6822a3c0/Lissy93/dashy/issues/1086"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/compare/8798dcf5e3...8fbf769a62",
+          "author": null,
+          "description": "Lissy93\n      \n      pushed to\n        master\n        in\n      Lissy93/dashy\n      \n        · March 2, 2023 23:11\n      \n\n        \n2 commits to\n          master\n\n          \n\n                  \n                  8fbf769\n                  \n🔀 Merge pull request #1106 from m42e/linkding\n                    \n\n                  \n                  281f173\n                  \n1 more commit »",
+          "link": "https://github.com/Lissy93/dashy/compare/8798dcf5e3...8fbf769a62",
+          "publishedOn": "2023-03-02T23:11:45.000Z",
+          "wordCount": 463,
+          "title": "Lissy93 pushed to master in Lissy93/dashy",
+          "imageUrl": "https://repository-images.githubusercontent.com/343078060/82f850a2-b1af-4e9f-9245-c92700d74856"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/pull/1106",
+          "author": null,
+          "description": "Lissy93\n          \n          merged\n          Lissy93/dashy#1106\n          \n            · March 2, 2023 23:11\n          \n        \n\n\n\n      \nAdded linkding widget\n          #1106\n            \n     \nThank you for contributing to Dashy! So that your PR can be handled effectively, please populate the following fields (delete sections …\n+140\n            -2",
+          "link": "https://github.com/Lissy93/dashy/pull/1106",
+          "publishedOn": "2023-03-02T23:11:43.000Z",
+          "wordCount": 1176,
+          "title": "Lissy93 merged a pull request in Lissy93/dashy",
+          "imageUrl": "https://opengraph.githubassets.com/04d4dac45721b25f966038f37a0bcbe48f34007896231ce63a362be7597becb8/Lissy93/dashy/pull/1106"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/compare/0d8d7fc28c...8798dcf5e3",
+          "author": null,
+          "description": "Lissy93\n      \n      pushed to\n        master\n        in\n      Lissy93/dashy\n      \n        · March 1, 2023 16:40\n      \n\n        \n1 commit to\n          master\n\n          \n\n                  \n                  8798dcf\n                  \n📝 Fixes incorrect value, for enableServiceWorker",
+          "link": "https://github.com/Lissy93/dashy/compare/0d8d7fc28c...8798dcf5e3",
+          "publishedOn": "2023-03-01T16:40:45.000Z",
+          "wordCount": 431,
+          "title": "Lissy93 pushed to master in Lissy93/dashy",
+          "imageUrl": "https://repository-images.githubusercontent.com/343078060/82f850a2-b1af-4e9f-9245-c92700d74856"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/1128",
+          "author": null,
+          "description": "Lissy93\n          \n          closed\n          an issue in\n          Lissy93/dashy\n        \n          · March 1, 2023 15:12\n        \n      \n\n\n\n      \n[FEATURE_REQUEST] Add ability to insert widget without coding\n        \n        #1128\n          \nIs your feature request related to a problem? If so, please describe.\nWhile I can understand coding and interpret most of it, using the proper synt…",
+          "link": "https://github.com/Lissy93/dashy/issues/1128",
+          "publishedOn": "2023-03-01T15:12:57.000Z",
+          "wordCount": 691,
+          "title": "Lissy93 closed an issue in Lissy93/dashy",
+          "imageUrl": "https://opengraph.githubassets.com/b444cf66031944754e2286ad232ad3d01764f9d1b172b8194a437846751f2249/Lissy93/dashy/issues/1128"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/1128#issuecomment-1450315131",
+          "author": null,
+          "description": "Lissy93\n          \n          commented on\n          Lissy93/dashy#1128\n          \n            · March 1, 2023 15:12\n          \n        \n Lissy93 commented Mar 1, 2023\n      \nHiya @PDXUser\nSo this is a duplicate, it is something that's on my todo list (and is covered in #799), but the task is a lot more work than it may …",
+          "link": "https://github.com/Lissy93/dashy/issues/1128#issuecomment-1450315131",
+          "publishedOn": "2023-03-01T15:12:56.000Z",
+          "wordCount": 691,
+          "title": "Lissy93 commented on issue Lissy93/dashy#1128",
+          "imageUrl": "https://opengraph.githubassets.com/b444cf66031944754e2286ad232ad3d01764f9d1b172b8194a437846751f2249/Lissy93/dashy/issues/1128"
+        },
+        {
+          "id": "https://github.com/coollabsio/coolify",
+          "author": null,
+          "description": "Lissy93\n            starred\n            coollabsio/coolify\n            \n              · February 28, 2023 21:06\n            \n          \ncoollabsio/coolify\n          \nAn open-source & self-hostable Heroku / Netlify alternative.\n\n  Svelte\n\n\n              \n\n              \n                  \n6.9k\n              \n\n              \n                1 issue needs help\n              \n\n              Updated Mar 3",
+          "link": "https://github.com/coollabsio/coolify",
+          "publishedOn": "2023-02-28T21:06:33.000Z",
+          "wordCount": 1018,
+          "title": "Lissy93 starred coollabsio/coolify",
+          "imageUrl": "https://opengraph.githubassets.com/79604aa1d3473f4aad2a8122d1032f4c262ab5bcfdcb3ceb4adcd28cb336b9fd/coollabsio/coolify"
+        },
+        {
+          "id": "https://github.com/Lissy93/currency-flags/compare/7ba226f7f8...e5de44622d",
+          "author": null,
+          "description": "Lissy93\n      \n      pushed to\n        master\n        in\n      Lissy93/currency-flags\n      \n        · February 28, 2023 21:02\n      \n\n        \n1 commit to\n          master\n\n          \n\n                  \n                  e5de446",
+          "link": "https://github.com/Lissy93/currency-flags/compare/7ba226f7f8...e5de44622d",
+          "publishedOn": "2023-02-28T21:02:53.000Z",
+          "wordCount": 423,
+          "title": "Lissy93 pushed to master in Lissy93/currency-flags",
+          "imageUrl": "https://repository-images.githubusercontent.com/606902172/6c4a9d76-e827-4b1e-b3a7-57ed87c0286b"
+        },
+        {
+          "id": "https://github.com/",
+          "author": null,
+          "description": "Lissy93\n      \n      deleted\n      branch\n      FIX/currency-widget-flags\n      in\n      Lissy93/dashy\n      \n        · February 26, 2023 22:47\n      \n\n      \nLissy93/dashy\n          \nUpdated Mar 2",
+          "link": "https://github.com/",
+          "publishedOn": "2023-02-26T22:47:54.000Z",
+          "wordCount": 1013,
+          "title": "Lissy93 deleted branch FIX/currency-widget-flags at Lissy93/dashy",
+          "imageUrl": "https://github.githubassets.com/images/modules/site/social-cards/campaign-social.png"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/1096",
+          "author": null,
+          "description": "Lissy93\n          \n          closed\n          an issue in\n          Lissy93/dashy\n        \n          · February 26, 2023 22:47\n        \n      \n\n\n\n      \nlack of flags in Dashy dashboard rates widget\n        \n        #1096",
+          "link": "https://github.com/Lissy93/dashy/issues/1096",
+          "publishedOn": "2023-02-26T22:47:52.000Z",
+          "wordCount": 861,
+          "title": "Lissy93 closed an issue in Lissy93/dashy",
+          "imageUrl": "https://opengraph.githubassets.com/1f851f971dbdb7989e7c74b0e0721125bc91d5b9f8a0c29e855e944ede232aad/Lissy93/dashy/issues/1096"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/compare/794fa57956...0d8d7fc28c",
+          "author": null,
+          "description": "Lissy93\n      \n      pushed to\n        master\n        in\n      Lissy93/dashy\n      \n        · February 26, 2023 22:47\n      \n\n        \n2 commits to\n          master\n\n          \n\n                  \n                  0d8d7fc\n                  \n🔀 Merge pull request #1124 from Lissy93/FIX/currency-widget-flags\n                    \n\n                  \n                  6651333\n                  \n🐛 Updates the endpoint for currency flags (#1096)",
+          "link": "https://github.com/Lissy93/dashy/compare/794fa57956...0d8d7fc28c",
+          "publishedOn": "2023-02-26T22:47:51.000Z",
+          "wordCount": 456,
+          "title": "Lissy93 pushed to master in Lissy93/dashy",
+          "imageUrl": "https://repository-images.githubusercontent.com/343078060/82f850a2-b1af-4e9f-9245-c92700d74856"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/pull/1124",
+          "author": null,
+          "description": "Lissy93\n          \n          merged\n          Lissy93/dashy#1124\n          \n            · February 26, 2023 22:47\n          \n        \n\n\n\n      \n[FIX] Updates the endpoint for currency flags\n          #1124\n            \n   \nCategory: Bugfix\nOverview\nThe old endpoint (transferwise/currency-flags) was no longer available. Created a new repo (Lissy93/currency-flags)…\n+2\n            -2",
+          "link": "https://github.com/Lissy93/dashy/pull/1124",
+          "publishedOn": "2023-02-26T22:47:51.000Z",
+          "wordCount": 878,
+          "title": "Lissy93 merged a pull request in Lissy93/dashy",
+          "imageUrl": "https://opengraph.githubassets.com/9a60d962f8ebf5fcee2d6acf4bb14a4dcdcd8fff9d5c6ea30f548964fa65cf4a/Lissy93/dashy/pull/1124"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/1096#issuecomment-1445488782",
+          "author": null,
+          "description": "Lissy93\n          \n          commented on\n          Lissy93/dashy#1096\n          \n            · February 26, 2023 22:47\n          \n        \n Lissy93 commented Feb 26, 2023\n      \nPR #1124 updates the endpoint to point to the new repo. Once merged, this should fix the Exchange Rates widget :)\n....turns out, there are literall…",
+          "link": "https://github.com/Lissy93/dashy/issues/1096#issuecomment-1445488782",
+          "publishedOn": "2023-02-26T22:47:10.000Z",
+          "wordCount": 861,
+          "title": "Lissy93 commented on issue Lissy93/dashy#1096",
+          "imageUrl": "https://opengraph.githubassets.com/1f851f971dbdb7989e7c74b0e0721125bc91d5b9f8a0c29e855e944ede232aad/Lissy93/dashy/issues/1096"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/pull/1124",
+          "author": null,
+          "description": "Lissy93\n          \n          opened\n          Lissy93/dashy#1124\n          \n            · February 26, 2023 22:45\n          \n        \n\n\n\n      \n[FIX] Updates the endpoint for currency flags\n          #1124\n            \nCategory: Bugfix\nOverview\nThe old endpoint (transferwise/currency-flags) was no longer available. Created a new repo (Lissy93/currency-flags) which…\n+2\n            -2",
+          "link": "https://github.com/Lissy93/dashy/pull/1124",
+          "publishedOn": "2023-02-26T22:45:59.000Z",
+          "wordCount": 878,
+          "title": "Lissy93 opened a pull request in Lissy93/dashy",
+          "imageUrl": "https://opengraph.githubassets.com/9a60d962f8ebf5fcee2d6acf4bb14a4dcdcd8fff9d5c6ea30f548964fa65cf4a/Lissy93/dashy/pull/1124"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/compare/FIX/currency-widget-flags",
+          "author": null,
+          "description": "Lissy93\n              \n              created a\n              branch\n              in\n              Lissy93/dashy\n\n            \n              · February 26, 2023 22:42\n            \n          \n\n              \nFIX/currency-widget-flags in Lissy93/dashy\n                  \nUpdated Mar 2",
+          "link": "https://github.com/Lissy93/dashy/compare/FIX/currency-widget-flags",
+          "publishedOn": "2023-02-26T22:42:09.000Z",
+          "wordCount": null,
+          "title": "Lissy93 created a branch FIX/currency-widget-flags in Lissy93/dashy",
+          "imageUrl": null
+        },
+        {
+          "id": "https://github.com/Lissy93/currency-flags/compare/277dd67756...7ba226f7f8",
+          "author": null,
+          "description": "Lissy93\n      \n      pushed to\n        master\n        in\n      Lissy93/currency-flags\n      \n        · February 26, 2023 22:36\n      \n\n        \n1 commit to\n          master\n\n          \n\n                  \n                  7ba226f",
+          "link": "https://github.com/Lissy93/currency-flags/compare/277dd67756...7ba226f7f8",
+          "publishedOn": "2023-02-26T22:36:33.000Z",
+          "wordCount": 426,
+          "title": "Lissy93 pushed to master in Lissy93/currency-flags",
+          "imageUrl": "https://repository-images.githubusercontent.com/606902172/6c4a9d76-e827-4b1e-b3a7-57ed87c0286b"
+        },
+        {
+          "id": "https://github.com/Lissy93/currency-flags/compare/b4b4f552a4...277dd67756",
+          "author": null,
+          "description": "Lissy93\n      \n      pushed to\n        master\n        in\n      Lissy93/currency-flags\n      \n        · February 26, 2023 22:35\n      \n\n        \n2 commits to\n          master\n\n          \n\n                  \n                  277dd67\n                  \n\n                  \n                  0e2b68a",
+          "link": "https://github.com/Lissy93/currency-flags/compare/b4b4f552a4...277dd67756",
+          "publishedOn": "2023-02-26T22:35:36.000Z",
+          "wordCount": 437,
+          "title": "Lissy93 pushed to master in Lissy93/currency-flags",
+          "imageUrl": "https://repository-images.githubusercontent.com/606902172/6c4a9d76-e827-4b1e-b3a7-57ed87c0286b"
+        },
+        {
+          "id": "https://github.com/Lissy93/currency-flags/compare/master",
+          "author": null,
+          "description": "Lissy93\n              \n              created a\n              branch\n              in\n              Lissy93/currency-flags\n\n            \n              · February 26, 2023 22:06\n            \n          \n\n              \nmaster in Lissy93/currency-flags\n                  \nUpdated Mar 3",
+          "link": "https://github.com/Lissy93/currency-flags/compare/master",
+          "publishedOn": "2023-02-26T22:06:23.000Z",
+          "wordCount": 438,
+          "title": "Lissy93 created a branch master in Lissy93/currency-flags",
+          "imageUrl": "https://repository-images.githubusercontent.com/606902172/6c4a9d76-e827-4b1e-b3a7-57ed87c0286b"
+        },
+        {
+          "id": "https://github.com/Lissy93/currency-flags//",
+          "author": null,
+          "description": "Lissy93\n              \n              created a\n              repository\n              \n              Lissy93/currency-flags\n\n            \n              · February 26, 2023 22:03\n            \n          \n\n              \nLissy93/currency-flags\n            \n🇪🇺 Flag assets to represent world currencies\nUpdated Mar 3",
+          "link": "https://github.com/Lissy93/currency-flags//",
+          "publishedOn": "2023-02-26T22:03:39.000Z",
+          "wordCount": 841,
+          "title": "Lissy93 created a repository Lissy93/currency-flags",
+          "imageUrl": "https://repository-images.githubusercontent.com/606902172/6c4a9d76-e827-4b1e-b3a7-57ed87c0286b"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/1096#issuecomment-1445470132",
+          "author": null,
+          "description": "Lissy93\n          \n          commented on\n          Lissy93/dashy#1096\n          \n            · February 26, 2023 21:18\n          \n        \n Lissy93 commented Feb 26, 2023\n      \nIt looks like Wise has removed their awesome flag repo :(\nI'll have a look for an alternative, and try and get an update pushed :)",
+          "link": "https://github.com/Lissy93/dashy/issues/1096#issuecomment-1445470132",
+          "publishedOn": "2023-02-26T21:18:33.000Z",
+          "wordCount": 861,
+          "title": "Lissy93 commented on issue Lissy93/dashy#1096",
+          "imageUrl": "https://opengraph.githubassets.com/1f851f971dbdb7989e7c74b0e0721125bc91d5b9f8a0c29e855e944ede232aad/Lissy93/dashy/issues/1096"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/969#issuecomment-1445463456",
+          "author": null,
+          "description": "Lissy93\n          \n          commented on\n          Lissy93/dashy#969\n          \n            · February 26, 2023 20:48\n          \n        \n Lissy93 commented Feb 26, 2023\n      \nHey,\nReally sorry for the delay in replying, (I have so many unread GH notifications at the moment, that it's hard to spot the important ones! 😬)\nT…",
+          "link": "https://github.com/Lissy93/dashy/issues/969#issuecomment-1445463456",
+          "publishedOn": "2023-02-26T20:48:42.000Z",
+          "wordCount": 1758,
+          "title": "Lissy93 commented on issue Lissy93/dashy#969",
+          "imageUrl": "https://opengraph.githubassets.com/41eabd70854c281d316f6757d66ad8b8a8f865370537de0dfc216c3fd5dcf733/Lissy93/dashy/issues/969"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/1081",
+          "author": null,
+          "description": "Lissy93\n          \n          closed\n          an issue in\n          Lissy93/dashy\n        \n          · February 26, 2023 20:44\n        \n      \n\n\n\n      \n[BUG] Incorrect configuration export\n        \n        #1081\n          \nEnvironment\nSelf-Hosted (Docker)\nSystem\nWindows 10 21H2 , Firefox 109.0 x64\nVersion\n2.1.1\nDescribe the problem\nWhen I go to \"Update configuration\":\n\n…",
+          "link": "https://github.com/Lissy93/dashy/issues/1081",
+          "publishedOn": "2023-02-26T20:44:35.000Z",
+          "wordCount": 755,
+          "title": "Lissy93 closed an issue in Lissy93/dashy",
+          "imageUrl": "https://opengraph.githubassets.com/ab16573c137ffbadcbc08c13471ff54afd9b4c92417d2563e89876c9fd3bd563/Lissy93/dashy/issues/1081"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/1081#issuecomment-1445462575",
+          "author": null,
+          "description": "Lissy93\n          \n          commented on\n          Lissy93/dashy#1081\n          \n            · February 26, 2023 20:44\n          \n        \n Lissy93 commented Feb 26, 2023\n      \nThanks @malordin :)\nFixed in #1087",
+          "link": "https://github.com/Lissy93/dashy/issues/1081#issuecomment-1445462575",
+          "publishedOn": "2023-02-26T20:44:35.000Z",
+          "wordCount": 755,
+          "title": "Lissy93 commented on issue Lissy93/dashy#1081",
+          "imageUrl": "https://opengraph.githubassets.com/ab16573c137ffbadcbc08c13471ff54afd9b4c92417d2563e89876c9fd3bd563/Lissy93/dashy/issues/1081"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/1080#issuecomment-1445461276",
+          "author": null,
+          "description": "Lissy93\n          \n          commented on\n          Lissy93/dashy#1080\n          \n            · February 26, 2023 20:38\n          \n        \n Lissy93 commented Feb 26, 2023\n      \nHey @scribblepad - the best way to properly achieve this would be to make the conf.yml read-only. In Docker, that can be done with the readonly opt…",
+          "link": "https://github.com/Lissy93/dashy/issues/1080#issuecomment-1445461276",
+          "publishedOn": "2023-02-26T20:38:19.000Z",
+          "wordCount": 803,
+          "title": "Lissy93 commented on issue Lissy93/dashy#1080",
+          "imageUrl": "https://opengraph.githubassets.com/c4f7e750a8ddea724b70c9ccea34aff21ea75ccbb08da3dbaa0c609c2d9668ea/Lissy93/dashy/issues/1080"
+        },
+        {
+          "id": "https://github.com/Lissy93/dashy/issues/1086#issuecomment-1445460238",
+          "author": null,
+          "description": "Lissy93\n          \n          commented on\n          Lissy93/dashy#1086\n          \n            · February 26, 2023 20:33\n          \n        \n Lissy93 commented Feb 26, 2023\n      \nHeya @papampi\nSorry for the delayed reply, it's been a busy couple of weeks.\nWhat kind of stuff were you thinking the ChatGPT widget would do? Like…",
+          "link": "https://github.com/Lissy93/dashy/issues/1086#issuecomment-1445460238",
+          "publishedOn": "2023-02-26T20:33:13.000Z",
+          "wordCount": 1121,
+          "title": "Lissy93 commented on issue Lissy93/dashy#1086",
+          "imageUrl": "https://opengraph.githubassets.com/9eb3ab44b227b0ca3a18041f089608ef912e7e4bc34b18fa8dae945c6822a3c0/Lissy93/dashy/issues/1086"
+        },
+        {
+          "id": "https://github.com/Lissy93/Lissy93/compare/1646def1a3...4b7a61d2d2",
+          "author": null,
+          "description": "Lissy93\n      \n      pushed to\n        master\n        in\n      Lissy93/Lissy93\n      \n        · February 26, 2023 17:00\n      \n\n        \n1 commit to\n          master\n\n          \n\n                  \n                  4b7a61d\n                  \n📝 Adds newline after expansion",
+          "link": "https://github.com/Lissy93/Lissy93/compare/1646def1a3...4b7a61d2d2",
+          "publishedOn": "2023-02-26T17:00:42.000Z",
+          "wordCount": 423,
+          "title": "Lissy93 pushed to master in Lissy93/Lissy93",
+          "imageUrl": "https://repository-images.githubusercontent.com/280470504/ed02622f-a607-40ab-a9e1-e7694e20b1fa"
+        },
+        {
+          "id": "https://github.com/Lissy93/feeds/compare/bfd1de1101...0d71fe9400",
+          "author": null,
+          "description": "Lissy93\n      \n      pushed to\n        main\n        in\n      Lissy93/feeds\n      \n        · February 26, 2023 16:58\n      \n\n        \n1 commit to\n          main\n\n          \n\n                  \n                  0d71fe9\n                  \n📝 Updates readme",
+          "link": "https://github.com/Lissy93/feeds/compare/bfd1de1101...0d71fe9400",
+          "publishedOn": "2023-02-26T16:58:52.000Z",
+          "wordCount": 424,
+          "title": "Lissy93 pushed to main in Lissy93/feeds",
+          "imageUrl": "https://opengraph.githubassets.com/6f23fc1d6b7ecfa58968587da61f0fc526b990bd707b79c7c2c89a4a028c6ff1/Lissy93/feeds"
+        }
+      ]
+    },
+    {
+      "title": "User Lissy93 - Stack Overflow",
+      "feedUrl": "https://raw.githubusercontent.com/Lissy93/feeds/main/stackoverflow.atom",
+      "siteUrl": "https://stackoverflow.com/users/979052",
+      "articles": [
+        {
+          "id": "https://stackoverflow.com/questions/64780498/differentiate-between-server-side-and-client-side-on-fetch-sapper/75402379#75402379",
+          "author": null,
+          "description": "<p>Just an update, for SvelteKit 1.0.0 and later...</p>\n<p>The <a href=\"https://kit.svelte.dev/docs/modules#$app-environment\" rel=\"nofollow noreferrer\"><code>environment</code></a> module includes the <a href=\"https://kit.svelte.dev/docs/modules#$app-environment-browser\" rel=\"nofollow noreferrer\"><code>browser</code></a> property, which returns <code>true</code> if being run client-side.</p>\n<p>For example,</p>\n<pre class=\"lang-js prettyprint-override\"><code>import { browser } from '$app/environment';\n\nif (browser) {\n  // Running client-side\n  // Can use the browser APIs here\n} else {\n  // Running server-side\n  // Can use private env vars here\n}\n</code></pre>",
+          "link": "https://stackoverflow.com/questions/64780498/differentiate-between-server-side-and-client-side-on-fetch-sapper/75402379#75402379",
+          "publishedOn": "2023-02-09T17:34:05.000Z",
+          "wordCount": 2505,
+          "title": "Answer by Lissy93 for Differentiate between Server Side and Client Side on fetch Sapper",
+          "imageUrl": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
+        }
+      ]
+    },
+    {
+      "title": "˗ˏˋ Alicia Sykes ˎˊ˗ 🚀 / @Lissy_Sykes",
+      "feedUrl": "https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom",
+      "siteUrl": "http://nitter.fdn.fr/Lissy_Sykes",
+      "articles": []
+    },
+    {
+      "title": "Alicia Sykes  🚀",
+      "feedUrl": "https://raw.githubusercontent.com/Lissy93/feeds/main/mastodon.atom",
+      "siteUrl": "https://mastodon.social/@lissy93",
+      "articles": []
+    },
+    {
+      "title": "Alicia Sykes",
+      "feedUrl": "https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom",
+      "siteUrl": "https://www.youtube.com/channel/UCY_XiFwLImCn3arzomg8eRA",
+      "articles": []
+    }
+  ],
+  "cliVersion": "1.15.1"
+}
