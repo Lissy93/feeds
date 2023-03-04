@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lissy93.github.io/feeds/index.html</id>
     <title>lissy93::feed</title>
-    <updated>2023-03-04T17:19:06.272Z</updated>
+    <updated>2023-03-04T20:50:29.818Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://lissy93.github.io/feeds/index.html"/>
     <link rel="self" href="https://lissy93.github.io/feeds/feed.atom"/>
@@ -868,6 +868,478 @@ if (browser) {
 </code></pre>]]></summary>
         <author>
             <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions]]></title>
+        <id>https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will</id>
+        <link href="https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will"/>
+        <updated>2023-01-30T23:56:14.000Z</updated>
+        <summary type="html"><![CDATA[You don&#39;t need to create new elements, all the overflow capabilities should be able to be handled with proper CSS.]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions]]></title>
+        <id>https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will</id>
+        <link href="https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will"/>
+        <updated>2023-01-30T15:07:20.000Z</updated>
+        <summary type="html"><![CDATA[This should be possible to do with just pure CSS, no need for the JS. If you can share the rest of your code, that&#39;d help us write an answer. But it&#39;s probably going to be using flexbox, and flex wrap to make use of available space]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on Unexpected Output from Array() Method]]></title>
+        <id>https://stackoverflow.com/questions/75286188/unexpected-output-from-array-method</id>
+        <link href="https://stackoverflow.com/questions/75286188/unexpected-output-from-array-method"/>
+        <updated>2023-01-30T15:03:11.000Z</updated>
+        <summary type="html"><![CDATA[The output is <code>abcabcabc</code> (so abc 3x times) - which is expected, because your passing in <code>3</code>]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[20 Amazing Collections for Self-Taught Developers 🎓]]></title>
+        <id>https://notes.aliciasykes.com/42310/20-amazing-collections-for-self-taught-developers</id>
+        <link href="https://notes.aliciasykes.com/42310/20-amazing-collections-for-self-taught-developers"/>
+        <updated>2023-01-27T17:45:35.000Z</updated>
+        <summary type="html"><![CDATA[A collection of the best free developer resources, from GitHub and beyond
+Developer Curriculum
+Developer Roadmaps - Complete roadmaps for developers 
+FreeCodeCamp Curriculum - Full and free learning curriculum  to become a developer
+Comp Sci University
+Open Source Uni - Collection of everything you need for a Comp Sci degree 
+CompSci Study Plan - Full study plan for computer science 
+Learn by Doing
+Build your own X - Tutorials to recreate common technologies
+
+Project Tutorials - Tutorials for project-based learning 
+Web Dev projects - Projects and tutorials to take you from zero to hero 
+App Ideas - Big list of app ideas you can build to learn 
+APIs for Projects - Public APIs you can build projects around 
+Public Data Sets - Public datasets you can build projects around 
+Algorithms
+JavaScript - Common algorithms + data structures, implemented in JS 
+Python - Common algorithms + data structures, implemented in Python 
+Java Design Patterns - Common design patterns + data structures, implemented in Java
+Cracking LeetCode - Resources for learning algorithms for LeetCode
+Content
+Free Programming Books - Massive list of free programming books 
+Papers - Collection of interesting programming research papers 
+CS Video Courses - Compiled list of free Comp Sci lecture videos 
+Things - Things every programmer should know 
+Free Services - List of SaaS websites you can use for free 
+Misc
+System Design Primer - Introduction to system designs 
+Tech Interview Handbook - Full guide to technical interviews 
+Awesome - A list of awesome lists (your gateway to endless awesomeness!)]]></summary>
+        <author>
+            <name>Alicia's Notes 🚀</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CLI tools you can't live without 🔧]]></title>
+        <id>https://notes.aliciasykes.com/41983/cli-tools-you-can-t-live-without</id>
+        <link href="https://notes.aliciasykes.com/41983/cli-tools-you-can-t-live-without"/>
+        <updated>2023-01-19T17:42:01.000Z</updated>
+        <summary type="html"><![CDATA[As developers, we spend a lot of our time in the terminal. There's a lot of helpful CLI tools, which can make your life in the command line easier, faster and generally more fun.
+This post outlines my top 50 must-have CLI tools, which I've come to rely on. If there's anything I'm missing - do let me know in the comments :)
+At the end of the article, I've included some scripts to help you automate the installation and updating of these tools on various systems/ distros.
+Utils
+thefuck -  Auto-correct miss-typed commands
+thefuck is one of those utilities you won't be able to live without once you've tried it. Whenever you mis-type a command and get an error, just run fuck and it'll auto-correct it. Use up/down to choose a correction, or just run fuck --yeah to just execute the most likely imm…]]></summary>
+        <author>
+            <name>Alicia's Notes 🚀</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Latest post is up, on #Dev 
+A big list of eipc CLI tools, that will make your life way easier (or at least, more colourful)
+Anything I'm missing?
+https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6 #Linux #developer]]></title>
+        <id>http://nitter.fdn.fr/Lissy_Sykes/status/1616104945362833408#m</id>
+        <link href="http://nitter.fdn.fr/Lissy_Sykes/status/1616104945362833408#m"/>
+        <updated>2023-01-19T16:06:59.000Z</updated>
+        <summary type="html"><![CDATA[Latest post is up, on #Dev 
+dev.to/lissy93/cli-tools-you… #Linux #developer]]></summary>
+        <author>
+            <name>@Lissy_Sykes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CLI tools you won't be able to live without 🔧]]></title>
+        <id>https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6</id>
+        <link href="https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6"/>
+        <updated>2023-01-19T01:30:42.000Z</updated>
+        <summary type="html"><![CDATA[As developers, we spend a lot of our time in the terminal. There's a lot of helpful CLI tools, which can make your life in the command line easier, faster and generally more fun.
+This post outlines my top 50 must-have CLI tools, which I've come to rely on. If there's anything I'm missing - do let me know in the comments :)
+At the end of the article, I've included some scripts to help you automate the installation and updating of these tools on various systems/ distros.
+Contents (click to expand)
+  
+thefuck -  Auto-correct miss-typed commands
+zoxide - Easy navigation (better cd)
+
+
+tldr - Community-maintained docs (better man)
+
+
+scc -  Count lines of code (better cloc)
+
+
+exa - Listing Files (better ls)
+
+
+duf - Disk Usage (better df)
+
+
+aria2 - Download Utility (better wget)
+
+
+bat - Reading Fi…]]></summary>
+        <author>
+            <name>Alicia Sykes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Answer by Lissy93 for Why does my u64 Rust program run faster with Docker (Desktop) compared with a native macOS executable?]]></title>
+        <id>https://stackoverflow.com/questions/66432062/why-does-my-u64-rust-program-run-faster-with-docker-desktop-compared-with-a-na/74987359#74987359</id>
+        <link href="https://stackoverflow.com/questions/66432062/why-does-my-u64-rust-program-run-faster-with-docker-desktop-compared-with-a-na/74987359#74987359"/>
+        <updated>2023-01-02T21:53:40.000Z</updated>
+        <summary type="html"><![CDATA[<p>A little late here, but was experiencing something similar and came to find out that (at least in my case) the performance difference is due to Rust's optimization being less efficient on older versions of Docker.</p>
+<p>In my instance, after doing the following I was able to get near parrallel performance:</p>
+<ul>
+<li>Update to the latest version of Docker</li>
+<li>Enable <a href="https://docs.docker.com/build/buildkit/" rel="nofollow noreferrer"><code>DOCKER_BUILDKIT</code></a></li>
+<li>Apply some basic optimizations to the code</li>
+<li>Cache Rust dependencies where possible (<a href="https://notes.aliciasykes.com/p/gX7c5lsYvW" rel="nofollow noreferrer">here's how</a>, and a similar <a href="https://stackoverflow.com/a/64528456/979052">post</a>)</li>
+</ul>]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on How to focus on input field loaded from component in Svelte?]]></title>
+        <id>https://stackoverflow.com/questions/57354001/how-to-focus-on-input-field-loaded-from-component-in-svelte/57355578#57355578</id>
+        <link href="https://stackoverflow.com/questions/57354001/how-to-focus-on-input-field-loaded-from-component-in-svelte/57355578#57355578"/>
+        <updated>2023-01-01T00:37:49.000Z</updated>
+        <summary type="html"><![CDATA[@mikemaccana - ref just short for reference, but it&#39;s commonly used in this context so for the sake of an example should be fine.]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on on:keydown event with Enter Key in svelte]]></title>
+        <id>https://stackoverflow.com/questions/72030745/onkeydown-event-with-enter-key-in-svelte/72031473#72031473</id>
+        <link href="https://stackoverflow.com/questions/72030745/onkeydown-event-with-enter-key-in-svelte/72031473#72031473"/>
+        <updated>2023-01-01T00:27:08.000Z</updated>
+        <summary type="html"><![CDATA[This should be the accepted answer - very clearly described, and after testing against your scenario seems to work perfectly.]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @Lissy_Sykes: 20 Git Commands you (probably) didn't know about 🧙‍♂️
+
+https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o by @Lissy_Sykes 
+
+#Git #CLI #CommandLine]]></title>
+        <id>http://nitter.fdn.fr/nucliweb/status/1606581915859169280#m</id>
+        <link href="http://nitter.fdn.fr/nucliweb/status/1606581915859169280#m"/>
+        <updated>2022-12-24T09:25:52.000Z</updated>
+        <summary type="html"><![CDATA[20 Git Commands you (probably) didn't know about 🧙‍♂️
+dev.to/lissy93/20-git-comman… by @Lissy_Sykes 
+#Git #CLI #CommandLine]]></summary>
+        <author>
+            <name>@nucliweb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @Lissy_Sykes: This post briefly outlines the top 10 neat tricks you can use to level up your logging experience.
+
+{ author: @Lissy_Sykes } #DEVCommunity #BestOfDEV2022 
+https://dev.to/lissy93/fun-with-consolelog-3i59]]></title>
+        <id>http://nitter.fdn.fr/ThePracticalDev/status/1604630845993656320#m</id>
+        <link href="http://nitter.fdn.fr/ThePracticalDev/status/1604630845993656320#m"/>
+        <updated>2022-12-19T00:13:00.000Z</updated>
+        <summary type="html"><![CDATA[This post briefly outlines the top 10 neat tricks you can use to level up your logging experience.
+@Lissy_Sykes } #DEVCommunity #BestOfDEV2022 
+dev.to/lissy93/fun-with-cons…]]></summary>
+        <author>
+            <name>@ThePracticalDev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[20 Git Commands you (probably) didn't know about 🧙‍♂️]]></title>
+        <id>https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o</id>
+        <link href="https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o"/>
+        <updated>2022-12-18T13:32:40.000Z</updated>
+        <summary type="html"><![CDATA[If you've ever browsed the git manual (or run man git), then you'll have noticed there's a whole lot more to git than what most of us use on a daily basis. A lot of these commands are incredibly powerful and can make your life a lot easier (others are a bit niche, but still good to know).
+This post outlines 20 of my favourite under-used git features, which you can use to level up your development process, impress your colleagues, help you answer git interview questions, and most importantly - have fun with!
+Open builtin GUI
+
+
+Git Notes - Attach extra info to commits
+
+
+Git Bisect - Debug like a pro
+
+
+Git Grep - Search for anything
+
+
+Git Archive - Compress project for sharing
+
+
+Git Submodules - Import other repos into yours
+
+
+Git Bugreport - Compile bug report with system info
+
+
+Git Fsck - V…]]></summary>
+        <author>
+            <name>Alicia Sykes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[20 Git Commands you (probably) didn't know 🧙‍♂️]]></title>
+        <id>https://notes.aliciasykes.com/41171/20-git-commands-you-probably-didn-t-know</id>
+        <link href="https://notes.aliciasykes.com/41171/20-git-commands-you-probably-didn-t-know"/>
+        <updated>2022-12-17T20:46:47.000Z</updated>
+        <summary type="html"><![CDATA[A collection of 20 under-used git command to upgrade your development experience.
+If you've ever browsed the git manual (or run man git), then you'll have noticed there's a whole lot more to git than what most of us use on a daily basis. A lot of these commands are incredibly powerful and can make your life a lot easier (others are a bit niche, but still good to know).
+Contents
+Git Web - Open builtin GUI
+Git Notes - Attach extra info to commits
+Git Bisect - Debug like a pro
+Git Grep - Search for anything
+Git Archive - Compress project for sharing
+Git Submodules - Import other repos into yours
+Git Bugreport - Compile bug report with system info
+Git Fsck - Verify and recover unreachable objects
+Git Stripspace - Remove trailing whitespaces
+Git Diff - Compare changes between two files
+Git Hook…]]></summary>
+        <author>
+            <name>Alicia's Notes 🚀</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on How to add docker volume for zipkin server]]></title>
+        <id>https://stackoverflow.com/questions/74817558/how-to-add-docker-volume-for-zipkin-server</id>
+        <link href="https://stackoverflow.com/questions/74817558/how-to-add-docker-volume-for-zipkin-server"/>
+        <updated>2022-12-15T23:22:05.000Z</updated>
+        <summary type="html"><![CDATA[Use <code>--volume</code> to mount your own file or directory to where the log files are]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on Onclick not working when I click the button]]></title>
+        <id>https://stackoverflow.com/questions/74818587/onclick-not-working-when-i-click-the-button</id>
+        <link href="https://stackoverflow.com/questions/74818587/onclick-not-working-when-i-click-the-button"/>
+        <updated>2022-12-15T23:18:08.000Z</updated>
+        <summary type="html"><![CDATA[What do you mean by <i>&quot;doesn&#39;t work&quot;</i> ?  It lgtm. If you could update your question to be an interactive, runnable code snippet, that may help both you and us answer the question.]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on how would I use setInterval to execute a class function?]]></title>
+        <id>https://stackoverflow.com/questions/74818557/how-would-i-use-setinterval-to-execute-a-class-function</id>
+        <link href="https://stackoverflow.com/questions/74818557/how-would-i-use-setinterval-to-execute-a-class-function"/>
+        <updated>2022-12-15T23:16:19.000Z</updated>
+        <summary type="html"><![CDATA[You should just be able to wrap that final line in a for loop, that iterates over each of the players (unless I&#39;ve misunderstood the question)]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on Provide alert when two containers come in each other position range through CSS animation]]></title>
+        <id>https://stackoverflow.com/questions/74813455/provide-alert-when-two-containers-come-in-each-other-position-range-through-css</id>
+        <link href="https://stackoverflow.com/questions/74813455/provide-alert-when-two-containers-come-in-each-other-position-range-through-css"/>
+        <updated>2022-12-15T14:58:17.000Z</updated>
+        <summary type="html"><![CDATA[What have you tried so far?]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on Getting Key From HashMap Value]]></title>
+        <id>https://stackoverflow.com/questions/74188748/getting-key-from-hashmap-value/74189016#74189016</id>
+        <link href="https://stackoverflow.com/questions/74188748/getting-key-from-hashmap-value/74189016#74189016"/>
+        <updated>2022-12-14T21:05:11.000Z</updated>
+        <summary type="html"><![CDATA[@redfox - if IamGroot&#39;s answer helped, don&#39;t forget to accept it.]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Answer by Lissy93 for How do I align text in top left corner of div?]]></title>
+        <id>https://stackoverflow.com/questions/74804013/how-do-i-align-text-in-top-left-corner-of-div/74804049#74804049</id>
+        <link href="https://stackoverflow.com/questions/74804013/how-do-i-align-text-in-top-left-corner-of-div/74804049#74804049"/>
+        <updated>2022-12-14T20:52:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>(I'll update my answer with more specific code samples, once you've shared your markup)</p>
+<h2>Option #1 - Absolute Positioning</h2>
+<p><div class="snippet" data-lang="js" data-hide="false" data-console="true" data-babel="false">
+<div class="snippet-code">
+<pre class="snippet-code-css lang-css prettyprint-override"><code>.wrapper {
+  position: relative;
+  min-height: 300px;
+  border: 2px dashed red;
+}
+
+.top-left {
+  position: absolute;
+  top: 0.25rem;
+  left: 0.25rem;
+  border: 2px dashed blue;
+}</code></pre>
+<pre class="snippet-code-html lang-html prettyprint-override"><code>&lt;div class="wrapper"&gt;
+  &lt;div class="top-left"&gt;[123]&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+</div>
+</p>
+<h2>Option #2 - Flex Layout</h2>
+<p><div class="snippet" data-lang="js" data-hide="false" data-console="true" data-babel="false">
+<div class="snippet-code">
+<pre class="snippet-code-css lang-css prettyprint-override"><code>.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  min-height: 300px;
+  border: 2px dashed red;
+}
+
+.top-left {
+  border: 2px dashed blue;
+}</code></pre>
+<pre class="snippet-code-html lang-html prettyprint-override"><code>&lt;div class="wrapper"&gt;
+  &lt;div class="top-left"&gt;[123]&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+</div>
+</p>
+<h2>Option #3 - Grid Layout</h2>
+<p><div class="snippet" data-lang="js" data-hide="false" data-console="true" data-babel="false">
+<div class="snippet-code">
+<pre class="snippet-code-css lang-css prettyprint-override"><code>.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  min-height: 200px;
+  border: 2px dashed red;
+}
+
+.top-left {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  border: 2px dashed blue;
+}
+
+.cell {
+  border: 2px dashed yellow;
+}</code></pre>
+<pre class="snippet-code-html lang-html prettyprint-override"><code>&lt;div class="wrapper"&gt;
+  &lt;div class="top-left"&gt;[123]&lt;/div&gt;
+  &lt;div class="cell"&gt;[CELL]&lt;/div&gt;
+  &lt;div class="cell"&gt;[CELL]&lt;/div&gt;
+  &lt;div class="cell"&gt;[CELL]&lt;/div&gt;
+  &lt;div class="cell"&gt;[CELL]&lt;/div&gt;
+  &lt;div class="cell"&gt;[CELL]&lt;/div&gt;
+  &lt;div class="cell"&gt;[CELL]&lt;/div&gt;
+  &lt;div class="cell"&gt;[CELL]&lt;/div&gt;
+  &lt;div class="cell"&gt;[CELL]&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+</div>
+</p>]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on How do I align text in top left corner of div?]]></title>
+        <id>https://stackoverflow.com/questions/74804013/how-do-i-align-text-in-top-left-corner-of-div</id>
+        <link href="https://stackoverflow.com/questions/74804013/how-do-i-align-text-in-top-left-corner-of-div"/>
+        <updated>2022-12-14T20:48:27.000Z</updated>
+        <summary type="html"><![CDATA[Can you share (a minimal example of) your markup as well?]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on How do I get the localized date format for a given locale?]]></title>
+        <id>https://stackoverflow.com/questions/74754040/how-do-i-get-the-localized-date-format-for-a-given-locale</id>
+        <link href="https://stackoverflow.com/questions/74754040/how-do-i-get-the-localized-date-format-for-a-given-locale"/>
+        <updated>2022-12-10T16:52:58.000Z</updated>
+        <summary type="html"><![CDATA[This question is quite similar to <a href="https://stackoverflow.com/a/54115358/979052">this one</a>, although no solution without using reduce was found]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[http://PrivacyTests.org is by far the most comprehensive browser comparison site out there (in terms of privacy and security). If you've not already checked it out, I highly  recommend! 🔐✨]]></title>
+        <id>http://nitter.fdn.fr/Lissy_Sykes/status/1601301921750401025#m</id>
+        <link href="http://nitter.fdn.fr/Lissy_Sykes/status/1601301921750401025#m"/>
+        <updated>2022-12-09T19:45:03.000Z</updated>
+        <summary type="html"><![CDATA[PrivacyTests.org is by far the most comprehensive browser comparison site out there (in terms of privacy and security). If you've not already checked it out, I highly  recommend! 🔐✨
+nitter.fdn.fr/privacytests/status/1601094220399640576#m]]></summary>
+        <author>
+            <name>@Lissy_Sykes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on how to use rtl mode in react-native-reanimated-carousel]]></title>
+        <id>https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel</id>
+        <link href="https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel"/>
+        <updated>2022-12-08T23:20:24.000Z</updated>
+        <summary type="html"><![CDATA[The solution works though. Since there&#39;s an open issue for it, you can submit an improvement as a PR. SO probably isn&#39;t the best place to get help with a very specific library - either the discussions tab of the repo, or one of the existing open issues on the topic would be better.]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on how to use rtl mode in react-native-reanimated-carousel]]></title>
+        <id>https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel</id>
+        <link href="https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel"/>
+        <updated>2022-12-07T15:34:39.000Z</updated>
+        <summary type="html"><![CDATA[Have you checked the docs, or the GitHub repo? <a href="https://github.com/dohooo/react-native-reanimated-carousel/issues/238#issuecomment-1311265888" rel="nofollow noreferrer">#238</a> seems to answer your question.]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comment by Lissy93 on how to use rtl mode in react-native-reanimated-carousel]]></title>
+        <id>https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel</id>
+        <link href="https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel"/>
+        <updated>2022-12-07T15:33:36.000Z</updated>
+        <summary type="html"><![CDATA[Try adding <code>{transform: [{scaleX: -1}]}</code> to the container. I think you can also use the <code>autoPlayReverse</code> prop too]]></summary>
+        <author>
+            <name>User Lissy93 - Stack Overflow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thank you so much @bioinf_infosec 💖 :)]]></title>
+        <id>http://nitter.fdn.fr/Lissy_Sykes/status/1600476196415803392#m</id>
+        <link href="http://nitter.fdn.fr/Lissy_Sykes/status/1600476196415803392#m"/>
+        <updated>2022-12-07T13:03:55.000Z</updated>
+        <summary type="html"><![CDATA[Thank you so much @bioinf_infosec 💖 :)
+nitter.fdn.fr/bioinf_infosec/status/1600306425472827393#m]]></summary>
+        <author>
+            <name>@Lissy_Sykes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @Lissy_Sykes: Excellent resource for lots of ways to spice things up with a bit of magic CSS: https://dev.to/lissy93/super-useful-css-resources-1ba3?utm_source=tldrnewsletter (especially useful because they're dependency free), by @Lissy_Sykes]]></title>
+        <id>http://nitter.fdn.fr/pbakaus/status/1600286026416934912#m</id>
+        <link href="http://nitter.fdn.fr/pbakaus/status/1600286026416934912#m"/>
+        <updated>2022-12-07T00:28:15.000Z</updated>
+        <summary type="html"><![CDATA[Excellent resource for lots of ways to spice things up with a bit of magic CSS: dev.to/lissy93/super-useful-… (especially useful because they're dependency free), by @Lissy_Sykes]]></summary>
+        <author>
+            <name>@pbakaus</name>
         </author>
     </entry>
 </feed>
