@@ -1,0 +1,30 @@
+# Builds and deploys a static website listing feed content to GH Pages
+# Uses: https://github.com/osmoscraft/osmosfeed
+
+name: 🌏 Build Deploy GH Pages
+
+on:
+  workflow_dispatch: # Manual dispatch
+  schedule:
+    - cron: '30 23 * * *' # At 23:30 each day
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3.3.0
+      - name: Setup Node.js environment 🔧
+        uses: actions/setup-node@v2.1.4
+        with:
+          node-version: "16"
+      - name: Install dependencies 📩
+        run: npm i -g @osmoscraft/osmosfeed
+      - name: Build the feed 🔨
+        run: osmosfeed
+      - name: Deploy to GitHub Pages ⤴️
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          
