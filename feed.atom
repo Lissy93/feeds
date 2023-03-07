@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lissy93.github.io/feeds/index.html</id>
     <title>lissy93::feed</title>
-    <updated>2023-03-06T23:34:39.713Z</updated>
+    <updated>2023-03-07T23:34:41.061Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://lissy93.github.io/feeds/index.html"/>
     <link rel="self" href="https://lissy93.github.io/feeds/feed.atom"/>
@@ -1966,37 +1966,6 @@ nitter.fdn.fr/privacytests/status/1601094220399640576#m]]></summary>
         <summary type="html"><![CDATA[The solution works though. Since there&#39;s an open issue for it, you can submit an improvement as a PR. SO probably isn&#39;t the best place to get help with a very specific library - either the discussions tab of the repo, or one of the existing open issues on the topic would be better.]]></summary>
         <author>
             <name>User Lissy93 - Stack Overflow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Comment by Lissy93 on how to use rtl mode in react-native-reanimated-carousel]]></title>
-        <id>https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel</id>
-        <link href="https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel"/>
-        <updated>2022-12-07T15:34:39.000Z</updated>
-        <summary type="html"><![CDATA[Have you checked the docs, or the GitHub repo? <a href="https://github.com/dohooo/react-native-reanimated-carousel/issues/238#issuecomment-1311265888" rel="nofollow noreferrer">#238</a> seems to answer your question.]]></summary>
-        <author>
-            <name>User Lissy93 - Stack Overflow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Comment by Lissy93 on how to use rtl mode in react-native-reanimated-carousel]]></title>
-        <id>https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel</id>
-        <link href="https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel"/>
-        <updated>2022-12-07T15:33:36.000Z</updated>
-        <summary type="html"><![CDATA[Try adding <code>{transform: [{scaleX: -1}]}</code> to the container. I think you can also use the <code>autoPlayReverse</code> prop too]]></summary>
-        <author>
-            <name>User Lissy93 - Stack Overflow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thank you so much @bioinf_infosec 💖 :)]]></title>
-        <id>http://nitter.fdn.fr/Lissy_Sykes/status/1600476196415803392#m</id>
-        <link href="http://nitter.fdn.fr/Lissy_Sykes/status/1600476196415803392#m"/>
-        <updated>2022-12-07T13:03:55.000Z</updated>
-        <summary type="html"><![CDATA[Thank you so much @bioinf_infosec 💖 :)
-nitter.fdn.fr/bioinf_infosec/status/1600306425472827393#m]]></summary>
-        <author>
-            <name>@Lissy_Sykes</name>
         </author>
     </entry>
 </feed>
