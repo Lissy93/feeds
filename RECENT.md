@@ -21,20 +21,20 @@
 
 ## StackOverflow [![StackOverflow - Alicia Sykes](https://img.shields.io/badge/-Alicia-f48225?style=flat&logo=Stackoverflow&logoColor=white)](https://stackoverflow.com/users/979052/alicia "StackOverflow - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/stackoverflow.atom)
 <!-- stackoverflow-feed start -->
+- `15 Mar 2023` - **[Comment by Lissy93 on How to translateY a whole div on hover and only apply underline on the first item](https://stackoverflow.com/questions/75748749/how-to-translatey-a-whole-div-on-hover-and-only-apply-underline-on-the-first-ite)**
 - ` 9 Feb 2023` - **[Answer by Lissy93 for Differentiate between Server Side and Client Side on fetch Sapper](https://stackoverflow.com/questions/64780498/differentiate-between-server-side-and-client-side-on-fetch-sapper/75402379#75402379)**
 - `30 Jan 2023` - **[Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions](https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will)**
 - `30 Jan 2023` - **[Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions](https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will)**
 - `30 Jan 2023` - **[Comment by Lissy93 on Unexpected Output from Array() Method](https://stackoverflow.com/questions/75286188/unexpected-output-from-array-method)**
-- ` 2 Jan 2023` - **[Answer by Lissy93 for Why does my u64 Rust program run faster with Docker (Desktop) compared with a native macOS executable?](https://stackoverflow.com/questions/66432062/why-does-my-u64-rust-program-run-faster-with-docker-desktop-compared-with-a-na/74987359#74987359)**
 <!-- stackoverflow-feed end -->
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `15 Mar 2023` - **[Lissy93 pushed to master in Lissy93/Lissy93](https://github.com/Lissy93/Lissy93/compare/bdec47adc9...7e19c34d80)**
+- `15 Mar 2023` - **[Lissy93 starred k0kubun/gitstar-ranking](https://github.com/k0kubun/gitstar-ranking)**
+- `15 Mar 2023` - **[Lissy93 starred zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)**
 - `13 Mar 2023` - **[Lissy93 opened a pull request in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/pull/1)**
 - `13 Mar 2023` - **[Lissy93 pushed to feat/api in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/abea267778...f6256ae56e)**
-- `13 Mar 2023` - **[Lissy93 pushed to feat/api in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/c02e5dd7a5...abea267778)**
-- `11 Mar 2023` - **[Lissy93 merged a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/158)**
-- `11 Mar 2023` - **[Lissy93 pushed to gh-pages in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/ed1ab681f5...e8133cc622)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
