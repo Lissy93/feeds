@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `17 Mar 2023` - **[Lissy93 starred openai/openai-node](https://github.com/openai/openai-node)**
+- `17 Mar 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/461e32cab1...a9c4147d23)**
+- `17 Mar 2023` - **[Lissy93 merged a pull request in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/pull/3)**
 - `15 Mar 2023` - **[Lissy93 pushed to master in Lissy93/Lissy93](https://github.com/Lissy93/Lissy93/compare/bdec47adc9...7e19c34d80)**
 - `15 Mar 2023` - **[Lissy93 starred k0kubun/gitstar-ranking](https://github.com/k0kubun/gitstar-ranking)**
-- `15 Mar 2023` - **[Lissy93 starred zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)**
-- `13 Mar 2023` - **[Lissy93 opened a pull request in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/pull/1)**
-- `13 Mar 2023` - **[Lissy93 pushed to feat/api in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/abea267778...f6256ae56e)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
