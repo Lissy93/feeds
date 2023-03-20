@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `19 Mar 2023` - **[Lissy93 deleted branch feat/api at Lissy93/currency-flags](https://github.com/)**
-- `19 Mar 2023` - **[Lissy93 pushed to master in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/c2fd2559dc...98f99528af)**
-- `19 Mar 2023` - **[Lissy93 merged a pull request in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/pull/2)**
-- `19 Mar 2023` - **[Lissy93 opened a pull request in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/pull/2)**
-- `19 Mar 2023` - **[Lissy93 created a branch feat/api in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/feat/api)**
+- `20 Mar 2023` - **[Lissy93 closed an issue in Lissy93/cheat-code](https://github.com/Lissy93/cheat-code/issues/1)**
+- `20 Mar 2023` - **[Lissy93 commented on issue Lissy93/cheat-code#1](https://github.com/Lissy93/cheat-code/issues/1#issuecomment-1476362936)**
+- `20 Mar 2023` - **[Lissy93 deleted branch master at Lissy93/cheat-code](https://github.com/)**
+- `20 Mar 2023` - **[Lissy93 commented on issue Lissy93/cheat-code#1](https://github.com/Lissy93/cheat-code/issues/1#issuecomment-1476360698)**
+- `20 Mar 2023` - **[Lissy93 created a branch main in Lissy93/cheat-code](https://github.com/Lissy93/cheat-code/compare/main)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
