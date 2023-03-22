@@ -4,7 +4,7 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2023-03-21T23:03:46Z</updated>
+    <updated>2023-03-22T23:03:33Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
@@ -428,19 +428,6 @@
         <summary type="html">&lt;ol&gt;&#xA;&lt;li&gt;Under Repo &#x2192; Settings &#x2192; Pages &#x2192; Sources, and select the &lt;code&gt;gh-pages&lt;/code&gt; branch&lt;/li&gt;&#xA;&lt;li&gt;Put your built application (e.g. &lt;code&gt;dist&lt;/code&gt;) at the root of the gh-pages branch to be served up&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr /&gt;&#xA;&lt;p&gt;You&#x27;ll probably want to automate this, which can be done quite easily with &lt;a href=&quot;https://github.com/actions&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub Actions&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The following example, uses &lt;a href=&quot;https://github.com/JamesIves/github-pages-deploy-action&quot; rel=&quot;nofollow noreferrer&quot;&gt;JamesIves/github-pages-deploy-action&lt;/a&gt;, to build an deploy your app every time a change is made on your main branch.&lt;/p&gt;&#xA;&lt;p&gt;Just create a file in &lt;code&gt;.github/workflows/deploy-gh-pages.yml&lt;/code&gt; in your main branch, then populate it with:&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-yaml prettyprint-override&quot;&gt;&lt;code&gt;name: Build and Deploy to GH Pages&#xA;on: &#xA;  push:&#xA;  workflow_dispatch:&#xA;permissions: &#xA;  contents: write&#xA;jobs:&#xA;  build-and-deploy:&#xA;    concurrency: ci-${{ github.ref }}&#xA;    runs-on: ubuntu-latest&#xA;    steps:&#xA;      - name: Checkout&#xA;        uses: actions/checkout@v3&#xA;      - name: Install and Build&#xA;        run: |&#xA;          yarn&#xA;          yarn build&#xA;      - name: Deploy&#xA;        uses: JamesIves/github-pages-deploy-action@v4.3.3&#xA;        with:&#xA;          branch: gh-pages&#xA;          folder: dist&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Commit your files, the action will run automatically, and a few minutes later your app will be live on GH Pages &#x1F680;&lt;/p&gt;&#xA;&lt;p&gt;If you&#x27;d like to see a real-world example of this, I&#x27;m doing something similar in &lt;a href=&quot;https://github.com/lissy93/email-comparison&quot; rel=&quot;nofollow noreferrer&quot;&gt;this project&lt;/a&gt;.&lt;/p&gt;&#xA;</summary>
     </entry>
                <entry>
-        <id>https://stackoverflow.com/questions/75748749/how-to-translatey-a-whole-div-on-hover-and-only-apply-underline-on-the-first-ite?cid=133625501</id>
-        <title type="text">Comment by Lissy93 on How to translateY a whole div on hover and only apply underline on the first item</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/75748749/how-to-translatey-a-whole-div-on-hover-and-only-apply-underline-on-the-first-ite" />
-        <published>2023-03-15T18:30:49Z</published>
-        <updated>2023-03-15T18:30:49Z</updated>
-        <summary type="html">It would be helpful if you could create a minimal, and functional snippet with your compiled SCSS, to better demonstrate what you mean.</summary>
-    </entry>
-
-               <entry>
         <id>https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will?cid=132857300</id>
         <title type="text">Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions</title>
         <author>
@@ -620,6 +607,19 @@
         <published>2022-12-07T15:34:39Z</published>
         <updated>2022-12-07T15:34:39Z</updated>
         <summary type="html">Have you checked the docs, or the GitHub repo? &lt;a href=&quot;https://github.com/dohooo/react-native-reanimated-carousel/issues/238#issuecomment-1311265888&quot; rel=&quot;nofollow noreferrer&quot;&gt;#238&lt;/a&gt; seems to answer your question.</summary>
+    </entry>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel?cid=131874853</id>
+        <title type="text">Comment by Lissy93 on how to use rtl mode in react-native-reanimated-carousel</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel" />
+        <published>2022-12-07T15:33:36Z</published>
+        <updated>2022-12-07T15:33:36Z</updated>
+        <summary type="html">Try adding &lt;code&gt;{transform: [{scaleX: -1}]}&lt;/code&gt; to the container. I think you can also use the &lt;code&gt;autoPlayReverse&lt;/code&gt; prop too</summary>
     </entry>
 
 </feed>
