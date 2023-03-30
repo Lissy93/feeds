@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `28 Mar 2023` - **[Lissy93 starred lit/lit](https://github.com/lit/lit)**
+- `28 Mar 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/044ba38706...37320cb70a)**
 - `26 Mar 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/439eeb0d75...044ba38706)**
 - `23 Mar 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/a9c4147d23...4c8ca9e854)**
 - `21 Mar 2023` - **[Lissy93 deleted branch main at Lissy93/devolio](https://github.com/)**
-- `21 Mar 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/5b6f872a6e...439eeb0d75)**
-- `21 Mar 2023` - **[Lissy93 merged a pull request in Lissy93/devolio](https://github.com/Lissy93/devolio/pull/1)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
