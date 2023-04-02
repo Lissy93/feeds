@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- ` 2 Apr 2023` - **[Lissy93 starred total-typescript/ts-reset](https://github.com/total-typescript/ts-reset)**
 - ` 1 Apr 2023` - **[Lissy93 starred twitter/the-algorithm](https://github.com/twitter/the-algorithm)**
 - `31 Mar 2023` - **[Lissy93 created a branch snyk-fix-fa73ca0b68cb5a2c27722154a0ed4bcf in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/snyk-fix-fa73ca0b68cb5a2c27722154a0ed4bcf)**
 - `31 Mar 2023` - **[Lissy93 opened a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1154)**
 - `31 Mar 2023` - **[Lissy93 pushed to snyk-fix-fa73ca0b68cb5a2c27722154a0ed4bcf in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/f7face1c79...52abe81a9e)**
-- `28 Mar 2023` - **[Lissy93 starred lit/lit](https://github.com/lit/lit)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
