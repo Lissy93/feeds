@@ -76,6 +76,16 @@
       "siteUrl": "https://github.com/lissy93",
       "articles": [
         {
+          "id": "https://github.com/total-typescript/ts-reset",
+          "author": null,
+          "description": "Lissy93\n            starred\n            total-typescript/ts-reset\n            \n              · April 2, 2023 11:08\n            \n          \ntotal-typescript/ts-reset\n          \nA 'CSS reset' for TypeScript, improving types for common JavaScript API's\n\n  TypeScript\n\n\n              \n\n              \n                  \n5.4k\n              \n\n              \n                1 issue needs help\n              \n\n              Updated Mar 30",
+          "link": "https://github.com/total-typescript/ts-reset",
+          "publishedOn": "2023-04-02T11:08:01.000Z",
+          "wordCount": 1804,
+          "title": "Lissy93 starred total-typescript/ts-reset",
+          "imageUrl": "https://opengraph.githubassets.com/29cc0470766d838cc4e9a9d6fe740f6d5c54ef941ac1dc718d788779beaf6a33/total-typescript/ts-reset"
+        },
+        {
           "id": "https://github.com/twitter/the-algorithm",
           "author": null,
           "description": "Lissy93\n            starred\n            twitter/the-algorithm\n            \n              · April 1, 2023 19:50\n            \n          \ntwitter/the-algorithm\n          \nSource code for Twitter's Recommendation Algorithm\n\n  Scala\n\n\n              \n\n              \n                  \n31.6k\n              \n\n\n              Updated Apr 1",
@@ -1240,16 +1250,6 @@
           "publishedOn": "2023-01-30T15:03:11.000Z",
           "wordCount": 2595,
           "title": "Comment by Lissy93 on Unexpected Output from Array() Method",
-          "imageUrl": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
-        },
-        {
-          "id": "https://stackoverflow.com/questions/66432062/why-does-my-u64-rust-program-run-faster-with-docker-desktop-compared-with-a-na/74987359#74987359",
-          "author": null,
-          "description": "<p>A little late here, but was experiencing something similar and came to find out that (at least in my case) the performance difference is due to Rust's optimization being less efficient on older versions of Docker.</p>\n<p>In my instance, after doing the following I was able to get near parrallel performance:</p>\n<ul>\n<li>Update to the latest version of Docker</li>\n<li>Enable <a href=\"https://docs.docker.com/build/buildkit/\" rel=\"nofollow noreferrer\"><code>DOCKER_BUILDKIT</code></a></li>\n<li>Apply some basic optimizations to the code</li>\n<li>Cache Rust dependencies where possible (<a href=\"https://notes.aliciasykes.com/p/gX7c5lsYvW\" rel=\"nofollow noreferrer\">here's how</a>, and a similar <a href=\"https://stackoverflow.com/a/64528456/979052\">post</a>)</li>\n</ul>",
-          "link": "https://stackoverflow.com/questions/66432062/why-does-my-u64-rust-program-run-faster-with-docker-desktop-compared-with-a-na/74987359#74987359",
-          "publishedOn": "2023-01-02T21:53:40.000Z",
-          "wordCount": 2912,
-          "title": "Answer by Lissy93 for Why does my u64 Rust program run faster with Docker (Desktop) compared with a native macOS executable?",
           "imageUrl": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
         }
       ]

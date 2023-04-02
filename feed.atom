@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lissy93.github.io/feeds/index.html</id>
     <title>lissy93::feed</title>
-    <updated>2023-04-01T23:34:22.651Z</updated>
+    <updated>2023-04-02T23:34:26.254Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://lissy93.github.io/feeds/index.html"/>
     <link rel="self" href="https://lissy93.github.io/feeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Lissy93 starred total-typescript/ts-reset]]></title>
+        <id>https://github.com/total-typescript/ts-reset</id>
+        <link href="https://github.com/total-typescript/ts-reset"/>
+        <updated>2023-04-02T11:08:01.000Z</updated>
+        <summary type="html"><![CDATA[Lissy93
+            starred
+            total-typescript/ts-reset
+            
+              · April 2, 2023 11:08
+            
+          
+total-typescript/ts-reset
+          
+A 'CSS reset' for TypeScript, improving types for common JavaScript API's
+
+  TypeScript
+
+
+              
+
+              
+                  
+5.4k
+              
+
+              
+                1 issue needs help
+              
+
+              Updated Mar 30]]></summary>
+        <author>
+            <name>GitHub Public Timeline Feed</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lissy93 starred twitter/the-algorithm]]></title>
         <id>https://github.com/twitter/the-algorithm</id>
@@ -3426,23 +3461,6 @@ aria2 - Download Utility (better wget)
 bat - Reading Fi…]]></summary>
         <author>
             <name>Alicia Sykes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Answer by Lissy93 for Why does my u64 Rust program run faster with Docker (Desktop) compared with a native macOS executable?]]></title>
-        <id>https://stackoverflow.com/questions/66432062/why-does-my-u64-rust-program-run-faster-with-docker-desktop-compared-with-a-na/74987359#74987359</id>
-        <link href="https://stackoverflow.com/questions/66432062/why-does-my-u64-rust-program-run-faster-with-docker-desktop-compared-with-a-na/74987359#74987359"/>
-        <updated>2023-01-02T21:53:40.000Z</updated>
-        <summary type="html"><![CDATA[<p>A little late here, but was experiencing something similar and came to find out that (at least in my case) the performance difference is due to Rust's optimization being less efficient on older versions of Docker.</p>
-<p>In my instance, after doing the following I was able to get near parrallel performance:</p>
-<ul>
-<li>Update to the latest version of Docker</li>
-<li>Enable <a href="https://docs.docker.com/build/buildkit/" rel="nofollow noreferrer"><code>DOCKER_BUILDKIT</code></a></li>
-<li>Apply some basic optimizations to the code</li>
-<li>Cache Rust dependencies where possible (<a href="https://notes.aliciasykes.com/p/gX7c5lsYvW" rel="nofollow noreferrer">here's how</a>, and a similar <a href="https://stackoverflow.com/a/64528456/979052">post</a>)</li>
-</ul>]]></summary>
-        <author>
-            <name>User Lissy93 - Stack Overflow</name>
         </author>
     </entry>
 </feed>
