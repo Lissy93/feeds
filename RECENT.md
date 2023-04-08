@@ -21,20 +21,20 @@
 
 ## StackOverflow [![StackOverflow - Alicia Sykes](https://img.shields.io/badge/-Alicia-f48225?style=flat&logo=Stackoverflow&logoColor=white)](https://stackoverflow.com/users/979052/alicia "StackOverflow - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/stackoverflow.atom)
 <!-- stackoverflow-feed start -->
-- ` 9 Feb 2023` - **[Answer by Lissy93 for Differentiate between Server Side and Client Side on fetch Sapper](https://stackoverflow.com/questions/64780498/differentiate-between-server-side-and-client-side-on-fetch-sapper/75402379#75402379)**
-- `30 Jan 2023` - **[Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions](https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will)**
-- `30 Jan 2023` - **[Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions](https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will)**
-- `30 Jan 2023` - **[Comment by Lissy93 on Unexpected Output from Array() Method](https://stackoverflow.com/questions/75286188/unexpected-output-from-array-method)**
-- ` 2 Jan 2023` - **[Answer by Lissy93 for Why does my u64 Rust program run faster with Docker (Desktop) compared with a native macOS executable?](https://stackoverflow.com/questions/66432062/why-does-my-u64-rust-program-run-faster-with-docker-desktop-compared-with-a-na/74987359#74987359)**
+- ` 8 Apr 2023` - **[Comment by Lissy93 on Redux Dispatch Is Looping When Success is true in state](https://stackoverflow.com/questions/75965562/redux-dispatch-is-looping-when-success-is-true-in-state)**
+- ` 8 Apr 2023` - **[Comment by Lissy93 on NodeJS process async function in parallel chunks and ignore errors with individual items](https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu/75965432#75965432)**
+- ` 8 Apr 2023` - **[Answer by Lissy93 for dockerized Kafka service stuck at producer.send](https://stackoverflow.com/questions/75965447/dockerized-kafka-service-stuck-at-producer-send/75965533#75965533)**
+- ` 8 Apr 2023` - **[Comment by Lissy93 on How to type Firestore queries in Firestore for NodeJS](https://stackoverflow.com/questions/75965423/how-to-type-firestore-queries-in-firestore-for-nodejs)**
+- ` 8 Apr 2023` - **[Answer by Lissy93 for NodeJS process async function in parallel chunks and ignore errors with individual items](https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu/75965432#75965432)**
 <!-- stackoverflow-feed end -->
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- ` 7 Apr 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/9c90814dff...c8653e525e)**
-- ` 7 Apr 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1157)**
-- ` 6 Apr 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/afdb6b9201...d252104151)**
-- ` 4 Apr 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/e171fdcda9...afdb6b9201)**
-- ` 4 Apr 2023` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/4c8ca9e854...e171fdcda9)**
+- ` 8 Apr 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/a277cf31b7...141c5da3cf)**
+- ` 8 Apr 2023` - **[Lissy93 pushed to master in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/95b8950391...65257fb48f)**
+- ` 8 Apr 2023` - **[Lissy93 pushed to master in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/8f239b20e8...95b8950391)**
+- ` 8 Apr 2023` - **[Lissy93 pushed to master in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/bc6e8e5b51...8f239b20e8)**
+- ` 8 Apr 2023` - **[Lissy93 pushed to master in Lissy93/currency-flags](https://github.com/Lissy93/currency-flags/compare/ebce4c7a33...bc6e8e5b51)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
