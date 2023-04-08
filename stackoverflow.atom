@@ -4,9 +4,48 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2023-04-07T23:03:31Z</updated>
+    <updated>2023-04-08T23:03:26Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
+            <entry>
+        <id>https://stackoverflow.com/questions/75965386/-/75965432#75965432</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by Lissy93 for NodeJS process async function in parallel chunks and ignore errors with individual items</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu/75965432#75965432" />
+        <published>2023-04-08T13:14:35Z</published>
+        <updated>2023-04-08T13:46:02Z</updated>
+        <summary type="html">&lt;p&gt;If you update your code to use &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;Promise.allSettled()&lt;/code&gt;&lt;/a&gt; (instead of &lt;code&gt;Promise.all()&lt;/code&gt;), then the loop won&#x27;t be blocked by any fails or errors. You can then choose to handle those cases however you see best.&lt;/p&gt;&#xA;&lt;p&gt;(updated example)&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;const processGroup = async () =&amp;gt; {&#xA;  const chunks = [&#xA;    [0, 1, 2, 3, 4, 5],&#xA;    [6, 7, 8, 9, 10, 11],&#xA;    // etc.&#xA;  ];&#xA;  for (const chunk of chunks) {&#xA;    const results = await Promise.allSettled(chunk.map(id =&amp;gt; processItem(id)));&#xA;    results.forEach((result, index) =&amp;gt; {&#xA;      if (result.status === &#x27;rejected&#x27;) {&#xA;        console.error(`Error processing item with ID ${chunk[index]}: ${result.reason}`);&#xA;      }&#xA;    });&#xA;  }&#xA;}&#xA;&#xA;const processItem = async id =&amp;gt; {&#xA;  try {&#xA;    console.log(id);&#xA;&#xA;    // run couple of async calls from another library (dependency)&#xA;    const itemURL = await itemProcessor.getItem(id);  // this might produce an error&#xA;    // ...&#xA;    // fetch item details&#xA;    console.log(itemURL);&#xA;    const itemDetails = await fetch(itemURL);&#xA;  } catch (error) {&#xA;    console.error(`Error processing item with ID ${id}: ${error}`);&#xA;    return Promise.reject(error);&#xA;  }&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;You&#x27;ll need to update the success case of &lt;code&gt;processItem&lt;/code&gt; to return whatever you want from your &lt;code&gt;itemProcessor&lt;/code&gt;, since I don&#x27;t have access to that code.&lt;/p&gt;&#xA;</summary>
+    </entry>
+            <entry>
+        <id>https://stackoverflow.com/questions/75965447/-/75965533#75965533</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by Lissy93 for dockerized Kafka service stuck at producer.send</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75965447/dockerized-kafka-service-stuck-at-producer-send/75965533#75965533" />
+        <published>2023-04-08T13:33:21Z</published>
+        <updated>2023-04-08T13:33:21Z</updated>
+        <summary type="html">&lt;p&gt;It looks like your Kafka procucer isn&#x27;t able to reach the Kafka broker in the Docker network.&lt;/p&gt;&#xA;&lt;p&gt;Since you&#x27;ve got the Kafka service in your docker-compose, that will act as the hostname within the Docker network.&lt;/p&gt;&#xA;&lt;p&gt;So it should just be a case of updating the &lt;code&gt;bootstrap_servers=[&#x27;kafka:9092&#x27;]&lt;/code&gt; in your &lt;code&gt;producer.py&lt;/code&gt; with an environmental variable, so it can be used both within the Docker netowork, and when the script is run outside Docker (w &lt;code&gt;python3 src/producer.py&lt;/code&gt;).&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-py prettyprint-override&quot;&gt;&lt;code&gt;# Get env var&#xA;kafka_bootstrap_servers = os.environ.get(&amp;quot;KAFKA_BOOTSTRAP_SERVERS&amp;quot;, &amp;quot;localhost:9092&amp;quot;)&#xA;&#xA;# Use in producer&#xA;producer = KafkaProducer(bootstrap_servers=kafka_bootstrap_servers, api_version=(0, 10))&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Then, under &lt;code&gt;publisher&lt;/code&gt; in your &lt;code&gt;docker-compose.yml&lt;/code&gt; add:&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-yaml prettyprint-override&quot;&gt;&lt;code&gt;environment:&#xA;   KAFKA_BOOTSTRAP_SERVERS: kafka:9092&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Then, when running within the Docker network is will use the environmental variable (&lt;code&gt;KAFKA_BOOTSTRAP_SERVERS&lt;/code&gt;), but when running directly it will use the default value (&lt;code&gt;localhost:9092&lt;/code&gt;)&lt;/p&gt;&#xA;</summary>
+    </entry>
+            <entry>
+        <id>https://stackoverflow.com/questions/75965206/-/75965401#75965401</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by Lissy93 for Jquery - Download data in chunks from server and keep appending to a file on client</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75965206/jquery-download-data-in-chunks-from-server-and-keep-appending-to-a-file-on-cli/75965401#75965401" />
+        <published>2023-04-08T13:09:27Z</published>
+        <updated>2023-04-08T13:09:27Z</updated>
+        <summary type="html">&lt;p&gt;You&#x27;d probably want to use the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Streams_API&quot; rel=&quot;nofollow noreferrer&quot;&gt;JS Streams API&lt;/a&gt;, which let&#x27;s you break large resources down into smaller chunks for easier processing.&lt;/p&gt;&#xA;&lt;p&gt;Here&#x27;s an (untested) example, based on your initial code.&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;// Prepare the stream for writing&#xA;async function prepareStream(filename) {&#xA;  const encoder = new TextEncoder();&#xA;  const stream = new WritableStream({&#xA;    write(chunk) {&#xA;      return encoder.encode(chunk);&#xA;    }&#xA;  });&#xA;&#xA;  const response = new Response(stream);&#xA;  const blob = await response.blob();&#xA;  const url = URL.createObjectURL(blob);&#xA;&#xA;  const link = document.createElement(&#x27;a&#x27;);&#xA;  link.setAttribute(&#x27;href&#x27;, url);&#xA;  link.setAttribute(&#x27;download&#x27;, filename);&#xA;  link.setAttribute(&#x27;target&#x27;, &#x27;_blank&#x27;);&#xA;  link.style.visibility = &#x27;hidden&#x27;;&#xA;  document.body.appendChild(link);&#xA;  link.click();&#xA;  document.body.removeChild(link);&#xA;&#xA;  return stream.getWriter();&#xA;}&#xA;&#xA;// Write data to the stream&#xA;async function writeDataToFile(writer, data, delimiter) {&#xA;  const rows = data.map((obj) =&amp;gt; Object.values(obj).join(delimiter));&#xA;  const csvContent = rows.join(&#x27;\n&#x27;) &#x2B; &#x27;\n&#x27;;&#xA;  await writer.write(csvContent);&#xA;}&#xA;&#xA;// Close the stream when finished&#xA;async function closeStream(writer) {&#xA;  await writer.close();&#xA;}&#xA;&#xA;// Example usage&#xA;(async () =&amp;gt; {&#xA;  const delimiter = &#x27;,&#x27;;&#xA;  const filename = &#x27;export.csv&#x27;;&#xA;  const writer = await prepareStream(filename);&#xA;&#xA;  // Replace this loop with your API call loop&#xA;  for (let i = 0; i &amp;lt; 10; i&#x2B;&#x2B;) {&#xA;    const data = [&#xA;      { id: i * 10 &#x2B; 1, name: &#x27;John&#x27;, age: 25 },&#xA;      { id: i * 10 &#x2B; 2, name: &#x27;Jane&#x27;, age: 24 },&#xA;    ];&#xA;&#xA;    await writeDataToFile(writer, data, delimiter);&#xA;  }&#xA;&#xA;  await closeStream(writer);&#xA;})();&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;</summary>
+    </entry>
             <entry>
         <id>https://stackoverflow.com/questions/42749704/-/74235768#74235768</id>
         <re:rank scheme="https://stackoverflow.com">6</re:rank>
@@ -383,50 +422,71 @@
             &lt;h3&gt;The Situation&lt;/h3&gt;&#xA;&lt;p&gt;I have a MongoDB of the following data structure&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;teamName: (String)&#xA;data: (Array)&#xA;---date: (Timestamp)&#xA;---userResults: (Object)&#xA;------userHash: (StringHash)&#xA;------score: (String)&#xA;------comment: (String)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://pastebin.com/m9qpAWej&quot; rel=&quot;nofollow noreferrer&quot;&gt;Here is a short example on PasteBin&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h3&gt;The Question&lt;/h3&gt;&#xA;&lt;p&gt;Given a specific &lt;code&gt;teamName&lt;/code&gt; and &lt;code&gt;date&lt;/code&gt; (within the team data array), I&#x27;d like to append a new row (&lt;code&gt;{userHash: &#x27;&#x27;, score: &#x27;&#x27;, comment: &#x27;&#x27;}&lt;/code&gt;) into &lt;code&gt;userResults&lt;/code&gt; array.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;How can I update an array within a given document, after querying the parent node, and the parents parent node?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h3&gt;What I&#x27;ve tried so far&lt;/h3&gt;&#xA;&lt;p&gt;I&#x27;ve tried &lt;code&gt;findOneAndUpdate&lt;/code&gt;. It inserted an entire new document, right from the root though.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;TeamRecordSchema.findOneAndUpdate(&#xA;    {teamName: teamName, data: {date: today}}, &#xA;    {$set:{teamName: teamName, data: {date: today, userResults: [userResponse]}}}, &#xA;    {new: true, upsert: true}, &#xA;    function(err, savedDoc){&#xA;&#xA;       // Do stuff with err and savedDoc&#xA;&#xA;});&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I&#x27;ve tried &lt;code&gt;save&lt;/code&gt;, and again it just creates an entire new document at the root level, within my db&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;const _userResponse = new TeamRecordSchema(teamUserResponse);&#xA;_userResponse.save((err, savedDoc) =&amp;gt; {&#xA;&#xA;    // Do stuff with err and savedDoc accordingly     &#xA;&#xA; });&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I&#x27;ve also tried several variations based on the documentation, but I either get the same results, or an error.&lt;/p&gt;&#xA;
         </summary>
     </entry>
-    <entry>
-        <id>https://stackoverflow.com/q/47365582</id>
-        <re:rank scheme="https://stackoverflow.com">2</re:rank>
-        <title type="text">Angular AOT compiler can&#x27;t find project-relative paths within components</title>
-            <category scheme="https://stackoverflow.com/tags" term="node.js" />
-            <category scheme="https://stackoverflow.com/tags" term="angular" />
-            <category scheme="https://stackoverflow.com/tags" term="aot" />
+               <entry>
+        <id>https://stackoverflow.com/questions/75965562/redux-dispatch-is-looping-when-success-is-true-in-state?cid=133984493</id>
+        <title type="text">Comment by Lissy93 on Redux Dispatch Is Looping When Success is true in state</title>
         <author>
             <name>Lissy93</name>
             <uri>https://stackoverflow.com/users/979052</uri>
         </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/47365582/angular-aot-compiler-cant-find-project-relative-paths-within-components" />
-        <published>2017-11-18T11:35:42Z</published>
-        <updated>2022-06-30T04:23:45Z</updated>
-        <summary type="html">
-            &lt;p&gt;I&#x27;m in the (painful) process of AOT-ing an app I&#x27;ve been making, but have hit a bit of a hurdle when it comes to specifying URL&#x27;s for the components.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Works in AOT, but not JIT &#x1F616;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;@Component({&#xA;  selector: &amp;quot;home-page&amp;quot;,&#xA;  templateUrl: &amp;quot;./home.html&amp;quot;,&#xA;  styleUrls: [&amp;quot;./home.css&amp;quot;],&#xA;}) &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;strong&gt;Works in JIT, but not AOT &#x1F616;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;@Component({&#xA;  selector: &amp;quot;home-page&amp;quot;,&#xA;  templateUrl: &amp;quot;pages/home/home.html&amp;quot;,&#xA;  styleUrls: [&amp;quot;pages/home/home.css&amp;quot;],&#xA;})&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;strong&gt;Question&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Why does the AOT Compiler resolve paths relative to the current component, whereas the JIT compiler expects absolute path from the project root? And what is the standard, best practice way to get around this?&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;More Details&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This error orrours, when trying to run &lt;code&gt;npm run ngc&lt;/code&gt; (or &lt;code&gt;node_modules/.bin/ngc -p tsconfig-aot.json&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;My project structure was origionally based on &lt;a href=&quot;https://github.com/ericmdantas/generator-ng-fullstack&quot; rel=&quot;nofollow noreferrer&quot;&gt;generator-ng-fullstack (via Yeoman)&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;It&#x27;s not using the Angular CLI, or WebPack.&lt;/li&gt;&#xA;&lt;li&gt;Angular 4&lt;/li&gt;&#xA;&lt;li&gt;Here&#x27;s my &lt;a href=&quot;https://github.com/Lissy93/happy-app/blob/master/tsconfig-aot.json&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;tsconfig-aot.json&lt;/code&gt;&lt;/a&gt;. (And, here&#x27;s my JIT &lt;a href=&quot;https://github.com/Lissy93/happy-app/blob/master/tsconfig.json&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;tsconfig.json&lt;/code&gt;&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;And for reference, &lt;a href=&quot;https://github.com/Lissy93/happy-app/tree/master/client/dev&quot; rel=&quot;nofollow noreferrer&quot;&gt;here&lt;/a&gt; is my client-side source directory.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;What I&#x27;ve tried so far&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Attempting to import and read the html template and stylesheet beforehand, and pass the value in as a string- but this is a terrible approach, and can&#x27;t be right&lt;/li&gt;&#xA;&lt;li&gt;Specifying the template and style paths in many different ways; relative, absolute, and everything between&lt;/li&gt;&#xA;&lt;li&gt;Searching issues on the Angular repo, this was the only one I found that was relevant, but had no clear outcome: &lt;a href=&quot;https://github.com/angular/angular/issues/11554&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://github.com/angular/angular/issues/11554&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Following the official &lt;a href=&quot;https://angular.io/guide/aot-compiler&quot; rel=&quot;nofollow noreferrer&quot;&gt;Angular AOT documentation&lt;/a&gt;, word-for-word, and like it&#x27;s the actual Bible- but they&#x27;ve just brushed over this issue&lt;/li&gt;&#xA;&lt;li&gt;With the Yeoman generator, there are two client-side directories, one for dev, and the other for dist. Gulp is used to build:dist. Since AOT will only need to happen in dist, maybe a potential solution could be to use Gulp to change the path structures on build:dist?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;
-        </summary>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75965562/redux-dispatch-is-looping-when-success-is-true-in-state" />
+        <published>2023-04-08T13:55:33Z</published>
+        <updated>2023-04-08T13:55:33Z</updated>
+        <summary type="html">Just splitting your success state into a separate states (e.g. &lt;code&gt;addNoteSuccess&lt;/code&gt; and &lt;code&gt;getNotesSuccess&lt;/code&gt;) for each action in your Redux slice, should fix this, by letting you listen specifically for one action in your &lt;code&gt;useEffect&lt;/code&gt;.</summary>
     </entry>
-            <entry>
-        <id>https://stackoverflow.com/questions/4414297/-/72652446#72652446</id>
-        <re:rank scheme="https://stackoverflow.com">0</re:rank>
-        <title type="text">Answer by Lissy93 for Unix Bash script to embolden/underline/italicize specific text</title>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu/75965432?cid=133984388#75965432</id>
+        <title type="text">Comment by Lissy93 on NodeJS process async function in parallel chunks and ignore errors with individual items</title>
         <author>
             <name>Lissy93</name>
             <uri>https://stackoverflow.com/users/979052</uri>
         </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/4414297/unix-bash-script-to-embolden-underline-italicize-specific-text/72652446#72652446" />
-        <published>2022-06-16T22:17:56Z</published>
-        <updated>2022-06-16T22:17:56Z</updated>
-        <summary type="html">&lt;p&gt;Just to add, that instead of using &lt;a href=&quot;https://linux.die.net/man/1/tput&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;tput&lt;/code&gt;&lt;/a&gt;, you can also specify colors as ANSI escape sequences.&lt;/p&gt;&#xA;&lt;p&gt;These are specified like &lt;code&gt;\033[XXXm&lt;/code&gt;, where XXX is a series of semicolon-separated parameters (as covered by the &lt;a href=&quot;https://www.ecma-international.org/wp-content/uploads/ECMA-48_5th_edition_june_1991.pdf&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;ECMA-48&lt;/code&gt;&lt;/a&gt; standard). For example:&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-bash prettyprint-override&quot;&gt;&lt;code&gt;Color_Off=&#x27;\033[0m&#x27;       # Text Reset&#xA;&#xA;# Regular Colors&#xA;Black=&#x27;\033[0;30m&#x27;        # Black&#xA;Red=&#x27;\033[0;31m&#x27;          # Red&#xA;Green=&#x27;\033[0;32m&#x27;        # Green&#xA;Yellow=&#x27;\033[0;33m&#x27;       # Yellow&#xA;Blue=&#x27;\033[0;34m&#x27;         # Blue&#xA;Purple=&#x27;\033[0;35m&#x27;       # Purple&#xA;Cyan=&#x27;\033[0;36m&#x27;         # Cyan&#xA;White=&#x27;\033[0;37m&#x27;        # White&#xA;&#xA;# Bold&#xA;BBlack=&#x27;\033[1;30m&#x27;       # Black&#xA;BRed=&#x27;\033[1;31m&#x27;         # Red&#xA;BGreen=&#x27;\033[1;32m&#x27;       # Green&#xA;BYellow=&#x27;\033[1;33m&#x27;      # Yellow&#xA;BBlue=&#x27;\033[1;34m&#x27;        # Blue&#xA;BPurple=&#x27;\033[1;35m&#x27;      # Purple&#xA;BCyan=&#x27;\033[1;36m&#x27;        # Cyan&#xA;BWhite=&#x27;\033[1;37m&#x27;       # White&#xA;&#xA;# Underline&#xA;UBlack=&#x27;\033[4;30m&#x27;       # Black&#xA;URed=&#x27;\033[4;31m&#x27;         # Red&#xA;UGreen=&#x27;\033[4;32m&#x27;       # Green&#xA;UYellow=&#x27;\033[4;33m&#x27;      # Yellow&#xA;UBlue=&#x27;\033[4;34m&#x27;        # Blue&#xA;UPurple=&#x27;\033[4;35m&#x27;      # Purple&#xA;UCyan=&#x27;\033[4;36m&#x27;        # Cyan&#xA;UWhite=&#x27;\033[4;37m&#x27;       # White&#xA;&#xA;# Background&#xA;On_Black=&#x27;\033[40m&#x27;       # Black&#xA;On_Red=&#x27;\033[41m&#x27;         # Red&#xA;On_Green=&#x27;\033[42m&#x27;       # Green&#xA;On_Yellow=&#x27;\033[43m&#x27;      # Yellow&#xA;On_Blue=&#x27;\033[44m&#x27;        # Blue&#xA;On_Purple=&#x27;\033[45m&#x27;      # Purple&#xA;On_Cyan=&#x27;\033[46m&#x27;        # Cyan&#xA;On_White=&#x27;\033[47m&#x27;       # White&#xA;&#xA;# High Intensity&#xA;IBlack=&#x27;\033[0;90m&#x27;       # Black&#xA;IRed=&#x27;\033[0;91m&#x27;         # Red&#xA;IGreen=&#x27;\033[0;92m&#x27;       # Green&#xA;IYellow=&#x27;\033[0;93m&#x27;      # Yellow&#xA;IBlue=&#x27;\033[0;94m&#x27;        # Blue&#xA;IPurple=&#x27;\033[0;95m&#x27;      # Purple&#xA;ICyan=&#x27;\033[0;96m&#x27;        # Cyan&#xA;IWhite=&#x27;\033[0;97m&#x27;       # White&#xA;&#xA;# Bold High Intensity&#xA;BIBlack=&#x27;\033[1;90m&#x27;      # Black&#xA;BIRed=&#x27;\033[1;91m&#x27;        # Red&#xA;BIGreen=&#x27;\033[1;92m&#x27;      # Green&#xA;BIYellow=&#x27;\033[1;93m&#x27;     # Yellow&#xA;BIBlue=&#x27;\033[1;94m&#x27;       # Blue&#xA;BIPurple=&#x27;\033[1;95m&#x27;     # Purple&#xA;BICyan=&#x27;\033[1;96m&#x27;       # Cyan&#xA;BIWhite=&#x27;\033[1;97m&#x27;      # White&#xA;&#xA;# High Intensity backgrounds&#xA;On_IBlack=&#x27;\033[0;100m&#x27;   # Black&#xA;On_IRed=&#x27;\033[0;101m&#x27;     # Red&#xA;On_IGreen=&#x27;\033[0;102m&#x27;   # Green&#xA;On_IYellow=&#x27;\033[0;103m&#x27;  # Yellow&#xA;On_IBlue=&#x27;\033[0;104m&#x27;    # Blue&#xA;On_IPurple=&#x27;\033[0;105m&#x27;  # Purple&#xA;On_ICyan=&#x27;\033[0;106m&#x27;    # Cyan&#xA;On_IWhite=&#x27;\033[0;107m&#x27;   # White&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;E.g. to print in bright purple (note that &lt;code&gt;-e&lt;/code&gt; is required to enable interpretation of backslash escapes)&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-bash prettyprint-override&quot;&gt;&lt;code&gt;echo -e &amp;quot;\033[0;95m Hello World!\033[0m&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Colors are rendered by the terminal you are using, traditionally terminal colors were 8-bit, nowadays most termainl emulators &lt;a href=&quot;https://github.com/termstandard/colors#terminal-emulators&quot; rel=&quot;nofollow noreferrer&quot;&gt;are true color&lt;/a&gt; / 256-bit.&lt;/p&gt;&#xA;</summary>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu/75965432#75965432" />
+        <published>2023-04-08T13:42:37Z</published>
+        <updated>2023-04-08T13:42:37Z</updated>
+        <summary type="html">Ah, you&amp;#39;re right. Maybe we do also need to try/catch inside the processItem as well, and in the &lt;code&gt;catch&lt;/code&gt; part, return a rejected promise. Using that alongside &lt;code&gt;Promise.allSettled&lt;/code&gt; should mean that  it continues executing, even though there are failures. If you give me 5 mins I&amp;#39;ll update the code snippet in the answer :)</summary>
     </entry>
-            <entry>
-        <id>https://stackoverflow.com/questions/72475210/-/72475329#72475329</id>
-        <re:rank scheme="https://stackoverflow.com">0</re:rank>
-        <title type="text">Answer by Lissy93 for How do I host my React app on Github pages without getting redirected?</title>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/75965423/how-to-type-firestore-queries-in-firestore-for-nodejs?cid=133984189</id>
+        <title type="text">Comment by Lissy93 on How to type Firestore queries in Firestore for NodeJS</title>
         <author>
             <name>Lissy93</name>
             <uri>https://stackoverflow.com/users/979052</uri>
         </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/72475210/how-do-i-host-my-react-app-on-github-pages-without-getting-redirected/72475329#72475329" />
-        <published>2022-06-02T11:14:31Z</published>
-        <updated>2022-06-02T18:32:15Z</updated>
-        <summary type="html">&lt;ol&gt;&#xA;&lt;li&gt;Under Repo &#x2192; Settings &#x2192; Pages &#x2192; Sources, and select the &lt;code&gt;gh-pages&lt;/code&gt; branch&lt;/li&gt;&#xA;&lt;li&gt;Put your built application (e.g. &lt;code&gt;dist&lt;/code&gt;) at the root of the gh-pages branch to be served up&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr /&gt;&#xA;&lt;p&gt;You&#x27;ll probably want to automate this, which can be done quite easily with &lt;a href=&quot;https://github.com/actions&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub Actions&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The following example, uses &lt;a href=&quot;https://github.com/JamesIves/github-pages-deploy-action&quot; rel=&quot;nofollow noreferrer&quot;&gt;JamesIves/github-pages-deploy-action&lt;/a&gt;, to build an deploy your app every time a change is made on your main branch.&lt;/p&gt;&#xA;&lt;p&gt;Just create a file in &lt;code&gt;.github/workflows/deploy-gh-pages.yml&lt;/code&gt; in your main branch, then populate it with:&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-yaml prettyprint-override&quot;&gt;&lt;code&gt;name: Build and Deploy to GH Pages&#xA;on: &#xA;  push:&#xA;  workflow_dispatch:&#xA;permissions: &#xA;  contents: write&#xA;jobs:&#xA;  build-and-deploy:&#xA;    concurrency: ci-${{ github.ref }}&#xA;    runs-on: ubuntu-latest&#xA;    steps:&#xA;      - name: Checkout&#xA;        uses: actions/checkout@v3&#xA;      - name: Install and Build&#xA;        run: |&#xA;          yarn&#xA;          yarn build&#xA;      - name: Deploy&#xA;        uses: JamesIves/github-pages-deploy-action@v4.3.3&#xA;        with:&#xA;          branch: gh-pages&#xA;          folder: dist&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Commit your files, the action will run automatically, and a few minutes later your app will be live on GH Pages &#x1F680;&lt;/p&gt;&#xA;&lt;p&gt;If you&#x27;d like to see a real-world example of this, I&#x27;m doing something similar in &lt;a href=&quot;https://github.com/lissy93/email-comparison&quot; rel=&quot;nofollow noreferrer&quot;&gt;this project&lt;/a&gt;.&lt;/p&gt;&#xA;</summary>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75965423/how-to-type-firestore-queries-in-firestore-for-nodejs" />
+        <published>2023-04-08T13:18:51Z</published>
+        <updated>2023-04-08T13:18:51Z</updated>
+        <summary type="html">Could you create a custom utility that handles the type conversion on retrieved Firestore query data?</summary>
     </entry>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu?cid=133984148</id>
+        <title type="text">Comment by Lissy93 on NodeJS process async function in parallel chunks and ignore errors with individual items</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu" />
+        <published>2023-04-08T13:12:16Z</published>
+        <updated>2023-04-08T13:12:16Z</updated>
+        <summary type="html">Could you use &lt;code&gt;Promise.allSettled()&lt;/code&gt; instead?</summary>
+    </entry>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/75965206/jquery-download-data-in-chunks-from-server-and-keep-appending-to-a-file-on-cli?cid=133984130</id>
+        <title type="text">Comment by Lissy93 on Jquery - Download data in chunks from server and keep appending to a file on client</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75965206/jquery-download-data-in-chunks-from-server-and-keep-appending-to-a-file-on-cli" />
+        <published>2023-04-08T13:10:07Z</published>
+        <updated>2023-04-08T13:10:07Z</updated>
+        <summary type="html">Why is this tagged with jQuery?</summary>
+    </entry>
+
                <entry>
         <id>https://stackoverflow.com/questions/75285948/javascript-css-determine-content-dimensions-before-rendering-to-see-if-it-will?cid=132857300</id>
         <title type="text">Comment by Lissy93 on JavaScript/CSS. Determine content dimensions before rendering, to see if it will overflow container dimensions</title>
@@ -555,71 +615,6 @@
         <published>2022-12-14T21:05:11Z</published>
         <updated>2022-12-14T21:05:11Z</updated>
         <summary type="html">@redfox - if IamGroot&amp;#39;s answer helped, don&amp;#39;t forget to accept it.</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74804013/how-do-i-align-text-in-top-left-corner-of-div?cid=132016619</id>
-        <title type="text">Comment by Lissy93 on How do I align text in top left corner of div?</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74804013/how-do-i-align-text-in-top-left-corner-of-div" />
-        <published>2022-12-14T20:48:27Z</published>
-        <updated>2022-12-14T20:48:27Z</updated>
-        <summary type="html">Can you share (a minimal example of) your markup as well?</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74754040/how-do-i-get-the-localized-date-format-for-a-given-locale?cid=131933875</id>
-        <title type="text">Comment by Lissy93 on How do I get the localized date format for a given locale?</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74754040/how-do-i-get-the-localized-date-format-for-a-given-locale" />
-        <published>2022-12-10T16:52:58Z</published>
-        <updated>2022-12-10T16:52:58Z</updated>
-        <summary type="html">This question is quite similar to &lt;a href=&quot;https://stackoverflow.com/a/54115358/979052&quot;&gt;this one&lt;/a&gt;, although no solution without using reduce was found</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel?cid=131904753</id>
-        <title type="text">Comment by Lissy93 on how to use rtl mode in react-native-reanimated-carousel</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel" />
-        <published>2022-12-08T23:20:24Z</published>
-        <updated>2022-12-08T23:20:24Z</updated>
-        <summary type="html">The solution works though. Since there&amp;#39;s an open issue for it, you can submit an improvement as a PR. SO probably isn&amp;#39;t the best place to get help with a very specific library - either the discussions tab of the repo, or one of the existing open issues on the topic would be better.</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel?cid=131874884</id>
-        <title type="text">Comment by Lissy93 on how to use rtl mode in react-native-reanimated-carousel</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel" />
-        <published>2022-12-07T15:34:39Z</published>
-        <updated>2022-12-07T15:34:39Z</updated>
-        <summary type="html">Have you checked the docs, or the GitHub repo? &lt;a href=&quot;https://github.com/dohooo/react-native-reanimated-carousel/issues/238#issuecomment-1311265888&quot; rel=&quot;nofollow noreferrer&quot;&gt;#238&lt;/a&gt; seems to answer your question.</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel?cid=131874853</id>
-        <title type="text">Comment by Lissy93 on how to use rtl mode in react-native-reanimated-carousel</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74719145/how-to-use-rtl-mode-in-react-native-reanimated-carousel" />
-        <published>2022-12-07T15:33:36Z</published>
-        <updated>2022-12-07T15:33:36Z</updated>
-        <summary type="html">Try adding &lt;code&gt;{transform: [{scaleX: -1}]}&lt;/code&gt; to the container. I think you can also use the &lt;code&gt;autoPlayReverse&lt;/code&gt; prop too</summary>
     </entry>
 
 </feed>
