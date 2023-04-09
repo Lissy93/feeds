@@ -4,7 +4,7 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2023-04-08T23:03:26Z</updated>
+    <updated>2023-04-09T23:03:42Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
@@ -35,7 +35,7 @@
     </entry>
             <entry>
         <id>https://stackoverflow.com/questions/75965206/-/75965401#75965401</id>
-        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
         <title type="text">Answer by Lissy93 for Jquery - Download data in chunks from server and keep appending to a file on client</title>
         <author>
             <name>Lissy93</name>
@@ -423,6 +423,45 @@
         </summary>
     </entry>
                <entry>
+        <id>https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t?cid=133994795</id>
+        <title type="text">Comment by Lissy93 on Why does docker-compose up get stuck starting when I give the container access to my GPU?</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t" />
+        <published>2023-04-09T17:19:45Z</published>
+        <updated>2023-04-09T17:19:45Z</updated>
+        <summary type="html">Have you tried specifying the &lt;code&gt;runtime&lt;/code&gt; in your compose? (e.g. &lt;code&gt;runtime: nvidia&lt;/code&gt; and also maybe the &lt;code&gt;NVIDIA_VISIBLE_DEVICES=all&lt;/code&gt; env var). Can you share some more detailed logs too (use the &lt;code&gt;docker-compose logs&lt;/code&gt; command)</summary>
+    </entry>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/75971868/i-want-to-iterate-through-every-letter-combination?cid=133994736</id>
+        <title type="text">Comment by Lissy93 on I want to iterate through every letter combination</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75971868/i-want-to-iterate-through-every-letter-combination" />
+        <published>2023-04-09T17:12:23Z</published>
+        <updated>2023-04-09T17:12:23Z</updated>
+        <summary type="html">Can you share what you&amp;#39;ve tried so far, and explain specifically what&amp;#39;s not working with your code?</summary>
+    </entry>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/75971814/binary-array-present-in-response-is-being-converted-to-string-in-react?cid=133994724</id>
+        <title type="text">Comment by Lissy93 on Binary array present in response is being converted to string in react</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75971814/binary-array-present-in-response-is-being-converted-to-string-in-react" />
+        <published>2023-04-09T17:11:15Z</published>
+        <updated>2023-04-09T17:11:15Z</updated>
+        <summary type="html">Axios doesn&amp;#39;t convert byte arrays to strings. So it sounds like it could just be a missing content type header (e.g. &lt;code&gt;application&amp;#47;octet-stream&lt;/code&gt; for binary).</summary>
+    </entry>
+
+               <entry>
         <id>https://stackoverflow.com/questions/75965562/redux-dispatch-is-looping-when-success-is-true-in-state?cid=133984493</id>
         <title type="text">Comment by Lissy93 on Redux Dispatch Is Looping When Success is true in state</title>
         <author>
@@ -576,45 +615,6 @@
         <published>2022-12-15T23:18:08Z</published>
         <updated>2022-12-15T23:18:08Z</updated>
         <summary type="html">What do you mean by &lt;i&gt;&amp;quot;doesn&amp;#39;t work&amp;quot;&lt;/i&gt; ?  It lgtm. If you could update your question to be an interactive, runnable code snippet, that may help both you and us answer the question.</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74818557/how-would-i-use-setinterval-to-execute-a-class-function?cid=132042154</id>
-        <title type="text">Comment by Lissy93 on how would I use setInterval to execute a class function?</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74818557/how-would-i-use-setinterval-to-execute-a-class-function" />
-        <published>2022-12-15T23:16:19Z</published>
-        <updated>2022-12-15T23:16:19Z</updated>
-        <summary type="html">You should just be able to wrap that final line in a for loop, that iterates over each of the players (unless I&amp;#39;ve misunderstood the question)</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74813455/provide-alert-when-two-containers-come-in-each-other-position-range-through-css?cid=132032815</id>
-        <title type="text">Comment by Lissy93 on Provide alert when two containers come in each other position range through CSS animation</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74813455/provide-alert-when-two-containers-come-in-each-other-position-range-through-css" />
-        <published>2022-12-15T14:58:17Z</published>
-        <updated>2022-12-15T14:58:17Z</updated>
-        <summary type="html">What have you tried so far?</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74188748/getting-key-from-hashmap-value/74189016?cid=132016882#74189016</id>
-        <title type="text">Comment by Lissy93 on Getting Key From HashMap Value</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74188748/getting-key-from-hashmap-value/74189016#74189016" />
-        <published>2022-12-14T21:05:11Z</published>
-        <updated>2022-12-14T21:05:11Z</updated>
-        <summary type="html">@redfox - if IamGroot&amp;#39;s answer helped, don&amp;#39;t forget to accept it.</summary>
     </entry>
 
 </feed>
