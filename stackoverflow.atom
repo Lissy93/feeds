@@ -4,7 +4,7 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2023-04-09T23:03:42Z</updated>
+    <updated>2023-04-10T23:03:47Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
@@ -423,6 +423,19 @@
         </summary>
     </entry>
                <entry>
+        <id>https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t?cid=134007153</id>
+        <title type="text">Comment by Lissy93 on Why does docker-compose up get stuck starting when I give the container access to my GPU?</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t" />
+        <published>2023-04-10T18:28:49Z</published>
+        <updated>2023-04-10T18:28:49Z</updated>
+        <summary type="html">Sorry, should have said that I just used Nvidia as an example - you&amp;#39;d need to put your actual GPU runtime info in there.</summary>
+    </entry>
+
+               <entry>
         <id>https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t?cid=133994795</id>
         <title type="text">Comment by Lissy93 on Why does docker-compose up get stuck starting when I give the container access to my GPU?</title>
         <author>
@@ -602,19 +615,6 @@
         <published>2022-12-15T23:22:05Z</published>
         <updated>2022-12-15T23:22:05Z</updated>
         <summary type="html">Use &lt;code&gt;--volume&lt;/code&gt; to mount your own file or directory to where the log files are</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74818587/onclick-not-working-when-i-click-the-button?cid=132042171</id>
-        <title type="text">Comment by Lissy93 on Onclick not working when I click the button</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74818587/onclick-not-working-when-i-click-the-button" />
-        <published>2022-12-15T23:18:08Z</published>
-        <updated>2022-12-15T23:18:08Z</updated>
-        <summary type="html">What do you mean by &lt;i&gt;&amp;quot;doesn&amp;#39;t work&amp;quot;&lt;/i&gt; ?  It lgtm. If you could update your question to be an interactive, runnable code snippet, that may help both you and us answer the question.</summary>
     </entry>
 
 </feed>
