@@ -21,11 +21,11 @@
 
 ## StackOverflow [![StackOverflow - Alicia Sykes](https://img.shields.io/badge/-Alicia-f48225?style=flat&logo=Stackoverflow&logoColor=white)](https://stackoverflow.com/users/979052/alicia "StackOverflow - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/stackoverflow.atom)
 <!-- stackoverflow-feed start -->
+- `11 Apr 2023` - **[Comment by Lissy93 on I want to draw rect in d3 along x axis with no overlapping of rect](https://stackoverflow.com/questions/75978430/i-want-to-draw-rect-in-d3-along-x-axis-with-no-overlapping-of-rect)**
 - `10 Apr 2023` - **[Comment by Lissy93 on Why does docker-compose up get stuck starting when I give the container access to my GPU?](https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t)**
 - ` 9 Apr 2023` - **[Comment by Lissy93 on Why does docker-compose up get stuck starting when I give the container access to my GPU?](https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t)**
 - ` 9 Apr 2023` - **[Comment by Lissy93 on I want to iterate through every letter combination](https://stackoverflow.com/questions/75971868/i-want-to-iterate-through-every-letter-combination)**
 - ` 9 Apr 2023` - **[Comment by Lissy93 on Binary array present in response is being converted to string in react](https://stackoverflow.com/questions/75971814/binary-array-present-in-response-is-being-converted-to-string-in-react)**
-- ` 8 Apr 2023` - **[Comment by Lissy93 on Redux Dispatch Is Looping When Success is true in state](https://stackoverflow.com/questions/75965562/redux-dispatch-is-looping-when-success-is-true-in-state)**
 <!-- stackoverflow-feed end -->
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
@@ -64,6 +64,11 @@
 
 ## Twitter [![Twitter - @Lissy_Sykes](https://img.shields.io/badge/-@Lissy_Sykes-00acee?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/Lissy_Sykes "Twitter - @Lissy_Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom)
 <!-- twitter-feed start -->
+- ` 6 Apr 2023` - **[RT by @Lissy_Sykes: J'ai decouvert pleins de tools pour améliorer son terminal ! C'est regroupé dans un article de @Lissy_Sykes
+
+Certains sont connu mais d'autres je connaissais pas du tout ! Je vais pouvoir m'amuser un peu 😆
+
+🔗 Lien : http://dev.to/lissy93/cli-tools-you-cant-live-without-57f6](http://nitter.fdn.fr/guillaume_rygn/status/1643900219824779267#m)**
 - `19 Jan 2023` - **[Latest post is up, on #Dev 
 A big list of eipc CLI tools, that will make your life way easier (or at least, more colourful)
 Anything I'm missing?
@@ -78,7 +83,6 @@ https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o by @Li
 { author: @Lissy_Sykes } #DEVCommunity #BestOfDEV2022 
 https://dev.to/lissy93/fun-with-consolelog-3i59](http://nitter.fdn.fr/ThePracticalDev/status/1604630845993656320#m)**
 - ` 9 Dec 2022` - **[http://PrivacyTests.org is by far the most comprehensive browser comparison site out there (in terms of privacy and security). If you've not already checked it out, I highly  recommend! 🔐✨](http://nitter.fdn.fr/Lissy_Sykes/status/1601301921750401025#m)**
-- ` 7 Dec 2022` - **[Thank you so much @bioinf_infosec 💖 :)](http://nitter.fdn.fr/Lissy_Sykes/status/1600476196415803392#m)**
 <!-- twitter-feed end -->
 
 
