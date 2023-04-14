@@ -5908,6 +5908,7 @@ BindFamily 0
 &lt;li&gt;&lt;a href="#security-audit"&gt;Implement Security Auditing and Scanning&lt;/a&gt; - With ClamAV, Lynis and RKhunter&lt;/li&gt;
 &lt;li&gt;&lt;a href="#setup-dotfiles"&gt;Fetch Dotfiles&lt;/a&gt; for Vim, ZSH, Tmux etc to make SSH sessions more comfortable&lt;/li&gt;
 &lt;li&gt;&lt;a href="#borg-backup"&gt;Automated Backups&lt;/a&gt; - Using Borg for incremental, off-site, encrypted backups&lt;/li&gt;
+&lt;li&gt;&lt;a href="#setup-system-monitoring"&gt;Setup System Monitoring&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#final-steps"&gt;Final Steps&lt;/a&gt; - Optional items (Go, Rust, Node, Python, Docker, NGINX etc..)&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -5938,7 +5939,7 @@ BindFamily 0
 &lt;p&gt;Specify Host Name&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code class="prettyprint"&gt;sudo hostnamectl set-hostname [new-host-name]&lt;/code&gt; - Set the machines host name&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;sudo hostnamectl set-hostname [new-host-name]&lt;/code&gt; - Set the machines host name (view with &lt;code class="prettyprint"&gt;hostname&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;Add &lt;code class="prettyprint"&gt;127.0.0.1 [hostname]&lt;/code&gt; into &lt;code class="prettyprint"&gt;/etc/hosts&lt;/code&gt; - Add host name to the hosts file&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -5996,6 +5997,7 @@ BindFamily 0
 &lt;li&gt;&lt;code class="prettyprint"&gt;KerberosAuthentication no&lt;/code&gt; # If you are not using Kerberos authentication, this again should be disabled&lt;/li&gt;
 &lt;li&gt;&lt;code class="prettyprint"&gt;Ciphers aes128-ctr,aes192-ctr,aes256-ctr&lt;/code&gt; # Use FIPS 140-2 compliant ciphers, to avoid weak encryption algorithms&lt;/li&gt;
 &lt;li&gt;&lt;code class="prettyprint"&gt;MACs hmac-sha2-256,hmac-sha2-512&lt;/code&gt; # Use FIPS 140-2 Compliant MACs, to avoid weak cryptographic hashes&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;HashKnownHosts yes&lt;/code&gt; - Storing host data in plaintext gives an attacker a clear picture of the network&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -6038,7 +6040,7 @@ BindFamily 0
 &lt;li&gt;If needed, install Node.js and NPM, with &lt;code class="prettyprint"&gt;sudo apt install nodejs npm&lt;/code&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Or use &lt;a href="https://github.com/nodesource/distributions" rel="noopener nofollow" target="_blank"&gt;NodeSource&lt;/a&gt;'s PPA: &lt;code class="prettyprint"&gt;curl -fsSL https://deb.nodesource.com/setup_current.x | bash -&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Or use &lt;a href="https://github.com/nodesource/distributions" rel="noopener nofollow" target="_blank"&gt;NodeSource&lt;/a&gt;'s  Node.js PPA: &lt;code class="prettyprint"&gt;curl -fsSL https://deb.nodesource.com/setup_current.x | bash -&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -6150,6 +6152,7 @@ BindFamily 0
 &lt;h2&gt;Setup Dotfiles&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;If not already done, set ZSH as default shell: &lt;code class="prettyprint"&gt;chsh -s /usr/bin/zsh&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code class="prettyprint"&gt;git clone https://github.com/Lissy93/dotfiles.git --recursive&lt;/code&gt; - Download my dotfiles&lt;/li&gt;
 &lt;li&gt;&lt;code class="prettyprint"&gt;cd ./dotfiles&lt;/code&gt; - Navigate to directory&lt;/li&gt;
 &lt;li&gt;&lt;code class="prettyprint"&gt;./install.sh&lt;/code&gt; - Run the install script&lt;/li&gt;
@@ -6161,16 +6164,34 @@ BindFamily 0
 
 &lt;p&gt;&lt;a href="https://www.borgbackup.org/" rel="noopener nofollow" target="_blank"&gt;Borg&lt;/a&gt; is a deduplicating archiver with compression and encryption, it's space efficient, secure and easy. &lt;a href="https://www.borgbase.com/" rel="noopener nofollow" target="_blank"&gt;BorgBase&lt;/a&gt; provides affordable, performant, simple and safe Borg repositories (10 GB free or 100 GB for $24/year). I am also using &lt;a href="https://healthchecks.io/" rel="noopener nofollow" target="_blank"&gt;HealthChecks.io&lt;/a&gt; for monitoring backup status.&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Will Browning has written an excellent &lt;a href="https://willbrowning.me/automated-offsite-encrypted-backups-with-borg-backup/" rel="noopener nofollow" target="_blank"&gt;tutorial for setting up Borg Backups&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Install dependencies: &lt;code class="prettyprint"&gt;sudo apt install borgbackup borgmatic&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Generate SSH key pair:
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code class="prettyprint"&gt;sudo apt install borgbackup python3-pip python3-setuptools&lt;/code&gt; - Install Borg backup, and Python (if you don't already have it)&lt;/li&gt;
-&lt;li&gt;&lt;code class="prettyprint"&gt;pip3 install wheel&lt;/code&gt; and &lt;code class="prettyprint"&gt;pip3 install --user --upgrade borgmatic&lt;/code&gt; - Install borgmatic for the user, and it's dependency, wheel&lt;/li&gt;
-&lt;li&gt;&lt;code class="prettyprint"&gt;export PATH="$HOME/.local/bin:$PATH"&lt;/code&gt; - Add this to zsh/ bashrc to include the above commands in your path&lt;/li&gt;
-&lt;li&gt;&lt;code class="prettyprint"&gt;sudo env "PATH=$PATH" generate-borgmatic-config&lt;/code&gt; - Generate a bormatic config&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;ssh-keygen -t ed25519 -a 100&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Make note of the public key, within &lt;code class="prettyprint"&gt;~/.ssh/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Sign up + create a new repo on &lt;a href="https://www.borgbase.com/" rel="noopener nofollow" target="_blank"&gt;BorgBase&lt;/a&gt; (or your provider of choice)
+
+&lt;ul&gt;
+&lt;li&gt;Import the public key generated previously&lt;/li&gt;
+&lt;li&gt;Make note of the repo address&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Create a Borgmatic config file in &lt;code class="prettyprint"&gt;/etc/borgmatic/config.yaml&lt;/code&gt;. You can create a sample file, with &lt;code class="prettyprint"&gt;generate-borgmatic-config&lt;/code&gt;, then populate it with your preferences (files to backup, source of BorgBase repo, etc)&lt;/li&gt;
+&lt;li&gt;Make backup
+
+&lt;ul&gt;
+&lt;li&gt;Initilize your repo with: &lt;code class="prettyprint"&gt;sudo borgmatic init --encryption repokey-blake2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Make your first backup with: &lt;code class="prettyprint"&gt;borgmatic&lt;/code&gt; (add &lt;code class="prettyprint"&gt;--verbosity 1&lt;/code&gt; to see logs)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Automate with a cron job
+
+&lt;ul&gt;
+&lt;li&gt;First allow borgmatic to be run without needing password, run &lt;code class="prettyprint"&gt;sudo visudo&lt;/code&gt;, and paste &lt;code class="prettyprint"&gt;my-username ALL=(root) NOPASSWD: /usr/bin/borgmatic&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Then run &lt;code class="prettyprint"&gt;crontab -e&lt;/code&gt;, and paste &lt;code class="prettyprint"&gt;0 0 * * * sudo borgmatic&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;/p&gt;&lt;hr id="final-steps"&gt;&lt;p&gt;&lt;/p&gt;
 
@@ -6205,6 +6226,15 @@ BindFamily 0
 &lt;li&gt;&lt;code class="prettyprint"&gt;sudo pip3 install bpytop --upgrade&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;In some situations, Cockpit might be useful. It's an efficient, extendable, all-in-one web-based server management app. It's useful for carrying out basic tasks, without having to SSH into a rarely used box and re-familiarize yourself all over again.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;echo 'deb http://deb.debian.org/debian buster-backports main' &amp;gt; /etc/apt/sources.list.d/backports.list&lt;/code&gt; - Enable the backports repository&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;sudo apt update&lt;/code&gt; and &lt;code class="prettyprint"&gt;sudo apt install -t buster-backports cockpit&lt;/code&gt; - Update and install&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you're using Ubuntu, Cockpit is already included as an official backport, to install just run &lt;code class="prettyprint"&gt;sudo apt install cockpit&lt;/code&gt;&lt;/p&gt;
+
 &lt;p&gt;If needed, use &lt;a href="https://www.smartmontools.org/" rel="noopener nofollow" target="_blank"&gt;Smartmontool&lt;/a&gt; to monitor the status of you're disks. &lt;/p&gt;
 
 &lt;ul&gt;
@@ -6224,11 +6254,20 @@ BindFamily 0
 &lt;li&gt;See usage docs: &lt;a href="https://bashhub.com/usage" rel="noopener nofollow" target="_blank"&gt;https://bashhub.com/usage&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;Optionally, setup &lt;a href="https://github.com/alseambusher/crontab-ui" rel="noopener nofollow" target="_blank"&gt;Crontab UI&lt;/a&gt;, for web-based management of cron jobs&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;npm install -g crontab-ui&lt;/code&gt; - Install&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;HOST=0.0.0.0 PORT=9000 CRON_DB_PATH=/home/user/path/to/folder crontab-ui&lt;/code&gt; - Start crontab UI&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Additional Tasks:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;If needed, &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-debian-10" rel="noopener nofollow" target="_blank"&gt;Setup VNC with Tight VNC Server and XFCE4 DE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://devcenter.heroku.com/articles/heroku-cli#other-installation-methods" rel="noopener nofollow" target="_blank"&gt;Install Heroku&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 &lt;/p&gt;</description>
