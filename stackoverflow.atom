@@ -4,22 +4,9 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2023-04-17T23:03:41Z</updated>
+    <updated>2023-04-18T23:04:52Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
-            <entry>
-        <id>https://stackoverflow.com/questions/75965386/-/75965432#75965432</id>
-        <re:rank scheme="https://stackoverflow.com">0</re:rank>
-        <title type="text">Answer by Lissy93 for NodeJS process async function in parallel chunks and ignore errors with individual items</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu/75965432#75965432" />
-        <published>2023-04-08T13:14:35Z</published>
-        <updated>2023-04-08T13:46:02Z</updated>
-        <summary type="html">&lt;p&gt;If you update your code to use &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;Promise.allSettled()&lt;/code&gt;&lt;/a&gt; (instead of &lt;code&gt;Promise.all()&lt;/code&gt;), then the loop won&#x27;t be blocked by any fails or errors. You can then choose to handle those cases however you see best.&lt;/p&gt;&#xA;&lt;p&gt;(updated example)&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;const processGroup = async () =&amp;gt; {&#xA;  const chunks = [&#xA;    [0, 1, 2, 3, 4, 5],&#xA;    [6, 7, 8, 9, 10, 11],&#xA;    // etc.&#xA;  ];&#xA;  for (const chunk of chunks) {&#xA;    const results = await Promise.allSettled(chunk.map(id =&amp;gt; processItem(id)));&#xA;    results.forEach((result, index) =&amp;gt; {&#xA;      if (result.status === &#x27;rejected&#x27;) {&#xA;        console.error(`Error processing item with ID ${chunk[index]}: ${result.reason}`);&#xA;      }&#xA;    });&#xA;  }&#xA;}&#xA;&#xA;const processItem = async id =&amp;gt; {&#xA;  try {&#xA;    console.log(id);&#xA;&#xA;    // run couple of async calls from another library (dependency)&#xA;    const itemURL = await itemProcessor.getItem(id);  // this might produce an error&#xA;    // ...&#xA;    // fetch item details&#xA;    console.log(itemURL);&#xA;    const itemDetails = await fetch(itemURL);&#xA;  } catch (error) {&#xA;    console.error(`Error processing item with ID ${id}: ${error}`);&#xA;    return Promise.reject(error);&#xA;  }&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;You&#x27;ll need to update the success case of &lt;code&gt;processItem&lt;/code&gt; to return whatever you want from your &lt;code&gt;itemProcessor&lt;/code&gt;, since I don&#x27;t have access to that code.&lt;/p&gt;&#xA;</summary>
-    </entry>
             <entry>
         <id>https://stackoverflow.com/questions/75965447/-/75965533#75965533</id>
         <re:rank scheme="https://stackoverflow.com">0</re:rank>
@@ -422,6 +409,24 @@
             &lt;h3&gt;The Situation&lt;/h3&gt;&#xA;&lt;p&gt;I have a MongoDB of the following data structure&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;teamName: (String)&#xA;data: (Array)&#xA;---date: (Timestamp)&#xA;---userResults: (Object)&#xA;------userHash: (StringHash)&#xA;------score: (String)&#xA;------comment: (String)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://pastebin.com/m9qpAWej&quot; rel=&quot;nofollow noreferrer&quot;&gt;Here is a short example on PasteBin&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h3&gt;The Question&lt;/h3&gt;&#xA;&lt;p&gt;Given a specific &lt;code&gt;teamName&lt;/code&gt; and &lt;code&gt;date&lt;/code&gt; (within the team data array), I&#x27;d like to append a new row (&lt;code&gt;{userHash: &#x27;&#x27;, score: &#x27;&#x27;, comment: &#x27;&#x27;}&lt;/code&gt;) into &lt;code&gt;userResults&lt;/code&gt; array.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;How can I update an array within a given document, after querying the parent node, and the parents parent node?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h3&gt;What I&#x27;ve tried so far&lt;/h3&gt;&#xA;&lt;p&gt;I&#x27;ve tried &lt;code&gt;findOneAndUpdate&lt;/code&gt;. It inserted an entire new document, right from the root though.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;TeamRecordSchema.findOneAndUpdate(&#xA;    {teamName: teamName, data: {date: today}}, &#xA;    {$set:{teamName: teamName, data: {date: today, userResults: [userResponse]}}}, &#xA;    {new: true, upsert: true}, &#xA;    function(err, savedDoc){&#xA;&#xA;       // Do stuff with err and savedDoc&#xA;&#xA;});&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I&#x27;ve tried &lt;code&gt;save&lt;/code&gt;, and again it just creates an entire new document at the root level, within my db&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;const _userResponse = new TeamRecordSchema(teamUserResponse);&#xA;_userResponse.save((err, savedDoc) =&amp;gt; {&#xA;&#xA;    // Do stuff with err and savedDoc accordingly     &#xA;&#xA; });&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I&#x27;ve also tried several variations based on the documentation, but I either get the same results, or an error.&lt;/p&gt;&#xA;
         </summary>
     </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/47365582</id>
+        <re:rank scheme="https://stackoverflow.com">2</re:rank>
+        <title type="text">Angular AOT compiler can&#x27;t find project-relative paths within components</title>
+            <category scheme="https://stackoverflow.com/tags" term="node.js" />
+            <category scheme="https://stackoverflow.com/tags" term="angular" />
+            <category scheme="https://stackoverflow.com/tags" term="aot" />
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/47365582/angular-aot-compiler-cant-find-project-relative-paths-within-components" />
+        <published>2017-11-18T11:35:42Z</published>
+        <updated>2022-06-30T04:23:45Z</updated>
+        <summary type="html">
+            &lt;p&gt;I&#x27;m in the (painful) process of AOT-ing an app I&#x27;ve been making, but have hit a bit of a hurdle when it comes to specifying URL&#x27;s for the components.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Works in AOT, but not JIT &#x1F616;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;@Component({&#xA;  selector: &amp;quot;home-page&amp;quot;,&#xA;  templateUrl: &amp;quot;./home.html&amp;quot;,&#xA;  styleUrls: [&amp;quot;./home.css&amp;quot;],&#xA;}) &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;strong&gt;Works in JIT, but not AOT &#x1F616;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;@Component({&#xA;  selector: &amp;quot;home-page&amp;quot;,&#xA;  templateUrl: &amp;quot;pages/home/home.html&amp;quot;,&#xA;  styleUrls: [&amp;quot;pages/home/home.css&amp;quot;],&#xA;})&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;strong&gt;Question&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Why does the AOT Compiler resolve paths relative to the current component, whereas the JIT compiler expects absolute path from the project root? And what is the standard, best practice way to get around this?&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;More Details&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This error orrours, when trying to run &lt;code&gt;npm run ngc&lt;/code&gt; (or &lt;code&gt;node_modules/.bin/ngc -p tsconfig-aot.json&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;My project structure was origionally based on &lt;a href=&quot;https://github.com/ericmdantas/generator-ng-fullstack&quot; rel=&quot;nofollow noreferrer&quot;&gt;generator-ng-fullstack (via Yeoman)&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;It&#x27;s not using the Angular CLI, or WebPack.&lt;/li&gt;&#xA;&lt;li&gt;Angular 4&lt;/li&gt;&#xA;&lt;li&gt;Here&#x27;s my &lt;a href=&quot;https://github.com/Lissy93/happy-app/blob/master/tsconfig-aot.json&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;tsconfig-aot.json&lt;/code&gt;&lt;/a&gt;. (And, here&#x27;s my JIT &lt;a href=&quot;https://github.com/Lissy93/happy-app/blob/master/tsconfig.json&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;tsconfig.json&lt;/code&gt;&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;And for reference, &lt;a href=&quot;https://github.com/Lissy93/happy-app/tree/master/client/dev&quot; rel=&quot;nofollow noreferrer&quot;&gt;here&lt;/a&gt; is my client-side source directory.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;What I&#x27;ve tried so far&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Attempting to import and read the html template and stylesheet beforehand, and pass the value in as a string- but this is a terrible approach, and can&#x27;t be right&lt;/li&gt;&#xA;&lt;li&gt;Specifying the template and style paths in many different ways; relative, absolute, and everything between&lt;/li&gt;&#xA;&lt;li&gt;Searching issues on the Angular repo, this was the only one I found that was relevant, but had no clear outcome: &lt;a href=&quot;https://github.com/angular/angular/issues/11554&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://github.com/angular/angular/issues/11554&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Following the official &lt;a href=&quot;https://angular.io/guide/aot-compiler&quot; rel=&quot;nofollow noreferrer&quot;&gt;Angular AOT documentation&lt;/a&gt;, word-for-word, and like it&#x27;s the actual Bible- but they&#x27;ve just brushed over this issue&lt;/li&gt;&#xA;&lt;li&gt;With the Yeoman generator, there are two client-side directories, one for dev, and the other for dist. Gulp is used to build:dist. Since AOT will only need to happen in dist, maybe a potential solution could be to use Gulp to change the path structures on build:dist?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;
+        </summary>
+    </entry>
                <entry>
         <id>https://stackoverflow.com/questions/75978430/i-want-to-draw-rect-in-d3-along-x-axis-with-no-overlapping-of-rect?cid=134023322</id>
         <title type="text">Comment by Lissy93 on I want to draw rect in d3 along x axis with no overlapping of rect</title>
@@ -501,19 +506,6 @@
     </entry>
 
                <entry>
-        <id>https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu/75965432?cid=133984388#75965432</id>
-        <title type="text">Comment by Lissy93 on NodeJS process async function in parallel chunks and ignore errors with individual items</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu/75965432#75965432" />
-        <published>2023-04-08T13:42:37Z</published>
-        <updated>2023-04-08T13:42:37Z</updated>
-        <summary type="html">Ah, you&amp;#39;re right. Maybe we do also need to try/catch inside the processItem as well, and in the &lt;code&gt;catch&lt;/code&gt; part, return a rejected promise. Using that alongside &lt;code&gt;Promise.allSettled&lt;/code&gt; should mean that  it continues executing, even though there are failures. If you give me 5 mins I&amp;#39;ll update the code snippet in the answer :)</summary>
-    </entry>
-
-               <entry>
         <id>https://stackoverflow.com/questions/75965423/how-to-type-firestore-queries-in-firestore-for-nodejs?cid=133984189</id>
         <title type="text">Comment by Lissy93 on How to type Firestore queries in Firestore for NodeJS</title>
         <author>
@@ -524,19 +516,6 @@
         <published>2023-04-08T13:18:51Z</published>
         <updated>2023-04-08T13:18:51Z</updated>
         <summary type="html">Could you create a custom utility that handles the type conversion on retrieved Firestore query data?</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu?cid=133984148</id>
-        <title type="text">Comment by Lissy93 on NodeJS process async function in parallel chunks and ignore errors with individual items</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/75965386/nodejs-process-async-function-in-parallel-chunks-and-ignore-errors-with-individu" />
-        <published>2023-04-08T13:12:16Z</published>
-        <updated>2023-04-08T13:12:16Z</updated>
-        <summary type="html">Could you use &lt;code&gt;Promise.allSettled()&lt;/code&gt; instead?</summary>
     </entry>
 
                <entry>
@@ -615,6 +594,32 @@
         <published>2023-01-01T00:27:08Z</published>
         <updated>2023-01-01T00:27:08Z</updated>
         <summary type="html">This should be the accepted answer - very clearly described, and after testing against your scenario seems to work perfectly.</summary>
+    </entry>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/74817558/how-to-add-docker-volume-for-zipkin-server?cid=132042207</id>
+        <title type="text">Comment by Lissy93 on How to add docker volume for zipkin server</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/74817558/how-to-add-docker-volume-for-zipkin-server" />
+        <published>2022-12-15T23:22:05Z</published>
+        <updated>2022-12-15T23:22:05Z</updated>
+        <summary type="html">Use &lt;code&gt;--volume&lt;/code&gt; to mount your own file or directory to where the log files are</summary>
+    </entry>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/74818587/onclick-not-working-when-i-click-the-button?cid=132042171</id>
+        <title type="text">Comment by Lissy93 on Onclick not working when I click the button</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/74818587/onclick-not-working-when-i-click-the-button" />
+        <published>2022-12-15T23:18:08Z</published>
+        <updated>2022-12-15T23:18:08Z</updated>
+        <summary type="html">What do you mean by &lt;i&gt;&amp;quot;doesn&amp;#39;t work&amp;quot;&lt;/i&gt; ?  It lgtm. If you could update your question to be an interactive, runnable code snippet, that may help both you and us answer the question.</summary>
     </entry>
 
 </feed>
