@@ -4,7 +4,7 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2023-04-18T23:04:52Z</updated>
+    <updated>2023-04-19T23:04:01Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
@@ -467,19 +467,6 @@
     </entry>
 
                <entry>
-        <id>https://stackoverflow.com/questions/75971868/i-want-to-iterate-through-every-letter-combination?cid=133994736</id>
-        <title type="text">Comment by Lissy93 on I want to iterate through every letter combination</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/75971868/i-want-to-iterate-through-every-letter-combination" />
-        <published>2023-04-09T17:12:23Z</published>
-        <updated>2023-04-09T17:12:23Z</updated>
-        <summary type="html">Can you share what you&amp;#39;ve tried so far, and explain specifically what&amp;#39;s not working with your code?</summary>
-    </entry>
-
-               <entry>
         <id>https://stackoverflow.com/questions/75971814/binary-array-present-in-response-is-being-converted-to-string-in-react?cid=133994724</id>
         <title type="text">Comment by Lissy93 on Binary array present in response is being converted to string in react</title>
         <author>
@@ -620,6 +607,19 @@
         <published>2022-12-15T23:18:08Z</published>
         <updated>2022-12-15T23:18:08Z</updated>
         <summary type="html">What do you mean by &lt;i&gt;&amp;quot;doesn&amp;#39;t work&amp;quot;&lt;/i&gt; ?  It lgtm. If you could update your question to be an interactive, runnable code snippet, that may help both you and us answer the question.</summary>
+    </entry>
+
+               <entry>
+        <id>https://stackoverflow.com/questions/74818557/how-would-i-use-setinterval-to-execute-a-class-function?cid=132042154</id>
+        <title type="text">Comment by Lissy93 on how would I use setInterval to execute a class function?</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/74818557/how-would-i-use-setinterval-to-execute-a-class-function" />
+        <published>2022-12-15T23:16:19Z</published>
+        <updated>2022-12-15T23:16:19Z</updated>
+        <summary type="html">You should just be able to wrap that final line in a for loop, that iterates over each of the players (unless I&amp;#39;ve misunderstood the question)</summary>
     </entry>
 
 </feed>
