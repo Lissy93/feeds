@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `22 Apr 2023` - **[Lissy93 pushed to main in Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates/compare/c5d6ec0f29...7605e462ff)**
-- `22 Apr 2023` - **[Lissy93 pushed to main in Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates/compare/54b7623dce...c5d6ec0f29)**
-- `22 Apr 2023` - **[Lissy93 pushed to main in Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates/compare/a712d9439c...046068060a)**
-- `22 Apr 2023` - **[Lissy93 pushed to website in Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates/compare/391f483a05...9c95bc5e82)**
-- `22 Apr 2023` - **[Lissy93 starred kubernetes/kompose](https://github.com/kubernetes/kompose)**
+- `24 Apr 2023` - **[Lissy93 pushed to main in Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates/compare/fc619d5aad...9db9555fad)**
+- `24 Apr 2023` - **[Lissy93 pushed to main in Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates/compare/27ec4d928a...fc619d5aad)**
+- `24 Apr 2023` - **[Lissy93 closed an issue in Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates/issues/1)**
+- `24 Apr 2023` - **[Lissy93 commented on issue Lissy93/portainer-templates#1](https://github.com/Lissy93/portainer-templates/issues/1#issuecomment-1520600388)**
+- `24 Apr 2023` - **[Lissy93 pushed to main in Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates/compare/933e1d105c...f960bae2fc)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
@@ -64,6 +64,11 @@
 
 ## Twitter [![Twitter - @Lissy_Sykes](https://img.shields.io/badge/-@Lissy_Sykes-00acee?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/Lissy_Sykes "Twitter - @Lissy_Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom)
 <!-- twitter-feed start -->
+- `23 Apr 2023` - **[R to @Lissy_Sykes: ... and a quick web app for browsing apps and showing stats, config options and Docker compose deployment guides for each: https://portainer-templates.as93.net/
+(Svelte made this so quick and fun to put together!)](http://nitter.fdn.fr/Lissy_Sykes/status/1650264951699668993#m)**
+- `23 Apr 2023` - **[I've put together a big collection of 1-click open source Portainer templates, so if you're into self-hosting do let me know your thoughts / suggestions :)
+
+https://github.com/Lissy93/portainer-templates](http://nitter.fdn.fr/Lissy_Sykes/status/1650264461528256513#m)**
 - ` 6 Apr 2023` - **[RT by @Lissy_Sykes: J'ai decouvert pleins de tools pour améliorer son terminal ! C'est regroupé dans un article de @Lissy_Sykes
 
 Certains sont connu mais d'autres je connaissais pas du tout ! Je vais pouvoir m'amuser un peu 😆
@@ -78,11 +83,6 @@ https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6 #Linux #developer](h
 https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o by @Lissy_Sykes 
 
 #Git #CLI #CommandLine](http://nitter.fdn.fr/nucliweb/status/1606581915859169280#m)**
-- `19 Dec 2022` - **[RT by @Lissy_Sykes: This post briefly outlines the top 10 neat tricks you can use to level up your logging experience.
-
-{ author: @Lissy_Sykes } #DEVCommunity #BestOfDEV2022 
-https://dev.to/lissy93/fun-with-consolelog-3i59](http://nitter.fdn.fr/ThePracticalDev/status/1604630845993656320#m)**
-- ` 9 Dec 2022` - **[http://PrivacyTests.org is by far the most comprehensive browser comparison site out there (in terms of privacy and security). If you've not already checked it out, I highly  recommend! 🔐✨](http://nitter.fdn.fr/Lissy_Sykes/status/1601301921750401025#m)**
 <!-- twitter-feed end -->
 
 
