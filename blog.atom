@@ -5291,6 +5291,11 @@ Saves me having to figure the same thing out twice.&lt;/p&gt;
 
 &lt;hr&gt;
 
+&lt;p&gt;❌ Go: package build constraints exclude all Go files in...&lt;br&gt;
+✅ Caused by packages being incorrectly cached, just run: &lt;code class="prettyprint"&gt;go clean -modcache&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
 &lt;p&gt;❌ Pacman: [package-name]: [/usr/share/path/to/pakage@latest/file.compiled] exists in filesystem&lt;/p&gt;
 
 &lt;p&gt;This is caused by a file already existing, and Pacman not being intended to replace files. It usually happens when you've installed something manually, or using a third-party package manager, and hence it is not being tracked by Pacman.&lt;/p&gt;
