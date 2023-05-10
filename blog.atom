@@ -3757,7 +3757,7 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
       <link>https://notes.aliciasykes.com/36402/github-markdown-tricks</link>
       <guid>https://notes.aliciasykes.com/36402/github-markdown-tricks</guid>
       <description>&lt;p&gt;&lt;blockquote&gt;
-&lt;p&gt;A collection of 20 &lt;em&gt;things&lt;/em&gt; you can do with GitHub-flavoured markdown to spice-up your projects readme.&lt;/p&gt;
+&lt;p&gt;A collection of 20 &lt;em&gt;things&lt;/em&gt; you can do with GitHub-flavoured markdown to spice-up your projects readme!&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr&gt;
@@ -3812,13 +3812,22 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
 
 &lt;hr&gt;
 
+&lt;h3&gt;Underlined Text&lt;/h3&gt;
+
+&lt;p&gt;You probably already know that you can make &lt;strong&gt;bold&lt;/strong&gt; text with &lt;code class="prettyprint"&gt;**Bold!**&lt;/code&gt;, and &lt;em&gt;italic&lt;/em&gt; text with &lt;code class="prettyprint"&gt;_Italic!_&lt;/code&gt; (both of which can also be done with the &lt;code class="prettyprint"&gt;&amp;lt;b&amp;gt;&amp;lt;/b&amp;gt;&lt;/code&gt; and &lt;code class="prettyprint"&gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&lt;/code&gt; tags) - but you can also have underlined text, using the &lt;code class="prettyprint"&gt;&amp;lt;ins&amp;gt;&amp;lt;/ins&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;ins&amp;gt;&lt;/span&gt;I'm Underlined!&lt;span class="nt"&gt;&amp;lt;/ins&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://i.ibb.co/VVkGpVh/Screenshot-from-2023-05-10-21-24-43.png" width="600"&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
 &lt;h3&gt;Collapsible Sections&lt;/h3&gt;
 
 &lt;p&gt;Useful for including long blocks of text (like logs or API response), without clogging up your page (&lt;a href="https://github.com/Lissy93/Lissy93#readme" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&amp;lt;details&amp;gt;
-    &amp;lt;summary&amp;gt;Collapsable Title&amp;lt;/summary&amp;gt;
-    &amp;lt;p&amp;gt;Put Content Here&amp;lt;/p&amp;gt;
-&amp;lt;/details&amp;gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;details&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;summary&amp;gt;&lt;/span&gt;Collapsable Title&lt;span class="nt"&gt;&amp;lt;/summary&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Put Content Here&lt;span class="nt"&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/details&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src="https://i.ibb.co/82pn1rX/2023-02-24-12-56-24.gif" width="300"&gt;&lt;/p&gt;
 
@@ -3829,10 +3838,10 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
 &lt;h3&gt;Indentation&lt;/h3&gt;
 
 &lt;p&gt;Using &lt;code class="prettyprint"&gt;&amp;lt;dl&amp;gt;&lt;/code&gt;, &lt;code class="prettyprint"&gt;&amp;lt;dt&amp;gt;&lt;/code&gt; and &lt;code class="prettyprint"&gt;&amp;lt;dd&amp;gt;&lt;/code&gt; you can create indented paragraphs, with a nicer aphetic. The indented text can wrap multiple lines, while maintaining indentation.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&amp;lt;dl&amp;gt;
-  &amp;lt;dt&amp;gt;This is a list&amp;lt;/dt&amp;gt;
-  &amp;lt;dd&amp;gt;With hanging indentation&amp;lt;/dd&amp;gt;
-&amp;lt;/dl&amp;gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;dl&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;dt&amp;gt;&lt;/span&gt;This is a list&lt;span class="nt"&gt;&amp;lt;/dt&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;dd&amp;gt;&lt;/span&gt;With hanging indentation&lt;span class="nt"&gt;&amp;lt;/dd&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/dl&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img width="400" src="https://i.ibb.co/3S4b6yv/Screen-Shot-2023-02-24-at-15-41-19.png"&gt;&lt;/p&gt;
 
