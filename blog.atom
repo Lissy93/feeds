@@ -3833,6 +3833,11 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
 
 &lt;p&gt;Note that to include markdown within the &lt;code class="prettyprint"&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; content block, you must pad it with blank lines, both top and bottom&lt;/p&gt;
 
+&lt;p&gt;Want sections to be open by default? Just append the &lt;code class="prettyprint"&gt;open&lt;/code&gt; attribute. For example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;details&lt;/span&gt; &lt;span class="na"&gt;open&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;summary&amp;gt;&amp;lt;h2&amp;gt;&lt;/span&gt;I'm Open&lt;span class="nt"&gt;&amp;lt;/h2&amp;gt;&amp;lt;/summary&amp;gt;&lt;/span&gt;
+...
+&lt;span class="nt"&gt;&amp;lt;/details&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
 
 &lt;h3&gt;Indentation&lt;/h3&gt;
