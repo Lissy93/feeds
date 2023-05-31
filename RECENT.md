@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `30 May 2023` - **[Lissy93 starred ziglang/zig](https://github.com/ziglang/zig)**
-- `30 May 2023` - **[Lissy93 commented on issue Lissy93/dashy#1203](https://github.com/Lissy93/dashy/issues/1203#issuecomment-1568872792)**
-- `30 May 2023` - **[Lissy93 commented on issue Lissy93/dashy#1203](https://github.com/Lissy93/dashy/issues/1203#issuecomment-1568670455)**
-- `30 May 2023` - **[Lissy93 commented on issue Lissy93/AdGuardian-Term#6](https://github.com/Lissy93/AdGuardian-Term/issues/6#issuecomment-1568583288)**
-- `30 May 2023` - **[Lissy93 commented on issue Lissy93/dashy#1203](https://github.com/Lissy93/dashy/issues/1203#issuecomment-1568551631)**
+- `31 May 2023` - **[Lissy93 commented on issue Lissy93/AdGuardian-Term#8](https://github.com/Lissy93/AdGuardian-Term/issues/8#issuecomment-1570945903)**
+- `31 May 2023` - **[Lissy93 deleted branch FEAT/support-for-https at Lissy93/AdGuardian-Term](https://github.com/)**
+- `31 May 2023` - **[Lissy93 closed an issue in Lissy93/AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/issues/7)**
+- `31 May 2023` - **[Lissy93 pushed to main in Lissy93/AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/compare/52a4cbf783...dcc21be118)**
+- `31 May 2023` - **[Lissy93 merged a pull request in Lissy93/AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/pull/9)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
