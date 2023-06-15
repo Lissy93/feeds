@@ -4564,12 +4564,13 @@ You can also remove any dependencies that have an overlapping range, with &lt;co
 &lt;ul&gt;
 &lt;li&gt;When was it last updated?&lt;/li&gt;
 &lt;li&gt;How often are releases published?&lt;/li&gt;
-&lt;li&gt;How many developers have contributed to it? (More is better, as there is a lower risk of the project being abandoned, and a higher change that issues are spotted).&lt;/li&gt;
+&lt;li&gt;How many developers have contributed to it? (More is better, as there is a lower risk of the project being abandoned, and a higher chance that issues are spotted).&lt;/li&gt;
 &lt;li&gt;How many open issues are there?&lt;/li&gt;
 &lt;li&gt;Does it have a security policy?&lt;/li&gt;
 &lt;li&gt;Any open or recent security advisories?&lt;/li&gt;
 &lt;li&gt;Is it correctly using semantic versioning?&lt;/li&gt;
-&lt;li&gt;Is it thoroughly tested? Does it use many additional dependencies? If so, are they to be deemed trustworthy?&lt;/li&gt;
+&lt;li&gt;Is it thoroughly tested?&lt;/li&gt;
+&lt;li&gt;Does it use many additional dependencies? If so, are they to be deemed trustworthy?&lt;/li&gt;
 &lt;li&gt;How many other projects rely on it?&lt;/li&gt;
 &lt;li&gt;Is it frequently downloaded? (Check the "Stats" section of the NPM page, or use &lt;a href="https://npm-stat.com/" rel="noopener nofollow" target="_blank"&gt;npm-stat.com&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Is the code clear and readable? If it is, then issues will be much easier to spot&lt;/li&gt;
@@ -4637,7 +4638,8 @@ You can also remove any dependencies that have an overlapping range, with &lt;co
 &lt;li&gt;Many of the NPM short commands can be grouped together, for example &lt;code class="prettyprint"&gt;npm cit&lt;/code&gt; is the same as fresh install and run tests&lt;/li&gt;
 &lt;li&gt;When working with mono-repos or multiple packages, you can use the &lt;code class="prettyprint"&gt;--prefix [./path/to/dir]&lt;/code&gt; flag to run NPM commands in other directories, without having to cd&lt;/li&gt;
 &lt;li&gt;To view all valid release versions of a given package, run &lt;code class="prettyprint"&gt;npm view [package-name] versions&lt;/code&gt;, or &lt;code class="prettyprint"&gt;yarn info [package-name] versions&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;To view tree of dependencies for any package, check out &lt;a href="https://npmgraph.js.org/" rel="noopener nofollow" target="_blank"&gt;npmgraph.js.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;View a tree of dependencies for any package, with &lt;a href="https://npmgraph.js.org/" rel="noopener nofollow" target="_blank"&gt;npmgraph.js.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Use different NPM versions for different projects easily with &lt;a href="https://volta.sh/" rel="noopener nofollow" target="_blank"&gt;Volta&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;More info can be found for any CVE via &lt;a href="https://www.cvedetails.com/" rel="noopener nofollow" target="_blank"&gt;cvedetails.com&lt;/a&gt; or using &lt;a href="https://github.com/advisories" rel="noopener nofollow" target="_blank"&gt;GitHub Advisories&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;</description>
