@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `17 Jun 2023` - **[Lissy93 starred dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible)**
+- `17 Jun 2023` - **[Lissy93 pushed to master in Lissy93/devolio](https://github.com/Lissy93/devolio/compare/7feb8c03d7...607553fe65)**
 - `16 Jun 2023` - **[Lissy93 created a branch snyk-fix-d436d6927115f144ca04f98d9b6acaee in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/snyk-fix-d436d6927115f144ca04f98d9b6acaee)**
 - `16 Jun 2023` - **[Lissy93 opened a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1227)**
 - `16 Jun 2023` - **[Lissy93 pushed to snyk-fix-d436d6927115f144ca04f98d9b6acaee in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/51a9b4bfbe...20a039d08e)**
-- `16 Jun 2023` - **[Lissy93 pushed to main in Lissy93/secure-coding-deck](https://github.com/Lissy93/secure-coding-deck/compare/db6a15c149...ddf9482b73)**
-- `16 Jun 2023` - **[Lissy93 pushed to main in Lissy93/secure-coding-deck](https://github.com/Lissy93/secure-coding-deck/compare/34eeef27d7...db6a15c149)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
