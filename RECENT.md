@@ -64,18 +64,25 @@
 
 ## Twitter [![Twitter - @Lissy_Sykes](https://img.shields.io/badge/-@Lissy_Sykes-00acee?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/Lissy_Sykes "Twitter - @Lissy_Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom)
 <!-- twitter-feed start -->
-- `29 May 2023` - **[R to @Lissy_Sykes: github.com/Lissy93/AdGuardia…](http://nitter.fdn.fr/Lissy_Sykes/status/1663237137129521179#m)**
-- `29 May 2023` - **[R to @Lissy_Sykes: And shout out to @orhunp_ for his awesome work on ratatui 🙌  https://github.com/tui-rs-revival/ratatui
-I really enjoyed using it for this project! :)](http://nitter.fdn.fr/Lissy_Sykes/status/1663236942337654810#m)**
-- `29 May 2023` - **[This weekend I made a little TUI app to monitor all the DNS requests going through my AdGuard Home instance. Had a lot of fun with this one :)
+- ` 6 Apr 2023` - **[RT by @Lissy_Sykes: J'ai decouvert pleins de tools pour améliorer son terminal ! C'est regroupé dans un article de @Lissy_Sykes
 
-Source and Docker image is on GitHub: https://github.com/Lissy93/AdGuardian-Term 😊
-#rustlang #homelab #commandline](http://nitter.fdn.fr/Lissy_Sykes/status/1663235060466696205#m)**
-- `23 Apr 2023` - **[R to @Lissy_Sykes: ... and a quick web app for browsing apps and showing stats, config options and Docker compose deployment guides for each: https://portainer-templates.as93.net/
-(Svelte made this so quick and fun to put together!)](http://nitter.fdn.fr/Lissy_Sykes/status/1650264951699668993#m)**
-- `23 Apr 2023` - **[I've put together a big collection of 1-click open source Portainer templates, so if you're into self-hosting do let me know your thoughts / suggestions :)
+Certains sont connu mais d'autres je connaissais pas du tout ! Je vais pouvoir m'amuser un peu 😆
 
-https://github.com/Lissy93/portainer-templates](http://nitter.fdn.fr/Lissy_Sykes/status/1650264461528256513#m)**
+🔗 Lien : http://dev.to/lissy93/cli-tools-you-cant-live-without-57f6](http://nitter.fdn.fr/guillaume_rygn/status/1643900219824779267#m)**
+- `19 Jan 2023` - **[Latest post is up, on #Dev 
+A big list of eipc CLI tools, that will make your life way easier (or at least, more colourful)
+Anything I'm missing?
+https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6 #Linux #developer](http://nitter.fdn.fr/Lissy_Sykes/status/1616104945362833408#m)**
+- `24 Dec 2022` - **[RT by @Lissy_Sykes: 20 Git Commands you (probably) didn't know about 🧙‍♂️
+
+https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o by @Lissy_Sykes 
+
+#Git #CLI #CommandLine](http://nitter.fdn.fr/nucliweb/status/1606581915859169280#m)**
+- `19 Dec 2022` - **[RT by @Lissy_Sykes: This post briefly outlines the top 10 neat tricks you can use to level up your logging experience.
+
+{ author: @Lissy_Sykes } #DEVCommunity #BestOfDEV2022 
+https://dev.to/lissy93/fun-with-consolelog-3i59](http://nitter.fdn.fr/ThePracticalDev/status/1604630845993656320#m)**
+- ` 9 Dec 2022` - **[http://PrivacyTests.org is by far the most comprehensive browser comparison site out there (in terms of privacy and security). If you've not already checked it out, I highly  recommend! 🔐✨](http://nitter.fdn.fr/Lissy_Sykes/status/1601301921750401025#m)**
 <!-- twitter-feed end -->
 
 
