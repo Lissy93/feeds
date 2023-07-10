@@ -21,20 +21,20 @@
 
 ## StackOverflow [![StackOverflow - Alicia Sykes](https://img.shields.io/badge/-Alicia-f48225?style=flat&logo=Stackoverflow&logoColor=white)](https://stackoverflow.com/users/979052/alicia "StackOverflow - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/stackoverflow.atom)
 <!-- stackoverflow-feed start -->
+- ` 9 Jul 2023` - **[Comment by Lissy93 on Copy text to clipboard: Cannot read properties of undefined reading 'writeText'](https://stackoverflow.com/questions/71873824/copy-text-to-clipboard-cannot-read-properties-of-undefined-reading-writetext/71876238#71876238)**
 - `11 Apr 2023` - **[Comment by Lissy93 on I want to draw rect in d3 along x axis with no overlapping of rect](https://stackoverflow.com/questions/75978430/i-want-to-draw-rect-in-d3-along-x-axis-with-no-overlapping-of-rect)**
 - `10 Apr 2023` - **[Comment by Lissy93 on Why does docker-compose up get stuck starting when I give the container access to my GPU?](https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t)**
 - ` 9 Apr 2023` - **[Comment by Lissy93 on Why does docker-compose up get stuck starting when I give the container access to my GPU?](https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t)**
 - ` 9 Apr 2023` - **[Comment by Lissy93 on Binary array present in response is being converted to string in react](https://stackoverflow.com/questions/75971814/binary-array-present-in-response-is-being-converted-to-string-in-react)**
-- ` 8 Apr 2023` - **[Comment by Lissy93 on Redux Dispatch Is Looping When Success is true in state](https://stackoverflow.com/questions/75965562/redux-dispatch-is-looping-when-success-is-true-in-state)**
 <!-- stackoverflow-feed end -->
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `29 Jun 2023` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/0bc0c54e40...2e9bc83307)**
-- `29 Jun 2023` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/411cad86ff...0bc0c54e40)**
-- `28 Jun 2023` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/e9a8dd0d9d...411cad86ff)**
-- `26 Jun 2023` - **[Lissy93 opened a pull request in jivoi/awesome-osint](https://github.com/jivoi/awesome-osint/pull/429)**
-- `26 Jun 2023` - **[Lissy93 pushed to patch-1 in Lissy93/awesome-osint](https://github.com/Lissy93/awesome-osint/compare/e73dbfdab0...a362d412d3)**
+- ` 9 Jul 2023` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/58f9edfba4...8f89e2670c)**
+- ` 9 Jul 2023` - **[Lissy93 opened a pull request in ANG13T/aerospace-hacking-tools](https://github.com/ANG13T/aerospace-hacking-tools/pull/3)**
+- ` 9 Jul 2023` - **[Lissy93 created a branch REF/refactor-dashboard in Lissy93/aerospace-hacking-tools](https://github.com/Lissy93/aerospace-hacking-tools/compare/REF/refactor-dashboard)**
+- ` 9 Jul 2023` - **[Lissy93 pushed to patch-1 in Lissy93/aerospace-hacking-tools](https://github.com/Lissy93/aerospace-hacking-tools/compare/0416e3a548...9ec48880fc)**
+- ` 9 Jul 2023` - **[Lissy93 opened a pull request in ANG13T/aerospace-hacking-tools](https://github.com/ANG13T/aerospace-hacking-tools/pull/2)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
@@ -64,25 +64,16 @@
 
 ## Twitter [![Twitter - @Lissy_Sykes](https://img.shields.io/badge/-@Lissy_Sykes-00acee?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/Lissy_Sykes "Twitter - @Lissy_Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom)
 <!-- twitter-feed start -->
-- ` 6 Apr 2023` - **[RT by @Lissy_Sykes: J'ai decouvert pleins de tools pour améliorer son terminal ! C'est regroupé dans un article de @Lissy_Sykes
+- ` 9 Jul 2023` - **[R to @Lissy_Sykes: Here's an example output, for #Threads (of course, this doesn't touch on any of the real issues with Threads, like the incredibly invasive data collection).
+You can try out the demo with your own site, at: https://web-check.as93.net/ :)](http://nitter.fdn.fr/Lissy_Sykes/status/1678180157503275010#m)**
+- ` 9 Jul 2023` - **[Here's an app which (aims to) make it a bit easier to discover info about any given website
+https://github.com/Lissy93/web-check
 
-Certains sont connu mais d'autres je connaissais pas du tout ! Je vais pouvoir m'amuser un peu 😆
-
-🔗 Lien : http://dev.to/lissy93/cli-tools-you-cant-live-without-57f6](http://nitter.fdn.fr/guillaume_rygn/status/1643900219824779267#m)**
-- `19 Jan 2023` - **[Latest post is up, on #Dev 
-A big list of eipc CLI tools, that will make your life way easier (or at least, more colourful)
-Anything I'm missing?
-https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6 #Linux #developer](http://nitter.fdn.fr/Lissy_Sykes/status/1616104945362833408#m)**
-- `24 Dec 2022` - **[RT by @Lissy_Sykes: 20 Git Commands you (probably) didn't know about 🧙‍♂️
-
-https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o by @Lissy_Sykes 
-
-#Git #CLI #CommandLine](http://nitter.fdn.fr/nucliweb/status/1606581915859169280#m)**
-- `19 Dec 2022` - **[RT by @Lissy_Sykes: This post briefly outlines the top 10 neat tricks you can use to level up your logging experience.
-
-{ author: @Lissy_Sykes } #DEVCommunity #BestOfDEV2022 
-https://dev.to/lissy93/fun-with-consolelog-3i59](http://nitter.fdn.fr/ThePracticalDev/status/1604630845993656320#m)**
-- ` 9 Dec 2022` - **[http://PrivacyTests.org is by far the most comprehensive browser comparison site out there (in terms of privacy and security). If you've not already checked it out, I highly  recommend! 🔐✨](http://nitter.fdn.fr/Lissy_Sykes/status/1601301921750401025#m)**
+It was a fun little weekend project, but any suggestions for what other info I can gather using only the native HTTP APIs? #osint #sysadmin #aws #react #cyber](http://nitter.fdn.fr/Lissy_Sykes/status/1678180155099955205#m)**
+- ` 9 Jul 2023` - **[Really nice collection of space-related cyber tools by @AngelinaTsuboi - check it out: https://tools.g4lxy.space/
+Loads of cool astronomy utils and data sets here, I know what I'm going to be spending my evening doing!!](http://nitter.fdn.fr/Lissy_Sykes/status/1678141709379592193#m)**
+- ` 9 Jul 2023` - **[RT by @Lissy_Sykes: Zuck is a cuck](http://nitter.fdn.fr/elonmusk/status/1678098028849143809#m)**
+- `29 May 2023` - **[R to @Lissy_Sykes: github.com/Lissy93/AdGuardia…](http://nitter.fdn.fr/Lissy_Sykes/status/1663237137129521179#m)**
 <!-- twitter-feed end -->
 
 
