@@ -4,7 +4,7 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2023-06-29T23:03:43Z</updated>
+    <updated>2023-07-10T23:03:53Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
@@ -217,7 +217,7 @@
     </entry>
             <entry>
         <id>https://stackoverflow.com/questions/71873824/-/71876238#71876238</id>
-        <re:rank scheme="https://stackoverflow.com">85</re:rank>
+        <re:rank scheme="https://stackoverflow.com">88</re:rank>
         <title type="text">Answer by Lissy93 for Copy text to clipboard: Cannot read properties of undefined reading &#x27;writeText&#x27;</title>
         <author>
             <name>Lissy93</name>
@@ -428,6 +428,19 @@
         </summary>
     </entry>
                <entry>
+        <id>https://stackoverflow.com/questions/71873824/copy-text-to-clipboard-cannot-read-properties-of-undefined-reading-writetext/71876238?cid=135134922#71876238</id>
+        <title type="text">Comment by Lissy93 on Copy text to clipboard: Cannot read properties of undefined reading &#x27;writeText&#x27;</title>
+        <author>
+            <name>Lissy93</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/71873824/copy-text-to-clipboard-cannot-read-properties-of-undefined-reading-writetext/71876238#71876238" />
+        <published>2023-07-09T13:53:33Z</published>
+        <updated>2023-07-09T13:53:33Z</updated>
+        <summary type="html">@bpGusar Locally-delivered resources are also considered secure, as there&amp;#39;s no opportunity for an external actor to use a MITM attack :) See the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts#when_is_a_context_considered_secure&quot; rel=&quot;nofollow noreferrer&quot;&gt;When is a context considered secure?&lt;/a&gt; section in the MDN docs for more info.</summary>
+    </entry>
+
+               <entry>
         <id>https://stackoverflow.com/questions/75978430/i-want-to-draw-rect-in-d3-along-x-axis-with-no-overlapping-of-rect?cid=134023322</id>
         <title type="text">Comment by Lissy93 on I want to draw rect in d3 along x axis with no overlapping of rect</title>
         <author>
@@ -607,19 +620,6 @@
         <published>2022-12-15T23:18:08Z</published>
         <updated>2022-12-15T23:18:08Z</updated>
         <summary type="html">What do you mean by &lt;i&gt;&amp;quot;doesn&amp;#39;t work&amp;quot;&lt;/i&gt; ?  It lgtm. If you could update your question to be an interactive, runnable code snippet, that may help both you and us answer the question.</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74818557/how-would-i-use-setinterval-to-execute-a-class-function?cid=132042154</id>
-        <title type="text">Comment by Lissy93 on how would I use setInterval to execute a class function?</title>
-        <author>
-            <name>Lissy93</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74818557/how-would-i-use-setinterval-to-execute-a-class-function" />
-        <published>2022-12-15T23:16:19Z</published>
-        <updated>2022-12-15T23:16:19Z</updated>
-        <summary type="html">You should just be able to wrap that final line in a for loop, that iterates over each of the players (unless I&amp;#39;ve misunderstood the question)</summary>
     </entry>
 
 </feed>
