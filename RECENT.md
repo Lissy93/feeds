@@ -21,20 +21,20 @@
 
 ## StackOverflow [![StackOverflow - Alicia Sykes](https://img.shields.io/badge/-Alicia-f48225?style=flat&logo=Stackoverflow&logoColor=white)](https://stackoverflow.com/users/979052/alicia "StackOverflow - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/stackoverflow.atom)
 <!-- stackoverflow-feed start -->
+- `22 Jul 2023` - **[Answer by Alicia Sykes for "Could not find Chromium" when using puppeteer in a Netlify lambda function](https://stackoverflow.com/questions/75961468/could-not-find-chromium-when-using-puppeteer-in-a-netlify-lambda-function/76743730#76743730)**
 - ` 9 Jul 2023` - **[Comment by Alicia Sykes on Copy text to clipboard: Cannot read properties of undefined reading 'writeText'](https://stackoverflow.com/questions/71873824/copy-text-to-clipboard-cannot-read-properties-of-undefined-reading-writetext/71876238#71876238)**
 - `11 Apr 2023` - **[Comment by Alicia Sykes on I want to draw rect in d3 along x axis with no overlapping of rect](https://stackoverflow.com/questions/75978430/i-want-to-draw-rect-in-d3-along-x-axis-with-no-overlapping-of-rect)**
 - `10 Apr 2023` - **[Comment by Alicia Sykes on Why does docker-compose up get stuck starting when I give the container access to my GPU?](https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t)**
 - ` 9 Apr 2023` - **[Comment by Alicia Sykes on Why does docker-compose up get stuck starting when I give the container access to my GPU?](https://stackoverflow.com/questions/75971880/why-does-docker-compose-up-get-stuck-starting-when-i-give-the-container-access-t)**
-- ` 9 Apr 2023` - **[Comment by Alicia Sykes on Binary array present in response is being converted to string in react](https://stackoverflow.com/questions/75971814/binary-array-present-in-response-is-being-converted-to-string-in-react)**
 <!-- stackoverflow-feed end -->
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `19 Jul 2023` - **[Lissy93 commented on issue Lissy93/web-check#5](https://github.com/Lissy93/web-check/issues/5#issuecomment-1642601549)**
-- `19 Jul 2023` - **[Lissy93 commented on issue Lissy93/web-check#5](https://github.com/Lissy93/web-check/issues/5#issuecomment-1642276506)**
-- `18 Jul 2023` - **[Lissy93 pushed to master in Lissy93/my-website](https://github.com/Lissy93/my-website/compare/241ebeaae4...7bde94c400)**
-- `18 Jul 2023` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/9a5af64d1b...679aab140d)**
-- `18 Jul 2023` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/8878062d2a...9a5af64d1b)**
+- `24 Jul 2023` - **[Lissy93 commented on issue Lissy93/web-check#8](https://github.com/Lissy93/web-check/issues/8#issuecomment-1648534808)**
+- `24 Jul 2023` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/c8d29c78a2...ff894f49fc)**
+- `24 Jul 2023` - **[Lissy93 deleted branch FEAT/security-txt at Lissy93/web-check](https://github.com/)**
+- `24 Jul 2023` - **[Lissy93 closed an issue in Lissy93/web-check](https://github.com/Lissy93/web-check/issues/7)**
+- `24 Jul 2023` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/8ff4e4e36a...c8d29c78a2)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
@@ -64,6 +64,12 @@
 
 ## Twitter [![Twitter - @Lissy_Sykes](https://img.shields.io/badge/-@Lissy_Sykes-00acee?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/Lissy_Sykes "Twitter - @Lissy_Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom)
 <!-- twitter-feed start -->
+- `21 Jul 2023` - **[RT by @Lissy_Sykes: Checking out this #OSINT tool!
+
+It's fucking awesome, a great job!
+Many kudos to @Lissy_Sykes 💪
+https://github.com/lissy93/web-check](http://nitter.fdn.fr/realcyberpanda/status/1682495343387201542#m)**
+- `19 Jul 2023` - **[RT by @Lissy_Sykes: 🥹](http://nitter.fdn.fr/nixcraft/status/1681805611833626624#m)**
 - `16 Jul 2023` - **[Just about to push some updates, to add more server-scanning and IP history features to Web-Check
 https://github.com/lissy93/web-check 🌐✅😄](http://nitter.fdn.fr/Lissy_Sykes/status/1680608012908503043#m)**
 - ` 9 Jul 2023` - **[R to @Lissy_Sykes: Here's an example output, for #Threads (of course, this doesn't touch on any of the real issues with Threads, like the incredibly invasive data collection).
@@ -72,9 +78,6 @@ You can try out the demo with your own site, at: https://web-check.as93.net/ :)]
 https://github.com/Lissy93/web-check
 
 It was a fun little weekend project, but any suggestions for what other info I can gather using only the native HTTP APIs? #osint #sysadmin #aws #react #cyber](http://nitter.fdn.fr/Lissy_Sykes/status/1678180155099955205#m)**
-- ` 9 Jul 2023` - **[Really nice collection of space-related cyber tools by @AngelinaTsuboi - check it out: https://tools.g4lxy.space/
-Loads of cool astronomy utils and data sets here, I know what I'm going to be spending my evening doing!!](http://nitter.fdn.fr/Lissy_Sykes/status/1678141709379592193#m)**
-- ` 9 Jul 2023` - **[RT by @Lissy_Sykes: Zuck is a cuck](http://nitter.fdn.fr/elonmusk/status/1678098028849143809#m)**
 <!-- twitter-feed end -->
 
 
