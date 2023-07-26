@@ -70,8 +70,6 @@ It's fucking awesome, a great job!
 Many kudos to @Lissy_Sykes 💪
 https://github.com/lissy93/web-check](http://nitter.fdn.fr/realcyberpanda/status/1682495343387201542#m)**
 - `19 Jul 2023` - **[RT by @Lissy_Sykes: 🥹](http://nitter.fdn.fr/nixcraft/status/1681805611833626624#m)**
-- `16 Jul 2023` - **[Just about to push some updates, to add more server-scanning and IP history features to Web-Check
-https://github.com/lissy93/web-check 🌐✅😄](http://nitter.fdn.fr/Lissy_Sykes/status/1680608012908503043#m)**
 <!-- twitter-feed end -->
 
 
