@@ -64,11 +64,6 @@
 
 ## Twitter [![Twitter - @Lissy_Sykes](https://img.shields.io/badge/-@Lissy_Sykes-00acee?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/Lissy_Sykes "Twitter - @Lissy_Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom)
 <!-- twitter-feed start -->
-- `21 Jul 2023` - **[RT by @Lissy_Sykes: Checking out this #OSINT tool!
-
-It's fucking awesome, a great job!
-Many kudos to @Lissy_Sykes 💪
-https://github.com/lissy93/web-check](http://nitter.fdn.fr/realcyberpanda/status/1682495343387201542#m)**
 - `16 Jul 2023` - **[Just about to push some updates, to add more server-scanning and IP history features to Web-Check
 https://github.com/lissy93/web-check 🌐✅😄](http://nitter.fdn.fr/Lissy_Sykes/status/1680608012908503043#m)**
 - ` 9 Jul 2023` - **[R to @Lissy_Sykes: Here's an example output, for #Threads (of course, this doesn't touch on any of the real issues with Threads, like the incredibly invasive data collection).
@@ -79,6 +74,7 @@ https://github.com/Lissy93/web-check
 It was a fun little weekend project, but any suggestions for what other info I can gather using only the native HTTP APIs? #osint #sysadmin #aws #react #cyber](http://nitter.fdn.fr/Lissy_Sykes/status/1678180155099955205#m)**
 - ` 9 Jul 2023` - **[Really nice collection of space-related cyber tools by @AngelinaTsuboi - check it out: https://tools.g4lxy.space/
 Loads of cool astronomy utils and data sets here, I know what I'm going to be spending my evening doing!!](http://nitter.fdn.fr/Lissy_Sykes/status/1678141709379592193#m)**
+- `29 May 2023` - **[R to @Lissy_Sykes: github.com/Lissy93/AdGuardia…](http://nitter.fdn.fr/Lissy_Sykes/status/1663237137129521179#m)**
 <!-- twitter-feed end -->
 
 
