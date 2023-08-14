@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `13 Aug 2023` - **[Lissy93 opened a pull request in someshkar/whois-api](https://github.com/someshkar/whois-api/pull/3)**
-- `13 Aug 2023` - **[Lissy93 created a branch patch-fix-vercel-base in Lissy93/whois-api](https://github.com/Lissy93/whois-api/compare/patch-fix-vercel-base)**
-- `13 Aug 2023` - **[Lissy93 created a branch main in Lissy93/whois-api](https://github.com/Lissy93/whois-api/compare/main)**
-- `13 Aug 2023` - **[Lissy93 closed a pull request in someshkar/whois-api](https://github.com/someshkar/whois-api/pull/2)**
-- `13 Aug 2023` - **[Lissy93 deleted branch master at Lissy93/whois-api](https://github.com/)**
+- `14 Aug 2023` - **[Lissy93 starred DistriNet/tranco-list](https://github.com/DistriNet/tranco-list)**
+- `14 Aug 2023` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/e2ec9b2f62...c55b23086d)**
+- `14 Aug 2023` - **[Lissy93 merged a pull request in Lissy93/web-check](https://github.com/Lissy93/web-check/pull/32)**
+- `14 Aug 2023` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/fe1e74a22f...e2ec9b2f62)**
+- `14 Aug 2023` - **[Lissy93 merged a pull request in Lissy93/web-check](https://github.com/Lissy93/web-check/pull/34)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
@@ -64,6 +64,10 @@
 
 ## Twitter [![Twitter - @Lissy_Sykes](https://img.shields.io/badge/-@Lissy_Sykes-00acee?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/Lissy_Sykes "Twitter - @Lissy_Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/twitter.atom)
 <!-- twitter-feed start -->
+- `14 Aug 2023` - **[R to @Lissy_Sykes: For anyone whose not yet using aliases for mail forwarding, do check out Addy!
+I've used it for years, to keep my real address private, identify which companies are sharing my email, and then block them 🔐📨
+https://addy.io/](http://nitter.fdn.fr/Lissy_Sykes/status/1691077299033022465#m)**
+- `14 Aug 2023` - **[Absolutely loving the rebranding of @addy_io - Awesome job @willbrowningme and team! 🙌💖](http://nitter.fdn.fr/Lissy_Sykes/status/1691076884933591040#m)**
 - `21 Jul 2023` - **[RT by @Lissy_Sykes: Checking out this #OSINT tool!
 
 It's fucking awesome, a great job!
@@ -72,12 +76,6 @@ https://github.com/lissy93/web-check](http://nitter.fdn.fr/realcyberpanda/status
 - `19 Jul 2023` - **[RT by @Lissy_Sykes: 🥹](http://nitter.fdn.fr/nixcraft/status/1681805611833626624#m)**
 - `16 Jul 2023` - **[Just about to push some updates, to add more server-scanning and IP history features to Web-Check
 https://github.com/lissy93/web-check 🌐✅😄](http://nitter.fdn.fr/Lissy_Sykes/status/1680608012908503043#m)**
-- ` 9 Jul 2023` - **[R to @Lissy_Sykes: Here's an example output, for #Threads (of course, this doesn't touch on any of the real issues with Threads, like the incredibly invasive data collection).
-You can try out the demo with your own site, at: https://web-check.as93.net/ :)](http://nitter.fdn.fr/Lissy_Sykes/status/1678180157503275010#m)**
-- ` 9 Jul 2023` - **[Here's an app which (aims to) make it a bit easier to discover info about any given website
-https://github.com/Lissy93/web-check
-
-It was a fun little weekend project, but any suggestions for what other info I can gather using only the native HTTP APIs? #osint #sysadmin #aws #react #cyber](http://nitter.fdn.fr/Lissy_Sykes/status/1678180155099955205#m)**
 <!-- twitter-feed end -->
 
 
