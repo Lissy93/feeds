@@ -3941,11 +3941,33 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
 
 &lt;hr&gt;
 
+&lt;h3&gt;Sub-Directory Readmes&lt;/h3&gt;
+
+&lt;p&gt;You can also place a &lt;code class="prettyprint"&gt;README.*&lt;/code&gt; / &lt;code class="prettyprint"&gt;readme.*&lt;/code&gt; (see supported extensions below) into any directory of your GitHub repo, and it will be rendered when the user views that folder.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/dotfiles/tree/master/scripts"&gt;&lt;img src="https://i.ibb.co/p233JZq/Screenshot-from-2023-09-22-21-52-35.png" width="800"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
 &lt;h3&gt;Creating Home Page .md&lt;/h3&gt;
 
 &lt;p&gt;You can display a short markdown document at the top of your GitHub profile. To do so, just create a public repository with the same name as your GitHub username, and populate it with a non-empty &lt;code class="prettyprint"&gt;README.md&lt;/code&gt;. For more info, see the &lt;a href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme" rel="noopener nofollow" target="_blank"&gt;Profile Readme Docs&lt;/a&gt;, or (&lt;a href="https://github.com/Lissy93" rel="noopener nofollow" target="_blank"&gt;see example&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://github.com/lissy93/lissy93"&gt;&lt;img src="https://i.ibb.co/BPtg0Pq/Screen-Shot-2023-02-24-at-13-58-27.png" width="800"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Using other Formats&lt;/h3&gt;
+
+&lt;p&gt;Markdown isn't the only supported format for rendering readmes and docs on GitHub.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://orgmode.org/" rel="noopener nofollow" target="_blank"&gt;Org Mode&lt;/a&gt; &lt;code class="prettyprint"&gt;.org&lt;/code&gt; - Useful for notes, lists, timelines and planning documents&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docutils.sourceforge.io/rst.html" rel="noopener nofollow" target="_blank"&gt;reStructuredText&lt;/a&gt; &lt;code class="prettyprint"&gt;.rst&lt;/code&gt; - Primarily used in Python projects, can work with tools like Sphinx for complex docs sites&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://asciidoc.org/" rel="noopener nofollow" target="_blank"&gt;AsciiDoc&lt;/a&gt; &lt;code class="prettyprint"&gt;.adoc&lt;/code&gt; - Contains semantics and options for modular / reusable content&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://commonmark.org/" rel="noopener nofollow" target="_blank"&gt;MarkDown&lt;/a&gt; &lt;code class="prettyprint"&gt;.md&lt;/code&gt; - The classic&lt;/li&gt;
+&lt;li&gt;Plain text &lt;code class="prettyprint"&gt;.txt&lt;/code&gt; - Just monospace plaintext&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr&gt;
 
