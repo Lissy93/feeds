@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- ` 9 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/77f30c6fd8...790b937f44)**
-- ` 9 Oct 2023` - **[Lissy93 merged a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/132)**
-- ` 9 Oct 2023` - **[Lissy93 closed a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/134)**
-- ` 9 Oct 2023` - **[Lissy93 commented on pull request Lissy93/git-into-open-source#134](https://github.com/Lissy93/git-into-open-source/pull/134#issuecomment-1753075794)**
-- ` 9 Oct 2023` - **[Lissy93 commented on issue Lissy93/git-into-open-source#133](https://github.com/Lissy93/git-into-open-source/issues/133#issuecomment-1752957300)**
+- `10 Oct 2023` - **[Lissy93 deleted branch dependabot/npm_and_yarn/web/main/typescript-eslint/parser-6.7.5 at Lissy93/git-into-open-source](https://github.com/)**
+- `10 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/8ffa5ced88...454e9b37e9)**
+- `10 Oct 2023` - **[Lissy93 merged a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/138)**
+- `10 Oct 2023` - **[Lissy93 commented on pull request Lissy93/git-into-open-source#138](https://github.com/Lissy93/git-into-open-source/pull/138#issuecomment-1755684144)**
+- `10 Oct 2023` - **[Lissy93 deleted branch dependabot/npm_and_yarn/web/main/typescript-eslint/eslint-plugin-6.7.5 at Lissy93/git-into-open-source](https://github.com/)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
