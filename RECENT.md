@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `13 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/2f08e8b67b...0ce506f0dc)**
-- `13 Oct 2023` - **[Lissy93 merged a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/146)**
-- `13 Oct 2023` - **[Lissy93 pushed to sassy-bugs2 in sassy-bugs/git-into-open-source](https://github.com/sassy-bugs/git-into-open-source/compare/dc9a4c5b6b...83f07f6927)**
-- `13 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/2ceb18f44a...c042372e50)**
-- `13 Oct 2023` - **[Lissy93 merged a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/145)**
+- `14 Oct 2023` - **[Lissy93 created a branch FEAT/find-repos in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/FEAT/find-repos)**
+- `14 Oct 2023` - **[Lissy93 closed a pull request in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/pull/11)**
+- `14 Oct 2023` - **[Lissy93 commented on pull request Lissy93/email-comparison#11](https://github.com/Lissy93/email-comparison/pull/11#issuecomment-1762926936)**
+- `14 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/9f872f8782...9a4abdf798)**
+- `14 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/0490833f6b...9f872f8782)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
