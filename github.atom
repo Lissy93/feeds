@@ -4,7 +4,769 @@
   <link type="text/html" rel="alternate" href="https://github.com/lissy93"/>
   <link type="application/atom+xml" rel="self" href="https://github.com/lissy93.atom"/>
   <title>GitHub Public Timeline Feed</title>
-  <updated>2023-10-14T14:44:33Z</updated>
+  <updated>2023-10-15T21:36:58Z</updated>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/32574832341</id>
+    <published>2023-10-15T21:36:58Z</published>
+    <updated>2023-10-15T21:36:58Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/dashy/pull/1345"/>
+    <title type="html">Lissy93 closed a pull request in Lissy93/dashy</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_closed js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:343078060,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32574832341,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;480c27c2-6ee1-4e3e-8e89-f2d418d033ff&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;70d06a5c0c7156836dd5e159cde483ac5092e9a1bdb5e5800c3b8e539a56764f&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+          
+          closed
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;Lissy93/dashy#1345&quot; href=&quot;/Lissy93/dashy/pull/1345&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/dashy#1345&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T21:36:58Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 21:36&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Updated Readme&quot; href=&quot;/Lissy93/dashy/pull/1345&quot; rel=&quot;noreferrer&quot;&gt;Updated Readme&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#1345&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt;&lt;a href=&quot;https://github.com/HimajPatil&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/63edb2e1316b39416fb55316d193f547e9d2494a6d4d2a4dc497ca9537eb6544/68747470733a2f2f62616467656e2e6e65742f62616467652f2546302539462539322539352532305375626d697474656425323062792f48696d616a506174696c2f663733616536&quot; alt=&quot;HimajPatil&quot; data-canonical-src=&quot;https://badgen.net/badge/%F0%9F%92%95%20Submitted%20by/HimajPatil/f73ae6&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer nofollow&quot; href=&quot;https://camo.githubusercontent.com/5aa61c9172731c69f2196bc889f74ccc930a346512948ea0dce727617056bb2c/68747470733a2f2f62616467656e2e6e65742f62616467652f505225323053697a652f4d656469756d2f663366663539&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/5aa61c9172731c69f2196bc889f74ccc930a346512948ea0dce727617056bb2c/68747470733a2f2f62616467656e2e6e65742f62616467652f505225323053697a652f4d656469756d2f663366663539&quot; alt=&quot;Medium&quot; data-canonical-src=&quot;https://badgen.net/badge/PR%20Size/Medium/f3ff59&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/Lissy93/dashy/tree/master&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/f7f29af4cd81bc6a8f559fc2f448058ad49d1af7bc314214c4bae56dd92bb7d0/68747470733a2f2f62616467656e2e6e65742f62616467652f253233313334352f48696d616a506174696c2532302532466d61737465722532302545322538362539322532304c69737379393325324664617368792f616235616663&quot; alt=&quot;HimajPatil /master → Lissy93/dashy&quot; data-canonical-src=&quot;https://badgen.net/badge/%231345/HimajPatil%20%2Fmaster%20%E2%86%92%20Lissy93%2Fdashy/ab5afc&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer nofollow&quot; href=&quot;https://camo.githubusercontent.com/2ee372a50f8029731b435b00cca43f2df64bfd9c1b1fb37cdafd7bd17518a995/68747470733a2f2f62616467656e2e6e65742f62616467652f4e6577253230436f64652f436f6d6d6974732533412532303225323025374325323046696c65732532304368616e676564253341253230312532302537432532304164646974696f6e73253341253230322f646464643030&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/2ee372a50f8029731b435b00cca43f2df64bfd9c1b1fb37cdafd7bd17518a995/68747470733a2f2f62616467656e2e6e65742f62616467652f4e6577253230436f64652f436f6d6d6974732533412532303225323025374325323046696c65732532304368616e676564253341253230312532302537432532304164646974696f6e73253341253230322f646464643030&quot; alt=&quot;Commits: 2 | Files Changed: 1 | Additions: 2&quot; data-canonical-src=&quot;https://badgen.net/badge/New%20Code/Commits%3A%202%20%7C%20Files%20Changed%3A%201%20%7C%20Additions%3A%202/dddd00&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer nofollow&quot; href=&quot;https://camo.githubusercontent.com/fd2ef1a38991c0511e93550043fe71b980ac294710dcac6d54de57d329b04562/68747470733a2f2f62616467656e2e6e65742f62616467652f2545322539412541302545462542382538464d697373696e672f4c6162656c2f663235323635&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/fd2ef1a38991c0511e93550043fe71b980ac294710dcac6d54de57d329b04562/68747470733a2f2f62616467656e2e6e65742f62616467652f2545322539412541302545462542382538464d697373696e672f4c6162656c2f663235323635&quot; alt=&quot;Label&quot; data-canonical-src=&quot;https://badgen.net/badge/%E2%9A%A0%EF%B8%8FMissing/Label/f25265&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://pullrequestbadge.com/?utm_medium=github&amp;amp;utm_source=Lissy93&amp;amp;utm_campaign=badge_info&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img width=&quot;16&quot; alt=&quot;Powered by Pull Request Badge&quot; src=&quot;https://user-images.githubusercontent.com/1393946/111216524-d2bb8e00-85d4-11eb-821b-ed4c00989c02.png&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt;
+&lt;em&gt;Thank you for contributing to Dashy! So that your PR can be handled effectively, please populate the following fields (delete sections …&lt;/em&gt;&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+28&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-26&lt;/span&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;d-inline-block f6 color-fg-muted ml-3&quot;&gt;
+            3 comments
+          &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/32574809978</id>
+    <published>2023-10-15T21:33:39Z</published>
+    <updated>2023-10-15T21:33:39Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/compare/893159913a...f33cf918b9"/>
+    <title type="html">Lissy93 pushed to FEAT/find-repos in Lissy93/git-into-open-source</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32574809978,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;9c9152d5-2930-4d4e-a4a0-c950cb30638f&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;8cbd89c335509af55a855293502de112e5679dcbfd72ffcafce2cb4741495594&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/FEAT/find-repos&quot; rel=&quot;noreferrer&quot;&gt;FEAT/find-repos&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T21:33:39Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 21:33&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/FEAT/find-repos&quot; rel=&quot;noreferrer&quot;&gt;FEAT/find-repos&lt;/a&gt;
+
+          &lt;div class=&quot;commits &quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/f33cf918b975d9f120466516f2bc790b97d47b2b&quot; rel=&quot;noreferrer&quot;&gt;f33cf91&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge branch &#39;main&#39; into FEAT/find-repos
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/liss-bot&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/87835202?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@liss-bot&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/e79cde9ca9b34f94de9ec395ab0627b4f9e75723&quot; rel=&quot;noreferrer&quot;&gt;e79cde9&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Updates readme (auto-generated, on 15-Oct-2023)
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+                &lt;li class=&quot;f6 mt-2&quot;&gt;
+                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/Lissy93/git-into-open-source/compare/893159913a...f33cf918b9&quot; rel=&quot;noreferrer&quot;&gt;7 more commits »&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/32574805437</id>
+    <published>2023-10-15T21:32:55Z</published>
+    <updated>2023-10-15T21:32:55Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/pull/149"/>
+    <title type="html">Lissy93 opened a pull request in Lissy93/git-into-open-source</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_opened js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32574805437,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;f317845c-4aa8-4e29-9c23-e1440d2b29e9&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;8d5e995e845cc1cb3be0e991fdac0339399f6b89ed08e15a4ed487216530dbbb&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+          
+          opened
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;Lissy93/git-into-open-source#149&quot; href=&quot;/Lissy93/git-into-open-source/pull/149&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source#149&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T21:32:55Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 21:32&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;[FEATURE] Adds page for finding repos to contribute to on the website&quot; href=&quot;/Lissy93/git-into-open-source/pull/149&quot; rel=&quot;noreferrer&quot;&gt;[FEATURE] Adds page for finding repos to contribute to on the website&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#149&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt; &lt;strong&gt;PR Type:&lt;/strong&gt; website update &lt;strong&gt;Affiliation:&lt;/strong&gt; N/A &lt;strong&gt;Ticket:&lt;/strong&gt; N/A &lt;strong&gt;Checklist:&lt;/strong&gt;
+
+ I&#39;ve read Contributing Guidelines
+ I agree to follow the Code of Conduct
+
+&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+79&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-28&lt;/span&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/32574795947</id>
+    <published>2023-10-15T21:31:30Z</published>
+    <updated>2023-10-15T21:31:30Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/compare/fb37eddf78...6b23102f8e"/>
+    <title type="html">Lissy93 pushed to main in Lissy93/git-into-open-source</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32574795947,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;d867a3e3-5dc1-43ab-b69a-db5ce1355292&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;462ee2e4ad41ff6bffc98d8e598c5bdc9a62a6c85c97ae52ca591a88bf4357f6&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T21:31:30Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 21:31&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/6b23102f8ed5d1c6f123910c24b9b57924c2722f&quot; rel=&quot;noreferrer&quot;&gt;6b23102&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1943735075&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/Lissy93/git-into-open-source/issues/147&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/Lissy93/git-into-open-source/pull/147/hovercard&quot; href=&quot;https://github.com/Lissy93/git-into-open-source/pull/147&quot; rel=&quot;noreferrer&quot;&gt;#147&lt;/a&gt; from AryanSaxenaa/patch-1
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/fa6aa98e8eed6fa0b23105e58eea46eed4bd87d2&quot; rel=&quot;noreferrer&quot;&gt;fa6aa98&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge branch &#39;main&#39; into patch-1
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+                &lt;li class=&quot;f6 mt-2&quot;&gt;
+                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/Lissy93/git-into-open-source/compare/fb37eddf78...6b23102f8e&quot; rel=&quot;noreferrer&quot;&gt;2 more commits »&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/32574795885</id>
+    <published>2023-10-15T21:31:29Z</published>
+    <updated>2023-10-15T21:31:29Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/pull/147"/>
+    <title type="html">Lissy93 merged a pull request in Lissy93/git-into-open-source</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32574795885,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;72e0fa6a-2659-4da5-b318-a9508fe2731d&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;58681e4ad51d10144a76f2219a230dc9ab5a2a77c077ccbef9e9b2fa4f56dd38&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+          
+          merged
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;Lissy93/git-into-open-source#147&quot; href=&quot;/Lissy93/git-into-open-source/pull/147&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source#147&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T21:31:29Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 21:31&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request merged d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Update git-in-here.yml&quot; href=&quot;/Lissy93/git-into-open-source/pull/147&quot; rel=&quot;noreferrer&quot;&gt;Update git-in-here.yml&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#147&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt; &lt;strong&gt;PR Type:&lt;/strong&gt; ___
+Name addition &lt;strong&gt;Affiliation:&lt;/strong&gt; Github Username &lt;strong&gt;Ticket:&lt;/strong&gt; N/A &lt;strong&gt;Checklist:&lt;/strong&gt;
+
+[X ] I&#39;ve read Contributing Guidelines
+[X ] I agree to follow the …&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+10&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-0&lt;/span&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;d-inline-block f6 color-fg-muted ml-3&quot;&gt;
+            1 comment
+          &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/32574789494</id>
+    <published>2023-10-15T21:30:30Z</published>
+    <updated>2023-10-15T21:30:30Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/AryanSaxenaa/git-into-open-source/compare/1b051dc271...fa6aa98e8e"/>
+    <title type="html">Lissy93 pushed to patch-1 in AryanSaxenaa/git-into-open-source</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:705130925,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32574789494,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;27147bb4-843c-4687-9978-c9cc6aeb3adb&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;c362651d1eb5795f14c204d2fd534d7d0a2dc892d9a12be1722c2f7427a48d12&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/AryanSaxenaa/git-into-open-source/tree/patch-1&quot; rel=&quot;noreferrer&quot;&gt;patch-1&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/AryanSaxenaa/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;AryanSaxenaa/git-into-open-source&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T21:30:30Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 21:30&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/AryanSaxenaa/git-into-open-source/tree/patch-1&quot; rel=&quot;noreferrer&quot;&gt;patch-1&lt;/a&gt;
+
+          &lt;div class=&quot;commits &quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/AryanSaxenaa/git-into-open-source/commit/fa6aa98e8eed6fa0b23105e58eea46eed4bd87d2&quot; rel=&quot;noreferrer&quot;&gt;fa6aa98&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge branch &#39;main&#39; into patch-1
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/liss-bot&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/87835202?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@liss-bot&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/AryanSaxenaa/git-into-open-source/commit/fb37eddf78b073b53fd1bf340ec189fcaef8af59&quot; rel=&quot;noreferrer&quot;&gt;fb37edd&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Updates readme (auto-generated, on 15-Oct-2023)
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+                &lt;li class=&quot;f6 mt-2&quot;&gt;
+                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/AryanSaxenaa/git-into-open-source/compare/1b051dc271...fa6aa98e8e&quot; rel=&quot;noreferrer&quot;&gt;2 more commits »&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/32574787590</id>
+    <published>2023-10-15T21:30:14Z</published>
+    <updated>2023-10-15T21:30:14Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/AryanSaxenaa/git-into-open-source/compare/1fc813caa1...1b051dc271"/>
+    <title type="html">Lissy93 pushed to patch-1 in AryanSaxenaa/git-into-open-source</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:705130925,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32574787590,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;51bdd774-a301-4f7e-8a86-3b7b858071a7&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;0e260b9213806f981954cf5eb8d4698aa9d152b15b6eef94e79f25bbc2a90226&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/AryanSaxenaa/git-into-open-source/tree/patch-1&quot; rel=&quot;noreferrer&quot;&gt;patch-1&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/AryanSaxenaa/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;AryanSaxenaa/git-into-open-source&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T21:30:14Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 21:30&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/AryanSaxenaa/git-into-open-source/tree/patch-1&quot; rel=&quot;noreferrer&quot;&gt;patch-1&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/AryanSaxenaa/git-into-open-source/commit/1b051dc271e8636baa8b5cf0aeaf32fb7adf5767&quot; rel=&quot;noreferrer&quot;&gt;1b051dc&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Fixed YAML validation (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1943735075&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/Lissy93/git-into-open-source/issues/147&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/Lissy93/git-into-open-source/pull/147/hovercard&quot; href=&quot;https://github.com/Lissy93/git-into-open-source/pull/147&quot; rel=&quot;noreferrer&quot;&gt;Lissy93#147&lt;/a&gt;) for &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/AryanSaxenaa/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/AryanSaxenaa&quot; rel=&quot;noreferrer&quot;&gt;@AryanSaxenaa&lt;/a&gt;
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/32574777924</id>
+    <published>2023-10-15T21:28:42Z</published>
+    <updated>2023-10-15T21:28:42Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/pull/147#issuecomment-1763508639"/>
+    <title type="html">Lissy93 commented on pull request Lissy93/git-into-open-source#147</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_comment js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;IssueCommentEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32574777924,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;d6098c7c-ef8c-4e5d-a77f-cdb5b9712335&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;210d4de9565d12e56d06eb41788e1375510669685a4a634228b8890b39cc0736&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- issue_comment --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+            &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+          
+          commented on
+          &lt;a class=&quot;Link--primary&quot; title=&quot;Update git-in-here.yml&quot; href=&quot;/Lissy93/git-into-open-source/pull/147#issuecomment-1763508639&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source#147&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T21:28:42Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 21:28&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;div class=&quot;message markdown-body Box p-3 wb-break-all color-shadow-medium &quot;&gt;
+      &lt;div class=&quot;f6 mb-1&quot;&gt;
+        &lt;a title=&quot;Update git-in-here.yml&quot; class=&quot;Link--secondary&quot; href=&quot;/Lissy93/git-into-open-source/pull/147#issuecomment-1763508639&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt; &lt;span class=&quot;Link--primary text-bold&quot;&gt;Lissy93&lt;/span&gt; commented &lt;relative-time datetime=&quot;2023-10-15T21:28:42Z&quot; class=&quot;no-wrap&quot;&gt;Oct 15, 2023&lt;/relative-time&gt;&lt;/a&gt;
+      &lt;/div&gt;
+        &lt;p&gt;Hiya &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/AryanSaxenaa/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/AryanSaxenaa&quot; rel=&quot;noreferrer&quot;&gt;@AryanSaxenaa&lt;/a&gt; - you&#39;ve got a broken indentation in your YAML. Just an extra space before &lt;code class=&quot;notranslate&quot;&gt;question&lt;/code&gt; and &lt;code class=&quot;notranslate&quot;&gt;response&lt;/code&gt;. I can fix it if you like, othe…&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/32574732287</id>
+    <published>2023-10-15T21:21:49Z</published>
+    <updated>2023-10-15T21:21:49Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/compare/19054e1962...893159913a"/>
+    <title type="html">Lissy93 pushed to FEAT/find-repos in Lissy93/git-into-open-source</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32574732287,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;de3f4f0e-aa54-4762-b9ca-c6752128ca33&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;2cfc7d07e6b18b302454ae38e4c7b9f0d46d52dcaa7e5dc339063ff3268ccfb9&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/FEAT/find-repos&quot; rel=&quot;noreferrer&quot;&gt;FEAT/find-repos&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T21:21:49Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 21:21&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/FEAT/find-repos&quot; rel=&quot;noreferrer&quot;&gt;FEAT/find-repos&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/893159913ada0797998e2c90a2cb7e1cd7efbf7e&quot; rel=&quot;noreferrer&quot;&gt;8931599&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Refactors
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/0a0a55f734528d47911fde1342ccc95e1ec13463&quot; rel=&quot;noreferrer&quot;&gt;0a0a55f&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Fix logo not displaying
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/32574568126</id>
+    <published>2023-10-15T20:58:49Z</published>
+    <updated>2023-10-15T20:58:49Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/dashy/issues/1331#issuecomment-1763502403"/>
+    <title type="html">Lissy93 commented on issue Lissy93/dashy#1331</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_comment js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:343078060,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;IssueCommentEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32574568126,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;f7fb62f2-16b3-4971-a0d2-00c4daac40db&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;d0ed31ae5629e2f50de3d9684e27bdcc872574d5679d480c2dd33608e65c7a1c&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- issue_comment --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+            &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+          
+          commented on
+          &lt;a class=&quot;Link--primary&quot; title=&quot;[QUESTION] Adding favicon?&quot; href=&quot;/Lissy93/dashy/issues/1331#issuecomment-1763502403&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/dashy#1331&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T20:58:49Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 20:58&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;div class=&quot;message markdown-body Box p-3 wb-break-all color-shadow-medium &quot;&gt;
+      &lt;div class=&quot;f6 mb-1&quot;&gt;
+        &lt;a title=&quot;[QUESTION] Adding favicon?&quot; class=&quot;Link--secondary&quot; href=&quot;/Lissy93/dashy/issues/1331#issuecomment-1763502403&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt; &lt;span class=&quot;Link--primary text-bold&quot;&gt;Lissy93&lt;/span&gt; commented &lt;relative-time datetime=&quot;2023-10-15T20:58:49Z&quot; class=&quot;no-wrap&quot;&gt;Oct 15, 2023&lt;/relative-time&gt;&lt;/a&gt;
+      &lt;/div&gt;
+        &lt;p&gt;If after passing it in as a volume, if you visit &lt;code class=&quot;notranslate&quot;&gt;https://[your-dashy-address]/favicon.ico&lt;/code&gt; - do you see your icon? If so, it&#39;s a browser caching iss…&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/32573957578</id>
+    <published>2023-10-15T19:33:43Z</published>
+    <updated>2023-10-15T19:33:43Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/compare/b50e547db3...19054e1962"/>
+    <title type="html">Lissy93 pushed to FEAT/find-repos in Lissy93/git-into-open-source</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32573957578,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;ec437d3c-a618-407f-8d2e-7aa762a6d6da&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;cf74e87057afc61e83a4b54ae2c53c6730e49a28f7edc167664682804cef220c&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/FEAT/find-repos&quot; rel=&quot;noreferrer&quot;&gt;FEAT/find-repos&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T19:33:43Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 19:33&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/FEAT/find-repos&quot; rel=&quot;noreferrer&quot;&gt;FEAT/find-repos&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/19054e1962b75c4213d638eb20c6665ec330b672&quot; rel=&quot;noreferrer&quot;&gt;19054e1&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Multiple requests and combine
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/32573887413</id>
+    <published>2023-10-15T19:23:56Z</published>
+    <updated>2023-10-15T19:23:56Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/compare/9a4abdf798...624cbca8a4"/>
+    <title type="html">Lissy93 pushed to main in Lissy93/git-into-open-source</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32573887413,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;9fdf54e9-4d05-4f8c-9f05-b66654f0fcd1&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;4b97316ae2959e61074c983ca20fc62deb6697af936447c53d4a3d05bf1dcab8&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T19:23:56Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 19:23&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits &quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/624cbca8a463d5556aa399f2a481f8302dcb2814&quot; rel=&quot;noreferrer&quot;&gt;624cbca&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1943953736&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/Lissy93/git-into-open-source/issues/148&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/Lissy93/git-into-open-source/pull/148/hovercard&quot; href=&quot;https://github.com/Lissy93/git-into-open-source/pull/148&quot; rel=&quot;noreferrer&quot;&gt;#148&lt;/a&gt; from Odeyiany2/main
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;img class=&quot;mr-1 avatar-user&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;&quot; src=&quot;https://camo.githubusercontent.com/b1bbad9b175ba10aaec0adf4c28b88b76e2b6c29eb14ec5fd3f8aac3f2d9eaa3/68747470733a2f2f302e67726176617461722e636f6d2f6176617461722f63346537393136663438306438613133396530363766306366653032666331313f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d313430&quot; data-canonical-src=&quot;https://0.gravatar.com/avatar/c4e7916f480d8a139e067f0cfe02fc11?d=https%3A%2F%2Fgithub.githubassets.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;amp;r=g&amp;amp;s=140&quot;&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/b9c2a3090f8a1f5cd4c26254f6f74da466fe4f1b&quot; rel=&quot;noreferrer&quot;&gt;b9c2a30&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update git-in-here.yml
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/32573887348</id>
+    <published>2023-10-15T19:23:55Z</published>
+    <updated>2023-10-15T19:23:55Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/pull/148"/>
+    <title type="html">Lissy93 merged a pull request in Lissy93/git-into-open-source</title>
+    <author>
+      <name>Lissy93</name>
+      <email>alicia@omg.lol</email>
+      <uri>https://github.com/Lissy93</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32573887348,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;bc43d778-398d-407e-905e-ea8a70d6752c&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;7c8f37fe24cd2eca2034493cd420b9a7e52c0f1f205a7487f633729ab293f3e2&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
+          
+          merged
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;Lissy93/git-into-open-source#148&quot; href=&quot;/Lissy93/git-into-open-source/pull/148&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source#148&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-15T19:23:55Z&quot; data-view-component=&quot;true&quot;&gt;October 15, 2023 19:23&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request merged d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Update git-in-here.yml&quot; href=&quot;/Lissy93/git-into-open-source/pull/148&quot; rel=&quot;noreferrer&quot;&gt;Update git-in-here.yml&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#148&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt; &lt;strong&gt;PR Type:&lt;/strong&gt; I answered one of the questions in the git-in-here file and added my username. &lt;strong&gt;Affiliation:&lt;/strong&gt; N/A &lt;strong&gt;Ticket:&lt;/strong&gt; N/A &lt;strong&gt;Checklist:&lt;/strong&gt;
+
+ I&#39;ve read Contri…&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+10&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-0&lt;/span&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;d-inline-block f6 color-fg-muted ml-3&quot;&gt;
+            1 comment
+          &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
   <entry>
     <id>tag:github.com,2008:CreateEvent/32561951325</id>
     <published>2023-10-14T14:44:33Z</published>
@@ -17,7 +779,7 @@
       <uri>https://github.com/Lissy93</uri>
     </author>
     <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;git-branch js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;CreateEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32561951325,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;8638ed66-b41e-46c5-9c32-fb24b0f8d785&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;87e20c46ac9c40bd8e13f7247f3a8dbab2326d025647fc54d2c5dbc0e0e02abd&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+    <content type="html">&lt;div class=&quot;git-branch js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;CreateEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32561951325,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;7c5c3dfb-897f-44c5-b5ef-94bcb48a6eea&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;9d968f5c15cdd7f7d3de3351d4b98abe09f626d3ceb12b916b20d85b99d5339e&quot;&gt;&lt;div class=&quot;body&quot;&gt;
 &lt;!-- create --&gt;
 &lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
   &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
@@ -54,7 +816,7 @@
 
 
           &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
-            &lt;span&gt;Updated Oct 14&lt;/span&gt;
+            &lt;span&gt;Updated Oct 15&lt;/span&gt;
           &lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -74,7 +836,7 @@
       <uri>https://github.com/Lissy93</uri>
     </author>
     <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_closed js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:495029742,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32561682528,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;940337f7-25a9-49a9-b16b-259b7708c89e&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;1c4b4da8166683ffb704c42e7891abd417fef605dedb134dcb80ff3dc337f0fa&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+    <content type="html">&lt;div class=&quot;issues_closed js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:495029742,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32561682528,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;35873969-2157-4aed-a61e-20c4f21cfe7f&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;6e456df2461994ca0e9fbce42f39c309914f259b08a81a7bd7a1842bf4a8f7f5&quot;&gt;&lt;div class=&quot;body&quot;&gt;
 &lt;!-- pull_request --&gt;
 &lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
   &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
@@ -131,7 +893,7 @@
       <uri>https://github.com/Lissy93</uri>
     </author>
     <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_comment js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:495029742,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;IssueCommentEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32561682459,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;11e0b7ef-173a-4b5a-bd92-7d3f4e16c052&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;4aa6a31dc70a643e138ea8d1c74d3ebac4cf5ac979edc70e66e6ab6ec269e97c&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+    <content type="html">&lt;div class=&quot;issues_comment js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:495029742,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;IssueCommentEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32561682459,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;964a24a3-5b3d-4a04-8f93-a3d690e7e15b&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;b4b2e7b142b780aa126e62da54f68990f9fb517fb3a0aa856d4ff6c8663f1d75&quot;&gt;&lt;div class=&quot;body&quot;&gt;
 &lt;!-- issue_comment --&gt;
 &lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
   &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
@@ -170,7 +932,7 @@ If they were to use their IP filtering …&lt;/p&gt;
       <uri>https://github.com/Lissy93</uri>
     </author>
     <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32561493728,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;35ce05e8-4857-4e8a-a89a-3a90bdab7844&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;17539adc6bf35656dbc27d305ce4ab35bc549b4ce91a1319ea632b48594e758b&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32561493728,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;df23df6a-c37e-480c-8e4e-4101af6f5e9e&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;3283d03bcf73e60606dc8a9337da00e3cd628f9f29a455f6c16937d97e65ce4d&quot;&gt;&lt;div class=&quot;body&quot;&gt;
 &lt;!-- push --&gt;
 &lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
   &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
@@ -236,7 +998,7 @@ If they were to use their IP filtering …&lt;/p&gt;
       <uri>https://github.com/Lissy93</uri>
     </author>
     <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32560549098,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;4a63df5a-f822-4a2f-a882-d1435ac2b36a&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;d35bb2c1a9d6cc13529f404430a05170565922ee2c79e8a7e26607738de19108&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32560549098,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;90b330f4-8d07-486f-b892-c42b3bd98c83&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;5ec831aa766ece8376948422617b8f6c62d0ed0042b01b048c37b05795086f2a&quot;&gt;&lt;div class=&quot;body&quot;&gt;
 &lt;!-- push --&gt;
 &lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
   &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
@@ -291,7 +1053,7 @@ If they were to use their IP filtering …&lt;/p&gt;
       <uri>https://github.com/Lissy93</uri>
     </author>
     <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32547970110,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;68e283b8-3e29-44ec-97bb-ee424c5ea746&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;dae2433af66e2a2b1140c8cac6118839207fa2aca5e93ad29da9c54aa43ef0ea&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32547970110,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;c0328a0d-ee5b-43fe-8cfb-d336d868a36f&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;d1dd36f72e4358503106866cb0ca827ba09445ffdf4c64b6cbb899acaebeec17&quot;&gt;&lt;div class=&quot;body&quot;&gt;
 &lt;!-- push --&gt;
 &lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
   &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
@@ -360,7 +1122,7 @@ If they were to use their IP filtering …&lt;/p&gt;
       <uri>https://github.com/Lissy93</uri>
     </author>
     <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32547969956,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;503dc477-e8ee-4049-8409-9ee5ba6b29d7&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;7231d7f70fe826f758fe603b6f618ac6d68087ae805919d11b86a2bb2b08efd0&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32547969956,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;5f4dba0e-578f-4662-9dfc-4f8de42f137e&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;7349f2ead2de442840d24c8f6d6802df83f09cee1b4ab274658040f0db2be8e0&quot;&gt;&lt;div class=&quot;body&quot;&gt;
 &lt;!-- pull_request --&gt;
 &lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
   &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
@@ -422,7 +1184,7 @@ If they were to use their IP filtering …&lt;/p&gt;
       <uri>https://github.com/Lissy93</uri>
     </author>
     <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:704400619,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32547950817,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;66eb5f62-013a-4b85-b389-06f4aa119479&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;77b70dcad39ab0cdefcd5946683d630e655001f61f1948d59c6bc937da978967&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:704400619,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32547950817,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;953ef6b8-f59c-41d2-b55e-d89fba3d1ca6&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;a6ed37b7258f76c0828975380558677a6da2fe6ed95308733251887525e23718&quot;&gt;&lt;div class=&quot;body&quot;&gt;
 &lt;!-- push --&gt;
 &lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
   &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
@@ -491,7 +1253,7 @@ If they were to use their IP filtering …&lt;/p&gt;
       <uri>https://github.com/Lissy93</uri>
     </author>
     <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32547935849,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;eff932a5-eaf4-4579-8b1d-5c8920ebbdde&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;b8a87e98b5824bb9e6937211c9e8949c5400cfb4bb2940a2ec2bf981add8fcc9&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32547935849,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;081f7da5-8a97-4512-b91d-2bb2c2989cb8&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;7e410cfb57769bb6fef04b2388371c847016b0e0c68af45ef9f2d04feb1055cd&quot;&gt;&lt;div class=&quot;body&quot;&gt;
 &lt;!-- push --&gt;
 &lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
   &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
@@ -557,7 +1319,7 @@ If they were to use their IP filtering …&lt;/p&gt;
       <uri>https://github.com/Lissy93</uri>
     </author>
     <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32547935655,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;e7ce0188-489b-4104-826f-f3ee2d2344d9&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;b510ed84e4c32d6ff93df90908c7c1ab1d5e2bcee68049c9dc7a03a42b056e9f&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32547935655,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;e57d38a0-ab78-403e-82da-3bbe98498189&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;74515552a99ef7c3f88e9dc2991713076bf4746ef3cfc0653decb4bd8de0f670&quot;&gt;&lt;div class=&quot;body&quot;&gt;
 &lt;!-- pull_request --&gt;
 &lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
   &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
@@ -600,852 +1362,6 @@ If they were to use their IP filtering …&lt;/p&gt;
 
           &lt;div class=&quot;d-inline-block f6 color-fg-muted ml-3&quot;&gt;
             2 comments
-          &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PullRequestEvent/32527526996</id>
-    <published>2023-10-12T22:42:44Z</published>
-    <updated>2023-10-12T22:42:44Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/pull/140"/>
-    <title type="html">Lissy93 closed a pull request in Lissy93/git-into-open-source</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_closed js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32527526996,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;b260c695-28e0-4543-adbf-96e7e17a242e&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;6f144aa600b0a7dea5a149eb32d81fb4d6c6ec68046649d0595f79bfb05f57de&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- pull_request --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
-        &lt;div class=&quot;color-fg-muted&quot;&gt;
-          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-          
-          closed
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;Lissy93/git-into-open-source#140&quot; href=&quot;/Lissy93/git-into-open-source/pull/140&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source#140&lt;/a&gt;
-          &lt;span&gt;
-            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-12T22:42:44Z&quot; data-view-component=&quot;true&quot;&gt;October 12, 2023 22:42&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;div&gt;
-          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;[SECURITY] - Website Dependencies: Bump sass from 1.69.0 to 1.69.3 in /web&quot; href=&quot;/Lissy93/git-into-open-source/pull/140&quot; rel=&quot;noreferrer&quot;&gt;[SECURITY] - Website Dependencies: Bump sass from 1.69.0 to 1.69.3 in /web&lt;/a&gt;&lt;/span&gt;
-          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#140&lt;/span&gt;
-            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
-              &lt;p&gt;Bumps &lt;a href=&quot;https://github.com/sass/dart-sass&quot; rel=&quot;noreferrer&quot;&gt;sass&lt;/a&gt; from 1.69.0 to 1.69.3.
-
-Release notes
-&lt;em&gt;Sourced from &lt;a href=&quot;https://github.com/sass/dart-sass/releases&quot; rel=&quot;noreferrer&quot;&gt;sass&#39;s releases&lt;/a&gt;.&lt;/em&gt;
-
-Dart Sass 1.69.3
-To install Sass 1.69.3, download one of the packag…&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
-            &lt;span class=&quot;color-fg-success&quot;&gt;+5&lt;/span&gt;
-            &lt;span class=&quot;color-fg-danger&quot;&gt;-5&lt;/span&gt;
-          &lt;/div&gt;
-
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PushEvent/32527108760</id>
-    <published>2023-10-12T22:15:01Z</published>
-    <updated>2023-10-12T22:15:01Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/compare/a939e51328...2ceb18f44a"/>
-    <title type="html">Lissy93 pushed to main in Lissy93/git-into-open-source</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32527108760,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;91b33f6a-e6af-4330-8008-ed0319f17f2f&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;05a6d220fb6787ebd471ddba0c8fba29791a9bd11ba3eb4eefe851f828118a14&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;color-fg-muted&quot;&gt;
-      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source&lt;/a&gt;
-      &lt;span&gt;
-        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-12T22:15:01Z&quot; data-view-component=&quot;true&quot;&gt;October 12, 2023 22:15&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/2ceb18f44a7ddc404145cefdd31d2d76568e6cd5&quot; rel=&quot;noreferrer&quot;&gt;2ceb18f&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Merge branch &#39;main&#39; of github.com:Lissy93/git-into-open-source
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/3089c287c671066cb2c211c24f564b9bad3be89e&quot; rel=&quot;noreferrer&quot;&gt;3089c28&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Working on Find projects to contribute to section
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PushEvent/32526009269</id>
-    <published>2023-10-12T21:10:15Z</published>
-    <updated>2023-10-12T21:10:15Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/compare/72cbf7e048...c81c144c4b"/>
-    <title type="html">Lissy93 pushed to main in Lissy93/git-into-open-source</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32526009269,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;983171b1-d2ea-4aa7-8400-08dde118cb0d&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;041f93d65d344ae67534ae611cdb333e909dd35d7ec0dced26b9669ce18dc13f&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;color-fg-muted&quot;&gt;
-      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source&lt;/a&gt;
-      &lt;span&gt;
-        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-12T21:10:15Z&quot; data-view-component=&quot;true&quot;&gt;October 12, 2023 21:10&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/c81c144c4b89ce7e0f3db3998f8966b3eb8b4a6a&quot; rel=&quot;noreferrer&quot;&gt;c81c144&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1940479199&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/Lissy93/git-into-open-source/issues/142&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/Lissy93/git-into-open-source/pull/142/hovercard&quot; href=&quot;https://github.com/Lissy93/git-into-open-source/pull/142&quot; rel=&quot;noreferrer&quot;&gt;#142&lt;/a&gt; from lavanderhoney/main
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/4f5a87c1ee62b1d8e3ddd37cf00bfadde81d0a67&quot; rel=&quot;noreferrer&quot;&gt;4f5a87c&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Merge branch &#39;main&#39; into main
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-                &lt;li class=&quot;f6 mt-2&quot;&gt;
-                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/Lissy93/git-into-open-source/compare/72cbf7e048...c81c144c4b&quot; rel=&quot;noreferrer&quot;&gt;2 more commits »&lt;/a&gt;
-                &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PullRequestEvent/32526009058</id>
-    <published>2023-10-12T21:10:14Z</published>
-    <updated>2023-10-12T21:10:14Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/pull/142"/>
-    <title type="html">Lissy93 merged a pull request in Lissy93/git-into-open-source</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32526009058,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;89620ae4-15d2-4498-aa48-df1c2c440215&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;e31d3046b9f85b83b6d1d7b5a7240c3d557da59bb0f5573e24fb0b48e4ed70f4&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- pull_request --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
-        &lt;div class=&quot;color-fg-muted&quot;&gt;
-          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-          
-          merged
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;Lissy93/git-into-open-source#142&quot; href=&quot;/Lissy93/git-into-open-source/pull/142&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source#142&lt;/a&gt;
-          &lt;span&gt;
-            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-12T21:10:14Z&quot; data-view-component=&quot;true&quot;&gt;October 12, 2023 21:10&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request merged d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;div&gt;
-          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Answered question 1, and corrected a minor spelling mistake&quot; href=&quot;/Lissy93/git-into-open-source/pull/142&quot; rel=&quot;noreferrer&quot;&gt;Answered question 1, and corrected a minor spelling mistake&lt;/a&gt;&lt;/span&gt;
-          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#142&lt;/span&gt;
-            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
-              &lt;p&gt; &lt;strong&gt;PR Type:&lt;/strong&gt; Name addition &lt;strong&gt;Affiliation:&lt;/strong&gt; N/A &lt;strong&gt;Ticket:&lt;/strong&gt; N/A &lt;strong&gt;Checklist:&lt;/strong&gt;
-
- I&#39;ve read Contributing Guidelines
- I agree to follow the Code of Conduct
-
-&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
-            &lt;span class=&quot;color-fg-success&quot;&gt;+11&lt;/span&gt;
-            &lt;span class=&quot;color-fg-danger&quot;&gt;-1&lt;/span&gt;
-          &lt;/div&gt;
-
-          &lt;div class=&quot;d-inline-block f6 color-fg-muted ml-3&quot;&gt;
-            1 comment
-          &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PushEvent/32526001499</id>
-    <published>2023-10-12T21:09:50Z</published>
-    <updated>2023-10-12T21:09:50Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/lavanderhoney/git-into-open-source/compare/9e562ae87f...4f5a87c1ee"/>
-    <title type="html">Lissy93 pushed to main in lavanderhoney/git-into-open-source</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:704163415,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32526001499,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;bd282c0c-de6f-4f7c-abb2-970c6b908f24&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;97668d438a3b008b5495703b28d87927b86bfa5654bfcba00e32dda4e419fd6f&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;color-fg-muted&quot;&gt;
-      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/lavanderhoney/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/lavanderhoney/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;lavanderhoney/git-into-open-source&lt;/a&gt;
-      &lt;span&gt;
-        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-12T21:09:50Z&quot; data-view-component=&quot;true&quot;&gt;October 12, 2023 21:09&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/lavanderhoney/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits &quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/lavanderhoney/git-into-open-source/commit/4f5a87c1ee62b1d8e3ddd37cf00bfadde81d0a67&quot; rel=&quot;noreferrer&quot;&gt;4f5a87c&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Merge branch &#39;main&#39; into main
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/liss-bot&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/87835202?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@liss-bot&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/lavanderhoney/git-into-open-source/commit/72cbf7e048c9048e6aa957cad3021115060b33ae&quot; rel=&quot;noreferrer&quot;&gt;72cbf7e&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Updates readme (auto-generated, on 12-Oct-2023)
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-                &lt;li class=&quot;f6 mt-2&quot;&gt;
-                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/lavanderhoney/git-into-open-source/compare/9e562ae87f...4f5a87c1ee&quot; rel=&quot;noreferrer&quot;&gt;2 more commits »&lt;/a&gt;
-                &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PushEvent/32525982521</id>
-    <published>2023-10-12T21:08:50Z</published>
-    <updated>2023-10-12T21:08:50Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/compare/f26cfa2cad...11d6aa8995"/>
-    <title type="html">Lissy93 pushed to main in Lissy93/git-into-open-source</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32525982521,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;bcae4250-b50e-4702-85ef-ff9f2dfb00a8&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;bc5a35154288f7b028580885e9b3b769ed2c382642cf33dd5917deabad42c090&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;color-fg-muted&quot;&gt;
-      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source&lt;/a&gt;
-      &lt;span&gt;
-        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-12T21:08:50Z&quot; data-view-component=&quot;true&quot;&gt;October 12, 2023 21:08&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits &quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/11d6aa899522d303b9b42f7b9408a2efc4746fdb&quot; rel=&quot;noreferrer&quot;&gt;11d6aa8&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1940207541&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/Lissy93/git-into-open-source/issues/141&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/Lissy93/git-into-open-source/pull/141/hovercard&quot; href=&quot;https://github.com/Lissy93/git-into-open-source/pull/141&quot; rel=&quot;noreferrer&quot;&gt;#141&lt;/a&gt; from scd-02/main
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/scd-02&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/100287945?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@scd-02&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/2a6c75ccffc8845ae330a90379dbdf0ab31500a4&quot; rel=&quot;noreferrer&quot;&gt;2a6c75c&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      udated git-in-here.yml file
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PullRequestEvent/32525982384</id>
-    <published>2023-10-12T21:08:49Z</published>
-    <updated>2023-10-12T21:08:49Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/pull/141"/>
-    <title type="html">Lissy93 merged a pull request in Lissy93/git-into-open-source</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32525982384,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;d5d40d64-32de-4f08-af97-e0d7a872b8d4&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;5e45d355503ff17c19db391fb6cd0c94f600ba79dbcfa20fdea1357efeab4e03&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- pull_request --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
-        &lt;div class=&quot;color-fg-muted&quot;&gt;
-          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-          
-          merged
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;Lissy93/git-into-open-source#141&quot; href=&quot;/Lissy93/git-into-open-source/pull/141&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source#141&lt;/a&gt;
-          &lt;span&gt;
-            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-12T21:08:49Z&quot; data-view-component=&quot;true&quot;&gt;October 12, 2023 21:08&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request merged d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;div&gt;
-          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;udated git-in-here.yml file&quot; href=&quot;/Lissy93/git-into-open-source/pull/141&quot; rel=&quot;noreferrer&quot;&gt;udated git-in-here.yml file&lt;/a&gt;&lt;/span&gt;
-          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#141&lt;/span&gt;
-            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
-              &lt;p&gt; &lt;strong&gt;PR Type:&lt;/strong&gt; Name addition &lt;strong&gt;Affiliation:&lt;/strong&gt; N/A &lt;strong&gt;Ticket:&lt;/strong&gt; N/A &lt;strong&gt;Checklist:&lt;/strong&gt;
-
- I&#39;ve read Contributing Guidelines
- I agree to follow the Code of Conduct
-
-&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
-            &lt;span class=&quot;color-fg-success&quot;&gt;+6&lt;/span&gt;
-            &lt;span class=&quot;color-fg-danger&quot;&gt;-0&lt;/span&gt;
-          &lt;/div&gt;
-
-          &lt;div class=&quot;d-inline-block f6 color-fg-muted ml-3&quot;&gt;
-            1 comment
-          &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:CreateEvent/32496106278</id>
-    <published>2023-10-11T21:50:30Z</published>
-    <updated>2023-10-11T21:50:30Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/pax/compare/add-mermaid"/>
-    <title type="html">Lissy93 created a branch add-mermaid in Lissy93/pax</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;git-branch js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:174637807,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;CreateEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32496106278,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;b295929b-5758-41fb-b749-4e68f66853cf&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;0187e7d4ad1d342ce017df5ed7cdb7031c9c81ca946a0e29d3c18747dd81aa79&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- create --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
-          &lt;div class=&quot;color-fg-muted&quot;&gt;
-                &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-              &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-              
-              created a
-              branch
-              in
-              &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/pax&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/pax&lt;/a&gt;
-
-            &lt;span&gt;
-              · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-11T21:50:30Z&quot; data-view-component=&quot;true&quot;&gt;October 11, 2023 21:50&lt;/relative-time&gt;
-            &lt;/span&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
-      &lt;div&gt;
-        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
-          &lt;div class=&quot;d-inline-block&quot;&gt;
-            &lt;div class=&quot;d-flex&quot;&gt;
-              &lt;div class=&quot;mr-2&quot;&gt;
-                &lt;a class=&quot;d-flex&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/1862727?s=40&amp;amp;v=4&quot; alt=&quot;@Lissy93&quot; size=&quot;20&quot; height=&quot;20&quot; width=&quot;20&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
-              &lt;/div&gt;
-                  &lt;div class=&quot;d-inline-block&quot;&gt;
-                    &lt;a class=&quot;css-truncate css-truncate-target branch-name v-align-middle&quot; title=&quot;add-mermaid&quot; href=&quot;/Lissy93/pax/tree/add-mermaid&quot; rel=&quot;noreferrer&quot;&gt;add-mermaid&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/Lissy93/pax&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/pax&lt;/a&gt;
-                  &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-
-
-          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
-            &lt;span&gt;Updated Oct 11&lt;/span&gt;
-          &lt;/p&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PushEvent/32492216941</id>
-    <published>2023-10-11T18:49:26Z</published>
-    <updated>2023-10-11T18:49:26Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/compare/4afa818423...f26cfa2cad"/>
-    <title type="html">Lissy93 pushed to main in Lissy93/git-into-open-source</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32492216941,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;18b3d427-e139-4ec7-9b47-06b6ce6ec691&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;1c8ce4d8641dacb4e1d84870aa4327db404905548feb66f27449d09f33284688&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;color-fg-muted&quot;&gt;
-      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source&lt;/a&gt;
-      &lt;span&gt;
-        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-11T18:49:26Z&quot; data-view-component=&quot;true&quot;&gt;October 11, 2023 18:49&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/f26cfa2cad4a189ac985a221e289140f44c7af58&quot; rel=&quot;noreferrer&quot;&gt;f26cfa2&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update CONTRIBUTING.md
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PushEvent/32491119715</id>
-    <published>2023-10-11T18:03:50Z</published>
-    <updated>2023-10-11T18:03:50Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/git-into-open-source/compare/2c8fca677d...4afa818423"/>
-    <title type="html">Lissy93 pushed to main in Lissy93/git-into-open-source</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:698603890,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32491119715,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;1f596193-5982-4a3f-8593-6dead4b89575&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;30ec8c14871c37c9f20af4787491e635a0b678625ccd807597c34f678ade8517&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;color-fg-muted&quot;&gt;
-      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/git-into-open-source&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/git-into-open-source&lt;/a&gt;
-      &lt;span&gt;
-        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-11T18:03:50Z&quot; data-view-component=&quot;true&quot;&gt;October 11, 2023 18:03&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/git-into-open-source/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/git-into-open-source/commit/4afa81842381670a28622097476f59fcf6f5b5eb&quot; rel=&quot;noreferrer&quot;&gt;4afa818&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Fixes dependabot config
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PushEvent/32490992559</id>
-    <published>2023-10-11T17:58:33Z</published>
-    <updated>2023-10-11T17:58:33Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/awesome-privacy/compare/88c0cb3244...26817ef8c3"/>
-    <title type="html">Lissy93 pushed to main in Lissy93/awesome-privacy</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:512269935,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32490992559,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;81e983dc-7cdd-4389-962c-2df2514b3681&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;d625a4ad0731dda33ad8f66eb13a76b0b1297e19b501df18653fac45454c6b10&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;color-fg-muted&quot;&gt;
-      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/awesome-privacy/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/awesome-privacy&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/awesome-privacy&lt;/a&gt;
-      &lt;span&gt;
-        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-11T17:58:33Z&quot; data-view-component=&quot;true&quot;&gt;October 11, 2023 17:58&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Lissy93/awesome-privacy/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits &quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/edent&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/837136?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@edent&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Lissy93/awesome-privacy/commit/26817ef8c36183cb7589b29134531a35ce4e2beb&quot; rel=&quot;noreferrer&quot;&gt;26817ef&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Fix broken links (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1938164019&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/Lissy93/awesome-privacy/issues/191&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/Lissy93/awesome-privacy/pull/191/hovercard&quot; href=&quot;https://github.com/Lissy93/awesome-privacy/pull/191&quot; rel=&quot;noreferrer&quot;&gt;#191&lt;/a&gt;)
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssuesEvent/32490992652</id>
-    <published>2023-10-11T17:58:33Z</published>
-    <updated>2023-10-11T17:58:33Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/awesome-privacy/issues/190"/>
-    <title type="html">Lissy93 closed an issue in Lissy93/awesome-privacy</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_closed js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:512269935,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;IssuesEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32490992652,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;a8592208-b0f3-45a3-ad00-28b8ae630e96&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;216d3b60bc937b1b83f3b2e4e442a30bf13827e672da10b31da9d29150873d5e&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- issues --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-      &lt;div class=&quot;color-fg-muted&quot;&gt;
-          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-          
-          closed
-          an issue in
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93/awesome-privacy&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/awesome-privacy&lt;/a&gt;
-        &lt;span&gt;
-          · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-11T17:58:33Z&quot; data-view-component=&quot;true&quot;&gt;October 11, 2023 17:58&lt;/relative-time&gt;
-        &lt;/span&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3 wb-break-all color-shadow-medium &quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M11.28 6.78a.75.75 0 0 0-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l3.5-3.5Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
-          &lt;a title=&quot;[FEEDBACK] Broken links need fixing&quot; class=&quot;color-fg-default&quot; aria-label=&quot;[FEEDBACK] Broken links need fixing&quot; href=&quot;/Lissy93/awesome-privacy/issues/190&quot; rel=&quot;noreferrer&quot;&gt;[FEEDBACK] Broken links need fixing&lt;/a&gt;
-        &lt;/span&gt;
-        &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#190&lt;/span&gt;
-          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;Feedback
-The following links appear to be broken. If it&#39;s OK with you, I&#39;ll send a PR which either removes or fixes them.
-&lt;a href=&quot;https://www.xda-developers.com/how-to-install-custom-rom-android/&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://www.xda-developer…&lt;/a&gt;&lt;/p&gt;
-          &lt;/div&gt;
-
-          &lt;div class=&quot;f6 color-fg-muted mt-1&quot;&gt;
-            2 comments
-          &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PullRequestEvent/32490992387</id>
-    <published>2023-10-11T17:58:32Z</published>
-    <updated>2023-10-11T17:58:32Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/awesome-privacy/pull/191"/>
-    <title type="html">Lissy93 merged a pull request in Lissy93/awesome-privacy</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:512269935,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32490992387,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;d03b9e17-0c9b-405b-8e51-a946099721c1&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;3baa079af743e68e5fd2aa7f234b8ac8f2ad1ba41444366395227c42b3555ab3&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- pull_request --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
-        &lt;div class=&quot;color-fg-muted&quot;&gt;
-          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-          
-          merged
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;Lissy93/awesome-privacy#191&quot; href=&quot;/Lissy93/awesome-privacy/pull/191&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/awesome-privacy#191&lt;/a&gt;
-          &lt;span&gt;
-            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-11T17:58:32Z&quot; data-view-component=&quot;true&quot;&gt;October 11, 2023 17:58&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request merged d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;div&gt;
-          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Fix broken links across several categories&quot; href=&quot;/Lissy93/awesome-privacy/pull/191&quot; rel=&quot;noreferrer&quot;&gt;Fix broken links across several categories&lt;/a&gt;&lt;/span&gt;
-          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#191&lt;/span&gt;
-            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
-              &lt;p&gt;
-Fixes &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1938091622&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/Lissy93/awesome-privacy/issues/190&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/Lissy93/awesome-privacy/issues/190/hovercard&quot; href=&quot;https://github.com/Lissy93/awesome-privacy/issues/190&quot; rel=&quot;noreferrer&quot;&gt;#190&lt;/a&gt;
-Type Amendment / Removal / Website Update / Misc
-
-Changes I have fixed all the broken links I could find. In some case, they have been …&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
-            &lt;span class=&quot;color-fg-success&quot;&gt;+13&lt;/span&gt;
-            &lt;span class=&quot;color-fg-danger&quot;&gt;-17&lt;/span&gt;
-          &lt;/div&gt;
-
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PullRequestEvent/32490943054</id>
-    <published>2023-10-11T17:56:33Z</published>
-    <updated>2023-10-11T17:56:33Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/Lissy93/dashy/pull/1341"/>
-    <title type="html">Lissy93 merged a pull request in Lissy93/dashy</title>
-    <author>
-      <name>Lissy93</name>
-      <email>alicia@omg.lol</email>
-      <uri>https://github.com/Lissy93</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1862727?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:343078060,&amp;quot;actor_id&amp;quot;:1862727,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:32490943054,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;6d86296b-50bf-45aa-8c20-906090c5e439&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/lissy93.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;cd8cbba21faf6f5d0ff797def919f8065d007b026759a902c9e8083551268e5c&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- pull_request --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
-        &lt;div class=&quot;color-fg-muted&quot;&gt;
-          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1862727?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Lissy93&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/Lissy93&quot; rel=&quot;noreferrer&quot;&gt;Lissy93&lt;/a&gt;
-          
-          merged
-          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;Lissy93/dashy#1341&quot; href=&quot;/Lissy93/dashy/pull/1341&quot; rel=&quot;noreferrer&quot;&gt;Lissy93/dashy#1341&lt;/a&gt;
-          &lt;span&gt;
-            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2023-10-11T17:56:33Z&quot; data-view-component=&quot;true&quot;&gt;October 11, 2023 17:56&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request merged d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;div&gt;
-          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Fix Vue&#39;s PWA manifestCrossorigin, remove second mainfest from head&quot; href=&quot;/Lissy93/dashy/pull/1341&quot; rel=&quot;noreferrer&quot;&gt;Fix Vue&#39;s PWA manifestCrossorigin, remove second mainfest from head&lt;/a&gt;&lt;/span&gt;
-          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#1341&lt;/span&gt;
-            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
-              &lt;p&gt;&lt;a href=&quot;https://github.com/rokiden&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/82244b37acaabe5981596c05df93b5ddeb9c6e424d3329a7c92d454ad2314c83/68747470733a2f2f62616467656e2e6e65742f62616467652f2546302539462539322539352532305375626d697474656425323062792f726f6b6964656e2f663733616536&quot; alt=&quot;rokiden&quot; data-canonical-src=&quot;https://badgen.net/badge/%F0%9F%92%95%20Submitted%20by/rokiden/f73ae6&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer nofollow&quot; href=&quot;https://camo.githubusercontent.com/6ee275ab5a78e48d7ceb292679c026f0dccf82c8935e1a1717a23836861eda88/68747470733a2f2f62616467656e2e6e65742f62616467652f505225323053697a652f517569636b2f336565663862&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/6ee275ab5a78e48d7ceb292679c026f0dccf82c8935e1a1717a23836861eda88/68747470733a2f2f62616467656e2e6e65742f62616467652f505225323053697a652f517569636b2f336565663862&quot; alt=&quot;Quick&quot; data-canonical-src=&quot;https://badgen.net/badge/PR%20Size/Quick/3eef8b&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/Lissy93/dashy/tree/master&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/0c8b08fc3618b79ab8e532179ef3ee1dfc45f244f548b74d434b359228c9631e/68747470733a2f2f62616467656e2e6e65742f62616467652f253233313334312f726f6b6964656e2532302532466d61737465722532302545322538362539322532304c69737379393325324664617368792f616235616663&quot; alt=&quot;rokiden /master → Lissy93/dashy&quot; data-canonical-src=&quot;https://badgen.net/badge/%231341/rokiden%20%2Fmaster%20%E2%86%92%20Lissy93%2Fdashy/ab5afc&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer nofollow&quot; href=&quot;https://camo.githubusercontent.com/d0a031d8c44b244fe26a320b3867af7af2f21d33bb36ac9117a13b7cd6d31a64/68747470733a2f2f62616467656e2e6e65742f62616467652f4e6577253230436f64652f436f6d6d6974732533412532303125323025374325323046696c65732532304368616e676564253341253230322532302537432532304164646974696f6e732533412532302d312f646464643030&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/d0a031d8c44b244fe26a320b3867af7af2f21d33bb36ac9117a13b7cd6d31a64/68747470733a2f2f62616467656e2e6e65742f62616467652f4e6577253230436f64652f436f6d6d6974732533412532303125323025374325323046696c65732532304368616e676564253341253230322532302537432532304164646974696f6e732533412532302d312f646464643030&quot; alt=&quot;Commits: 1 | Files Changed: 2 | Additions: -1&quot; data-canonical-src=&quot;https://badgen.net/badge/New%20Code/Commits%3A%201%20%7C%20Files%20Changed%3A%202%20%7C%20Additions%3A%20-1/dddd00&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer nofollow&quot; href=&quot;https://camo.githubusercontent.com/fd2ef1a38991c0511e93550043fe71b980ac294710dcac6d54de57d329b04562/68747470733a2f2f62616467656e2e6e65742f62616467652f2545322539412541302545462542382538464d697373696e672f4c6162656c2f663235323635&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/fd2ef1a38991c0511e93550043fe71b980ac294710dcac6d54de57d329b04562/68747470733a2f2f62616467656e2e6e65742f62616467652f2545322539412541302545462542382538464d697373696e672f4c6162656c2f663235323635&quot; alt=&quot;Label&quot; data-canonical-src=&quot;https://badgen.net/badge/%E2%9A%A0%EF%B8%8FMissing/Label/f25265&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://pullrequestbadge.com/?utm_medium=github&amp;amp;utm_source=Lissy93&amp;amp;utm_campaign=badge_info&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img width=&quot;16&quot; alt=&quot;Powered by Pull Request Badge&quot; src=&quot;https://user-images.githubusercontent.com/1393946/111216524-d2bb8e00-85d4-11eb-821b-ed4c00989c02.png&quot; style=&quot;max-width: 100%;&quot;&gt;&lt;/a&gt;
-&lt;strong&gt;Category&lt;/strong&gt;: Bugfix
-&lt;strong&gt;Overview&lt;/strong&gt;
-Fixed PWA manifest crossorigin, required for PWA behind auth proxy. Removed manually added manifest duplicate…&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
-            &lt;span class=&quot;color-fg-success&quot;&gt;+2&lt;/span&gt;
-            &lt;span class=&quot;color-fg-danger&quot;&gt;-3&lt;/span&gt;
-          &lt;/div&gt;
-
-          &lt;div class=&quot;d-inline-block f6 color-fg-muted ml-3&quot;&gt;
-            3 comments
           &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
