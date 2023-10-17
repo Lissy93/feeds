@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `16 Oct 2023` - **[Lissy93 pushed to dependabot/npm_and_yarn/web/main/astrojs/mdx-1.1.2 in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/551535052c...6ff5603a88)**
-- `15 Oct 2023` - **[Lissy93 closed a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1345)**
-- `15 Oct 2023` - **[Lissy93 pushed to FEAT/find-repos in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/893159913a...f33cf918b9)**
-- `15 Oct 2023` - **[Lissy93 opened a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/149)**
-- `15 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/fb37eddf78...6b23102f8e)**
+- `17 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/3ebb0eb7e2...7e6d985d1f)**
+- `17 Oct 2023` - **[Lissy93 merged a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/151)**
+- `17 Oct 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/4c906210a0...8a821c2a31)**
+- `17 Oct 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1347)**
+- `17 Oct 2023` - **[Lissy93 pushed to FEAT/find-repos in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/f33cf918b9...8874e97758)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
