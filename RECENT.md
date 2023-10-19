@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `17 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/3ebb0eb7e2...7e6d985d1f)**
-- `17 Oct 2023` - **[Lissy93 merged a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/151)**
-- `17 Oct 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/4c906210a0...8a821c2a31)**
-- `17 Oct 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1347)**
-- `17 Oct 2023` - **[Lissy93 pushed to FEAT/find-repos in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/f33cf918b9...8874e97758)**
+- `19 Oct 2023` - **[Lissy93 opened a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1354)**
+- `19 Oct 2023` - **[Lissy93 pushed to snyk-upgrade-842f33b7262880be79956113d77fc26e in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/466d99f0de...7990401be6)**
+- `19 Oct 2023` - **[Lissy93 created a branch snyk-upgrade-842f33b7262880be79956113d77fc26e in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/snyk-upgrade-842f33b7262880be79956113d77fc26e)**
+- `19 Oct 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/8a821c2a31...466d99f0de)**
+- `19 Oct 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1353)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
