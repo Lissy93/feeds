@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `20 Oct 2023` - **[Lissy93 closed an issue in Lissy93/dashy](https://github.com/Lissy93/dashy/issues/1320)**
-- `20 Oct 2023` - **[Lissy93 commented on issue Lissy93/dashy#1320](https://github.com/Lissy93/dashy/issues/1320#issuecomment-1773448500)**
-- `20 Oct 2023` - **[Lissy93 commented on issue Lissy93/dashy#1320](https://github.com/Lissy93/dashy/issues/1320#issuecomment-1773443930)**
-- `20 Oct 2023` - **[Lissy93 starred cunarist/rinf](https://github.com/cunarist/rinf)**
-- `20 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/5c1f7514cc...d3ae4a7dad)**
+- `21 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/79ad6dd400...fdbc79d6ca)**
+- `21 Oct 2023` - **[Lissy93 merged a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/155)**
+- `21 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/9c41c5a149...da13c16ff3)**
+- `21 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/b933e29b9b...90c65a1d5d)**
+- `21 Oct 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/a20f77161a...2d8dc19fed)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
