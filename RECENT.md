@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- ` 8 Nov 2023` - **[Lissy93 pushed to main in Lissy93/bug-bounties](https://github.com/Lissy93/bug-bounties/compare/07674feab2...2b1b64026d)**
-- ` 8 Nov 2023` - **[Lissy93 pushed to main in Lissy93/bug-bounties](https://github.com/Lissy93/bug-bounties/compare/e34cebe766...07674feab2)**
-- ` 8 Nov 2023` - **[Lissy93 opened a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/164)**
-- ` 8 Nov 2023` - **[Lissy93 pushed to snyk-upgrade-7ae4d6bef757eff675d9fb453126ab79 in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/526590f99c...45388c6800)**
-- ` 8 Nov 2023` - **[Lissy93 created a branch snyk-upgrade-7ae4d6bef757eff675d9fb453126ab79 in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/snyk-upgrade-7ae4d6bef757eff675d9fb453126ab79)**
+- ` 9 Nov 2023` - **[Lissy93 deleted branch dependabot/npm_and_yarn/web/main/prettier-plugin-tailwindcss-0.5.7 at Lissy93/git-into-open-source](https://github.com/)**
+- ` 9 Nov 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/526590f99c...7dbe3bce46)**
+- ` 9 Nov 2023` - **[Lissy93 merged a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/165)**
+- ` 9 Nov 2023` - **[Lissy93 starred Lissy93/bug-bounties](https://github.com/Lissy93/bug-bounties)**
+- ` 9 Nov 2023` - **[Lissy93 opened a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/166)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
