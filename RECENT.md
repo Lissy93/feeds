@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `15 Nov 2023` - **[Lissy93 deleted branch dependabot/npm_and_yarn/web/main/astrojs/mdx-1.1.5 at Lissy93/git-into-open-source](https://github.com/)**
+- `15 Nov 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/1d91a79d39...af4a66b832)**
+- `15 Nov 2023` - **[Lissy93 merged a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/168)**
+- `15 Nov 2023` - **[Lissy93 closed a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1285)**
 - `14 Nov 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1384)**
-- `14 Nov 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/6a39aaac6b...e511c2b8f7)**
-- `14 Nov 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/50dc62373d...6a39aaac6b)**
-- `14 Nov 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1351)**
-- `12 Nov 2023` - **[Lissy93 pushed to master in Lissy93/my-website](https://github.com/Lissy93/my-website/compare/49aa1d46de...562c215b02)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
