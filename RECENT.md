@@ -2,11 +2,11 @@
 
 ## Blog [![Notes - notes.aliciasykes.com](https://img.shields.io/badge/-Notes-262654?style=flat&logo=micro.blog&logoColor=white)](https://notes.aliciasykes.com "Personal Blog - notes.aliciasykes.com") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/blog.atom)
 <!-- blog-feed start -->
+- `19 Nov 2023` - **[50 ways to bring in extra cash as a developer  💰](https://notes.aliciasykes.com/47804/50-ways-to-bring-in-extra-cash-as-a-developer)**
 - `20 Feb 2023` - **[SvelteKit 1.0 - Building a Blog that fetches from RSS 🦄](https://notes.aliciasykes.com/42764/sveltekit-1-0-building-a-blog-that-fetches-from-rss)**
 - `27 Jan 2023` - **[20 Amazing Collections for Self-Taught Developers 🎓](https://notes.aliciasykes.com/42310/20-amazing-collections-for-self-taught-developers)**
 - `19 Jan 2023` - **[CLI tools you can't live without 🔧](https://notes.aliciasykes.com/41983/cli-tools-you-can-t-live-without)**
 - `17 Dec 2022` - **[20 Git Commands you (probably) didn't know 🧙‍♂️](https://notes.aliciasykes.com/41171/20-git-commands-you-probably-didn-t-know)**
-- ` 3 Dec 2022` - **[Super Useful CSS Resources 🌈](https://notes.aliciasykes.com/40638/super-useful-css-resources)**
 <!-- blog-feed end -->
 
 ## Reddit [![Reddit - u/lissy93](https://img.shields.io/badge/-Lissy93-ff4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/lissy93 "Reddit - u/lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/reddit.atom)
@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `18 Nov 2023` - **[Lissy93 commented on pull request novaspirit/pi-hosted#464](https://github.com/novaspirit/pi-hosted/pull/464#issuecomment-1817594646)**
-- `17 Nov 2023` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/e511c2b8f7...718a03dce6)**
-- `17 Nov 2023` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1344)**
-- `15 Nov 2023` - **[Lissy93 deleted branch dependabot/npm_and_yarn/web/main/astrojs/mdx-1.1.5 at Lissy93/git-into-open-source](https://github.com/)**
-- `15 Nov 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/1d91a79d39...af4a66b832)**
+- `19 Nov 2023` - **[Lissy93 closed an issue in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/issues/135)**
+- `19 Nov 2023` - **[Lissy93 closed an issue in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/issues/133)**
+- `19 Nov 2023` - **[Lissy93 closed an issue in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/issues/127)**
+- `19 Nov 2023` - **[Lissy93 closed an issue in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/issues/45)**
+- `19 Nov 2023` - **[Lissy93 deleted branch snyk-upgrade-c63028c6ad5c026efc624054b9aa7c5e at Lissy93/git-into-open-source](https://github.com/)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
