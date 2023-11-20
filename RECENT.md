@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `19 Nov 2023` - **[Lissy93 closed an issue in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/issues/135)**
-- `19 Nov 2023` - **[Lissy93 closed an issue in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/issues/133)**
-- `19 Nov 2023` - **[Lissy93 closed an issue in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/issues/127)**
-- `19 Nov 2023` - **[Lissy93 closed an issue in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/issues/45)**
-- `19 Nov 2023` - **[Lissy93 deleted branch snyk-upgrade-c63028c6ad5c026efc624054b9aa7c5e at Lissy93/git-into-open-source](https://github.com/)**
+- `20 Nov 2023` - **[Lissy93 starred rethinkdb/rethinkdb](https://github.com/rethinkdb/rethinkdb)**
+- `20 Nov 2023` - **[Lissy93 starred shenxn/protonmail-bridge-docker](https://github.com/shenxn/protonmail-bridge-docker)**
+- `20 Nov 2023` - **[Lissy93 pushed to master in Lissy93/Brewfile](https://github.com/Lissy93/Brewfile/compare/4257038a2b...a53997d35a)**
+- `20 Nov 2023` - **[Lissy93 pushed to master in Lissy93/Lissy93](https://github.com/Lissy93/Lissy93/compare/5f5ac819e5...0f8df79bc8)**
+- `20 Nov 2023` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/56bbea54ed...d0bb265216)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
@@ -46,11 +46,11 @@
 
 ## Dev.to [![Dev.to - @Lissy93](https://img.shields.io/badge/-Lissy93-a75fff?style=flat&logo=Dev.to&logoColor=white)](https://dev.to/lissy93 "Dev.to - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/dev-to.atom)
 <!-- dev-to-feed start -->
+- `20 Nov 2023` - **[50 ways to bring in extra cash as a developer 💰](https://dev.to/lissy93/50-ways-to-bring-in-extra-cash-as-a-developer-19b6)**
 - `20 Feb 2023` - **[SvelteKit 1.0 - Building a personal blog, that shows your DEV posts 🦄](https://dev.to/lissy93/sveltekit-10-build-an-blog-fetching-posts-from-your-dev-profile-29f)**
 - `19 Jan 2023` - **[CLI tools you won't be able to live without 🔧](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)**
 - `18 Dec 2022` - **[20 Git Commands you (probably) didn't know about 🧙‍♂️](https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o)**
 - ` 3 Dec 2022` - **[Super Useful CSS Resources 🌈](https://dev.to/lissy93/super-useful-css-resources-1ba3)**
-- `20 Nov 2022` - **[Fun with console.log() 💿](https://dev.to/lissy93/fun-with-consolelog-3i59)**
 <!-- dev-to-feed end -->
 
 ## Blogger [![Blogger - Lissy93](https://img.shields.io/badge/-Lissy93-FF5722?style=flat&logo=blogger&logoColor=white)](https://lissy93.blogspot.com/ "Blogger - Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/blogger.atom)
