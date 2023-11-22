@@ -30,11 +30,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `22 Nov 2023` - **[Lissy93 opened a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/173)**
+- `22 Nov 2023` - **[Lissy93 pushed to snyk-upgrade-18587d8ecc832e62c64a825040e0feaf in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/238e201e9e...1c265942f8)**
+- `22 Nov 2023` - **[Lissy93 created a branch snyk-upgrade-18587d8ecc832e62c64a825040e0feaf in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/snyk-upgrade-18587d8ecc832e62c64a825040e0feaf)**
 - `21 Nov 2023` - **[Lissy93 deleted branch dependabot/npm_and_yarn/web/main/eslint-8.54.0 at Lissy93/git-into-open-source](https://github.com/)**
 - `21 Nov 2023` - **[Lissy93 pushed to main in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/compare/04a88cab60...238e201e9e)**
-- `21 Nov 2023` - **[Lissy93 merged a pull request in Lissy93/git-into-open-source](https://github.com/Lissy93/git-into-open-source/pull/171)**
-- `20 Nov 2023` - **[Lissy93 starred rethinkdb/rethinkdb](https://github.com/rethinkdb/rethinkdb)**
-- `20 Nov 2023` - **[Lissy93 starred shenxn/protonmail-bridge-docker](https://github.com/shenxn/protonmail-bridge-docker)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
