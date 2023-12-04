@@ -7,6 +7,100 @@
     <link>http://aliciasykes.com</link>
     <language>en</language>
     <item>
+      <title>Trying out Solid.js 🍰</title>
+      <author>Alicia's Notes 🚀</author>
+      <pubDate>Mon, 04 Dec 2023 20:02:06 +0000</pubDate>
+      <link>https://notes.aliciasykes.com/48068/trying-out-solid-js</link>
+      <guid>https://notes.aliciasykes.com/48068/trying-out-solid-js</guid>
+      <description>&lt;p&gt;&lt;h3&gt;Intro&lt;/h3&gt;
+
+&lt;p&gt;I've been interested in Solid ever since I saw it rising on the StackOverflow developer survey (the &lt;a href="https://survey.stackoverflow.co/2023/#section-admired-and-desired-web-frameworks-and-technologies" rel="noopener nofollow" target="_blank"&gt;third-most admired framework&lt;/a&gt;), and even more so since watching Fireship's &lt;a href="https://www.youtube.com/watch?v=hw3Bx5vxKl0" rel="noopener nofollow" target="_blank"&gt;Solid in 100 Seconds&lt;/a&gt; video.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;What's Solid?&lt;/h3&gt;
+
+&lt;p&gt;In short, Solid is declarative JavaScript framework for building extremely performant UIs, thanks to it's maximum control over reactivity.&lt;/p&gt;
+
+&lt;p&gt;At first glance, it looks kinda similar to React. It uses JSX, with a component-based architecture. There's hook-type syntax (called composables) for hooking into state and lifecycle features. And it takes a very declarative approach to defining what the UI should look like based on state.&lt;/p&gt;
+
+&lt;p&gt;But that's about where the similarities end. In Solid, there's no virtual DOM, it compiles down into well optimized vanilla JavaScript. And it is properly reactive, with functional components only called once, with state managed by Signals, instead of re-rendering the entire component whenever a prop somewhere changes.&lt;/p&gt;
+
+&lt;p&gt;It was created by the very talented &lt;a href="https://twitter.com/RyanCarniato" rel="noopener nofollow" target="_blank"&gt;Ryan Carniato&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;What I built&lt;/h3&gt;
+
+&lt;p&gt;I learn best by doing, so after a quick skim read of the Solid docs I decided to dive straight in.&lt;/p&gt;
+
+&lt;p&gt;What was I going to build? Well one of the things I do at work is order in the office snacks. I like to know what kind of stuff people like, but sending out surveys is really boring.&lt;/p&gt;
+
+&lt;p&gt;In order to cover off the basics of Solid, while also producing a (somewhat) useful app, it would need to do several things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Let users login via their SSO provider&lt;/li&gt;
+&lt;li&gt;Enable users to request, upvote and downvote snacks&lt;/li&gt;
+&lt;li&gt;View results, with real-time updates&lt;/li&gt;
+&lt;li&gt;I'd also like it to be translatable, themable, responsive, accessible, tested, observable and overall easy enough to maintain (so basically just all the best practice buzz words)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I gave myself one weekend to get this done, and though I got the MVP done in that time, I ended up spending 2 weekends getting it feature-complete.&lt;/p&gt;
+
+&lt;p&gt;The source code is on GitHub, at &lt;strong&gt;&lt;a href="https://github.com/Lissy93/cso" rel="noopener nofollow" target="_blank"&gt;github.com/Lissy93/cso&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here's a quick demo:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="demo-recordin" src="https://i.ibb.co/PZLw8xj/Snack-Champion-Demo.webp" alt="Demo" width="750"&gt;&lt;/p&gt;
+
+&lt;p&gt;(yes, it has AI - because it's 2023 and even your toaster has AI!)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;My Thoughts on Solid&lt;/h3&gt;
+
+&lt;p&gt;Overall, Solid was easy enough to get started with. I liked that it seemed more vanilla and closer to the DOM than other frameworks, and that you can be really deliberate with what you do and don't want to be reactive. If performance is an important factor in your app, then Solid could be an awesome choice.&lt;/p&gt;
+
+&lt;p&gt;I didn't so much love the developer experience. My dev env was slow, errors were vague, I missed some the nice built-in features of larger frameworks, and the ecosystem was tiny compared to more established alternatives. Given the inherent messiness of JSX and without such a rigid or opinionated structure, my project didn't take long to descend into a a big pile of spaghetti code. &lt;/p&gt;
+
+&lt;p&gt;...&lt;/p&gt;
+
+&lt;p&gt;Learning Curve.&lt;br&gt;
+The time took to learn the (very very) basics of solid was pretty quick. The docs are very clear and thorough. It took about 10 minutes to skim read &lt;a href="https://www.solidjs.com/docs/latest/api" rel="noopener nofollow" target="_blank"&gt;the spec&lt;/a&gt;, and there's also plenty of guides, tutorials, examples and playgrounds on &lt;a href="https://www.solidjs.com/" rel="noopener nofollow" target="_blank"&gt;solidjs.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Features.&lt;br&gt;
+I really missed those quality of life / nice to have features that are directly built into larger frameworks. Little things, like Svelte's built-in animations, Vue's built-in form handling (v-model), React's global state management (context API), etc. Of course, that's to be expected when you're choosing a framework know for performance.&lt;/p&gt;
+
+&lt;p&gt;Developing.&lt;br&gt;
+Again, this may have been due to some misconfiguration on my part, but out-of-the-box, I found the full page reloads on the development server to be notably slower than what I was used to. Sure live-reload was speedy enough, but I had to force kill and restart the dev server every 20 minutes or so&lt;/p&gt;
+
+&lt;p&gt;Tooling.&lt;br&gt;
+Several times I made stupid mistakes, like messed up an export or made a typo in a tag. In React, or any other framework, you'd usually get a somewhere meaningful error message. But in Solid I just got a blank white screen of death, and a cryptic message in the console, usually something just like &lt;code class="prettyprint"&gt;Uncaught&lt;/code&gt;, with no other details.&lt;/p&gt;
+
+&lt;p&gt;Ecosystem.&lt;br&gt;
+With many other frameworks, there's tons of ready-made components, libraries and add-ons that you can just npm insstall to get your prototype up and running quickly. Not so much in Solid, as it's newer and so has a smaller community.&lt;/p&gt;
+
+&lt;p&gt;Syntax.&lt;br&gt;
+This is very much a personal preference. But although I'm familiar with React, I do not like it at all, because of it's use of JSX. There's just something about mixing logic in with your UI, which seems wrong to me. And Solid, of course uses JSX. I also found that I needed to write a fair bit of boilerplate when it came to components with more complex state management or side effects, which further complicated my JSX components.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Side note: Supabase&lt;/h3&gt;
+
+&lt;p&gt;For the backend, I was looking for something quick and easy. I'd played around with a local Supabase back when it was in Alpha, and it seemed cool enough. But bloody hell is Supabase awesome now!&lt;/p&gt;
+
+&lt;p&gt;In my app, Supabase handling everything from data storage (insertions, updates, deletions), user management (with 3rd party auth providers), real-time, and really decent RLS policies (so rows that were not created by a given user cannot be either read, modified or deleted). &lt;/p&gt;
+
+&lt;p&gt;Supabase's client packages make integrating with it so so easy - it literally took under 5 minutes to get the database up and running.&lt;/p&gt;
+
+&lt;p&gt;Since it's a small enough project, I decided to just go with the hosted instance, as it's well within the free plan, and the frontends just Netlify anyway. So no complicated infrastructure to setup or manage!&lt;/p&gt;
+
+&lt;style&gt;
+img.demo-recordin { margin: 1rem auto; border-radius: 4px; }
+&lt;/style&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>50 ways to bring in extra cash as a developer  💰</title>
       <author>Alicia's Notes 🚀</author>
       <pubDate>Sun, 19 Nov 2023 21:18:30 +0000</pubDate>
