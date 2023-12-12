@@ -7,6 +7,171 @@
     <link>http://aliciasykes.com</link>
     <language>en</language>
     <item>
+      <title>Project Ideas: Agile 💡</title>
+      <author>Alicia's Notes 🚀</author>
+      <pubDate>Tue, 12 Dec 2023 19:43:03 +0000</pubDate>
+      <link>https://notes.aliciasykes.com/48239/project-ideas-agile</link>
+      <guid>https://notes.aliciasykes.com/48239/project-ideas-agile</guid>
+      <description>&lt;p&gt;&lt;p&gt;Many software development teams follow some kind of &lt;a href="https://www.atlassian.com/agile" rel="noopener nofollow" target="_blank"&gt;agile&lt;/a&gt; methodology, as the backbone for their ways of working. And if you are one of them, you'll know the current software landscape (Jira, Confluence, Teams, etc) leaves plenty to be desired.&lt;/p&gt;
+
+&lt;p&gt;Here's 25 ideas for mini projects, to help optimize your workflow for you and your colleges.&lt;/p&gt;
+
+&lt;p&gt;None of these should take much more than a weekend to build, so a good opportunity to try out a new tech stack. And it gives you something cool to show to your boss on Monday!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;1. Sentiment Tracking&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A system to gauge and monitor the sentiment of the team. Should be anonymous, so members can be honest. Needs to be as frictionless as possible, so maybe a Slack / Teams Bot, with data collected via reactions. Generate some pretty charts for the scrum master (I did something similar ages ago, &lt;a href="https://github.com/Lissy93/happy-app" rel="noopener nofollow" target="_blank"&gt;here&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;2. Meeting Timer&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Keep meetings moving quickly with customizable timers. Could also show meeting time stats + metrics too. Built either as a web app, or a plugin for Zoom/ Teams / Meet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;3. Sprint Health Dash&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Pull data from Jira (or elsewhere) to display some neat real-time dashboards, to make the PO happy.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;4. Impediment Tracker&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A page dedicated to blockers or issues, to visualize which developers are blocked by which tickets. Gives motivation and recognition to the developers who solve the biggest blockers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;5. Team Availability Calendar&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A simple 1-page app, to quickly visualize which team members will be available when. Useful for remote teams, or those which work across timezones, have part-time workers, or have many members taking upskilling or vacation days. Could also hook it up to Outlook / Google Calendar to automatically populate&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;6. Skill Matrix Tool&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;An app that helps teams track and manage the skills and learning goals of its members. This could be used for identifying skill gaps, planning pair programming sessions, and supporting personal development plans. Also helps with story planning, if scrum masters know who can do what&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;7. Estimation Voting&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A planning poker app, where members anonymously vote on the size of a story during refinement sessions, and it outputs the average and upper + lower bounds&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;8. Real-time Feedback Tool&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;An app where team members can give and receive real-time feedback on tasks and during sprints. This could foster a culture of continuous improvement and open communication.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;9. Automated Sprint Report Generator&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Managers love a pretty status report. This app could connect to your Jira / Trello board, and provide a summary of everything completed in that week, along with some pretty charts and shoutouts to top developers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;10. Stand-Up Bot&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Because real standup includes too much human interaction. Have a bot prompt everyone for their update, and compile it into a single easily accessible report. Less meetings!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;11. Action Item Tracker&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Use AI to read the auto-generated transcript for a meeting, and then send out a list of actions to the individual responsible for each. E.g. if you're talking about researching XYZ, then Pam asks Tony if he could do that, Tony will get a reminder to "research XYZ" after the meeting&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;12. Automated Risk Assessments&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Because risks assessments are boring. Could read in data from your project management software, and use AI to identify risks and output an assessment of each in the form of a report&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;13. Visual Dependencies&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In larger or more complex projects, you often get the situation where X is dependent on Y, which is dependent on V and W, which are blocked by Z. It all becomes a bit complicated. A took to show dependencies visually will solve this. But the challenge is getting and processing the data. It could be extended to show and manage cross-team dependencies too&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;14. Retro Board&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;An alternative to Miro or sticky notes for retrospective meetings. Could include features like anonymous feedback, timers, actions, etc&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;15. Decision Making&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Often decisions take a long time to make, because everyone has a different opinion on something. A poll app, specifically designed for agile teams, where users can vote and provide justification should make this process a lot quicker and more civil&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;16. Interactive Glossary&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Many projects use lots of acronyms, which some people find hard to remember. This is especially hard for new-joiners. A glossary on Confluence quickly becomes out-dated and hard to manage, but a dedicated app could make searching, adding and browsing much easier&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;17. Personal Timer&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If a task is taking considerably longer than estimated, it may have not been properly refined, or the developer could need extra support. Often you don't realize this until you've sunk 8+ hours into it. A Pomadoro-style timer, with a cusomizable limit may help developers track and identify when they need to escalate something. This could be extended further to integrate with other systems (like Jira or Wakatime)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;18. Meeting Minutes&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The contents of meetings often become lost. Hundreds of hours or recordings make it hard to find specifically what you're looking for. A system which uses AI to generate minutes, and lets users search the textual content of all historic meetings should make this easier to manage&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;19. Snippet Hub&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A centralized repository for code snippets relating to your specific project. Will help newer developers find solutions to common problems (e.g. database connection, using custom components, mocking your data, etc). Could also create a VS Code extension, which let's developers easily insert snippets without leaving their IDE&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;20. Review Scheduler&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;When there are lots of PR review notifications, they often either get ignored by developers, or break their flow. A centralised hub for review tasks would help devs work through their code reviews all at once, like once or twice a day. This could be done using the GitHub / GitLab API, to fetch PRs assigned to each specific developer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;21. Debug Diary&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Like a personal mini StackOverflow instance, where whenever a developer encounters something they get stuck on, they can post the solution, so that no one needs to spend time figuring out the same thing twice&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;22. Interactive DoD&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;On more established projects, you often have a very long checklist for the definition of done. Many of the items are not relevant to many of the stories (such as API docs for a frontend ticket). Having a system which can generate a relevant DoD checklist for a specific ticket type, will mean that the list is much shorter, more relevant and hence (hopefully) easier to achieve&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;23. Mobbing Helper&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Pair programming is hugely beneficial, but some longer mobbing sessions end up with the same few developers driving and doing all the work. A simple timer type extension could help ensure the driver is frequently rotated, keeping all developer engaged&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;24. Automated Onboarding&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A script to walk new joiners through the onboarding process, including local development environment setup for their specific architecture. If this was an all-in-one process, it could cut down on the sometimes many days or weeks it can take new developers to get setup&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;25. Link List&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;So you've probably got a whole bunch of links (Agile board, messaging, cloud, source code, wiki, CI/CD, docs, dev/UAT/prod environments, etc) along with all the mini apps you've built that you need to keep track of. This makes finding the URL you're looking for tiresome, especially for new joiners. The last project idea is just a simple web page, that brings together all your agile apps into one single place. So the new BA won't ever need to ask you for the link to UAT ever again!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Trying out Solid.js 🍰</title>
       <author>Alicia's Notes 🚀</author>
       <pubDate>Mon, 04 Dec 2023 20:02:06 +0000</pubDate>
