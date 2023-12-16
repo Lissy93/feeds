@@ -4748,11 +4748,14 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
 &lt;hr&gt;
 
 &lt;h3&gt;Include Notes and Warnings&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&amp;gt; **Note**
-&amp;gt; This is a note
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;&amp;gt; [!IMPORTANT]
+&amp;gt; This is some important text.
 
-&amp;gt; **Warning**
-&amp;gt; This is a warning
+&amp;gt; [!WARNING]
+&amp;gt; This is a warning.
+
+&amp;gt; [!NOTE]
+&amp;gt; This is just a note.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Will render:&lt;/p&gt;
 
@@ -5007,6 +5010,13 @@ ul li { margin-bottom: 0 !important; font-size: 1rem; }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src="https://i.ibb.co/vX6GYDT/Screen-Shot-2023-02-24-at-15-50-22.png" width="400"&gt;&lt;/p&gt;
 
+&lt;hr&gt;
+
+&lt;h3&gt;References&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;Some text[^myreference] Clicking the here will scroll down to references.
+
+[^myreference]: Here's a reference (include links or something)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
 
 &lt;h3&gt;Including the code quote symbol (&lt;code class="prettyprint"&gt;`&lt;/code&gt;) in a code block&lt;/h3&gt;
