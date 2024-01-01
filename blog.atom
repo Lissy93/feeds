@@ -6269,7 +6269,7 @@ Saves me having to figure the same thing out twice.&lt;/p&gt;
 
 &lt;hr&gt;
 
-&lt;p&gt;❌ Error: -bash: '\r': command not found&lt;br&gt;
+&lt;p&gt;❌ Error: -bash: '\r': command not founxd&lt;br&gt;
 ✅ Solution:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -6432,6 +6432,12 @@ Alternatively there's also an &lt;code class="prettyprint"&gt;--overwrite&lt;/co
 
 &lt;p&gt;✅ unset GIT_CONFIG&lt;/p&gt;
 
+&lt;hr&gt;
+
+&lt;p&gt;❌ Vercel site behind Cloudflare: &lt;code class="prettyprint"&gt;err_too_many_redirects&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;✅ In Cloudflare dashboard, select your site, and under SSL/TLS, set encryption to "Full"&lt;/p&gt;
+
 &lt;p&gt;&lt;/p&gt;&lt;hr id="web-development"&gt;&lt;p&gt;&lt;/p&gt;
 
 &lt;h2&gt;Web Development&lt;/h2&gt;
@@ -6540,6 +6546,11 @@ sudo chown -R $USER /usr/local/lib/node&lt;/em&gt;modules&lt;/p&gt;
 
 &lt;p&gt;❌ Yarn Error: unable to get local issuer certificate&lt;br&gt;
 ✅ yarn config set "strict-ssl" false -g&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;❌ go.mod file not found in current directory or any parent directory&lt;br&gt;
+✅ Run: &lt;code class="prettyprint"&gt;go env -w GO111MODULE=off&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;&lt;hr id="misc"&gt;&lt;p&gt;&lt;/p&gt;
 
