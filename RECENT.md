@@ -15,6 +15,7 @@
 
 ## Mastodon [![Mastodon - Lissy93](https://img.shields.io/badge/-Alicia_Sykes-6364FF?style=flat&logo=mastodon&logoColor=white)](https://mastodon.social/@lissy93 "Mastodon - Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/mastodon.atom)
 <!-- mastodon-feed start -->
+- `14 Jan 2024` - **[(no title)](https://mastodon.social/@lissy93/111755828294997036)**
 - ` 7 Feb 2020` - **[(no title)](https://mastodon.social/@lissy93/103618193624255774)**
 - `16 Dec 2019` - **[(no title)](https://mastodon.social/@lissy93/103317934703028255)**
 <!-- mastodon-feed end -->
@@ -30,11 +31,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `11 Jan 2024` - **[Lissy93 starred JosefNemec/Playnite](https://github.com/JosefNemec/Playnite)**
-- `11 Jan 2024` - **[Lissy93 starred yuzu-emu/yuzu](https://github.com/yuzu-emu/yuzu)**
-- `10 Jan 2024` - **[Lissy93 commented on pull request nkryuchkov/go-spacemesh#1](https://github.com/nkryuchkov/go-spacemesh/pull/1#issuecomment-1884995343)**
-- ` 9 Jan 2024` - **[Lissy93 starred Lissy93/who-dat](https://github.com/Lissy93/who-dat)**
-- ` 9 Jan 2024` - **[Lissy93 pushed to main in Lissy93/who-dat](https://github.com/Lissy93/who-dat/compare/4f32338723...ad09c9cd6f)**
+- `14 Jan 2024` - **[Lissy93 pushed to main in Lissy93/as93](https://github.com/Lissy93/as93/compare/7fa0513299...f12e3633e3)**
+- `14 Jan 2024` - **[Lissy93 released V1.0 at Lissy93/who-dat](https://github.com/Lissy93/who-dat/releases/tag/v1.0)**
+- `14 Jan 2024` - **[Lissy93 pushed to main in Lissy93/who-dat](https://github.com/Lissy93/who-dat/compare/98c96875c1...46ee56adfe)**
+- `14 Jan 2024` - **[Lissy93 created a tag v1.0 in Lissy93/who-dat](https://github.com/Lissy93/who-dat/tree/v1.0)**
+- `14 Jan 2024` - **[Lissy93 pushed to main in Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates/compare/85890ed7c3...1dcad82555)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
