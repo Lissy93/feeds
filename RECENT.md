@@ -31,11 +31,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `17 Jan 2024` - **[Lissy93 pushed to master in Lissy93/minimal-terminal-prompt](https://github.com/Lissy93/minimal-terminal-prompt/compare/74346eb890...cb01bf4004)**
+- `17 Jan 2024` - **[Lissy93 merged a pull request in Lissy93/minimal-terminal-prompt](https://github.com/Lissy93/minimal-terminal-prompt/pull/4)**
 - `16 Jan 2024` - **[Lissy93 starred vercel-community/rust](https://github.com/vercel-community/rust)**
 - `15 Jan 2024` - **[Lissy93 pushed to main in Lissy93/as93](https://github.com/Lissy93/as93/compare/82584a768f...7632dced1b)**
 - `15 Jan 2024` - **[Lissy93 pushed to main in Lissy93/as93](https://github.com/Lissy93/as93/compare/f12e3633e3...82584a768f)**
-- `14 Jan 2024` - **[Lissy93 pushed to main in Lissy93/as93](https://github.com/Lissy93/as93/compare/7fa0513299...f12e3633e3)**
-- `14 Jan 2024` - **[Lissy93 released V1.0 at Lissy93/who-dat](https://github.com/Lissy93/who-dat/releases/tag/v1.0)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
