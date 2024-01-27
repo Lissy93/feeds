@@ -31,11 +31,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `25 Jan 2024` - **[Lissy93 added liss-bot to Lissy93/email-comparison](https://github.com/Lissy93/email-comparison)**
-- `25 Jan 2024` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/2a45880e1c...1860286e62)**
-- `25 Jan 2024` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/842b2f5519...2a45880e1c)**
-- `25 Jan 2024` - **[Lissy93 merged a pull request in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/pull/16)**
-- `25 Jan 2024` - **[Lissy93 pushed to REWRITE/new-email-comparison in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/d99617c5f8...286c949699)**
+- `27 Jan 2024` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/76c7476ab3...fc4076580a)**
+- `27 Jan 2024` - **[Lissy93 closed an issue in Lissy93/dashy](https://github.com/Lissy93/dashy/issues/1431)**
+- `27 Jan 2024` - **[Lissy93 commented on pull request Lissy93/email-comparison#7](https://github.com/Lissy93/email-comparison/pull/7#issuecomment-1913327248)**
+- `27 Jan 2024` - **[Lissy93 commented on pull request simple-icons/simple-icons#10367](https://github.com/simple-icons/simple-icons/pull/10367#issuecomment-1913188552)**
+- `27 Jan 2024` - **[Lissy93 closed a pull request in simple-icons/simple-icons](https://github.com/simple-icons/simple-icons/pull/10367)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
