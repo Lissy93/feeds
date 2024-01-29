@@ -31,11 +31,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `28 Jan 2024` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/7a82303e21...05b55877fb)**
-- `28 Jan 2024` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/7847d1d67b...7a82303e21)**
-- `28 Jan 2024` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/42aef1f055...7847d1d67b)**
-- `28 Jan 2024` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/7c01fcb5da...42aef1f055)**
-- `28 Jan 2024` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/8223f92ef4...7c01fcb5da)**
+- `29 Jan 2024` - **[Lissy93 starred Lissy93/email-comparison](https://github.com/Lissy93/email-comparison)**
+- `29 Jan 2024` - **[Lissy93 deleted branch UPDATE/mailfence-mobile-app at Lissy93/email-comparison](https://github.com/)**
+- `29 Jan 2024` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/e875706191...324b953b51)**
+- `29 Jan 2024` - **[Lissy93 merged a pull request in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/pull/33)**
+- `29 Jan 2024` - **[Lissy93 opened a pull request in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/pull/33)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
