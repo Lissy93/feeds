@@ -31,11 +31,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `29 Jan 2024` - **[Lissy93 starred Lissy93/email-comparison](https://github.com/Lissy93/email-comparison)**
-- `29 Jan 2024` - **[Lissy93 deleted branch UPDATE/mailfence-mobile-app at Lissy93/email-comparison](https://github.com/)**
-- `29 Jan 2024` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/e875706191...324b953b51)**
-- `29 Jan 2024` - **[Lissy93 merged a pull request in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/pull/33)**
-- `29 Jan 2024` - **[Lissy93 opened a pull request in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/pull/33)**
+- `30 Jan 2024` - **[Lissy93 opened a pull request in simple-icons/simple-icons](https://github.com/simple-icons/simple-icons/pull/10378)**
+- `30 Jan 2024` - **[Lissy93 created a branch ADD/qwik-7922 in Lissy93/simple-icons](https://github.com/Lissy93/simple-icons/compare/ADD/qwik-7922)**
+- `30 Jan 2024` - **[Lissy93 pushed to develop in Lissy93/simple-icons](https://github.com/Lissy93/simple-icons/compare/125ee4c2c6...4779d7f93b)**
+- `30 Jan 2024` - **[Lissy93 pushed to ADDITION/qwik in Lissy93/simple-icons](https://github.com/Lissy93/simple-icons/compare/7ef6cdc4d8...3640faa816)**
+- `30 Jan 2024` - **[Lissy93 commented on issue Lissy93/web-check#75](https://github.com/Lissy93/web-check/issues/75#issuecomment-1916799446)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
