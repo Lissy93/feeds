@@ -7,6 +7,54 @@
     <link>http://aliciasykes.com</link>
     <language>en</language>
     <item>
+      <title>My thoughts on Tailwind 🍃</title>
+      <author>Alicia's Notes 🚀</author>
+      <pubDate>Tue, 13 Feb 2024 12:56:02 +0000</pubDate>
+      <link>https://notes.aliciasykes.com/49557/my-thoughts-on-tailwind</link>
+      <guid>https://notes.aliciasykes.com/49557/my-thoughts-on-tailwind</guid>
+      <description>&lt;p&gt;&lt;p&gt;For a long time I've always been very ant-Tailwind. I don't like how cluttered it makes your markup, or how it abstracts away what's actually happening, or the un-semantic approach it forces you to take.&lt;/p&gt;
+
+&lt;p&gt;That said, it does have some very clear benefits. So for my most recent project (&lt;a href="https://digital-defense.io/" rel="noopener nofollow" target="_blank"&gt;digital-defense.io&lt;/a&gt;), I thought I'd give it a second shot.&lt;/p&gt;
+
+&lt;p&gt;Here's my thoughts:&lt;/p&gt;
+
+&lt;h3&gt;Pros&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;👍 It is actually possible to cover 99% of styling with Tailwind. I was expecting to have to still write my own CSS to cover edge cases, but it really wasn't necessary&lt;/li&gt;
+&lt;li&gt;👍 The built-in colors, dimensions and values really do make a lot of sense, everything is incredible consistent&lt;/li&gt;
+&lt;li&gt;👍 Some things which take several lines of CSS are just much quicker with Tailwind (like flex / grid layouts, transitions, transformations)&lt;/li&gt;
+&lt;li&gt;👍 For accessibility, the screen-reader-only and forced colour adjustments are really nice&lt;/li&gt;
+&lt;li&gt;👍 The overhead it added (in terms of bundle and load performance) was negligible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Meh&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🫱 You're forced to really componetize every small element of your application, to prevent any repetition of classes&lt;/li&gt;
+&lt;li&gt;🫱 Mixing styling with markup doesn't feel right. But nor does duplicating the structure of your markup with SCSS, we just don't have an ideal approach yet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Cons&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;👎 Theme switching is hard out the box, as Tailwind doesn't use semantic class names (like primary, secondary, etc). Instead you need to either use a library, or just create your own theme, which consumes Tailwind properties&lt;/li&gt;
+&lt;li&gt;👎 If you need to dynamically apply styles/classes, based on a certain computed value, then the Tailwind classes you're using are tree-shaken out by Vite and won't be applied. Therefore you need to list those classes in your Tailwind config. Bit of a pain, but they do support regex, and it shouldn't be a too common occurrence.&lt;/li&gt;
+&lt;li&gt;👎 The computed vales are a bit cryptic in the dev tools of a production site. This also isn't ideal if your targeting power users, who might want to override colors/styles themselves.&lt;/li&gt;
+&lt;li&gt;👎 There's no two ways around it, whatever fancy VS Code extensions you might have, Tailwind REALLY clutters up your markup. Means you need to be really thoughtful to prevent your HTML from becoming a mess to read&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Thoughts&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🫴 At the start I needed to reference the docs quite a lot (really great docs site they have), but I picked up the pattern very quickly, as their class identifiers are very intuitive&lt;/li&gt;
+&lt;li&gt;🫴 I think people who start out with Tailwind would be at a huge disadvantage, not fully understanding the CSS fundamentals under the hood. Definetley learn CSS properly first&lt;/li&gt;
+&lt;li&gt;🫴 By the end, I could build components much faster than I could with just CSS. And it was nice to not have to be constantly jumping to style files / style tags. But later on I needed to spend more time componentizing molecules to prevent repetition. Even still, I would say the Tailwind makes development faster overall.&lt;/li&gt;
+&lt;li&gt;🫴 Using a Tailwind based component library (I went with &lt;a href="https://daisyui.com/" rel="noopener nofollow" target="_blank"&gt;daisyUI&lt;/a&gt;) reduces the long list of class names you need for common elements, bringing back a more semantic approach&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Project Ideas: Agile 💡</title>
       <author>Alicia's Notes 🚀</author>
       <pubDate>Tue, 12 Dec 2023 19:43:03 +0000</pubDate>
