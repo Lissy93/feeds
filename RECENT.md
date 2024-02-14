@@ -31,11 +31,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `14 Feb 2024` - **[Lissy93 pushed to master in Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist/compare/a98aaf8c10...872ac86443)**
+- `14 Feb 2024` - **[Lissy93 pushed to master in Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist/compare/910dd1c89c...a98aaf8c10)**
+- `14 Feb 2024` - **[Lissy93 pushed to master in Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist/compare/872ac86443...910dd1c89c)**
 - `13 Feb 2024` - **[Lissy93 created a branch V/1.0 in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/V/1.0)**
 - `13 Feb 2024` - **[Lissy93 pushed to main in Lissy93/as93](https://github.com/Lissy93/as93/compare/f7e7149939...4dcb3bea77)**
-- `13 Feb 2024` - **[Lissy93 deleted branch FEAT/swagger-docs at Lissy93/shotapi](https://github.com/)**
-- `13 Feb 2024` - **[Lissy93 deleted branch FEAT/cors-support at Lissy93/shotapi](https://github.com/)**
-- `13 Feb 2024` - **[Lissy93 starred toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
