@@ -12,7 +12,7 @@
       <pubDate>Tue, 13 Feb 2024 12:56:02 +0000</pubDate>
       <link>https://notes.aliciasykes.com/49557/my-thoughts-on-tailwind</link>
       <guid>https://notes.aliciasykes.com/49557/my-thoughts-on-tailwind</guid>
-      <description>&lt;p&gt;&lt;p&gt;For a long time I've always been very ant-Tailwind. I don't like how cluttered it makes your markup, or how it abstracts away what's actually happening, or the un-semantic approach it forces you to take.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;p&gt;For a long time I've always been very anti-Tailwind. I don't like how cluttered it makes your markup, or how it abstracts away what's actually happening, or the un-semantic approach it forces you to take.&lt;/p&gt;
 
 &lt;p&gt;That said, it does have some very clear benefits. So for my most recent project (&lt;a href="https://digital-defense.io/" rel="noopener nofollow" target="_blank"&gt;digital-defense.io&lt;/a&gt;), I thought I'd give it a second shot.&lt;/p&gt;
 
@@ -22,7 +22,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;👍 It is actually possible to cover 99% of styling with Tailwind. I was expecting to have to still write my own CSS to cover edge cases, but it really wasn't necessary&lt;/li&gt;
-&lt;li&gt;👍 The built-in colors, dimensions and values really do make a lot of sense, everything is incredible consistent&lt;/li&gt;
+&lt;li&gt;👍 The built-in colors, dimensions and values really do make a lot of sense, everything is incredibley consistent&lt;/li&gt;
 &lt;li&gt;👍 Some things which take several lines of CSS are just much quicker with Tailwind (like flex / grid layouts, transitions, transformations)&lt;/li&gt;
 &lt;li&gt;👍 For accessibility, the screen-reader-only and forced colour adjustments are really nice&lt;/li&gt;
 &lt;li&gt;👍 The overhead it added (in terms of bundle and load performance) was negligible&lt;/li&gt;
