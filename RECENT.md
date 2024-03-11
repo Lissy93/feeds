@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `10 Mar 2024` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/2ca71efa29...762c6789b1)**
-- `10 Mar 2024` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/a6960a804f...2ca71efa29)**
-- `10 Mar 2024` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/6dd18dfca2...a6960a804f)**
-- `10 Mar 2024` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1505)**
-- `10 Mar 2024` - **[Lissy93 commented on issue Lissy93/dashy#1296](https://github.com/Lissy93/dashy/issues/1296#issuecomment-1987342939)**
+- `11 Mar 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/b47fc967a9...aa8d1c9f77)**
+- `11 Mar 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/bc9a12a0fc...ffd935ae1e)**
+- `11 Mar 2024` - **[Lissy93 commented on issue Lissy93/web-check#107](https://github.com/Lissy93/web-check/issues/107#issuecomment-1988133655)**
+- `11 Mar 2024` - **[Lissy93 closed an issue in Lissy93/web-check](https://github.com/Lissy93/web-check/issues/107)**
+- `10 Mar 2024` - **[Lissy93 commented on issue Lissy93/personal-security-checklist#243](https://github.com/Lissy93/personal-security-checklist/issues/243#issuecomment-1987396441)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
