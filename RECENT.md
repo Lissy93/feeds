@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `28 Mar 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/4d60b4f1a6...64d67a50fa)**
-- `28 Mar 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/826dde6c84...4d60b4f1a6)**
-- `28 Mar 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/daa641eb2b...826dde6c84)**
-- `28 Mar 2024` - **[Lissy93 pushed to master in Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist/compare/cb1d45cab6...a177005f1d)**
-- `27 Mar 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/484c30aa93...daa641eb2b)**
+- `29 Mar 2024` - **[Lissy93 pushed to main in Lissy93/bug-bounties](https://github.com/Lissy93/bug-bounties/compare/c04686d1f7...e2133a95c6)**
+- `29 Mar 2024` - **[Lissy93 merged a pull request in Lissy93/bug-bounties](https://github.com/Lissy93/bug-bounties/pull/2)**
+- `29 Mar 2024` - **[Lissy93 pushed to main in Lissy93/bug-bounties](https://github.com/Lissy93/bug-bounties/compare/c5679a1345...c04686d1f7)**
+- `29 Mar 2024` - **[Lissy93 merged a pull request in Lissy93/bug-bounties](https://github.com/Lissy93/bug-bounties/pull/3)**
+- `29 Mar 2024` - **[Lissy93 commented on pull request Lissy93/my-website#9](https://github.com/Lissy93/my-website/pull/9#issuecomment-2027307594)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
