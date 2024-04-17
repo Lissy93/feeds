@@ -7,6 +7,205 @@
     <link>http://aliciasykes.com</link>
     <language>en</language>
     <item>
+      <title>Astro is pretty cool 🆒</title>
+      <author>Alicia's Notes 🚀</author>
+      <pubDate>Wed, 17 Apr 2024 19:28:19 +0000</pubDate>
+      <link>https://notes.aliciasykes.com/51203/astro-is-pretty-cool</link>
+      <guid>https://notes.aliciasykes.com/51203/astro-is-pretty-cool</guid>
+      <description>&lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;This post outlines the top 5 coolest things about Astro, and why you might want to consider it for your next project&lt;br&gt;
+At the &lt;a href="#what-i-built"&gt;end&lt;/a&gt;, I'll share a demo of a project I used Astro for, and how I found working with it&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Intro&lt;/h3&gt;
+
+&lt;p&gt;If you're new to &lt;a href="https://astro.build/" rel="noopener nofollow" target="_blank"&gt;Astro&lt;/a&gt;, in short it's a framework for generating very optimized, websites to be rendered by the server or statically generated. No heavy JavaScript needs to be sent to the client, nor is it needed for rendering. This gives your site a huge boost in performance, SEO, accessibility and user experience. &lt;/p&gt;
+
+&lt;p&gt;As well as that, you're not locked into a single cloud provider, frontend framework, backend CMS or anything else. Pretty much all the features you could need for any sort of site, or any size are included, either out-of-the-box, or as 1-line integration.&lt;/p&gt;
+
+&lt;p&gt;Astro is super easy to get started with, and an absolute joy to work with.  The developer experience is 🤌&lt;/p&gt;
+
+&lt;p&gt;If you're just interested in a demo of it in action, then &lt;a href="#what-i-built"&gt;⏭️ Skip to the End&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Top 5 Cool Things about Astro 😎&lt;/h2&gt;
+
+&lt;h3&gt;Cool Thing 1 - Lightening Fast ⚡&lt;/h3&gt;
+
+&lt;p&gt;Unlike other frameworks, that primarily do all expensive rendering on the users browser, Astro uses server-side rendering and static site generation, boosting your performance metrics.&lt;/p&gt;
+
+&lt;p&gt;And it's super easy - just define the rendering mode by setting &lt;code class="prettyprint"&gt;output&lt;/code&gt; to either &lt;code class="prettyprint"&gt;static&lt;/code&gt;, &lt;code class="prettyprint"&gt;server&lt;/code&gt; or &lt;code class="prettyprint"&gt;hybrid&lt;/code&gt; at the top of any given file.&lt;/p&gt;
+
+&lt;p&gt;This is awesome, as you can get the balance between between speed and dynamic content.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pre-rendered: The static output will generate all HTML routes once, at build-time.&lt;/li&gt;
+&lt;li&gt;On-Demand Rendering: The server output will render routes on the server, at the point the user requests them (similar to how PHP, .NET and other SSR technologies used to work).&lt;/li&gt;
+&lt;li&gt;Hybrid: For mostly-static sites with some on-demand content, you can use hybrid output for on-demand rendering of certain features only.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Cool Thing 2 - DevEx 👨‍💻&lt;/h3&gt;
+
+&lt;p&gt;With Astro, you get several really nice things out the box, without needing to install or configure anything extra.&lt;/p&gt;
+
+&lt;p&gt;Firstly, page transitions. Implementing is as simple as importing &lt;code class="prettyprint"&gt;ViewTransitions&lt;/code&gt;, adding &lt;code class="prettyprint"&gt;&amp;lt;ViewTransitions /&amp;gt;&lt;/code&gt; to your layout file (or a common component), and adding the &lt;code class="prettyprint"&gt;transition&lt;/code&gt; attribute to any views/component you want to animate in/out.&lt;/p&gt;
+
+&lt;p&gt;Secondly, prefetch. Page load times play a huge role in the enjoyability of using any website. With prefetch enabled, the next page is automatically loaded in the background when the user is about to click the link, that way it can be displayed near-instantly. Usage is simple, in your config just set &lt;code class="prettyprint"&gt;prefetch: true&lt;/code&gt;, then add the &lt;code class="prettyprint"&gt;data-astro-prefetch&lt;/code&gt; attribute to any link you'd like to be pre-fetched.&lt;/p&gt;
+
+&lt;p&gt;Thirdly, there's first-class support for Typescript, built in environmental variable / .env support, CSS pre-processing (SASS/SCSS)&lt;/p&gt;
+
+&lt;p&gt;For building, Astro uses Vite, which if needed you can easily extend with the Vite or Rollup plugin.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Cool Thing 3 - UI Agnostic 📏&lt;/h3&gt;
+
+&lt;p&gt;Now, you might be wondering how you're going to deal with interactivity, especially for statically generated sites. That's where islands come in.&lt;/p&gt;
+
+&lt;p&gt;The general idea is that you render your HTML on the server, but inject slots around highly dynamic regions, which are then hydrated on client-side once loaded.&lt;/p&gt;
+
+&lt;p&gt;You can build these interactive islands in pretty much any frontend framework or web component library you like. Astro has integrations for React, Svelte, Vue, Solid, Alpine, Lit and more.&lt;/p&gt;
+
+&lt;p&gt;This might sound a bit complicated, but Astro makes it stupidly easy.&lt;/p&gt;
+
+&lt;p&gt;Here's an example, run &lt;code class="prettyprint"&gt;npx astro add svelte&lt;/code&gt;. Then go ahead and import standard Svelte components into any Astro view or component. In the below code snippet, for a news site - the post content can be statically generated for great SEO and snappy load times, but the comments form is a dynamic island&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;---
+import PostContent from '@/components/PostContent.astro';
+import Comments from '@/components/Comments.svelte';
+//...
+
+// Get the slug/ID of post to render, and fetch it's contents
+const postSlug = Astro.request.params.slug;
+const content = await Astro.fetchContent(`../posts/${postSlug}.md`);
+---
+
+&amp;lt;Layout&amp;gt;
+  &amp;lt;Navbar /&amp;gt;
+  &amp;lt;main&amp;gt;
+    &amp;lt;!-- Import and use standard Astro component (SSR or SSG) --&amp;gt;
+    &amp;lt;PostContent innerHTML={content}/&amp;gt;
+    &amp;lt;!-- Import dynamic component for comments/chat form (client) --&amp;gt;
+    &amp;lt;Comments client:load postSlug={postSlug} /&amp;gt;
+  &amp;lt;/main&amp;gt;
+  &amp;lt;Footer /&amp;gt;
+&amp;lt;/Layout&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As you can see, you can simply import any component (normal React, Svelte, Astro etc) into your Astro page, and add the &lt;code class="prettyprint"&gt;client:load&lt;/code&gt; directive, to specify it should be loaded client-side. If the page is particularly large, use &lt;code class="prettyprint"&gt;client:visible&lt;/code&gt; instead, so it won't be hydrated until visible to the user. Or if you want to skip server-side rendering + hydration all together, use &lt;code class="prettyprint"&gt;client:only&lt;/code&gt; to only execute client-side.&lt;/p&gt;
+
+&lt;p&gt;If you have existing components, you can even mix and match - importing different types of components into a single Astro file. And you can pass Astro props or render slots to any of these components, as well as nest them.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Cool Thing 4 - Tooling &amp;amp; Integrations 🛠️&lt;/h3&gt;
+
+&lt;p&gt;Take a look at &lt;a href="https://astro.build/integrations" rel="noopener nofollow" target="_blank"&gt;astro.build/integrations&lt;/a&gt;, and you'll see the huge directory of plugins available.&lt;/p&gt;
+
+&lt;p&gt;As you can see, pretty much every aspect needed for a high-quality, modern and scalable website is included. Everything from SPA support, accessibility, performance, auto-sitemap, storybook, testing add-ons, data adapters, frontend frameworks (for islands), adapters for (super) easy deployment to nearly any cloud platform and hosting provider.&lt;/p&gt;
+
+&lt;p&gt;Setting up any of these is as simple as running one &lt;code class="prettyprint"&gt;npx astro add __&lt;/code&gt; command, which will automatically install, import and configure the integration.&lt;/p&gt;
+
+&lt;p&gt;Talking about the &lt;code class="prettyprint"&gt;astro&lt;/code&gt; command, this CLI util makes the end-to-end setup, development and deployment process is a joy. It handles everything from creating your app, managing integrations, generating optimized platform-specific production builds,  deploying, and much more. No matter the size of your app, the dev server is very snappy, with near-instant build + refresh times.&lt;/p&gt;
+
+&lt;p&gt;There's a dev toolbar, which let's you audit, inspect and debug your Astro app.&lt;/p&gt;
+
+&lt;p&gt;The community is also very strong, there's plenty of &lt;a href="https://astro.build/themes/?search=&amp;amp;price%5B%5D=free" rel="noopener nofollow" target="_blank"&gt;themes and templates&lt;/a&gt; to get you started. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Cool Thing 5 - Content First 📚&lt;/h3&gt;
+
+&lt;p&gt;Managing a content-first site can quickly become messy. That's not the case with Astro.&lt;/p&gt;
+
+&lt;p&gt;To start with, the project structure is very intuitive. You get file-based routing out of the box, where every file/directory inside of &lt;code class="prettyprint"&gt;./src/pages&lt;/code&gt; relates to an endpoint. You can write your pages using either &lt;code class="prettyprint"&gt;.astro&lt;/code&gt; , &lt;code class="prettyprint"&gt;.html&lt;/code&gt;, &lt;code class="prettyprint"&gt;.md&lt;/code&gt;, &lt;code class="prettyprint"&gt;.mdx&lt;/code&gt; and &lt;code class="prettyprint"&gt;.ts&lt;/code&gt;/&lt;code class="prettyprint"&gt;.js&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;Below is a simple markdown example. If this were saved in &lt;code class="prettyprint"&gt;./src/pages/my-page.md&lt;/code&gt; then you'd be able to access it at &lt;code class="prettyprint"&gt;https://my-site.com/my-page&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;---
+layout: '../layouts/MySiteLayout.astro'
+title: 'My Markdown page'
+---
+# Title
+
+This is my page, written in **Markdown.**
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Of course, there's catch-all, path params, error pages, redirects, etc. You'll likey use a reusable layout from &lt;code class="prettyprint"&gt;./src/layouts&lt;/code&gt; too, which are extendable.&lt;/p&gt;
+
+&lt;p&gt;For content-heavy websites, you'll probably want to use Astro's content collections option. This provides some neat features for creating, managing, organizing all front matter, as well as automatic validation and type saftey.&lt;/p&gt;
+
+&lt;p&gt;As expected, usage is simple. Just place any content (like &lt;code class="prettyprint"&gt;.md&lt;/code&gt;, &lt;code class="prettyprint"&gt;.mdx&lt;/code&gt;, &lt;code class="prettyprint"&gt;.yaml&lt;/code&gt;, &lt;code class="prettyprint"&gt;.json&lt;/code&gt; files) within a directory of your choosing inside &lt;code class="prettyprint"&gt;src/content&lt;/code&gt;. Once you have a directory, you can start querying your data.&lt;/p&gt;
+
+&lt;p&gt;This is ideal if interacting with a headless CMS or pulling structured content from a remote source. You define collections in &lt;code class="prettyprint"&gt;src/content/config.ts&lt;/code&gt;, as well specifying each collections schema (or using a remote schema).&lt;/p&gt;
+
+&lt;p&gt;Astro uses Zod to validate every file’s frontmatter within a collection and provide automatic TypeScript types when you go to query content from inside your project.&lt;/p&gt;
+
+&lt;p&gt;Once your content is setup, you can reference and query it in any Astro page. Tasks like generating routes automatically from content, providing search functionality, passing content as props and rendering content as HTML is all strait forward.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Bonus Cool Thing - It's Super Easy 😇&lt;/h3&gt;
+
+&lt;p&gt;Astro is insanely easy to use, the learning curve is so shallow that you can cover all the core concepts, and get your first project up and running within a few hours.&lt;/p&gt;
+
+&lt;p&gt;Markup lives in &lt;code class="prettyprint"&gt;.astro&lt;/code&gt; files, a superset of HTML (any valid HTML is also valid Astro). The templating language is simple yet powerful, it takes all the best parts of the likes of Svelte and Vue', while also borrowing support for JSX expressions from React.&lt;/p&gt;
+
+&lt;p&gt;One big reason why Astro is able to be so much less-complex than other frameworks, is that it was designed to render on the server, not in the browser. That means that you don’t need to worry about: hooks (React), stale closures (also React), refs (Vue), observables (Svelte), atoms, selectors, reactions, or derivations. There is no reactivity on the server, so all of that complexity melts away.&lt;/p&gt;
+
+&lt;p&gt;If you're using server-side rendering, this can get tricky when you need to support multiple providers / want to avoid ventor lock-in. Vercel serverless functions works differently to Netlify Edge functions, Cloudflare Workers, AWS Amplify, Azure, Deno etc. Thankfully, with Astro you don't need to worry about any of this. Just add the &lt;a href="https://astro.build/integrations/?search=&amp;amp;categories%5B%5D=adapters" rel="noopener nofollow" target="_blank"&gt;Adapters&lt;/a&gt; you need, and deploy!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;This has been a whistle stop tour of Astro. There's much much more to discover, so do take a look at their (very well-written) &lt;a href="https://docs.astro.build/en/getting-started/" rel="noopener nofollow" target="_blank"&gt;docs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;hr id="what-i-built"&gt;&lt;p&gt;&lt;/p&gt;
+
+&lt;h2&gt;Demo 🌐&lt;/h2&gt;
+
+&lt;p&gt;I'd like to finish off by briefly demoing an app that I build with Astro - &lt;a href="https://github.com/lissy93/awesome-privacy" rel="noopener nofollow" target="_blank"&gt;Awesome Privacy&lt;/a&gt;. The website is deployed to &lt;a href="https://awesome-privacy.xyz/" rel="noopener nofollow" target="_blank"&gt;awesome-privacy.xyz&lt;/a&gt; if you're interested!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/lissy93/awesome-privacy"&gt;&lt;img src="https://gh-card.dev/repos/lissy93/awesome-privacy.svg" alt="lissy93/awesome-privacy - GitHub"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For this project, I compiled a list of &lt;em&gt;privacy-respecting&lt;/em&gt; apps and services in a single YAML file, each including a name, description, and a link to the project's website and GitHub repo.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I made an Astro API route to fetch and parse this data.&lt;/li&gt;
+&lt;li&gt;Then I used dynamic routes, so that there was a page for each category, section and listing.
+
+&lt;ul&gt;
+&lt;li&gt;For example, &lt;a href="https://awesome-privacy.xyz/productivity" rel="noopener nofollow" target="_blank"&gt;/productivity&lt;/a&gt; --&amp;gt; &lt;a href="https://awesome-privacy.xyz/productivity/digital-notes" rel="noopener nofollow" target="_blank"&gt;/productivity/digital-notes&lt;/a&gt; --&amp;gt; &lt;a href="https://awesome-privacy.xyz/productivity/digital-notes/standard-notes" rel="noopener nofollow" target="_blank"&gt;/productivity/digital-notes/standard-notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Then, when you click a listing, I fetch data about the services privacy policy, website security, mobile app trackers, source code info, Docker metrics, social presence and more. As an example, see the &lt;a href="https://awesome-privacy.xyz/essentials/password-managers/bitwarden" rel="noopener nofollow" target="_blank"&gt;Bitwarden&lt;/a&gt; page.
+
+&lt;ul&gt;
+&lt;li&gt;Thanks to Astro, all these fetch requests happen at build-time, so there's no ongoing load on the backend, and the site is near-instant despite the amount of data fetched.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;I implemented site-wide search, at &lt;a href="https://awesome-privacy.xyz/search" rel="noopener nofollow" target="_blank"&gt;/search&lt;/a&gt; and results, at &lt;a href="https://awesome-privacy.xyz/search/password" rel="noopener nofollow" target="_blank"&gt;/search/[search-term]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I added some additional routes to make the site more complete, including
+
+&lt;ul&gt;
+&lt;li&gt;For viewing all listings: &lt;a href="https://awesome-privacy.xyz/all" rel="noopener nofollow" target="_blank"&gt;/all&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Your saved listings: &lt;a href="https://awesome-privacy.xyz/inventory" rel="noopener nofollow" target="_blank"&gt;/inventory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;And an about page: &lt;a href="https://awesome-privacy.xyz/about" rel="noopener nofollow" target="_blank"&gt;/about&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The site has over 500 pages (you can see a full list &lt;a href="https://awesome-privacy.xyz/sitemap" rel="noopener nofollow" target="_blank"&gt;here&lt;/a&gt;). But the cool thing is, all the content that defines and makes up all these pages is coming from a single YAML file. Astro is perfect for generating all these static routes, from one simple codebase.&lt;/p&gt;
+
+&lt;p&gt;I also made a quick API (at &lt;a href="https://api.awesome-privacy.xyz/" rel="noopener nofollow" target="_blank"&gt;api.awesome-privacy.xyz&lt;/a&gt; - &lt;a href="https://github.com/Lissy93/awesome-privacy/tree/main/api" rel="noopener nofollow" target="_blank"&gt;here's the code&lt;/a&gt;), but that was built with Hono and Cloudflare Workers, so it's a post for another day!&lt;/p&gt;
+
+&lt;p&gt;Originally the Awesome Privacy reop was just a markdown document. I wanted to preserve the ability to view all listings in the main README, while also keeping data synced across the website and GitHub repo. For this I used my YAML file as the single source of truth, then wrote a quick Python script (&lt;a href="https://github.com/Lissy93/awesome-privacy/blob/main/lib/awesome-privacy-readme-gen.py" rel="noopener nofollow" target="_blank"&gt;awesome-privacy-readme-gen.py&lt;/a&gt;) to convert the YAML into neatley formatted markdown content and insert into the README. This process runs via GitHub Actions, so whenever the YAML is updated, the README will automatically reflect these changes too.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Below is an example, showing the input YAML, and the output webpage. &lt;/p&gt;
+
+&lt;p&gt;As you can see, from a small amount of user-submitted data, we're able to generate a quite comprehensive report on a given service (in this example, it's Signal Messenger).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://awesome-privacy.xyz/communication/encrypted-messaging/signal"&gt;&lt;img src="https://i.ibb.co/YcgH0d8/awesome-privacy-data-example.png" alt="example"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>My thoughts on Tailwind 🍃</title>
       <author>Alicia's Notes 🚀</author>
       <pubDate>Tue, 13 Feb 2024 12:56:02 +0000</pubDate>
