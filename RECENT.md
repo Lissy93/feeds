@@ -2,11 +2,11 @@
 
 ## Blog [![Notes - notes.aliciasykes.com](https://img.shields.io/badge/-Notes-262654?style=flat&logo=micro.blog&logoColor=white)](https://notes.aliciasykes.com "Personal Blog - notes.aliciasykes.com") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/blog.atom)
 <!-- blog-feed start -->
+- `17 Apr 2024` - **[Astro is pretty cool 🆒](https://notes.aliciasykes.com/51203/astro-is-pretty-cool)**
 - `13 Feb 2024` - **[My thoughts on Tailwind 🍃](https://notes.aliciasykes.com/49557/my-thoughts-on-tailwind)**
 - `12 Dec 2023` - **[Project Ideas: Agile 💡](https://notes.aliciasykes.com/48239/project-ideas-agile)**
 - ` 4 Dec 2023` - **[Trying out Solid.js 🍰](https://notes.aliciasykes.com/48068/trying-out-solid-js)**
 - `19 Nov 2023` - **[50 ways to bring in extra cash as a developer  💰](https://notes.aliciasykes.com/47804/50-ways-to-bring-in-extra-cash-as-a-developer)**
-- `20 Feb 2023` - **[SvelteKit 1.0 - Building a Blog that fetches from RSS 🦄](https://notes.aliciasykes.com/42764/sveltekit-1-0-building-a-blog-that-fetches-from-rss)**
 <!-- blog-feed end -->
 
 ## Reddit [![Reddit - u/lissy93](https://img.shields.io/badge/-Lissy93-ff4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/lissy93 "Reddit - u/lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/reddit.atom)
@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `17 Apr 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/138d578710...e693931474)**
+- `17 Apr 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/eb683a84c1...138d578710)**
 - `16 Apr 2024` - **[Lissy93 pushed to FEAT/Dashy-V3 in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/c1f23d2fce...b711f77cf7)**
 - `16 Apr 2024` - **[Lissy93 commented on pull request Lissy93/dashy#1528](https://github.com/Lissy93/dashy/pull/1528#issuecomment-2059867211)**
 - `16 Apr 2024` - **[Lissy93 pushed to FEAT/Dashy-V3 in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/23576873de...c1f23d2fce)**
-- `16 Apr 2024` - **[Lissy93 commented on pull request Lissy93/dashy#1528](https://github.com/Lissy93/dashy/pull/1528#issuecomment-2059855903)**
-- `16 Apr 2024` - **[Lissy93 pushed to FEAT/Dashy-V3 in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/c456bd6bd6...23576873de)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
