@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `17 Apr 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/138d578710...e693931474)**
-- `17 Apr 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/eb683a84c1...138d578710)**
-- `16 Apr 2024` - **[Lissy93 pushed to FEAT/Dashy-V3 in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/c1f23d2fce...b711f77cf7)**
-- `16 Apr 2024` - **[Lissy93 commented on pull request Lissy93/dashy#1528](https://github.com/Lissy93/dashy/pull/1528#issuecomment-2059867211)**
-- `16 Apr 2024` - **[Lissy93 pushed to FEAT/Dashy-V3 in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/23576873de...c1f23d2fce)**
+- `20 Apr 2024` - **[Lissy93 pushed to FEAT/3.0.1-improvements in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/0000000000...fa6d1925b7)**
+- `20 Apr 2024` - **[Lissy93 created a branch FEAT/3.0.1-improvements in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/FEAT/3.0.1-improvements)**
+- `20 Apr 2024` - **[Lissy93 commented on issue Lissy93/awesome-privacy#223](https://github.com/Lissy93/awesome-privacy/issues/223#issuecomment-2067747075)**
+- `20 Apr 2024` - **[Lissy93 closed an issue in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/issues/223)**
+- `20 Apr 2024` - **[Lissy93 commented on issue Lissy93/dashy#1538](https://github.com/Lissy93/dashy/issues/1538#issuecomment-2067743714)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
