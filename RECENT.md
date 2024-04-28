@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `25 Apr 2024` - **[Lissy93 pushed to master in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/d9e7bb57f3...584c145b15)**
-- `25 Apr 2024` - **[Lissy93 merged a pull request in Lissy93/web-check](https://github.com/Lissy93/web-check/pull/135)**
-- `24 Apr 2024` - **[Lissy93 pushed to FEAT/3.0.1-improvements in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/ca96e0c1de...f77c192e66)**
-- `24 Apr 2024` - **[Lissy93 pushed to WEBSITE/docs-site-source in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/4d181fffa1...9a1ef53b9b)**
-- `23 Apr 2024` - **[Lissy93 pushed to FEAT/3.0.1-improvements in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/1bbb91b3fe...ca96e0c1de)**
+- `28 Apr 2024` - **[Lissy93 released 3.0.1 at Lissy93/dashy](https://github.com/Lissy93/dashy/releases/tag/3.0.1)**
+- `28 Apr 2024` - **[Lissy93 created a tag 3.0.1 in Lissy93/dashy](https://github.com/Lissy93/dashy/tree/3.0.1)**
+- `28 Apr 2024` - **[Lissy93 pushed to FEAT/3.0.1-improvements in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/3fb87fa9b8...0000000000)**
+- `28 Apr 2024` - **[Lissy93 deleted branch FEAT/3.0.1-improvements at Lissy93/dashy](https://github.com/)**
+- `28 Apr 2024` - **[Lissy93 closed an issue in Lissy93/dashy](https://github.com/Lissy93/dashy/issues/1531)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
