@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- ` 9 May 2024` - **[Lissy93 commented on issue Lissy93/dashy#1532](https://github.com/Lissy93/dashy/issues/1532#issuecomment-2103499109)**
-- ` 9 May 2024` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/93c2c77f6b...bb9bced18b)**
-- ` 9 May 2024` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1575)**
-- ` 8 May 2024` - **[Lissy93 pushed to FEAT/astroify in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/70724be65a...8a7e431af5)**
-- ` 8 May 2024` - **[Lissy93 pushed to FEAT/astroify in Lissy93/web-check](https://github.com/Lissy93/web-check/compare/7e27143a90...70724be65a)**
+- `10 May 2024` - **[Lissy93 pushed to main in Lissy93/AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/compare/40d5557e80...374a6fcc70)**
+- `10 May 2024` - **[Lissy93 merged a pull request in Lissy93/AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/pull/27)**
+- `10 May 2024` - **[Lissy93 deleted branch FIX/widget-header-auth at Lissy93/dashy](https://github.com/)**
+- `10 May 2024` - **[Lissy93 deleted branch FIX/holiday-widget at Lissy93/dashy](https://github.com/)**
+- `10 May 2024` - **[Lissy93 closed an issue in Lissy93/dashy](https://github.com/Lissy93/dashy/issues/1532)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
