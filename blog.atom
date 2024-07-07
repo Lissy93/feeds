@@ -5909,6 +5909,86 @@ You can also remove any dependencies that have an overlapping range, with &lt;co
 &lt;/p&gt;</description>
     </item>
     <item>
+      <title>AHK: Use Arrow Keys as Modfifiers</title>
+      <author>Alicia's Notes 🚀</author>
+      <pubDate>Thu, 06 May 2021 10:27:33 +0000</pubDate>
+      <link>https://notes.aliciasykes.com/25326/ahk-use-arrow-keys-as-modfifiers</link>
+      <guid>https://notes.aliciasykes.com/25326/ahk-use-arrow-keys-as-modfifiers</guid>
+      <description>&lt;p&gt;&lt;h3&gt;Intro&lt;/h3&gt;
+
+&lt;p&gt;The following &lt;a href="https://www.autohotkey.com/" rel="noopener nofollow" target="_blank"&gt;AutoHotKey&lt;/a&gt; script enables you to use Ctrl + Alt followed by an arrow key to target PgUp, PgDwn, Home and End. &lt;/p&gt;
+
+&lt;p&gt;These function keys are seriously underated, they allow you to navigate code, documents, webpages etc much faster than using the arrow keys alone. It means you don't have to reach so far across the keyboard, and useful for smaller keyboards that don't have these dedicated keys&lt;/p&gt;
+
+&lt;p&gt;This is inspired by using &lt;code class="prettyprint"&gt;Alt&lt;/code&gt; + &lt;code class="prettyprint"&gt;Left&lt;/code&gt; / &lt;code class="prettyprint"&gt;Right&lt;/code&gt; arrow, which (in most systems) moves the cursor forward/ backward by one word at a time (rather than a single character)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;Moving the cursor/ navigating:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;Ctrl&lt;/code&gt; + &lt;code class="prettyprint"&gt;Alt&lt;/code&gt; + &lt;code class="prettyprint"&gt;Up&lt;/code&gt; --&amp;gt; &lt;code class="prettyprint"&gt;Page Up&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;Ctrl&lt;/code&gt; + &lt;code class="prettyprint"&gt;Alt&lt;/code&gt; + &lt;code class="prettyprint"&gt;Down&lt;/code&gt; --&amp;gt; &lt;code class="prettyprint"&gt;Page Down&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;Ctrl&lt;/code&gt; + &lt;code class="prettyprint"&gt;Alt&lt;/code&gt; + &lt;code class="prettyprint"&gt;Left&lt;/code&gt; --&amp;gt; &lt;code class="prettyprint"&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;Ctrl&lt;/code&gt; + &lt;code class="prettyprint"&gt;Alt&lt;/code&gt; + &lt;code class="prettyprint"&gt;Right&lt;/code&gt; --&amp;gt; &lt;code class="prettyprint"&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can also use this combination along with the Shift key, in order to select text between the cursors start and end point:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;Ctrl&lt;/code&gt; + &lt;code class="prettyprint"&gt;Alt&lt;/code&gt; + &lt;code class="prettyprint"&gt;Shift&lt;/code&gt; + &lt;code class="prettyprint"&gt;Up&lt;/code&gt; --&amp;gt; Will select entire document above cursor&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;Ctrl&lt;/code&gt; + &lt;code class="prettyprint"&gt;Alt&lt;/code&gt; + &lt;code class="prettyprint"&gt;Shift&lt;/code&gt; + &lt;code class="prettyprint"&gt;Down&lt;/code&gt; --&amp;gt; Will select entire document below cursor&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;Ctrl&lt;/code&gt; + &lt;code class="prettyprint"&gt;Alt&lt;/code&gt; + &lt;code class="prettyprint"&gt;Shift&lt;/code&gt; + &lt;code class="prettyprint"&gt;Left&lt;/code&gt; --&amp;gt; Will select entire line to the left&lt;/li&gt;
+&lt;li&gt;&lt;code class="prettyprint"&gt;Ctrl&lt;/code&gt; + &lt;code class="prettyprint"&gt;Alt&lt;/code&gt; + &lt;code class="prettyprint"&gt;Shift&lt;/code&gt; + &lt;code class="prettyprint"&gt;Right&lt;/code&gt; --&amp;gt; Will select all text from the cursor, to the end of the line&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;The Script&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight plaintext"&gt;&lt;code&gt;!^*Up::
+GetKeyState, state, Shift
+if state = D
+    Send +{PgUp}
+else
+    Send {PgUp}
+    return
+
+!^*Down::
+GetKeyState, state, Shift
+if state = D
+    Send +{PgDn}
+else
+    Send {PgDn}
+    return
+
+!^*Left::
+GetKeyState, state, Shift
+if state = D
+    Send +{Home}
+else
+    Send {Home}
+    return
+
+!^*Right::
+GetKeyState, state, Shift
+if state = D
+    Send +{End}
+else
+    Send {End}
+    return
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;First ensure that you have the latest version of &lt;a href="https://www.autohotkey.com/" rel="noopener nofollow" target="_blank"&gt;AutoHotKey&lt;/a&gt; installed on your system. Copy the above script, and save it in a file with a &lt;code class="prettyprint"&gt;.ahk&lt;/code&gt; extension. Finally, double click on the file, and it should now be running. You will now see the AHK icon in your task bar, and should be able to use the above key bindings.&lt;/p&gt;
+
+&lt;p&gt;Note that AutoHotKey is only available for Windows-based systems, but similar functionality can usually be achieved natively on Linux, through your WM, or using a utility such as &lt;a href="https://github.com/autokey/autokey" rel="noopener nofollow" target="_blank"&gt;AutoKey&lt;/a&gt; for X11.&lt;/p&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Dashy - A Self-Hosted Home Lab Dashboard 🚀</title>
       <author>Alicia's Notes 🚀</author>
       <pubDate>Wed, 05 May 2021 10:39:23 +0000</pubDate>
