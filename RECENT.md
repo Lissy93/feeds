@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- `14 Aug 2024` - **[Lissy93 pushed to main in Lissy93/cv](https://github.com/Lissy93/cv/compare/03c8c7b610...c4a0f52c16)**
+- `14 Aug 2024` - **[Lissy93 closed a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/261)**
+- `14 Aug 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/6fa94bf54e...9138eddcde)**
+- `14 Aug 2024` - **[Lissy93 merged a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/262)**
 - `13 Aug 2024` - **[Lissy93 commented on pull request Lissy93/awesome-privacy#261](https://github.com/Lissy93/awesome-privacy/pull/261#issuecomment-2285953819)**
-- `13 Aug 2024` - **[Lissy93 pushed to main in Lissy93/as93](https://github.com/Lissy93/as93/compare/14e6f59158...cb40b5c227)**
-- `12 Aug 2024` - **[Lissy93 pushed to master in Lissy93/dotfiles](https://github.com/Lissy93/dotfiles/compare/cbb3feb4bd...31cd172ec5)**
-- `12 Aug 2024` - **[Lissy93 pushed to main in Lissy93/as93](https://github.com/Lissy93/as93/compare/2a56ca1804...14e6f59158)**
-- `12 Aug 2024` - **[Lissy93 pushed to main in Lissy93/OLD_AdGuardian-Term](https://github.com/Lissy93/OLD_AdGuardian-Term/compare/d79e02bdd8...448036ac57)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
