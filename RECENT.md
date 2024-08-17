@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `14 Aug 2024` - **[Lissy93 pushed to main in Lissy93/cv](https://github.com/Lissy93/cv/compare/03c8c7b610...c4a0f52c16)**
-- `14 Aug 2024` - **[Lissy93 closed a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/261)**
-- `14 Aug 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/6fa94bf54e...9138eddcde)**
-- `14 Aug 2024` - **[Lissy93 merged a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/262)**
-- `13 Aug 2024` - **[Lissy93 commented on pull request Lissy93/awesome-privacy#261](https://github.com/Lissy93/awesome-privacy/pull/261#issuecomment-2285953819)**
+- `17 Aug 2024` - **[Lissy93 deleted branch REVERT/1649-requestConfig-param at Lissy93/dashy](https://github.com/)**
+- `17 Aug 2024` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/80e8dc94fb...2b36eb3f1f)**
+- `17 Aug 2024` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1674)**
+- `17 Aug 2024` - **[Lissy93 commented on pull request Lissy93/dashy#1649](https://github.com/Lissy93/dashy/pull/1649#issuecomment-2294879268)**
+- `17 Aug 2024` - **[Lissy93 opened a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1674)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
