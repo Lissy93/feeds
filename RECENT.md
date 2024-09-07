@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- ` 7 Sep 2024` - **[Lissy93 closed a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/162)**
+- ` 7 Sep 2024` - **[Lissy93 closed a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/79)**
+- ` 7 Sep 2024` - **[Lissy93 closed a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/66)**
 - ` 4 Sep 2024` - **[Lissy93 added SadMadLad to Lissy93/web-check](https://github.com/Lissy93/web-check)**
 - ` 4 Sep 2024` - **[Lissy93 added SadMadLad to Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy)**
-- ` 4 Sep 2024` - **[Lissy93 commented on issue Lissy93/web-check#158](https://github.com/Lissy93/web-check/issues/158#issuecomment-2329793497)**
-- ` 4 Sep 2024` - **[Lissy93 closed an issue in Lissy93/web-check](https://github.com/Lissy93/web-check/issues/158)**
-- `26 Aug 2024` - **[Lissy93 pushed to master in Lissy93/my-website](https://github.com/Lissy93/my-website/compare/42925bb9d7...2e0afd8406)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
