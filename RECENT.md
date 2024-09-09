@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- ` 9 Sep 2024` - **[Lissy93 pushed to main in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/7230875451...9ef9e90d30)**
+- ` 9 Sep 2024` - **[Lissy93 merged a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/270)**
 - ` 7 Sep 2024` - **[Lissy93 closed a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/162)**
 - ` 7 Sep 2024` - **[Lissy93 closed a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/79)**
 - ` 7 Sep 2024` - **[Lissy93 closed a pull request in Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/66)**
-- ` 4 Sep 2024` - **[Lissy93 added SadMadLad to Lissy93/web-check](https://github.com/Lissy93/web-check)**
-- ` 4 Sep 2024` - **[Lissy93 added SadMadLad to Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
