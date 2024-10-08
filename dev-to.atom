@@ -3620,7 +3620,7 @@ There's a demo hosted on GH Pages, at: &lt;a href="https://lissy93.github.io/rep
       <pubDate>Sun, 18 Dec 2022 13:32:40 +0000</pubDate>
       <link>https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o</link>
       <guid>https://dev.to/lissy93/20-git-commands-you-probably-didnt-know-about-4j4o</guid>
-      <description>&lt;p&gt;If you've ever browsed the &lt;a href="https://git-scm.com/docs"&gt;git manual&lt;/a&gt; (or run &lt;code&gt;man git&lt;/code&gt;), then you'll have noticed there's a whole lot more to git than what most of us use on a daily basis. A lot of these commands are incredibly powerful and can make your life a lot easier (others are a bit niche, but still good to know).&lt;/p&gt;
+      <description>&lt;p&gt;If you've ever browsed the &lt;a href="https://git-scm.com/docs" rel="noopener noreferrer"&gt;git manual&lt;/a&gt; (or run &lt;code&gt;man git&lt;/code&gt;), then you'll have noticed there's a whole lot more to git than what most of us use on a daily basis. A lot of these commands are incredibly powerful and can make your life a lot easier (others are a bit niche, but still good to know).&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;This post outlines 20 of my favourite under-used git features, which you can use to level up your development process, impress your colleagues, help you answer git interview questions, and most importantly - have fun with!&lt;/p&gt;
@@ -3711,10 +3711,10 @@ Bonus - &lt;em&gt;Extend git with more commands!&lt;/em&gt;
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Run &lt;a href="https://git-scm.com/docs/git-instaweb"&gt;&lt;code&gt;git instaweb&lt;/code&gt;&lt;/a&gt; to instantly browse your working repository in gitweb&lt;/p&gt;
+&lt;p&gt;Run &lt;a href="https://git-scm.com/docs/git-instaweb" rel="noopener noreferrer"&gt;&lt;code&gt;git instaweb&lt;/code&gt;&lt;/a&gt; to instantly browse your working repository in gitweb&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Git has a built-in &lt;a href="https://git-scm.com/docs/gitweb"&gt;web-based visualiser&lt;/a&gt; for browsing local repositories, which lets you view and manage your repo via a GUI in the browser. It's packed with useful features, including:&lt;/p&gt;
+&lt;p&gt;Git has a built-in &lt;a href="https://git-scm.com/docs/gitweb" rel="noopener noreferrer"&gt;web-based visualiser&lt;/a&gt; for browsing local repositories, which lets you view and manage your repo via a GUI in the browser. It's packed with useful features, including:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Browsing and stepping through revisions and inspecting diffs, file contents and metadata&lt;/li&gt;
@@ -3727,7 +3727,7 @@ Bonus - &lt;em&gt;Extend git with more commands!&lt;/em&gt;
 
 &lt;p&gt;There's also the &lt;code&gt;git gui&lt;/code&gt; command, which can open up a GUI-based git app&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--nC0iV0pr--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://i.ibb.co/0DrmcWG/Screenshot-from-2022-12-17-20-26-30.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--nC0iV0pr--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://i.ibb.co/0DrmcWG/Screenshot-from-2022-12-17-20-26-30.png" alt="Screenshot of Git GUI" width="800" height="696"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2F0DrmcWG%2FScreenshot-from-2022-12-17-20-26-30.png" class="article-body-image-wrapper"&gt;&lt;img src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2F0DrmcWG%2FScreenshot-from-2022-12-17-20-26-30.png" alt="Screenshot of Git GUI"&gt;&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -3739,14 +3739,14 @@ Bonus - &lt;em&gt;Extend git with more commands!&lt;/em&gt;
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-notes"&gt;&lt;code&gt;git notes&lt;/code&gt;&lt;/a&gt; to add extra info to commits&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-notes" rel="noopener noreferrer"&gt;&lt;code&gt;git notes&lt;/code&gt;&lt;/a&gt; to add extra info to commits&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Sometimes you need to attach additional data to a git commit (beyond just the changes, message, date-time and author info).&lt;/p&gt;
 
 &lt;p&gt;The notes are stored within &lt;code&gt;.git/refs/notes&lt;/code&gt;, and since that's separate from the commit object data, you can modify the notes associated with a commit at anytime, without the SHA-1 hash changing.&lt;/p&gt;
 
-&lt;p&gt;You can view notes with &lt;code&gt;git log&lt;/code&gt;, using most git GUI apps, or with the &lt;code&gt;git notes show&lt;/code&gt; command. Some git hosts also show notes in the commit view (although &lt;a href="https://github.blog/2010-08-25-git-notes-display/"&gt;GH no longer displays notes&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;You can view notes with &lt;code&gt;git log&lt;/code&gt;, using most git GUI apps, or with the &lt;code&gt;git notes show&lt;/code&gt; command. Some git hosts also show notes in the commit view (although &lt;a href="https://github.blog/2010-08-25-git-notes-display/" rel="noopener noreferrer"&gt;GH no longer displays notes&lt;/a&gt;).&lt;/p&gt;
 
 
 
@@ -3758,7 +3758,7 @@ Bonus - &lt;em&gt;Extend git with more commands!&lt;/em&gt;
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;With &lt;a href="https://git-scm.com/docs/git-bisect"&gt;&lt;code&gt;git bisect&lt;/code&gt;&lt;/a&gt; you can find the commit that introduced a bug using binary search&lt;/p&gt;
+&lt;p&gt;With &lt;a href="https://git-scm.com/docs/git-bisect" rel="noopener noreferrer"&gt;&lt;code&gt;git bisect&lt;/code&gt;&lt;/a&gt; you can find the commit that introduced a bug using binary search&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;This is one of the most powerful, yet easy to use git commands- bisect is an absolute life saver when it comes to debugging. After starting a bisect, it checks out commits for you, and you tell it weather that commit is &lt;code&gt;good&lt;/code&gt; (no bug), or &lt;code&gt;bad&lt;/code&gt; (bug introduced), which lets you narrow down the the earliest commit where the bug is present.&lt;/p&gt;
@@ -3777,14 +3777,14 @@ Bonus - &lt;em&gt;Extend git with more commands!&lt;/em&gt;
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-grep"&gt;&lt;code&gt;git grep&lt;/code&gt;&lt;/a&gt; to search for  code, files, commits or anything else across your repo&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-grep" rel="noopener noreferrer"&gt;&lt;code&gt;git grep&lt;/code&gt;&lt;/a&gt; to search for  code, files, commits or anything else across your repo&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Ever find yourself needing to search for a string anywhere within a git project? With git grep you can easily search for any string, or RegEx throughout your project, and across branches (like a more powerful Ctrl + F!). &lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;git grep &amp;lt;regexp&amp;gt; &amp;lt;ref&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;It includes plenty of &lt;a href="https://git-scm.com/docs/git-grep#_options"&gt;options&lt;/a&gt; to narrow down your search, or specify results format. For example, use &lt;code&gt;-l&lt;/code&gt; to only return file names, &lt;code&gt;-c&lt;/code&gt; to specify number of matches per file to return, &lt;code&gt;-e&lt;/code&gt; to exclude results matching a condition, &lt;code&gt;--and&lt;/code&gt; to specify multiple conditions, &lt;code&gt;-n&lt;/code&gt; to search with line number.&lt;/p&gt;
+&lt;p&gt;It includes plenty of &lt;a href="https://git-scm.com/docs/git-grep#_options" rel="noopener noreferrer"&gt;options&lt;/a&gt; to narrow down your search, or specify results format. For example, use &lt;code&gt;-l&lt;/code&gt; to only return file names, &lt;code&gt;-c&lt;/code&gt; to specify number of matches per file to return, &lt;code&gt;-e&lt;/code&gt; to exclude results matching a condition, &lt;code&gt;--and&lt;/code&gt; to specify multiple conditions, &lt;code&gt;-n&lt;/code&gt; to search with line number.&lt;/p&gt;
 
 &lt;p&gt;Since git grep is regex-compatible, you can get much more advanced with the string your searching for.&lt;br&gt;
 You can also use it to specify a file extension, like &lt;code&gt;git grep 'console.log' *.js&lt;/code&gt; which will show all console.logs from within JavaScript files&lt;/p&gt;
@@ -3799,7 +3799,7 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-archive"&gt;&lt;code&gt;git archive&lt;/code&gt;&lt;/a&gt; to combine an entire repo into a single file&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-archive" rel="noopener noreferrer"&gt;&lt;code&gt;git archive&lt;/code&gt;&lt;/a&gt; to combine an entire repo into a single file&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;When sharing or backing up a repository, it's often preferred to store it as a single file. Using git archive will include all repo history, so it can be easily extracted back to it's original form. The command also includes a lot of additional options, so you can customise exactly what files are and aren't included in the archive.&lt;br&gt;
@@ -3823,10 +3823,10 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-submodule"&gt;&lt;code&gt;git submodule&lt;/code&gt;&lt;/a&gt; to pull any other repository into yours&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-submodule" rel="noopener noreferrer"&gt;&lt;code&gt;git submodule&lt;/code&gt;&lt;/a&gt; to pull any other repository into yours&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In git, &lt;a href="https://git-scm.com/docs/gitsubmodules"&gt;submodules&lt;/a&gt; let you mount one repo into another, and is commonly used for core dependencies or splitting components into separate repositories. For more info, see &lt;a href="https://notes.aliciasykes.com/17996/quick-tip-git-submodules"&gt;this post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In git, &lt;a href="https://git-scm.com/docs/gitsubmodules" rel="noopener noreferrer"&gt;submodules&lt;/a&gt; let you mount one repo into another, and is commonly used for core dependencies or splitting components into separate repositories. For more info, see &lt;a href="https://notes.aliciasykes.com/17996/quick-tip-git-submodules" rel="noopener noreferrer"&gt;this post&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Running the following command will pull a module into the specified location, and also create a &lt;code&gt;.gitmodules&lt;/code&gt; file so that it's always downloaded when the repo is cloned. Use the &lt;code&gt;--recursive&lt;/code&gt; flag to include sub-modules when cloning the repo.&lt;br&gt;
 &lt;/p&gt;
@@ -3839,7 +3839,7 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 
 
 
-&lt;p&gt;There's also &lt;a href="https://www.atlassian.com/git/tutorials/git-subtree"&gt;&lt;code&gt;git subtree&lt;/code&gt;&lt;/a&gt;, which does a similar thing, but without the need for metadata files.&lt;/p&gt;
+&lt;p&gt;There's also &lt;a href="https://www.atlassian.com/git/tutorials/git-subtree" rel="noopener noreferrer"&gt;&lt;code&gt;git subtree&lt;/code&gt;&lt;/a&gt;, which does a similar thing, but without the need for metadata files.&lt;/p&gt;
 
 
 
@@ -3851,14 +3851,14 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-bugreport"&gt;&lt;code&gt;git bugreport&lt;/code&gt;&lt;/a&gt; to compose a bug ticket, including git and system info&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-bugreport" rel="noopener noreferrer"&gt;&lt;code&gt;git bugreport&lt;/code&gt;&lt;/a&gt; to compose a bug ticket, including git and system info&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;This command will capture system info, and then open up a standard bug template (steps to reproduce, actual + expected output, etc). The completed file should be a very complete bug report, with all necessary info captured.&lt;/p&gt;
 
 &lt;p&gt;This is very handy if your a maintainer for an open source package and asking a user (developer) to raise a bug report, as it ensures all necessary data is included.&lt;/p&gt;
 
-&lt;p&gt;And if you are raising a bug report to the core git system, you can also run the &lt;a href="https://git-scm.com/docs/git-diagnose"&gt;&lt;code&gt;git diagnose&lt;/code&gt;&lt;/a&gt; command, and then raise your issue &lt;a href="https://github.com/git/git"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And if you are raising a bug report to the core git system, you can also run the &lt;a href="https://git-scm.com/docs/git-diagnose" rel="noopener noreferrer"&gt;&lt;code&gt;git diagnose&lt;/code&gt;&lt;/a&gt; command, and then raise your issue &lt;a href="https://github.com/git/git" rel="noopener noreferrer"&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 
 
@@ -3870,7 +3870,7 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-fsck"&gt;&lt;code&gt;git fsck&lt;/code&gt;&lt;/a&gt; to check all objects, or recover unreachable ones&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-fsck" rel="noopener noreferrer"&gt;&lt;code&gt;git fsck&lt;/code&gt;&lt;/a&gt; to check all objects, or recover unreachable ones&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Although not often needed, sometimes you may have to verify the objects stored by git. This is where fsck (or File System ChecK) comes in, it tests the object database and verifies the SHA-1 ID of all objects and the connections they make.&lt;/p&gt;
@@ -3887,7 +3887,7 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-stripspace"&gt;&lt;code&gt;git stripspace&lt;/code&gt;&lt;/a&gt; to format whitespaces within a given file&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-stripspace" rel="noopener noreferrer"&gt;&lt;code&gt;git stripspace&lt;/code&gt;&lt;/a&gt; to format whitespaces within a given file&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Best practice is to avoid trailing whitespaces at the end of lines, avoid having multiple consecutive blank lines, avoid empty lines from beginning and end of an input, and end each file with a new line. There's plenty of language-specific tools which do this automatically for you (like prettier), but Git also has this functionality builtin.&lt;/p&gt;
@@ -3906,12 +3906,12 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;With &lt;a href="https://git-scm.com/docs/git-diff"&gt;&lt;code&gt;git diff&lt;/code&gt;&lt;/a&gt; you can compare the difference between 2 sets of code&lt;/p&gt;
+&lt;p&gt;With &lt;a href="https://git-scm.com/docs/git-diff" rel="noopener noreferrer"&gt;&lt;code&gt;git diff&lt;/code&gt;&lt;/a&gt; you can compare the difference between 2 sets of code&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;You're probably aware that you you can run &lt;code&gt;git diff&lt;/code&gt; to show all changes since the last commit, or use &lt;code&gt;git diff &amp;lt;commit-sha&amp;gt;&lt;/code&gt; to compare either 2 commits, or 1 commit to the HEAD. But there's much more you can do with the diff command.&lt;/p&gt;
 
-&lt;p&gt;You can also use it to compare any two arbitrary files, with &lt;code&gt;diff  file-1.txt file-2.txt&lt;/code&gt; (no more visiting &lt;a href="https://www.diffchecker.com/compare/"&gt;diffchecker.com&lt;/a&gt;!)&lt;/p&gt;
+&lt;p&gt;You can also use it to compare any two arbitrary files, with &lt;code&gt;diff  file-1.txt file-2.txt&lt;/code&gt; (no more visiting &lt;a href="https://www.diffchecker.com/compare/" rel="noopener noreferrer"&gt;diffchecker.com&lt;/a&gt;!)&lt;/p&gt;
 
 &lt;p&gt;Or compare 2 branches, or refs with each other, using &lt;code&gt;git diff branch1..branch2&lt;/code&gt;&lt;/p&gt;
 
@@ -3919,9 +3919,9 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 
 &lt;p&gt;You may want to see all changes made within a given date range, for this use &lt;code&gt;git diff HEAD@{7.day.ago} HEAD@{0}&lt;/code&gt; (for the last week), again this can be paired up with a filename, branch names, specific commits or any other ref.&lt;/p&gt;
 
-&lt;p&gt;There's also the &lt;a href="https://www.git-scm.com/docs/git-range-diff"&gt;&lt;code&gt;git range-diff&lt;/code&gt;&lt;/a&gt; command, which provides a simple interface for comparing commit ranges.&lt;/p&gt;
+&lt;p&gt;There's also the &lt;a href="https://www.git-scm.com/docs/git-range-diff" rel="noopener noreferrer"&gt;&lt;code&gt;git range-diff&lt;/code&gt;&lt;/a&gt; command, which provides a simple interface for comparing commit ranges.&lt;/p&gt;
 
-&lt;p&gt;There's much more to the git diff tool (as well as the option of using your own diff checker), so I recommend checking out  &lt;a href="https://git-scm.com/docs/git-diff#_description"&gt;the docs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There's much more to the git diff tool (as well as the option of using your own diff checker), so I recommend checking out  &lt;a href="https://git-scm.com/docs/git-diff#_description" rel="noopener noreferrer"&gt;the docs&lt;/a&gt;.&lt;/p&gt;
 
 
 
@@ -3933,16 +3933,16 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/githooks"&gt;&lt;code&gt;hooks&lt;/code&gt;&lt;/a&gt; to execute command or run scripts when a given get action occurs&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/githooks" rel="noopener noreferrer"&gt;&lt;code&gt;hooks&lt;/code&gt;&lt;/a&gt; to execute command or run scripts when a given get action occurs&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Hooks let you automate pretty much anything. For example: ensuring standards are met (commit message, branch name, patch size), code quality (tests, lint), appending additional info to a commit (user, device, ticket ID), calling a webhook to record an event or run a pipeline, etc.&lt;/p&gt;
 
-&lt;p&gt;There's pre and post &lt;a href="https://git-scm.com/docs/githooks"&gt;hooks available&lt;/a&gt; for most git events, like commit, rebase, merge, push, update, applypatch, etc.&lt;/p&gt;
+&lt;p&gt;There's pre and post &lt;a href="https://git-scm.com/docs/githooks" rel="noopener noreferrer"&gt;hooks available&lt;/a&gt; for most git events, like commit, rebase, merge, push, update, applypatch, etc.&lt;/p&gt;
 
-&lt;p&gt;Hooks are stored in &lt;code&gt;.git/hooks&lt;/code&gt; (unless you configure them elsewhere with &lt;code&gt;git config core.hooksPath&lt;/code&gt;), and can be tested with the &lt;a href="https://git-scm.com/docs/git-hook"&gt;&lt;code&gt;git hook&lt;/code&gt;&lt;/a&gt; command. Since they're just shell files, they can be used to run any command.&lt;/p&gt;
+&lt;p&gt;Hooks are stored in &lt;code&gt;.git/hooks&lt;/code&gt; (unless you configure them elsewhere with &lt;code&gt;git config core.hooksPath&lt;/code&gt;), and can be tested with the &lt;a href="https://git-scm.com/docs/git-hook" rel="noopener noreferrer"&gt;&lt;code&gt;git hook&lt;/code&gt;&lt;/a&gt; command. Since they're just shell files, they can be used to run any command.&lt;/p&gt;
 
-&lt;p&gt;Hooks aren't pushed to the remote repository, so to share and manage them across your team, you'll need to use a &lt;a href="https://github.com/aitemr/awesome-git-hooks#tools"&gt;hook manager&lt;/a&gt;, like &lt;a href="https://github.com/evilmartians/lefthook"&gt;lefthook&lt;/a&gt; or &lt;a href="https://github.com/typicode/husky"&gt;husky&lt;/a&gt;.  There's also several &lt;a href="https://githooks.com/#projects"&gt;3rd-party tools&lt;/a&gt;, which make managing hooks easier, I recommend &lt;a href="https://github.com/sds/overcommit"&gt;overcommit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hooks aren't pushed to the remote repository, so to share and manage them across your team, you'll need to use a &lt;a href="https://github.com/aitemr/awesome-git-hooks#tools" rel="noopener noreferrer"&gt;hook manager&lt;/a&gt;, like &lt;a href="https://github.com/evilmartians/lefthook" rel="noopener noreferrer"&gt;lefthook&lt;/a&gt; or &lt;a href="https://github.com/typicode/husky" rel="noopener noreferrer"&gt;husky&lt;/a&gt;.  There's also several &lt;a href="https://githooks.com/#projects" rel="noopener noreferrer"&gt;3rd-party tools&lt;/a&gt;, which make managing hooks easier, I recommend &lt;a href="https://github.com/sds/overcommit" rel="noopener noreferrer"&gt;overcommit&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Remember, hooks can always be skipped (with the &lt;code&gt;--no-verify&lt;/code&gt; flag), so never rely purely on hooks, especially for anything security related. &lt;/p&gt;
 
@@ -3956,7 +3956,7 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-blame"&gt;&lt;code&gt;git blame&lt;/code&gt;&lt;/a&gt; to show author info for a specific revision and line&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-blame" rel="noopener noreferrer"&gt;&lt;code&gt;git blame&lt;/code&gt;&lt;/a&gt; to show author info for a specific revision and line&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;A classic, quickly find out who wrote a specific line of code (aka which of your co-workers to blame for the bug!). But it's also useful to determine at which point in time something changed and inspect that commit and associated metadata.&lt;/p&gt;
@@ -3982,10 +3982,10 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Store large files using &lt;a href="https://git-lfs.github.com/"&gt;&lt;code&gt;git lfs&lt;/code&gt;&lt;/a&gt; to not bog down your repo&lt;/p&gt;
+&lt;p&gt;Store large files using &lt;a href="https://git-lfs.github.com/" rel="noopener noreferrer"&gt;&lt;code&gt;git lfs&lt;/code&gt;&lt;/a&gt; to not bog down your repo&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Often your project will contain larger files (such as databases, binary assets, archives or media files), which would slow down the git workflow and max out usage limits. That's where &lt;a href="https://git-lfs.github.com/"&gt;Large File Storage&lt;/a&gt; comes in - it enables you to store these large assets elsewhere, while keeping them trackable with git and maintaining the same access controls/ permissions. LFS works by replacing these larger files with text pointers that are tracked within git.&lt;/p&gt;
+&lt;p&gt;Often your project will contain larger files (such as databases, binary assets, archives or media files), which would slow down the git workflow and max out usage limits. That's where &lt;a href="https://git-lfs.github.com/" rel="noopener noreferrer"&gt;Large File Storage&lt;/a&gt; comes in - it enables you to store these large assets elsewhere, while keeping them trackable with git and maintaining the same access controls/ permissions. LFS works by replacing these larger files with text pointers that are tracked within git.&lt;/p&gt;
 
 &lt;p&gt;To use it, just run &lt;code&gt;git lfs track &amp;lt;file glob&amp;gt;&lt;/code&gt;, which will update your &lt;code&gt;.gitattributes&lt;/code&gt; file. You can specify files by their extension (e.g. &lt;code&gt;*.psd&lt;/code&gt;), directory, or individually. Running &lt;code&gt;git lfs ls-files&lt;/code&gt; to view a list of tracked LFS files.&lt;/p&gt;
 
@@ -3999,12 +3999,12 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-gc"&gt;&lt;code&gt;git gc&lt;/code&gt;&lt;/a&gt; to optimize your repository&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-gc" rel="noopener noreferrer"&gt;&lt;code&gt;git gc&lt;/code&gt;&lt;/a&gt; to optimize your repository&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Over time git repos accumulate various types of garbage, which take up disk space, and slow down actions. That's where the built-in garbage collector comes in. Running &lt;code&gt;git gc&lt;/code&gt; will remove orphaned and inaccessible commits (with &lt;a href="https://git-scm.com/docs/git-prune"&gt;&lt;code&gt;git prune&lt;/code&gt;&lt;/a&gt;), compress file revisions and stored git objects, as well as some other general house keeping tasks like packing refs, pruning reflog, revere metadata or stale working trees and updating indexes.&lt;/p&gt;
+&lt;p&gt;Over time git repos accumulate various types of garbage, which take up disk space, and slow down actions. That's where the built-in garbage collector comes in. Running &lt;code&gt;git gc&lt;/code&gt; will remove orphaned and inaccessible commits (with &lt;a href="https://git-scm.com/docs/git-prune" rel="noopener noreferrer"&gt;&lt;code&gt;git prune&lt;/code&gt;&lt;/a&gt;), compress file revisions and stored git objects, as well as some other general house keeping tasks like packing refs, pruning reflog, revere metadata or stale working trees and updating indexes.&lt;/p&gt;
 
-&lt;p&gt;Adding the &lt;code&gt;--aggressive&lt;/code&gt; flag will &lt;a href="https://git-scm.com/docs/git-gc#_aggressive"&gt;aggressively optimize&lt;/a&gt; the repository, throwing away any existing deltas and re-computing them, this takes much longer to run but may be needed if you've got a large repository.&lt;/p&gt;
+&lt;p&gt;Adding the &lt;code&gt;--aggressive&lt;/code&gt; flag will &lt;a href="https://git-scm.com/docs/git-gc#_aggressive" rel="noopener noreferrer"&gt;aggressively optimize&lt;/a&gt; the repository, throwing away any existing deltas and re-computing them, this takes much longer to run but may be needed if you've got a large repository.&lt;/p&gt;
 
 
 
@@ -4016,7 +4016,7 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-show"&gt;&lt;code&gt;git show&lt;/code&gt;&lt;/a&gt; to easily inspect any git object&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-show" rel="noopener noreferrer"&gt;&lt;code&gt;git show&lt;/code&gt;&lt;/a&gt; to easily inspect any git object&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Outputs objects (blobs, treees, tags or commits) in an easily readable form. To use, just run &lt;code&gt;git show &amp;lt;object&amp;gt;&lt;/code&gt;. You'll likely also want to append the &lt;code&gt;--pretty&lt;/code&gt; flag, for a clearer output, but there's many other options available to customize the output (with &lt;code&gt;--format&lt;/code&gt;), so this command can be extremely powerful for displaying exactly what you need.&lt;/p&gt;
@@ -4033,7 +4033,7 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-describe"&gt;&lt;code&gt;git describe&lt;/code&gt;&lt;/a&gt; to find the latest tag reachable from a commit, and give it a human-readable name&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-describe" rel="noopener noreferrer"&gt;&lt;code&gt;git describe&lt;/code&gt;&lt;/a&gt; to find the latest tag reachable from a commit, and give it a human-readable name&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Run &lt;code&gt;git describe&lt;/code&gt; and you'll see a human-readable string made from combining the last tag name, with the current commit, to generate a string. You can also pass a specific tag to it, &lt;/p&gt;
@@ -4050,10 +4050,10 @@ You can also use it to specify a file extension, like &lt;code&gt;git grep 'cons
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Tag a specific point in your repo's history using &lt;a href="https://git-scm.com/docs/git-tag"&gt;&lt;code&gt;git tag&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tag a specific point in your repo's history using &lt;a href="https://git-scm.com/docs/git-tag" rel="noopener noreferrer"&gt;&lt;code&gt;git tag&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;It's often useful to be able to &lt;a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging"&gt;tag&lt;/a&gt; specific, important points in a repository’s history most commonly used to denote versions of releases. Creating a tag is as simple as &lt;code&gt;git tag &amp;lt;tagname&amp;gt;&lt;/code&gt;, or you can tag a historical commit with &lt;code&gt;git tag -a v4.2.0 &amp;lt;commit sha&amp;gt;&lt;/code&gt;. Like with commits, you can include a message alongside a tag, using &lt;code&gt;-m&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;It's often useful to be able to &lt;a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging" rel="noopener noreferrer"&gt;tag&lt;/a&gt; specific, important points in a repository’s history most commonly used to denote versions of releases. Creating a tag is as simple as &lt;code&gt;git tag &amp;lt;tagname&amp;gt;&lt;/code&gt;, or you can tag a historical commit with &lt;code&gt;git tag -a v4.2.0 &amp;lt;commit sha&amp;gt;&lt;/code&gt;. Like with commits, you can include a message alongside a tag, using &lt;code&gt;-m&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Don't forget to push your tag to remote, with &lt;code&gt;git push origin &amp;lt;tagname&amp;gt;&lt;/code&gt;.&lt;br&gt;
 To list all tags, just run &lt;code&gt;git tag&lt;/code&gt;, and optionally use &lt;code&gt;-l&lt;/code&gt; for a wildcard search.&lt;br&gt;
@@ -4069,7 +4069,7 @@ You'll then be able to checkout a specific tag, with &lt;code&gt;git checkout 
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;List all updates made on your repo using &lt;a href="https://git-scm.com/docs/git-reflog"&gt;&lt;code&gt;git reflog&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;List all updates made on your repo using &lt;a href="https://git-scm.com/docs/git-reflog" rel="noopener noreferrer"&gt;&lt;code&gt;git reflog&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Git keeps track of updates to the tip of branches using a mechanism called reference logs, or "reflogs". Various events are tracked, including: clone, pull, push, commit, checkout and merge. It's often useful to be able to find an events reference, as many commands accept a ref as a parameter. Just run &lt;code&gt;git reflog&lt;/code&gt; to view recent events on &lt;code&gt;HEAD&lt;/code&gt;.&lt;/p&gt;
@@ -4088,14 +4088,14 @@ You'll then be able to checkout a specific tag, with &lt;code&gt;git checkout 
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-log"&gt;&lt;code&gt;git log&lt;/code&gt;&lt;/a&gt; to view a list of commits&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-log" rel="noopener noreferrer"&gt;&lt;code&gt;git log&lt;/code&gt;&lt;/a&gt; to view a list of commits&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;You're likely already familiar with running &lt;code&gt;git log&lt;/code&gt; to view a list of recent commits on your current branch. But there's a few things more you can do with git log.&lt;/p&gt;
 
 &lt;p&gt;Using &lt;code&gt;git log --graph --decorate --oneline&lt;/code&gt; will show a nice neat commit graph along with ref pointers.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="https://res.cloudinary.com/practicaldev/image/fetch/s--6lVN16aY--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://i.ibb.co/c1WByg8/Screenshot-from-2022-12-17-20-43-56.png" class="article-body-image-wrapper"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--6lVN16aY--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://i.ibb.co/c1WByg8/Screenshot-from-2022-12-17-20-43-56.png" alt="example git log output" width="628" height="281"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2Fc1WByg8%2FScreenshot-from-2022-12-17-20-43-56.png" class="article-body-image-wrapper"&gt;&lt;img src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2Fc1WByg8%2FScreenshot-from-2022-12-17-20-43-56.png" alt="example git log output"&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;You also often need to be able to filter logs based on various parameters, the most useful of which are:&lt;/p&gt;
 
@@ -4124,7 +4124,7 @@ You'll then be able to checkout a specific tag, with &lt;code&gt;git checkout 
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-cherry-pick"&gt;&lt;code&gt;git cherry-pick&lt;/code&gt;&lt;/a&gt; to pick specified commit(s) by reference and append them to the working HEAD&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-cherry-pick" rel="noopener noreferrer"&gt;&lt;code&gt;git cherry-pick&lt;/code&gt;&lt;/a&gt; to pick specified commit(s) by reference and append them to the working HEAD&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Sometimes you need to pull a specific commit from elsewhere, into your current branch. This can be very useful for applying hot fixes, undoing changes, restoring lost commits and in certain team collaboration settings. Note that often traditional merges are better practice, since cherry picking commits can cause duplicate commits in the log.&lt;/p&gt;
@@ -4141,7 +4141,7 @@ You'll then be able to checkout a specific tag, with &lt;code&gt;git checkout 
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-switch"&gt;&lt;code&gt;git switch&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://git-scm.com/docs/git-switch" rel="noopener noreferrer"&gt;&lt;code&gt;git switch&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Moving between branches is something that we do often, the &lt;code&gt;switch&lt;/code&gt; command is like a simplified version of &lt;code&gt;git checkout&lt;/code&gt;, it can be used to create and navigate between branches, but unlike checkout does not copy modified files when you move between branches.&lt;/p&gt;
@@ -4158,12 +4158,12 @@ You'll then be able to checkout a specific tag, with &lt;code&gt;git checkout 
 &lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Use &lt;a href="https://github.com/kamranahmedse/git-standup"&gt;&lt;code&gt;git standup&lt;/code&gt;&lt;/a&gt; to recall what you did on the last working day , based on git commits&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://github.com/kamranahmedse/git-standup" rel="noopener noreferrer"&gt;&lt;code&gt;git standup&lt;/code&gt;&lt;/a&gt; to recall what you did on the last working day , based on git commits&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I've put this one at the end, as it's not included with most git clients, but you can &lt;a href="https://github.com/kamranahmedse/git-standup#install"&gt;easily install it&lt;/a&gt; either with your systems package manager, using a 1-line curl script, or by building from source.&lt;/p&gt;
+&lt;p&gt;I've put this one at the end, as it's not included with most git clients, but you can &lt;a href="https://github.com/kamranahmedse/git-standup#install" rel="noopener noreferrer"&gt;easily install it&lt;/a&gt; either with your systems package manager, using a 1-line curl script, or by building from source.&lt;/p&gt;
 
-&lt;p&gt;If your boss requires you do a daily standup, to give updates on yesterdays work, but you can never remember what you actually did - this one is for you! It'll show a nicely formatted list of everything done in a given time frame. Usage is simple, just run &lt;code&gt;git standup&lt;/code&gt;, or use &lt;a href="https://github.com/kamranahmedse/git-standup#options"&gt;these options&lt;/a&gt; to specify what data should be shown (author, timeframe, branches, etc.&lt;/p&gt;
+&lt;p&gt;If your boss requires you do a daily standup, to give updates on yesterdays work, but you can never remember what you actually did - this one is for you! It'll show a nicely formatted list of everything done in a given time frame. Usage is simple, just run &lt;code&gt;git standup&lt;/code&gt;, or use &lt;a href="https://github.com/kamranahmedse/git-standup#options" rel="noopener noreferrer"&gt;these options&lt;/a&gt; to specify what data should be shown (author, timeframe, branches, etc.&lt;/p&gt;
 
 
 
@@ -4174,11 +4174,11 @@ You'll then be able to checkout a specific tag, with &lt;code&gt;git checkout 
   Bonus
 &lt;/h2&gt;
 
-&lt;p&gt;Git can be easily extended with add-ons, to add extra commands that do useful tasks. One of the most complete extensions is &lt;a href="https://github.com/tj/git-extras/blob/master/Commands.md"&gt;git-extras&lt;/a&gt; by &lt;a href="https://github.com/tj"&gt;@tj&lt;/a&gt;. It gives you 70+ &lt;a href="https://github.com/tj/git-extras/blob/master/Commands.md"&gt;extra commands&lt;/a&gt; to automate common git jobs.&lt;/p&gt;
+&lt;p&gt;Git can be easily extended with add-ons, to add extra commands that do useful tasks. One of the most complete extensions is &lt;a href="https://github.com/tj/git-extras/blob/master/Commands.md" rel="noopener noreferrer"&gt;git-extras&lt;/a&gt; by &lt;a href="https://github.com/tj" rel="noopener noreferrer"&gt;@tj&lt;/a&gt;. It gives you 70+ &lt;a href="https://github.com/tj/git-extras/blob/master/Commands.md" rel="noopener noreferrer"&gt;extra commands&lt;/a&gt; to automate common git jobs.&lt;/p&gt;
 
-&lt;p&gt;For a list of more useful git add-ons, see &lt;a href="https://github.com/stevemao/awesome-git-addons"&gt;stevemao/awesome-git-addons&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For a list of more useful git add-ons, see &lt;a href="https://github.com/stevemao/awesome-git-addons" rel="noopener noreferrer"&gt;stevemao/awesome-git-addons&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;If you're working with GitHub repos, then the &lt;a href="https://cli.github.com/"&gt;GitHub CLI&lt;/a&gt; let's you do common tasks (managing PRs, issues, code reviews, etc) from the command line.&lt;/p&gt;
+&lt;p&gt;If you're working with GitHub repos, then the &lt;a href="https://cli.github.com/" rel="noopener noreferrer"&gt;GitHub CLI&lt;/a&gt; let's you do common tasks (managing PRs, issues, code reviews, etc) from the command line.&lt;/p&gt;
 
 
 
@@ -4190,7 +4190,7 @@ You'll then be able to checkout a specific tag, with &lt;code&gt;git checkout 
 &lt;small&gt;If you like this kind of stuff&lt;/small&gt;,&lt;br&gt;&lt;small&gt;consider following for more :)&lt;/small&gt;
 &lt;/th&gt;
 &lt;th&gt;
-&lt;a href="https://github.com/Lissy93"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--FwDVd7CV--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://img.shields.io/badge/-Lissy93-3a3a3a%3Fstyle%3Dflat%26logo%3DGitHub%26logoColor%3Dwhite" alt="Follow Lissy93 on GitHub" width="69" height="20"&gt;&lt;/a&gt;&lt;a href="https://twitter.com/Lissy_Sykes"&gt;&lt;img src="https://res.cloudinary.com/practicaldev/image/fetch/s--oLBd7wes--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://img.shields.io/badge/-%40Lissy_Sykes-00acee%3Fstyle%3Dflat%26logo%3DTwitter%26logoColor%3Dwhite" alt="Follow Lissy_Sykes on Twitter" width="103" height="20"&gt;&lt;/a&gt;
+&lt;a href="https://github.com/Lissy93" rel="noopener noreferrer"&gt;&lt;img src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2F-Lissy93-3a3a3a%3Fstyle%3Dflat%26logo%3DGitHub%26logoColor%3Dwhite" alt="Follow Lissy93 on GitHub"&gt;&lt;/a&gt;&lt;a href="https://twitter.com/Lissy_Sykes" rel="noopener noreferrer"&gt;&lt;img src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2F-%40Lissy_Sykes-00acee%3Fstyle%3Dflat%26logo%3DTwitter%26logoColor%3Dwhite" alt="Follow Lissy_Sykes on Twitter"&gt;&lt;/a&gt;
 &lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
