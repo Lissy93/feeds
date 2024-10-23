@@ -4,12 +4,25 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2024-10-22T23:04:00Z</updated>
+    <updated>2024-10-23T23:04:14Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
+        <id>https://stackoverflow.com/questions/76406446/error-cannot-resolve-type-entity-i29-draganddropmodule-to-symbol/79119384#79119384</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by Alicia Sykes for Error: Cannot resolve type entity i29.DragAndDropModule to symbol</title>
+        <author>
+            <name>Alicia Sykes</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/76406446/error-cannot-resolve-type-entity-i29-draganddropmodule-to-symbol/79119384#79119384" />
+        <published>2024-10-23T19:06:13Z</published>
+        <updated>2024-10-23T19:06:13Z</updated>
+        <summary type="html">&lt;p&gt;In case anyone whose not using Kendo is facing this issue, then it can commonly be resolved by ensuring that Angular CDK is installed.&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-bash prettyprint-override&quot;&gt;&lt;code&gt;npm install @angular/cdk&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;This is because the drag &#x27;n drop functionality is provided by Angular CDK which interfaces with the HTML 5 Drag and Drop API.&lt;/p&gt;&#xA;&lt;p&gt;I encountered this while using PrimeNG&#x27;s PickListModule which used drag and drop, and found the solution in &lt;a href=&quot;https://github.com/primefaces/primeng/issues/11581&quot; rel=&quot;nofollow noreferrer&quot;&gt;primefaces/primeng#11581&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;p&gt;In the future, I expect this to be resolved upstream in most Angular 18&#x2B; libraries, so long as you have &lt;code&gt;preserveSymlinks&lt;/code&gt; set in your TSConfig&#x27;s compiler options, like:&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-json prettyprint-override&quot;&gt;&lt;code&gt;&amp;quot;compilerOptions&amp;quot;: {&#xA;  &amp;quot;preserveSymlinks&amp;quot;: true&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;</summary>
+    </entry>
+            <entry>
         <id>https://stackoverflow.com/questions/42749704/-/74235768#74235768</id>
-        <re:rank scheme="https://stackoverflow.com">13</re:rank>
+        <re:rank scheme="https://stackoverflow.com">14</re:rank>
         <title type="text">Answer by Alicia Sykes for Reindex a source code in the VSCode</title>
         <author>
             <name>Alicia Sykes</name>
@@ -407,24 +420,6 @@
         <updated>2022-06-30T04:24:32Z</updated>
         <summary type="html">
             &lt;h3&gt;The Situation&lt;/h3&gt;&#xA;&lt;p&gt;I have a MongoDB of the following data structure&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;teamName: (String)&#xA;data: (Array)&#xA;---date: (Timestamp)&#xA;---userResults: (Object)&#xA;------userHash: (StringHash)&#xA;------score: (String)&#xA;------comment: (String)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://pastebin.com/m9qpAWej&quot; rel=&quot;nofollow noreferrer&quot;&gt;Here is a short example on PasteBin&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h3&gt;The Question&lt;/h3&gt;&#xA;&lt;p&gt;Given a specific &lt;code&gt;teamName&lt;/code&gt; and &lt;code&gt;date&lt;/code&gt; (within the team data array), I&#x27;d like to append a new row (&lt;code&gt;{userHash: &#x27;&#x27;, score: &#x27;&#x27;, comment: &#x27;&#x27;}&lt;/code&gt;) into &lt;code&gt;userResults&lt;/code&gt; array.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;How can I update an array within a given document, after querying the parent node, and the parents parent node?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h3&gt;What I&#x27;ve tried so far&lt;/h3&gt;&#xA;&lt;p&gt;I&#x27;ve tried &lt;code&gt;findOneAndUpdate&lt;/code&gt;. It inserted an entire new document, right from the root though.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;TeamRecordSchema.findOneAndUpdate(&#xA;    {teamName: teamName, data: {date: today}}, &#xA;    {$set:{teamName: teamName, data: {date: today, userResults: [userResponse]}}}, &#xA;    {new: true, upsert: true}, &#xA;    function(err, savedDoc){&#xA;&#xA;       // Do stuff with err and savedDoc&#xA;&#xA;});&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I&#x27;ve tried &lt;code&gt;save&lt;/code&gt;, and again it just creates an entire new document at the root level, within my db&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;const _userResponse = new TeamRecordSchema(teamUserResponse);&#xA;_userResponse.save((err, savedDoc) =&amp;gt; {&#xA;&#xA;    // Do stuff with err and savedDoc accordingly     &#xA;&#xA; });&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I&#x27;ve also tried several variations based on the documentation, but I either get the same results, or an error.&lt;/p&gt;&#xA;
-        </summary>
-    </entry>
-    <entry>
-        <id>https://stackoverflow.com/q/47365582</id>
-        <re:rank scheme="https://stackoverflow.com">2</re:rank>
-        <title type="text">Angular AOT compiler can&#x27;t find project-relative paths within components</title>
-            <category scheme="https://stackoverflow.com/tags" term="node.js" />
-            <category scheme="https://stackoverflow.com/tags" term="angular" />
-            <category scheme="https://stackoverflow.com/tags" term="aot" />
-        <author>
-            <name>Alicia Sykes</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/47365582/angular-aot-compiler-cant-find-project-relative-paths-within-components" />
-        <published>2017-11-18T11:35:42Z</published>
-        <updated>2022-06-30T04:23:45Z</updated>
-        <summary type="html">
-            &lt;p&gt;I&#x27;m in the (painful) process of AOT-ing an app I&#x27;ve been making, but have hit a bit of a hurdle when it comes to specifying URL&#x27;s for the components.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Works in AOT, but not JIT &#x1F616;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;@Component({&#xA;  selector: &amp;quot;home-page&amp;quot;,&#xA;  templateUrl: &amp;quot;./home.html&amp;quot;,&#xA;  styleUrls: [&amp;quot;./home.css&amp;quot;],&#xA;}) &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;strong&gt;Works in JIT, but not AOT &#x1F616;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-js prettyprint-override&quot;&gt;&lt;code&gt;@Component({&#xA;  selector: &amp;quot;home-page&amp;quot;,&#xA;  templateUrl: &amp;quot;pages/home/home.html&amp;quot;,&#xA;  styleUrls: [&amp;quot;pages/home/home.css&amp;quot;],&#xA;})&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;strong&gt;Question&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Why does the AOT Compiler resolve paths relative to the current component, whereas the JIT compiler expects absolute path from the project root? And what is the standard, best practice way to get around this?&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;More Details&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This error orrours, when trying to run &lt;code&gt;npm run ngc&lt;/code&gt; (or &lt;code&gt;node_modules/.bin/ngc -p tsconfig-aot.json&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;My project structure was origionally based on &lt;a href=&quot;https://github.com/ericmdantas/generator-ng-fullstack&quot; rel=&quot;nofollow noreferrer&quot;&gt;generator-ng-fullstack (via Yeoman)&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;It&#x27;s not using the Angular CLI, or WebPack.&lt;/li&gt;&#xA;&lt;li&gt;Angular 4&lt;/li&gt;&#xA;&lt;li&gt;Here&#x27;s my &lt;a href=&quot;https://github.com/Lissy93/happy-app/blob/master/tsconfig-aot.json&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;tsconfig-aot.json&lt;/code&gt;&lt;/a&gt;. (And, here&#x27;s my JIT &lt;a href=&quot;https://github.com/Lissy93/happy-app/blob/master/tsconfig.json&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;tsconfig.json&lt;/code&gt;&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;And for reference, &lt;a href=&quot;https://github.com/Lissy93/happy-app/tree/master/client/dev&quot; rel=&quot;nofollow noreferrer&quot;&gt;here&lt;/a&gt; is my client-side source directory.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;What I&#x27;ve tried so far&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Attempting to import and read the html template and stylesheet beforehand, and pass the value in as a string- but this is a terrible approach, and can&#x27;t be right&lt;/li&gt;&#xA;&lt;li&gt;Specifying the template and style paths in many different ways; relative, absolute, and everything between&lt;/li&gt;&#xA;&lt;li&gt;Searching issues on the Angular repo, this was the only one I found that was relevant, but had no clear outcome: &lt;a href=&quot;https://github.com/angular/angular/issues/11554&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://github.com/angular/angular/issues/11554&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Following the official &lt;a href=&quot;https://angular.io/guide/aot-compiler&quot; rel=&quot;nofollow noreferrer&quot;&gt;Angular AOT documentation&lt;/a&gt;, word-for-word, and like it&#x27;s the actual Bible- but they&#x27;ve just brushed over this issue&lt;/li&gt;&#xA;&lt;li&gt;With the Yeoman generator, there are two client-side directories, one for dev, and the other for dist. Gulp is used to build:dist. Since AOT will only need to happen in dist, maybe a potential solution could be to use Gulp to change the path structures on build:dist?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;
         </summary>
     </entry>
                <entry>
