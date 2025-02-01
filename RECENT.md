@@ -35,8 +35,6 @@
 - `25 Jan 2025` - **[Lissy93 commented on issue netlify/angular-runtime#93](https://github.com/netlify/angular-runtime/issues/93#issuecomment-2614070029)**
 - `22 Jan 2025` - **[Lissy93 forked Lissy93/analog-angular-vercel-example from brandonroberts/analog-angular-vercel-example](https://github.com/Lissy93/analog-angular-vercel-example)**
 - `19 Jan 2025` - **[Lissy93 starred fatihak/InkyPi](https://github.com/fatihak/InkyPi)**
-- ` 2 Jan 2025` - **[Lissy93 pushed to main in Lissy93/who-dat](https://github.com/Lissy93/who-dat/compare/db3e92e1f2...17caa13805)**
-- ` 2 Jan 2025` - **[Lissy93 merged a pull request in Lissy93/who-dat](https://github.com/Lissy93/who-dat/pull/7)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
