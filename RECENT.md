@@ -35,8 +35,6 @@
 - ` 3 Mar 2025` - **[Lissy93 starred ceaserone/Web.Check.PLUS](https://github.com/ceaserone/Web.Check.PLUS)**
 - `27 Feb 2025` - **[Lissy93 starred warp-tech/warpgate](https://github.com/warp-tech/warpgate)**
 - `15 Feb 2025` - **[Lissy93 starred getsops/sops](https://github.com/getsops/sops)**
-- `11 Feb 2025` - **[Lissy93 starred verto-health/ngx-turnstile](https://github.com/verto-health/ngx-turnstile)**
-- `11 Feb 2025` - **[Lissy93 commented on issue supabase/auth#1751](https://github.com/supabase/auth/issues/1751#issuecomment-2650602417)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
