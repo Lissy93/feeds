@@ -4,7 +4,7 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2025-03-23T23:04:17Z</updated>
+    <updated>2025-03-24T23:04:08Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
@@ -423,6 +423,19 @@
         </summary>
     </entry>
                <entry>
+        <id>https://stackoverflow.com/questions/1188587/cache-invalidation-is-there-a-general-solution/1188719?cid=140256596#1188719</id>
+        <title type="text">Comment by Alicia Sykes on Cache Invalidation &#x2014; Is there a General Solution?</title>
+        <author>
+            <name>Alicia Sykes</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/1188587/cache-invalidation-is-there-a-general-solution/1188719#1188719" />
+        <published>2025-03-24T12:46:37Z</published>
+        <updated>2025-03-24T12:46:37Z</updated>
+        <summary type="html">I love that you aced cache invalidation, but totally failed on the naming things. Just to prove Phill Karlton&amp;#39;s point!</summary>
+    </entry>
+
+               <entry>
         <id>https://stackoverflow.com/questions/71873824/copy-text-to-clipboard-cannot-read-properties-of-undefined-reading-writetext/71876238?cid=135134922#71876238</id>
         <title type="text">Comment by Alicia Sykes on Copy text to clipboard: Cannot read properties of undefined reading &#x27;writeText&#x27;</title>
         <author>
@@ -602,19 +615,6 @@
         <published>2022-12-15T23:18:08Z</published>
         <updated>2022-12-15T23:18:08Z</updated>
         <summary type="html">What do you mean by &lt;i&gt;&amp;quot;doesn&amp;#39;t work&amp;quot;&lt;/i&gt; ?  It lgtm. If you could update your question to be an interactive, runnable code snippet, that may help both you and us answer the question.</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74818557/how-would-i-use-setinterval-to-execute-a-class-function?cid=132042154</id>
-        <title type="text">Comment by Alicia Sykes on how would I use setInterval to execute a class function?</title>
-        <author>
-            <name>Alicia Sykes</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74818557/how-would-i-use-setinterval-to-execute-a-class-function" />
-        <published>2022-12-15T23:16:19Z</published>
-        <updated>2022-12-15T23:16:19Z</updated>
-        <summary type="html">You should just be able to wrap that final line in a for loop, that iterates over each of the players (unless I&amp;#39;ve misunderstood the question)</summary>
     </entry>
 
 </feed>
