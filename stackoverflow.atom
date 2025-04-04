@@ -4,9 +4,22 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2025-04-03T23:04:22Z</updated>
+    <updated>2025-04-04T23:04:15Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
+            <entry>
+        <id>https://stackoverflow.com/questions/27873771/-/79556030#79556030</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by Alicia Sykes for How to show the &quot;Repositories contributed to&quot; on github</title>
+        <author>
+            <name>Alicia Sykes</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/27873771/how-to-show-the-repositories-contributed-to-on-github/79556030#79556030" />
+        <published>2025-04-04T18:16:42Z</published>
+        <updated>2025-04-04T20:03:43Z</updated>
+        <summary type="html">&lt;h2&gt;Quick Answer&lt;/h2&gt;&#xA;&lt;pre class=&quot;lang-bash prettyprint-override&quot;&gt;&lt;code&gt;USERNAME=&amp;quot;Lissy93&amp;quot;&#xA;for PAGE in {1..10}; do&#xA;  curl -s &amp;quot;https://api.github.com/search/issues?q=author:$USERNAME&#x2B;type:pr&amp;amp;per_page=100&amp;amp;page=$PAGE&amp;quot; |&#xA;    jq -r &#x27;.items // [] | .[].repository_url&#x27;&#xA;done | sort -u | cut -d &#x27;/&#x27; -f 5,6&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;This snippet will:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Output just the required [org]/[repo]&lt;/li&gt;&#xA;&lt;li&gt;Deduplicate contributions to the same repo&lt;/li&gt;&#xA;&lt;li&gt;Page through results (so you can get more than 1000 repos)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Just paste it into your terminal, update the username, and you should see a list of repos.&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h2&gt;Longer Answer&lt;/h2&gt;&#xA;&lt;p&gt;Or take a look at this API endpoint: &lt;a href=&quot;https://api.github.com/search/issues?q=author:lissy93&#x2B;type:pr&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;code&gt;https://api.github.com/search/issues?q=author:lissy93&#x2B;type:pr&lt;/code&gt;&lt;/a&gt;. Since it returns duplicates, a lot of extra info, and is limited to 100 results per page, we need to format that to get a nice list.&lt;/p&gt;&#xA;&lt;h3&gt;JavaScript Example&lt;/h3&gt;&#xA;&lt;p&gt;&lt;div class=&quot;snippet&quot; data-lang=&quot;js&quot; data-hide=&quot;false&quot; data-console=&quot;true&quot; data-babel=&quot;false&quot; data-babel-preset-react=&quot;false&quot; data-babel-preset-ts=&quot;false&quot;&gt;&#xA;&lt;div class=&quot;snippet-code&quot;&gt;&#xA;&lt;pre class=&quot;snippet-code-js lang-js prettyprint-override&quot;&gt;&lt;code&gt;(async () =&amp;gt; {&#xA;  const repos = new Set();&#xA;  for (let page = 1; page &amp;lt;= 10; page&#x2B;&#x2B;) {&#xA;const res = await fetch(`https://api.github.com/search/issues?q=author:lissy93&#x2B;type:pr&amp;amp;per_page=100&amp;amp;page=${page}`);&#xA;const data = await res.json();&#xA;if (!data.items?.length) break;&#xA;data.items.forEach(i =&amp;gt; {&#xA;  const m = i.repository_url.match(/repos\/([^/]&#x2B;\/[^/]&#x2B;)/);&#xA;  if (m) repos.add(m[1]);&#xA;});&#xA;  }&#xA;  console.log([...repos].sort());&#xA;})();&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/p&gt;&#xA;&lt;h3&gt;Python Example&lt;/h3&gt;&#xA;&lt;pre class=&quot;lang-py prettyprint-override&quot;&gt;&lt;code&gt;import requests&#xA;&#xA;repos = set()&#xA;for page in range(1, 11):&#xA;    url = f&amp;quot;https://api.github.com/search/issues?q=author:octocat&#x2B;type:pr&amp;amp;per_page=100&amp;amp;page={page}&amp;quot;&#xA;    res = requests.get(url).json()&#xA;    for item in res.get(&amp;quot;items&amp;quot;, []):&#xA;        parts = item[&amp;quot;repository_url&amp;quot;].split(&amp;quot;/&amp;quot;)[-2:]&#xA;        repos.add(&amp;quot;/&amp;quot;.join(parts))&#xA;    if not res.get(&amp;quot;items&amp;quot;):&#xA;        break&#xA;&#xA;print(&amp;quot;\n&amp;quot;.join(sorted(repos)))&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h2&gt;Via the GitHub UI&lt;/h2&gt;&#xA;&lt;p&gt;I don&#x27;t think there&#x27;s an easy way to do this in the GitHub UI anymore; You can go to the user&#x27;s profile, under Contribution Activity --&amp;gt; See all activity. But that includes more than just contributions.&lt;/p&gt;&#xA;&lt;p&gt;Or, there&#x27;s also &lt;a href=&quot;https://github.com/settings/repositories&quot; rel=&quot;nofollow noreferrer&quot;&gt;github.com/settings/repositories&lt;/a&gt; which will show all repositories that you (the authenticated user) have access to (write permissions).&lt;/p&gt;&#xA;</summary>
+    </entry>
             <entry>
         <id>https://stackoverflow.com/questions/76406446/error-cannot-resolve-type-entity-i29-draganddropmodule-to-symbol/79119384#79119384</id>
         <re:rank scheme="https://stackoverflow.com">0</re:rank>
@@ -403,24 +416,6 @@
         <published>2019-05-04T12:39:58Z</published>
         <updated>2022-06-30T04:45:15Z</updated>
         <summary type="html">&lt;p&gt;&lt;strong&gt;Just add &lt;code&gt;display: flex;&lt;/code&gt; to your outer container, and everything should fall in to place nicely!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://jsfiddle.net/r1m4v659/&quot; rel=&quot;nofollow noreferrer&quot;&gt;Here is a Demo Fiddle&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can then add in margin, and the rest of your styles as you please.&lt;/p&gt;&#xA;&lt;p&gt;If you want to learn more about flexbox, &lt;a href=&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot; rel=&quot;nofollow noreferrer&quot;&gt;this is an excellent reference&lt;/a&gt;. There&#x27;s also the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox&quot; rel=&quot;nofollow noreferrer&quot;&gt;MDN &lt;code&gt;flexbox&lt;/code&gt; docs&lt;/a&gt;.&lt;/p&gt;&#xA;</summary>
-    </entry>
-    <entry>
-        <id>https://stackoverflow.com/q/49078538</id>
-        <re:rank scheme="https://stackoverflow.com">1</re:rank>
-        <title type="text">Mongoose, how to append element to an array, inside existing JSON document</title>
-            <category scheme="https://stackoverflow.com/tags" term="node.js" />
-            <category scheme="https://stackoverflow.com/tags" term="mongodb" />
-            <category scheme="https://stackoverflow.com/tags" term="mongoose" />
-        <author>
-            <name>Alicia Sykes</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/49078538/mongoose-how-to-append-element-to-an-array-inside-existing-json-document" />
-        <published>2018-03-02T22:47:01Z</published>
-        <updated>2022-06-30T04:24:32Z</updated>
-        <summary type="html">
-            &lt;h3&gt;The Situation&lt;/h3&gt;&#xA;&lt;p&gt;I have a MongoDB of the following data structure&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;teamName: (String)&#xA;data: (Array)&#xA;---date: (Timestamp)&#xA;---userResults: (Object)&#xA;------userHash: (StringHash)&#xA;------score: (String)&#xA;------comment: (String)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://pastebin.com/m9qpAWej&quot; rel=&quot;nofollow noreferrer&quot;&gt;Here is a short example on PasteBin&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h3&gt;The Question&lt;/h3&gt;&#xA;&lt;p&gt;Given a specific &lt;code&gt;teamName&lt;/code&gt; and &lt;code&gt;date&lt;/code&gt; (within the team data array), I&#x27;d like to append a new row (&lt;code&gt;{userHash: &#x27;&#x27;, score: &#x27;&#x27;, comment: &#x27;&#x27;}&lt;/code&gt;) into &lt;code&gt;userResults&lt;/code&gt; array.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;How can I update an array within a given document, after querying the parent node, and the parents parent node?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;h3&gt;What I&#x27;ve tried so far&lt;/h3&gt;&#xA;&lt;p&gt;I&#x27;ve tried &lt;code&gt;findOneAndUpdate&lt;/code&gt;. It inserted an entire new document, right from the root though.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;TeamRecordSchema.findOneAndUpdate(&#xA;    {teamName: teamName, data: {date: today}}, &#xA;    {$set:{teamName: teamName, data: {date: today, userResults: [userResponse]}}}, &#xA;    {new: true, upsert: true}, &#xA;    function(err, savedDoc){&#xA;&#xA;       // Do stuff with err and savedDoc&#xA;&#xA;});&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I&#x27;ve tried &lt;code&gt;save&lt;/code&gt;, and again it just creates an entire new document at the root level, within my db&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;const _userResponse = new TeamRecordSchema(teamUserResponse);&#xA;_userResponse.save((err, savedDoc) =&amp;gt; {&#xA;&#xA;    // Do stuff with err and savedDoc accordingly     &#xA;&#xA; });&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I&#x27;ve also tried several variations based on the documentation, but I either get the same results, or an error.&lt;/p&gt;&#xA;
-        </summary>
     </entry>
                <entry>
         <id>https://stackoverflow.com/questions/1188587/cache-invalidation-is-there-a-general-solution/1188719?cid=140256596#1188719</id>
