@@ -43,7 +43,7 @@
 <!-- youtube-feed start -->
 - `12 Jan 2019` - **[Happy App Demo](https://www.youtube.com/watch?v=c-k9rYxTwxI)**
 - `27 Sep 2014` - **[Anti Theft Charge](https://www.youtube.com/watch?v=NcJKDmoKlXQ)**
-- `10 Oct 2013` - **[Robothespian - Singing in the rain - Oxford Brookes Robotics Society](https://www.youtube.com/watch?v=mnXzTzuF5Kw)**
+- `10 Oct 2013` - **[Robothespian - Singing in the rain - Oxford Brookes Robotics Society](https://www.youtube.com/shorts/mnXzTzuF5Kw)**
 <!-- youtube-feed end -->
 
 ## Dev.to [![Dev.to - @Lissy93](https://img.shields.io/badge/-Lissy93-a75fff?style=flat&logo=Dev.to&logoColor=white)](https://dev.to/lissy93 "Dev.to - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/dev-to.atom)
