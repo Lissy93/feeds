@@ -4,9 +4,35 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2025-06-14T23:04:29Z</updated>
+    <updated>2025-06-15T23:04:25Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
+            <entry>
+        <id>https://stackoverflow.com/questions/79664676/-/79666213#79666213</id>
+        <re:rank scheme="https://stackoverflow.com">2</re:rank>
+        <title type="text">Answer by Alicia Sykes for Is visual studio standard conformant when it seemingly doesn&#x27;t elide a copy when calling a function</title>
+        <author>
+            <name>Alicia Sykes</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/79664676/is-visual-studio-standard-conformant-when-it-seemingly-doesnt-elide-a-copy-when/79666213#79666213" />
+        <published>2025-06-14T23:19:58Z</published>
+        <updated>2025-06-15T15:26:19Z</updated>
+        <summary type="html">&lt;p&gt;As mentioned by &lt;a href=&quot;https://stackoverflow.com/users/817643/storyteller-unslander-monica&quot;&gt;@StoryTeller - Unslander Monica&lt;/a&gt;, that MSVC behavior is non&#x2011;conformant, i.e it&#x27;s a compiler bug&lt;/p&gt;&#xA;&lt;p&gt;The workaround would be to define a trivial copy constructor (e.g. &lt;code&gt;Foo(const Foo&amp;amp;) = default;&lt;/code&gt;). Or, update to the latest MSVC version (C&#x2B;&#x2B;17)&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;p&gt;Since C&#x2B;&#x2B;17, prvalue temporary materialization is &lt;em&gt;deferred&lt;/em&gt; into the direct constructor of the function parameter&#x2014;so in:&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-cpp prettyprint-override&quot;&gt;&lt;code&gt;foo(Foo());&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;there should be &lt;strong&gt;only one&lt;/strong&gt; &lt;code&gt;Foo&lt;/code&gt; object constructed, namely &lt;code&gt;foo&lt;/code&gt;&#x27;s param, and therefore only one destructor call&lt;/p&gt;&#xA;&lt;p&gt;GCC/Clang follow that - your program prints a single &lt;code&gt;~Foo&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;MSVC prints:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;~Foo&#xA;~Foo&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Meaning it creates two instances: one temporary in &lt;code&gt;main&lt;/code&gt;, one for &lt;code&gt;foo&lt;/code&gt;&#x27;s parameter.&lt;/p&gt;&#xA;&lt;p&gt;This breaks the C&#x2B;&#x2B;17 guarantee: the temporary shouldn&#x27;t materialize independently - so MSVC is failing to implement the standard&#x27;s prvalue semantics correctly.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&quot;https://devblogs.microsoft.com/cppblog/guaranteed-copy-elision-does-not-elide-copies/&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://devblogs.microsoft.com/cppblog/guaranteed-copy-elision-does-not-elide-copies/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&quot;https://devblogs.microsoft.com/oldnewthing/20190429-00/?p=102456&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://devblogs.microsoft.com/oldnewthing/20190429-00/?p=102456&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</summary>
+    </entry>
+            <entry>
+        <id>https://stackoverflow.com/questions/79666146/-/79666208#79666208</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">Answer by Alicia Sykes for How to autocomplete brackets in Vim only in some cases</title>
+        <author>
+            <name>Alicia Sykes</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/79666146/how-to-autocomplete-brackets-in-vim-only-in-some-cases/79666208#79666208" />
+        <published>2025-06-14T23:09:36Z</published>
+        <updated>2025-06-14T23:09:36Z</updated>
+        <summary type="html">&lt;p&gt;You could get Vim to handle this smartly using an expression mapping, like with pure Bash-like Vimscript. So it checks whether you&#x27;re inside a string before deciding what to do.&lt;/p&gt;&#xA;&lt;p&gt;For example::&lt;/p&gt;&#xA;&lt;pre class=&quot;lang-none prettyprint-override&quot;&gt;&lt;code&gt;&amp;quot; Only enable this when editing Rust&#xA;autocmd FileType rust inoremap &amp;lt;expr&amp;gt; { s:SmartBrace()&#xA;&#xA;function! s:SmartBrace()&#xA;  &amp;quot; get syntax groups at cursor (before the &amp;quot;{&amp;quot;)&#xA;  let syn = synstack(line(&#x27;.&#x27;), col(&#x27;.&#x27;)-1)&#xA;  &amp;quot; get their names&#xA;  let names = map(syn, &#x27;synIDattr(v:val, &amp;quot;name&amp;quot;)&#x27;)&#xA;  &amp;quot; check for string context (contains &amp;quot;string&amp;quot;)&#xA;  if !empty(filter(names, &#x27;v:val =~# &amp;quot;string&amp;quot;&#x27;))&#xA;    &amp;quot; inside a string: just insert {} and place cursor inside&#xA;    return &#x27;{}&#x27;.nr2char(27).&#x27;i&#x27;&#xA;  endif&#xA;  &amp;quot; not in a string: expand a block with newline&#xA;  return &#x27;{\&amp;lt;CR&amp;gt;}&#x27;.nr2char(27).&#x27;ko&#x27;&#xA;endfunction&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;hr /&gt;&#xA;&lt;p&gt;So, this should...&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;inoremap &amp;lt;expr&amp;gt;&lt;/code&gt;: inserts code dynamically based on context&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;synstack()&lt;/code&gt; gives syntax IDs under cursor; &lt;code&gt;synIDattr(...,&amp;quot;name&amp;quot;)&lt;/code&gt; converts them to names&lt;/li&gt;&#xA;&lt;li&gt;We search for &lt;code&gt;&amp;quot;string&amp;quot;&lt;/code&gt; in those names. Ifit matches, we&#x2019;re inside a string&lt;/li&gt;&#xA;&lt;li&gt;Inside string: produce &lt;code&gt;{}&lt;/code&gt;, escape to normal mode, then &lt;code&gt;i&lt;/code&gt; to position cursor inside&lt;/li&gt;&#xA;&lt;li&gt;Outside string: do your original block expansion, open bracket, newline, close bracket, and go inside&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</summary>
+    </entry>
             <entry>
         <id>https://stackoverflow.com/questions/79666191/-/79666204#79666204</id>
         <re:rank scheme="https://stackoverflow.com">0</re:rank>
@@ -383,39 +409,6 @@
         <published>2017-12-05T13:02:28Z</published>
         <updated>2022-06-30T04:50:48Z</updated>
         <summary type="html">&lt;p&gt;If you open up the dev tool console on that link you&#x27;ve shared, here&#x27;s the error:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Mixed Content: The page at &#x27;https://zkid18.github.io/data_visualization_project/&#x27; was loaded over HTTPS, but requested an insecure script &#x27;http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#x27;. &#xA;&#xA;This request has been blocked; the content must be served over HTTPS.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;So in this case, the solution is to just load your external resources over HTTPS, because this is what GitHub is hosted on. For example:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;strong&gt;If a page is loaded over HTTPS then every resource it uses should also be loaded over HTTPS.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Reason behind this is, that otherwise a man-in-the-middle could replace resources (or ones that exploit buffer overflow issues in browsers to execute code) and scripts with ones that do different things (such as leak data to the third party).&lt;/p&gt;&#xA;&lt;p&gt;You can read more about this &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content/How_to_fix_website_with_mixed_content&quot; rel=&quot;nofollow noreferrer&quot;&gt;in this article on the Mozilla site&lt;/a&gt;.&lt;/p&gt;&#xA;</summary>
-    </entry>
-    <entry>
-        <id>https://stackoverflow.com/q/48075509</id>
-        <re:rank scheme="https://stackoverflow.com">15</re:rank>
-        <title type="text">Socket.io failed: WebSocket is closed before the connection is established</title>
-            <category scheme="https://stackoverflow.com/tags" term="node.js" />
-            <category scheme="https://stackoverflow.com/tags" term="express" />
-            <category scheme="https://stackoverflow.com/tags" term="twitter" />
-            <category scheme="https://stackoverflow.com/tags" term="socket.io" />
-            <category scheme="https://stackoverflow.com/tags" term="stream" />
-        <author>
-            <name>Alicia Sykes</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/48075509/socket-io-failed-websocket-is-closed-before-the-connection-is-established" />
-        <published>2018-01-03T10:26:15Z</published>
-        <updated>2022-06-30T04:49:49Z</updated>
-        <summary type="html">
-            &lt;h1&gt;The Issue&lt;/h1&gt;&#xA;&lt;p&gt;My Twitter streaming app using Socket.io works okay when visiting the site with the IP address and port, but live streaming throws an error, when using the domain name to access the site. &#x1F914;&lt;/p&gt;&#xA;&lt;p&gt;Try the links below, and open up the developer tools, to see the error&lt;/p&gt;&#xA;&lt;h3&gt;Visiting site using the domain name (&lt;a href=&quot;http://sentiment-sweep.com&quot; rel=&quot;nofollow noreferrer&quot;&gt;http://sentiment-sweep.com&lt;/a&gt;)&lt;/h3&gt;&#xA;&lt;p&gt;Hundreds of socket errors following this format:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;WebSocket connection to &#xA;&#x27;ws://sentiment-sweep.com/socket.io/?EIO=3&amp;amp;transport=websocket&amp;amp;sid=guBmeCqsOr22CTsWAAC0&#x27; &#xA;failed: WebSocket is closed before the connection is established.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3&gt;Visiting the site using IP and Port (&lt;a href=&quot;http://XXX.XX.XXX.XX:3003&quot; rel=&quot;nofollow noreferrer&quot;&gt;http://XXX.XX.XXX.XX:3003&lt;/a&gt;)&lt;/h3&gt;&#xA;&lt;p&gt;Initially a few of the above socket errors, but then affter 10-15 seconds the app starts to work fine&lt;/p&gt;&#xA;&lt;h1&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;I made this Node app for a University project few years back. I keep it updated. It uses Socket.io and the Twitter API to stream live Tweets, calculate the sentiment and display results visually using D3. I use NGINX for port forwarding.&lt;/p&gt;&#xA;&lt;p&gt;For reference, here is my git repo: &lt;a href=&quot;https://github.com/Lissy93/twitter-sentiment-visualisation&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://github.com/Lissy93/twitter-sentiment-visualisation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recently I made a small HTML/ CSS change, and updated a couple of dependencies, and that&#x27;s when this strange socket.io issue started&lt;/p&gt;&#xA;&lt;h1&gt;What I&#x27;ve tried so far&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Changing the port - no difference&lt;/li&gt;&#xA;&lt;li&gt;I use &lt;code&gt;io.connect();&lt;/code&gt; with no params to connect&lt;/li&gt;&#xA;&lt;li&gt;Including socket.io locally, rather than from CDN&lt;/li&gt;&#xA;&lt;li&gt;Could it have something to do with my site being non-SSL&lt;/li&gt;&#xA;&lt;li&gt;Locally it works totally fine, and faster and less of a delay than the API version&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Has anyone seen an issue similar to this before?&lt;/p&gt;&#xA;
-        </summary>
-    </entry>
-            <entry>
-        <id>https://stackoverflow.com/questions/55786350/-/55787551#55787551</id>
-        <re:rank scheme="https://stackoverflow.com">4</re:rank>
-        <title type="text">Answer by Alicia Sykes for Npm pack to include local modules</title>
-        <author>
-            <name>Alicia Sykes</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/55786350/npm-pack-to-include-local-modules/55787551#55787551" />
-        <published>2019-04-21T23:13:57Z</published>
-        <updated>2022-06-30T04:48:06Z</updated>
-        <summary type="html">&lt;p&gt;I had a similar issue a while back, and a good and simple solution, is just to put your local modules into private git repos (which are now free on GitHub, &lt;a href=&quot;https://www.theinquirer.net/inquirer/news/3068940/github-offers-private-code-repository-access-for-free&quot; rel=&quot;nofollow noreferrer&quot;&gt;thanks Microsoft&lt;/a&gt; &#x1F64C;)&lt;/p&gt;&#xA;&lt;p&gt;Then, in your &lt;code&gt;package.json&lt;/code&gt;, just add:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;quot;dependencies&amp;quot; : {&#xA;  &amp;quot;name1&amp;quot; : &amp;quot;git://github.com/user/project.git#commit-ish&amp;quot;,&#xA;  &amp;quot;name2&amp;quot; : &amp;quot;git://github.com/user/project.git#commit-ish&amp;quot;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Source, &lt;a href=&quot;https://docs.npmjs.com/files/package.json#git-urls-as-dependencies&quot; rel=&quot;nofollow noreferrer&quot;&gt;npm docs&lt;/a&gt;&lt;/p&gt;&#xA;</summary>
     </entry>
                <entry>
         <id>https://stackoverflow.com/questions/1188587/cache-invalidation-is-there-a-general-solution/1188719?cid=140256596#1188719</id>
