@@ -4,7 +4,7 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2025-06-22T23:04:39Z</updated>
+    <updated>2025-06-23T23:03:46Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
@@ -411,6 +411,19 @@
         <summary type="html">&lt;p&gt;If you open up the dev tool console on that link you&#x27;ve shared, here&#x27;s the error:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Mixed Content: The page at &#x27;https://zkid18.github.io/data_visualization_project/&#x27; was loaded over HTTPS, but requested an insecure script &#x27;http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#x27;. &#xA;&#xA;This request has been blocked; the content must be served over HTTPS.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;So in this case, the solution is to just load your external resources over HTTPS, because this is what GitHub is hosted on. For example:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;strong&gt;If a page is loaded over HTTPS then every resource it uses should also be loaded over HTTPS.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Reason behind this is, that otherwise a man-in-the-middle could replace resources (or ones that exploit buffer overflow issues in browsers to execute code) and scripts with ones that do different things (such as leak data to the third party).&lt;/p&gt;&#xA;&lt;p&gt;You can read more about this &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content/How_to_fix_website_with_mixed_content&quot; rel=&quot;nofollow noreferrer&quot;&gt;in this article on the Mozilla site&lt;/a&gt;.&lt;/p&gt;&#xA;</summary>
     </entry>
                <entry>
+        <id>https://stackoverflow.com/questions/79664676/is-visual-studio-standard-conformant-when-it-seemingly-doesnt-elide-a-copy-when/79666213?cid=140536220#79666213</id>
+        <title type="text">Comment by Alicia Sykes on Is visual studio standard conformant when it seemingly doesn&#x27;t elide a copy when calling a function</title>
+        <author>
+            <name>Alicia Sykes</name>
+            <uri>https://stackoverflow.com/users/979052</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/79664676/is-visual-studio-standard-conformant-when-it-seemingly-doesnt-elide-a-copy-when/79666213#79666213" />
+        <published>2025-06-23T19:56:23Z</published>
+        <updated>2025-06-23T19:56:23Z</updated>
+        <summary type="html">@Fedor tested and can confirm this does not occour in 17.14. So, once out then update and issue should be resolved.</summary>
+    </entry>
+
+               <entry>
         <id>https://stackoverflow.com/questions/1188587/cache-invalidation-is-there-a-general-solution/1188719?cid=140256596#1188719</id>
         <title type="text">Comment by Alicia Sykes on Cache Invalidation &#x2014; Is there a General Solution?</title>
         <author>
@@ -590,19 +603,6 @@
         <published>2022-12-15T23:22:05Z</published>
         <updated>2022-12-15T23:22:05Z</updated>
         <summary type="html">Use &lt;code&gt;--volume&lt;/code&gt; to mount your own file or directory to where the log files are</summary>
-    </entry>
-
-               <entry>
-        <id>https://stackoverflow.com/questions/74818587/onclick-not-working-when-i-click-the-button?cid=132042171</id>
-        <title type="text">Comment by Alicia Sykes on Onclick not working when I click the button</title>
-        <author>
-            <name>Alicia Sykes</name>
-            <uri>https://stackoverflow.com/users/979052</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/74818587/onclick-not-working-when-i-click-the-button" />
-        <published>2022-12-15T23:18:08Z</published>
-        <updated>2022-12-15T23:18:08Z</updated>
-        <summary type="html">What do you mean by &lt;i&gt;&amp;quot;doesn&amp;#39;t work&amp;quot;&lt;/i&gt; ?  It lgtm. If you could update your question to be an interactive, runnable code snippet, that may help both you and us answer the question.</summary>
     </entry>
 
 </feed>
