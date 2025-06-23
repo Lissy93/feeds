@@ -23,11 +23,11 @@
 
 ## StackOverflow [![StackOverflow - Alicia Sykes](https://img.shields.io/badge/-Alicia-f48225?style=flat&logo=Stackoverflow&logoColor=white)](https://stackoverflow.com/users/979052/alicia "StackOverflow - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/stackoverflow.atom)
 <!-- stackoverflow-feed start -->
+- `23 Jun 2025` - **[Comment by Alicia Sykes on Is visual studio standard conformant when it seemingly doesn't elide a copy when calling a function](https://stackoverflow.com/questions/79664676/is-visual-studio-standard-conformant-when-it-seemingly-doesnt-elide-a-copy-when/79666213#79666213)**
 - `14 Jun 2025` - **[Answer by Alicia Sykes for Is visual studio standard conformant when it seemingly doesn't elide a copy when calling a function](https://stackoverflow.com/questions/79664676/is-visual-studio-standard-conformant-when-it-seemingly-doesnt-elide-a-copy-when/79666213#79666213)**
 - `14 Jun 2025` - **[Answer by Alicia Sykes for How to autocomplete brackets in Vim only in some cases](https://stackoverflow.com/questions/79666146/how-to-autocomplete-brackets-in-vim-only-in-some-cases/79666208#79666208)**
 - `14 Jun 2025` - **[Answer by Alicia Sykes for Error generating Mermaid diagrams with Asciidoctor-pdf and asciidoctor-diagrams](https://stackoverflow.com/questions/79666191/error-generating-mermaid-diagrams-with-asciidoctor-pdf-and-asciidoctor-diagrams/79666204#79666204)**
 - ` 4 Apr 2025` - **[Answer by Alicia Sykes for How to show the "Repositories contributed to" on github](https://stackoverflow.com/questions/27873771/how-to-show-the-repositories-contributed-to-on-github/79556030#79556030)**
-- `24 Mar 2025` - **[Comment by Alicia Sykes on Cache Invalidation — Is there a General Solution?](https://stackoverflow.com/questions/1188587/cache-invalidation-is-there-a-general-solution/1188719#1188719)**
 <!-- stackoverflow-feed end -->
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
