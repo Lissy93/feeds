@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `13 Jul 2025` - **[Lissy93 commented on issue Lissy93/domain-locker#20](https://github.com/Lissy93/domain-locker/issues/20#issuecomment-3067284501)**
-- `13 Jul 2025` - **[Lissy93 closed an issue in Lissy93/domain-locker](https://github.com/Lissy93/domain-locker/issues/20)**
-- `13 Jul 2025` - **[Lissy93 pushed to main in Lissy93/domain-locker](https://github.com/Lissy93/domain-locker/compare/d569ee7806...1699a8bfe1)**
-- `13 Jul 2025` - **[Lissy93 commented on issue Lissy93/domain-locker#23](https://github.com/Lissy93/domain-locker/issues/23#issuecomment-3067266723)**
-- `13 Jul 2025` - **[Lissy93 closed an issue in Lissy93/domain-locker](https://github.com/Lissy93/domain-locker/issues/23)**
+- `14 Jul 2025` - **[Lissy93 starred Lissy93/ansibles](https://github.com/Lissy93/ansibles)**
+- `14 Jul 2025` - **[Lissy93 deleted branch feat/23/helm-charts at Lissy93/domain-locker](https://github.com/)**
+- `14 Jul 2025` - **[Lissy93 deleted branch feat/preview-domain at Lissy93/domain-locker](https://github.com/)**
+- `14 Jul 2025` - **[Lissy93 deleted branch feat/self-hosted-docs-updates at Lissy93/domain-locker](https://github.com/)**
+- `14 Jul 2025` - **[Lissy93 deleted branch bot/update-demo at Lissy93/domain-locker](https://github.com/)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
