@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `16 Jul 2025` - **[Lissy93 pushed to main in Lissy93/AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/compare/3529df886a...923710a6c3)**
-- `16 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/pull/37)**
-- `16 Jul 2025` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/cda3010569...b205e01620)**
-- `16 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1864)**
-- `15 Jul 2025` - **[Lissy93 pushed to main in Lissy93/cv](https://github.com/Lissy93/cv/compare/660f8e18e2...150ea61a61)**
+- `19 Jul 2025` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/951aa74510...4a4bf2e33c)**
+- `19 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1729)**
+- `19 Jul 2025` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/2d36386507...951aa74510)**
+- `19 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1868)**
+- `19 Jul 2025` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/b7d40c5b61...2d36386507)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
