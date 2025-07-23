@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `19 Jul 2025` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/951aa74510...4a4bf2e33c)**
-- `19 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1729)**
-- `19 Jul 2025` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/2d36386507...951aa74510)**
-- `19 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1868)**
-- `19 Jul 2025` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/b7d40c5b61...2d36386507)**
+- `22 Jul 2025` - **[Lissy93 pushed to main in Lissy93/domain-locker](https://github.com/Lissy93/domain-locker/compare/1699a8bfe1...a3334774ba)**
+- `22 Jul 2025` - **[Lissy93 closed an issue in Lissy93/domain-locker](https://github.com/Lissy93/domain-locker/issues/30)**
+- `22 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/domain-locker](https://github.com/Lissy93/domain-locker/pull/31)**
+- `22 Jul 2025` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/df108e75dc...cab60c1f4c)**
+- `22 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1866)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
