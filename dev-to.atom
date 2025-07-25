@@ -1134,7 +1134,7 @@ The Final Project
 &lt;div class="ltag-github-readme-tag"&gt;
   &lt;div class="readme-overview"&gt;
     &lt;h2&gt;
-      &lt;img src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev.to%2Fassets%2Fgithub-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" alt="GitHub logo"&gt;
+      &lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fassets.dev.to%2Fassets%2Fgithub-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" alt="GitHub logo"&gt;
       &lt;a href="https://github.com/Lissy93" rel="noopener noreferrer"&gt;
         Lissy93
       &lt;/a&gt; / &lt;a href="https://github.com/Lissy93/my-website" rel="noopener noreferrer"&gt;
@@ -1158,7 +1158,7 @@ The Final Project
 
 &lt;p&gt;
   &lt;a href="https://devolio.netlify.app" rel="nofollow noopener noreferrer"&gt;
-    &lt;img width="700" src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fraw.githubusercontent.com%2FLissy93%2Fmy-website%2Fmaster%2Fstatic%2Fscreenshot.png"&gt;
+    &lt;img width="700" src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fraw.githubusercontent.com%2FLissy93%2Fmy-website%2Fmaster%2Fstatic%2Fscreenshot.png"&gt;
   &lt;/a&gt;
 &lt;/p&gt;
 
@@ -1237,33 +1237,31 @@ Crafted with SvelteKit + TypeScript- prioritising SEO, performance, accessibilit
   Step #1 - Project Setup
 &lt;/h3&gt;
 
-&lt;p&gt;We can easily create our project by running:&lt;/p&gt;
+&lt;p&gt;We can easily create our project by running:&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight shell"&gt;&lt;code&gt;
-
-npm create svelte@latest dev-blog
-
-
+&lt;pre class="highlight shell"&gt;&lt;code&gt;npm create svelte@latest dev-blog
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 &lt;p&gt;When prompted, select SvelteKit, then decide weather you'd like TypeScript, ESLint, Prettier, Playwright, Vitest.&lt;/p&gt;
 
 &lt;p&gt;Next, we need to navigate into our project (with &lt;code&gt;cd dev-blog&lt;/code&gt;), and install dependencies (with &lt;code&gt;npm install&lt;/code&gt;).&lt;/p&gt;
 
-&lt;p&gt;To launch the app, with live reload enabled, run:&lt;/p&gt;
+&lt;p&gt;To launch the app, with live reload enabled, run:&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight shell"&gt;&lt;code&gt;
-
-npm run dev
-
-
+&lt;pre class="highlight shell"&gt;&lt;code&gt;npm run dev
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 &lt;p&gt;Then open &lt;a href="http://localhost:5173/" rel="noopener noreferrer"&gt;&lt;code&gt;localhost:5173&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -1278,12 +1276,11 @@ npm run dev
 
 &lt;p&gt;To avoid the typical ugly &lt;code&gt;../../../&lt;/code&gt; in import statements, we're going to add an alias within our &lt;code&gt;svelte.config.js&lt;/code&gt; file.&lt;/p&gt;
 
-&lt;p&gt;This can be done by just adding &lt;code&gt;alias&lt;/code&gt; object under &lt;code&gt;config.sveltekit&lt;/code&gt;. Here's an example, where I'll map &lt;code&gt;./src/&lt;/code&gt; to &lt;code&gt;$src&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This can be done by just adding &lt;code&gt;alias&lt;/code&gt; object under &lt;code&gt;config.sveltekit&lt;/code&gt;. Here's an example, where I'll map &lt;code&gt;./src/&lt;/code&gt; to &lt;code&gt;$src&lt;/code&gt;.&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight javascript"&gt;&lt;code&gt;
-
-&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;adapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-auto&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;adapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-auto&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;vitePreprocess&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/kit/vite&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 
 &lt;span class="cm"&gt;/** @type {import('@sveltejs/kit').Config} */&lt;/span&gt;
@@ -1298,11 +1295,11 @@ npm run dev
 &lt;span class="p"&gt;};&lt;/span&gt;
 
 &lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt; &lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 &lt;p&gt;We can come back to the svelte.config file later, as it's where we put adaptors to deploy to various platforms, like Netlify.&lt;/p&gt;
 
@@ -1318,12 +1315,11 @@ npm run dev
 &lt;/h3&gt;
 
 &lt;p&gt;Before we proceed, we need to know the basics of components.&lt;br&gt;
-One of the reason that Svelte (and SvelteKit) is so easy to work with, is because pretty much everything is just a component. And the structure of components are really, really simple. Here's an example:&lt;/p&gt;
+One of the reason that Svelte (and SvelteKit) is so easy to work with, is because pretty much everything is just a component. And the structure of components are really, really simple. Here's an example:&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight html"&gt;&lt;code&gt;
-
-&lt;span class="nt"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
 &lt;span class="c1"&gt;// All JavaScript logic and imports go here&lt;/span&gt;
 &lt;span class="c1"&gt;// Append lang="ts" to use TypeScript&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
@@ -1338,18 +1334,17 @@ One of the reason that Svelte (and SvelteKit) is so easy to work with, is becaus
     &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="no"&gt;hotpink&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;Here's a real-world example, where we're making a re-usable heading component, with optional level (h1, h2, etc), color, size and font.&lt;/p&gt;
+
+
+&lt;p&gt;Here's a real-world example, where we're making a re-usable heading component, with optional level (h1, h2, etc), color, size and font.&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight html"&gt;&lt;code&gt;
-
-&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
 
 &lt;span class="c1"&gt;// Parameters&lt;/span&gt;
 &lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;level&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h1&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h2&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h3&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h4&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h5&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h6&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;h1&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;// The semantic heading level&lt;/span&gt;
@@ -1388,11 +1383,11 @@ One of the reason that Svelte (and SvelteKit) is so easy to work with, is becaus
   &lt;span class="nt"&gt;h5&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--headingSize&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1.25rem&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
   &lt;span class="nt"&gt;h6&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--headingSize&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1rem&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 &lt;p&gt;Couple of things to note:&lt;/p&gt;
 
@@ -1427,12 +1422,11 @@ One of the reason that Svelte (and SvelteKit) is so easy to work with, is becaus
 
 &lt;p&gt;Next we're going to create a blog page, where all our posts will be displayed. (This could be done on the homepage, in &lt;code&gt;src/routes/+page.svelte&lt;/code&gt;, but this is a good opportunity to explain routeing)&lt;/p&gt;
 
-&lt;p&gt;SvelteKit will automatically create routes based on the directory structure within the &lt;code&gt;routes&lt;/code&gt; directory. All you need is a directory named after the route name, containing a Svelte file names &lt;code&gt;+page.svelte&lt;/code&gt;. So let's create that route, with: &lt;code&gt;touch src/routes/blog/+page.svelte&lt;/code&gt; - the contents of this file will just be a normal Svelte component, like what we saw above.&lt;/p&gt;
+&lt;p&gt;SvelteKit will automatically create routes based on the directory structure within the &lt;code&gt;routes&lt;/code&gt; directory. All you need is a directory named after the route name, containing a Svelte file names &lt;code&gt;+page.svelte&lt;/code&gt;. So let's create that route, with: &lt;code&gt;touch src/routes/blog/+page.svelte&lt;/code&gt; - the contents of this file will just be a normal Svelte component, like what we saw above.&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight html"&gt;&lt;code&gt;
-
-&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
   &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;title&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;Blog Page&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 
@@ -1447,11 +1441,11 @@ One of the reason that Svelte (and SvelteKit) is so easy to work with, is becaus
   &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="no"&gt;hotpink&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 &lt;p&gt;We'll also need a route that can render individual posts, but we want that URL path to be dynamic, maybe based on the posts title. For this we can create a directory called &lt;code&gt;[slug]&lt;/code&gt; that the user will land on when they visit &lt;code&gt;example.com/blog/example-post&lt;/code&gt;&lt;/p&gt;
 
@@ -1466,12 +1460,11 @@ One of the reason that Svelte (and SvelteKit) is so easy to work with, is becaus
 
 &lt;p&gt;Now's a good time to mention that we can have our routed inherit certain components that will appear on all pages, like a navbar and footer. For this, we can create a layout file, which needs to be called &lt;code&gt;+layout.svelte&lt;/code&gt;, and since we want this on all pages, we'll put it into &lt;code&gt;src/routes&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Populate this with something like:&lt;/p&gt;
+&lt;p&gt;Populate this with something like:&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight html"&gt;&lt;code&gt;
-
-&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
   &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;NavBar&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;$src/components/NavBar.svelte&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
   &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;Footer&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;$src/components/Footer.svelte&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
   &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;fade&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;svelte/transition&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -1504,11 +1497,11 @@ One of the reason that Svelte (and SvelteKit) is so easy to work with, is becaus
     &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;--background&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
   &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 &lt;p&gt;A couple of things to note here:&lt;/p&gt;
 
@@ -1523,12 +1516,11 @@ One of the reason that Svelte (and SvelteKit) is so easy to work with, is becaus
 
 &lt;p&gt;Another special route within SvelteKit, is &lt;code&gt;+error.svelte&lt;/code&gt;, which will be rendered in place of the current route if an error is thrown within the &lt;code&gt;load()&lt;/code&gt; function of any route.&lt;/p&gt;
 
-&lt;p&gt;Again, let's create that file in &lt;code&gt;src/routes/+error.svelte&lt;/code&gt; and populate it with something like this. (Again, we can get info about the current route, including error code from the &lt;code&gt;$page&lt;/code&gt; object)&lt;/p&gt;
+&lt;p&gt;Again, let's create that file in &lt;code&gt;src/routes/+error.svelte&lt;/code&gt; and populate it with something like this. (Again, we can get info about the current route, including error code from the &lt;code&gt;$page&lt;/code&gt; object)&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight html"&gt;&lt;code&gt;
-
-&lt;span class="nt"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
     &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;page&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;$app/stores&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 
     &lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;emojis&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -1543,20 +1535,19 @@ One of the reason that Svelte (and SvelteKit) is so easy to work with, is becaus
 &lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;"font-size: 10em"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
     {emojis[$page.status] ?? emojis[500]}
 &lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
 
+
+
 &lt;p&gt;It's also worth noting, that you can create layout and error pages that are specific to certain routes, by nesting them within the correct route directory. If you need several layout pages, which share characteristics, you can extract those elements out into their own component, to make them more reusable.&lt;/p&gt;
 
-&lt;p&gt;By now, our routes directory structure should look something like this:&lt;/p&gt;
+&lt;p&gt;By now, our routes directory structure should look something like this:&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight plaintext"&gt;&lt;code&gt;
-
-src/routes
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;src/routes
 ├── +error.svelte
 ├── +layout.svelte
 ├── +page.svelte
@@ -1568,11 +1559,11 @@ src/routes
    └── [slug]
       ├── +page.svelte
       └── +page.ts
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 
 
@@ -1589,12 +1580,11 @@ src/routes
 
 &lt;p&gt;To keep things simple, we're going to use &lt;a href="https://www.npmjs.com/package/fast-xml-parser" rel="noopener noreferrer"&gt;&lt;code&gt;fast-xml-parser&lt;/code&gt;&lt;/a&gt; to parse the XML response, into JSON.&lt;/p&gt;
 
-&lt;p&gt;The following script simply fetches and parses feeds from a given XML RSS feed.&lt;/p&gt;
+&lt;p&gt;The following script simply fetches and parses feeds from a given XML RSS feed.&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight javascript"&gt;&lt;code&gt;
-
-&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;XMLParser&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;fast-xml-parser&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;XMLParser&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;fast-xml-parser&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 
 &lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;parseXml&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;rawRssData&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
   &lt;span class="kd"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;parser&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nc"&gt;XMLParser&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
@@ -1609,11 +1599,11 @@ src/routes
     &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;then&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nx"&gt;rawXml&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nf"&gt;parseXml&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;rawXml&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;rss&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;channel&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;item&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
   &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;posts&lt;/span&gt; &lt;span class="p"&gt;};&lt;/span&gt;
 &lt;span class="p"&gt;};&lt;/span&gt;
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 
 
@@ -1624,12 +1614,11 @@ src/routes
   Step #7 - Render Results
 &lt;/h3&gt;
 
-&lt;p&gt;Rendering the results from the returned data is really easy. In the &lt;code&gt;blog/+page.svelte&lt;/code&gt; component (next to the &lt;code&gt;+page.ts&lt;/code&gt; file), simply include &lt;code&gt;export let data&lt;/code&gt; - this will be the result returned by our fetch function. We can now reference this data in the markup.&lt;/p&gt;
+&lt;p&gt;Rendering the results from the returned data is really easy. In the &lt;code&gt;blog/+page.svelte&lt;/code&gt; component (next to the &lt;code&gt;+page.ts&lt;/code&gt; file), simply include &lt;code&gt;export let data&lt;/code&gt; - this will be the result returned by our fetch function. We can now reference this data in the markup.&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight html"&gt;&lt;code&gt;
-
-&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"ts"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
   &lt;span class="cm"&gt;/** @type {import('./$types').PageData} */&lt;/span&gt;
   &lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;data&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
@@ -1643,11 +1632,11 @@ Blog
     &lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
   &lt;span class="nt"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 {/each}
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 &lt;p&gt;You'll notice we're using &lt;code&gt;{#each data.posts as post}&lt;/code&gt; - this is just a for loop, as the data returned is an array.&lt;/p&gt;
 
@@ -1683,19 +1672,18 @@ Blog
   Step #9 - Build the Post Page
 &lt;/h3&gt;
 
-&lt;p&gt;Finally, when the user clicks on a post, we'd like to render it. This is pretty straitforward, as the RSS response is already in HTML format, so it's just a case of using the &lt;code&gt;@html&lt;/code&gt; directive, then styling it.&lt;/p&gt;
+&lt;p&gt;Finally, when the user clicks on a post, we'd like to render it. This is pretty straitforward, as the RSS response is already in HTML format, so it's just a case of using the &lt;code&gt;@html&lt;/code&gt; directive, then styling it.&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight html"&gt;&lt;code&gt;
-
-&lt;span class="nt"&gt;&amp;lt;main&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;"article-content"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;main&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;"article-content"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
   {@html content}
 &lt;span class="nt"&gt;&amp;lt;/main&amp;gt;&lt;/span&gt;
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 
 
@@ -1735,12 +1723,11 @@ Blog
 
 &lt;p&gt;If you wish to run your project on a VPS, we can use the &lt;code&gt;@sveltejs/adapter-node&lt;/code&gt;. Repeat the process above, then run &lt;code&gt;yarn build&lt;/code&gt;, and start the node server by running &lt;code&gt;node build/index.js&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;We may want to use multiple adapters, so that our project is compatible with several different hosting providers. Here's an example of my config file which does just this:&lt;/p&gt;
+&lt;p&gt;We may want to use multiple adapters, so that our project is compatible with several different hosting providers. Here's an example of my config file which does just this:&lt;br&gt;
+&lt;/p&gt;
 
 &lt;div class="highlight js-code-highlight"&gt;
-&lt;pre class="highlight javascript"&gt;&lt;code&gt;
-
-&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;autoAdapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-auto&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;autoAdapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-auto&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;netlifyAdapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-netlify&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;vercelAdapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-vercel&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;nodeAdapter&lt;/span&gt; &lt;span class="k"&gt;from&lt;/span&gt; &lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="s1"&gt;@sveltejs/adapter-node&lt;/span&gt;&lt;span class="dl"&gt;'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -1769,11 +1756,11 @@ Blog
 &lt;span class="p"&gt;};&lt;/span&gt;
 
 &lt;span class="k"&gt;export&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt; &lt;span class="nx"&gt;config&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
+
+
 
 &lt;p&gt;(don't forget to npm i any adapters before using!)&lt;/p&gt;
 
@@ -1812,7 +1799,7 @@ Blog
   Blog Page (fetched from RSS)
 &lt;/h5&gt;
 
-&lt;p&gt;&lt;a href="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2FXVC9YZy%2Fblog-page-gif.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2FXVC9YZy%2Fblog-page-gif.gif" alt="Blog Page"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv2ifqk9hfj7akmhaigcp.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv2ifqk9hfj7akmhaigcp.gif" alt="Blog Page" width="720" height="356"&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5&gt;
   
@@ -1820,7 +1807,7 @@ Blog
   Projects Page (fetched from GitHub)
 &lt;/h5&gt;
 
-&lt;p&gt;&lt;a href="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2FnmwLZTr%2Fprojects-page.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2FnmwLZTr%2Fprojects-page.gif" alt="Projects Page"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyexfz30636mj5se5bx7e.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyexfz30636mj5se5bx7e.gif" alt="Projects Page" width="800" height="420"&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5&gt;
   
@@ -1828,7 +1815,7 @@ Blog
   Social Media Links (stats fetched from APIs)
 &lt;/h5&gt;
 
-&lt;p&gt;&lt;a href="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2FxSvJRbZ%2Fsocial-previews.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.ibb.co%2FxSvJRbZ%2Fsocial-previews.gif" alt="Social Media Links"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuiola2i3u4ps96v7wm6d.gif" class="article-body-image-wrapper"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuiola2i3u4ps96v7wm6d.gif" alt="Social Media Links" width="573" height="655"&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I do plan on expanding the project, add some features and make it into an easily configurable, themeable developer portfolio website, that anyone can easily use. If you'd like to see the updates, drop the repo a star on GitHub :)&lt;/p&gt;
 
@@ -1846,7 +1833,7 @@ Blog
 &lt;small&gt;If you like this kind of stuff&lt;/small&gt;,&lt;br&gt;&lt;small&gt;consider following for more :)&lt;/small&gt;
 &lt;/th&gt;
 &lt;th&gt;
-&lt;a href="https://github.com/Lissy93" rel="noopener noreferrer"&gt;&lt;img src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2F-Lissy93-3a3a3a%3Fstyle%3Dflat%26logo%3DGitHub%26logoColor%3Dwhite" alt="Follow Lissy93 on GitHub"&gt;&lt;/a&gt;&lt;a href="https://twitter.com/Lissy_Sykes" rel="noopener noreferrer"&gt;&lt;img src="https://media.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2F-%40Lissy_Sykes-00acee%3Fstyle%3Dflat%26logo%3DTwitter%26logoColor%3Dwhite" alt="Follow Lissy_Sykes on Twitter"&gt;&lt;/a&gt;
+&lt;a href="https://github.com/Lissy93" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2F-Lissy93-3a3a3a%3Fstyle%3Dflat%26logo%3DGitHub%26logoColor%3Dwhite" alt="Follow Lissy93 on GitHub" width="69" height="20"&gt;&lt;/a&gt;&lt;a href="https://twitter.com/Lissy_Sykes" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimg.shields.io%2Fbadge%2F-%40Lissy_Sykes-00acee%3Fstyle%3Dflat%26logo%3DTwitter%26logoColor%3Dwhite" alt="Follow Lissy_Sykes on Twitter" width="85" height="20"&gt;&lt;/a&gt;
 &lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
