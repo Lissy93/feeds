@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `26 Jul 2025` - **[Lissy93 pushed to demo in Lissy93/domain-locker](https://github.com/Lissy93/domain-locker/compare/9d647b4133...0aa50358ad)**
-- `26 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/domain-locker](https://github.com/Lissy93/domain-locker/pull/35)**
-- `26 Jul 2025` - **[Lissy93 deleted branch fix/self-hosted-schema-issues at Lissy93/domain-locker](https://github.com/)**
-- `26 Jul 2025` - **[Lissy93 deleted branch ref/repo-admin at Lissy93/domain-locker](https://github.com/)**
-- `26 Jul 2025` - **[Lissy93 pushed to main in Lissy93/domain-locker](https://github.com/Lissy93/domain-locker/compare/f5731d20b6...ecac9ab7af)**
+- `27 Jul 2025` - **[Lissy93 pushed to main in Lissy93/domain-locker](https://github.com/Lissy93/domain-locker/compare/ecac9ab7af...4e3ffd008c)**
+- `27 Jul 2025` - **[Lissy93 pushed to master in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/compare/64ecbe6945...d24a6bac44)**
+- `27 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/pull/41)**
+- `27 Jul 2025` - **[Lissy93 pushed to master in Lissy93/dashy](https://github.com/Lissy93/dashy/compare/4ec76d35e0...d947ed5c53)**
+- `27 Jul 2025` - **[Lissy93 merged a pull request in Lissy93/dashy](https://github.com/Lissy93/dashy/pull/1877)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
