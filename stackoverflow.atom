@@ -4,18 +4,18 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/979052" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/979052" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2025-08-15T23:04:23Z</updated>
+    <updated>2025-08-16T23:04:07Z</updated>
     <id>https://stackoverflow.com/feeds/user/979052</id>
     <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
             <entry>
         <id>https://stackoverflow.com/questions/55882171/-/55882280#55882280</id>
         <re:rank scheme="https://stackoverflow.com">3</re:rank>
-        <title type="text">Answer by Alicia Sykes for How to auto-format telephone numbers in an HTML text input type field using JavaScript?</title>
+        <title type="text">Answer by Alicia Sykes for How can I format telephone numbers in input fields using JavaScript?</title>
         <author>
             <name>Alicia Sykes</name>
             <uri>https://stackoverflow.com/users/979052</uri>
         </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/55882171/how-to-auto-format-telephone-numbers-in-an-html-text-input-type-field-using-java/55882280#55882280" />
+        <link rel="alternate" href="https://stackoverflow.com/questions/55882171/how-can-i-format-telephone-numbers-in-input-fields-using-javascript/55882280#55882280" />
         <published>2019-04-27T15:52:20Z</published>
         <updated>2025-08-15T18:55:12Z</updated>
         <summary type="html">&lt;p&gt;There is actually an &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel&quot; rel=&quot;nofollow noreferrer&quot;&gt;input type of &lt;code&gt;tel&lt;/code&gt;&lt;/a&gt;, which will save you a lot of hassle. Using &lt;code&gt;&amp;lt;input type=&amp;quot;tel&amp;quot; ...&lt;/code&gt; would be the correct approach, and it also allows you to specify a regex to validate the phone number to your specification, using the &lt;code&gt;pattern&lt;/code&gt; attribute.&lt;/p&gt;&#xA;&lt;p&gt;For example:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;tel&amp;quot; &amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;It is worth noting, that you will still need server-side validation, of course. You should use the same regex on both client, and server.&lt;/p&gt;&#xA;&lt;p&gt;This is widely supported now, but if you are worried, see &lt;a href=&quot;/q/2813997&quot;&gt;this answer&lt;/a&gt;.&lt;/p&gt;&#xA;</summary>
