@@ -32,8 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `10 Dec 2025` - **[Lissy93 commented on an issue in nuxt-prisma](https://github.com/prisma/nuxt-prisma/issues/34#issuecomment-3637758857)**
-- ` 2 Dec 2025` - **[Lissy93 pushed networking-toolbox](https://github.com/Lissy93/networking-toolbox/compare/7a756a9c40...e3e0774b86)**
+- `27 Dec 2025` - **[Lissy93 reopened a pull request in dashy](https://github.com/Lissy93/dashy/pull/1593)**
+- `27 Dec 2025` - **[Lissy93 closed an issue in AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/issues/45)**
+- `27 Dec 2025` - **[Lissy93 pushed AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/compare/b0e46c2a8a...a85d5e60fb)**
+- `27 Dec 2025` - **[Lissy93 pushed AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/compare/092c8e2a42...b0e46c2a8a)**
+- `27 Dec 2025` - **[Lissy93 closed a pull request in dashy](https://github.com/Lissy93/dashy/pull/1593)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
