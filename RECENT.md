@@ -32,10 +32,10 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `27 Dec 2025` - **[Lissy93 reopened a pull request in dashy](https://github.com/Lissy93/dashy/pull/1593)**
-- `27 Dec 2025` - **[Lissy93 closed an issue in AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/issues/45)**
-- `27 Dec 2025` - **[Lissy93 pushed AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/compare/b0e46c2a8a...a85d5e60fb)**
-- `27 Dec 2025` - **[Lissy93 pushed AdGuardian-Term](https://github.com/Lissy93/AdGuardian-Term/compare/092c8e2a42...b0e46c2a8a)**
+- `28 Dec 2025` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/c4c468b68e...d7cb1d7359)**
+- `28 Dec 2025` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/f7689850cd...c4c468b68e)**
+- `28 Dec 2025` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/15b8c92aac...f7689850cd)**
+- `28 Dec 2025` - **[Lissy93 commented on an issue in dashy](https://github.com/Lissy93/dashy/issues/1966#issuecomment-3694725581)**
 - `27 Dec 2025` - **[Lissy93 closed a pull request in dashy](https://github.com/Lissy93/dashy/pull/1593)**
 <!-- github-feed end -->
 
