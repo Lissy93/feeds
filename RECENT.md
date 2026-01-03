@@ -32,10 +32,10 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
+- ` 3 Jan 2026` - **[Lissy93 starred Lissy93/readme-contribs](https://github.com/Lissy93/readme-contribs)**
 - ` 1 Jan 2026` - **[Lissy93 pushed Lissy93](https://github.com/Lissy93/Lissy93/compare/19055dfdc1...aec5c7a5ea)**
 - ` 1 Jan 2026` - **[Lissy93 deleted](https://github.com/Lissy93/readme-contribs/compare/1b43c23da3...0000000000)**
 - ` 1 Jan 2026` - **[Lissy93 pushed readme-contribs](https://github.com/Lissy93/readme-contribs/compare/7f9f39edd4...cdd4887ddb)**
-- ` 1 Jan 2026` - **[Lissy93 contributed to Lissy93/readme-contribs](https://github.com/Lissy93/readme-contribs/pull/2)**
 - ` 1 Jan 2026` - **[Lissy93 contributed to Lissy93/readme-contribs](https://github.com/Lissy93/readme-contribs/pull/2)**
 <!-- github-feed end -->
 
