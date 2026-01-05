@@ -12,6 +12,733 @@
     <atom:link rel="self" type="application/rss+xml" href="https://dev.to/feed/lissy93"/>
     <language>en</language>
     <item>
+      <title>I built an app in every frontend framework</title>
+      <dc:creator>Alicia Sykes</dc:creator>
+      <pubDate>Mon, 05 Jan 2026 16:20:00 +0000</pubDate>
+      <link>https://dev.to/lissy93/i-built-an-app-in-every-frontend-framework-4a9g</link>
+      <guid>https://dev.to/lissy93/i-built-an-app-in-every-frontend-framework-4a9g</guid>
+      <description>&lt;h2&gt;
+  
+  
+  TL;DR
+&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Which framework should you use?&lt;/strong&gt; Well, that depends on what you're developing and your prioritie. But I made a quick comparison tool to help you find the perfect stack for your project. See: &lt;a href="https://stack-match.as93.net/" rel="noopener noreferrer"&gt;Stack Match&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Just want the numbers?&lt;/strong&gt; I also built the same app using 10 different frameworks, and benchmarked them. See the &lt;a href="https://github.com/Lissy93/framework-benchmarks" rel="noopener noreferrer"&gt;framework-benchmarks&lt;/a&gt; repo for source and results.&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Methodology
+&lt;/h2&gt;
+
+&lt;p&gt;Why am I writing this? Well I see a lot of articles bigging up specific frameworks, or putting down other frameworks. But rarely does the author cut through the hype and provide an unbiased comparison between all* the options.&lt;/p&gt;
+
+&lt;p&gt;My aim here is to briefly outline each frameworks USP, when you should use them, covering their pros, cons and also mention my thoughts.&lt;/p&gt;
+
+&lt;p&gt;Talking about unbiased, I need build the same app in each framework to make this a fair test (which I have done!). But that's the first issue, as simple apps do not fully demonstrate a frameworks capabilities in real-world scenarios. As such, I've also included actual / live projects I've built with each. All of these are production ready, with a decent number of active users and/or downloads (actually, a combined 1 million anual users, and 50k github stars).&lt;/p&gt;
+
+&lt;p&gt;Since there's literally hundreds of frontend frameworks, so to keep this post reasonably, I'm only going to cover on the "top" 10 latest and greatest, and we're mainly focusing on developer experience (but performance benchmarks will also be included).&lt;/p&gt;
+
+&lt;p&gt;That's enough chat, let's get to it!&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  React
+&lt;/h2&gt;
+
+&lt;p&gt;React is everywhere, powering over 1.3 million websites, and used by many (probably most) large companies. It's been around for over 12 years, backed by Meta, with very mature tooling and a large ecosystem. So it's no wonder it's become the default choice for many teams. It's very stable with excellant backwards compatibility (which is actually also one of it's pitfalls, as there's multiple ways of doing everything).&lt;/p&gt;
+
+&lt;p&gt;But it's not perfect. It adds a lot of boilerplate making it much more verbose to write than the likes of Svelte or Vue. The virtual DOM also adds quite a significant performance overhead (actually, just the reconciliation, but it's easy to use incorrectly), memoization is often manual, concurrent features are not yet very mature, and bundles tend to be large, even with a lot of tree shaking.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Plenty of jobs&lt;/li&gt;
+&lt;li&gt;Ubiquitous, huge ecosystem, good community support, corporate backing&lt;/li&gt;
+&lt;li&gt;Flexibility, build anything from SPAs, emails to mobile apps (kinda)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;While quick to get started with, React can be slow to master properly, and there's many things to trip up beginners&lt;/li&gt;
+&lt;li&gt;Less performant out of the box, and the virtual DOM adds an overhead&lt;/li&gt;
+&lt;li&gt;Quite boilerplate heavy, especially when compared to Svelte or Solid&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  My Thoughts
+&lt;/h3&gt;
+
+&lt;p&gt;If you're vibe coding, React has a huge advantage, since there's just so much code out there for the AIs to consume. Likewise, if you're looking for a job, you can't go wrong with learning React as it's been the dominant framework for most companies for quite a while now.&lt;/p&gt;
+
+&lt;p&gt;That said, I personally do not like React: it's slow, heavy, boring and sometimes a bit more complex than other frameworks. &lt;/p&gt;
+
+&lt;p&gt;I find it frustrating that I need to do so much manual work to improve performance of an app. It makes the code verbose and prone to mistakes. Even though developer tooling is very good, inspecting the compiled output can still be quite painful. I spend a lot more time with the docs open, as the React spec is quite large and broad. &lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/lissy93/web-check" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2jglebyxph1ozbudz12x.png" alt="Web Check" width="800" height="330"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Vue
+&lt;/h2&gt;
+
+&lt;p&gt;Vue is a progressive framework, meaning it can be used for all app types, from just a drop-in script from enhancing HTML all the way up to a full SPA with SSR. Like Svelte, it uses SFCs (single file components) where each &lt;code&gt;.vue&lt;/code&gt; file bundles template, logic and scoped CSS together. For reactivity, Vue uses ES2015 Proxies to track dependencies and update only what’s needed, without manually memoizing.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Really easy, intuitive and quick to learn and use&lt;/li&gt;
+&lt;li&gt;Nice Single-file components with scoped styles&lt;/li&gt;
+&lt;li&gt;Easy, fine-grained reactivity and efficient dependency tracking&lt;/li&gt;
+&lt;li&gt;Official tools for routing, state, and SSR (bundled separately)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;While Vue can scale very well, a lot of thought is needed when using it for a very large project&lt;/li&gt;
+&lt;li&gt;There's some inconsistencies (such as the two competing Options vs Composition APIs)&lt;/li&gt;
+&lt;li&gt;Some reactivity caveats (e.g. .value on refs, destructuring loses reactivity)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  My Thoughts
+&lt;/h3&gt;
+
+&lt;p&gt;Vue could be seen as the Goldilocks framework, sitting comfortably between React's flexibility and Angular's structure. Vue is fast enough, fun enough and battle-tested enough, but doesn't really excel amazingly in any of these areas.&lt;/p&gt;
+
+&lt;p&gt;The reactivity system using Proxies is genuinely impressive. Change a data property and everything dependent on it updates automatically. And, the ecosystem is much stronger  than people realize.&lt;/p&gt;
+
+&lt;p&gt;I chose Vue for Dashy, because it both has everything I needed, but also is incredbily easy, so contributors could add their own widgets and features, with out a steep learning curve.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/dashy/" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr7xke364b435bf4vjgr0.png" alt="Dashy" width="800" height="334"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Svelte
+&lt;/h2&gt;
+
+&lt;p&gt;Svelte has consistently ranked as one of the most loved frameworks, and for good reason. It's simple, fast, lightweight and really fun. Reactivity is built directly into the language, no hooks, proxies or &lt;code&gt;useEffect&lt;/code&gt; weirdness; just assign to a variable and it reacts.&lt;/p&gt;
+
+&lt;p&gt;Unlike many other frameworks, it does not ship a runtime or use a virtual DOM. Instead, components get compiled into highly optimized vanilla JS at build-time. So, there's no runtime overhead, no framework code in your bundle and you get near-native performance in the browser. Oh, and the compiled output is surprisingly human readable.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Smaller, faster bundles than React or Vue&lt;/li&gt;
+&lt;li&gt;Really simple reactivity model&lt;/li&gt;
+&lt;li&gt;Less boilerplate than any other framework&lt;/li&gt;
+&lt;li&gt;Animations are built in&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ecosystem is still smaller than React/Vue&lt;/li&gt;
+&lt;li&gt;SvelteKit still maturing, and could be slightly less stable than Next/Nuxt&lt;/li&gt;
+&lt;li&gt;For large teams or huge projects, the tooling is not as robust &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  My Thoughts
+&lt;/h3&gt;
+
+&lt;p&gt;Building in Svelte makes me happy. I like that it's both modern, intuitive and fast, but also that it's SFCs are very aligned with the core web technologies: just HTML, CSS and JS.&lt;/p&gt;
+
+&lt;p&gt;Svelte has been my go-to for building things quickly and beautifully, while shipping a performant result. But I have found that if I don't pay attention to structure, a large project can quickly get messy.&lt;/p&gt;
+
+&lt;p&gt;I wouldn’t necessarily use it for a huge enterprise dashboard where you have 15 teams working on the same codebase, React or Angular still offer more predictability, stability and tooling in those scenarios.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/networking-toolbox/" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fslur4m05atjc26veiblp.png" alt="Networking Toolbox" width="800" height="336"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Angular
+&lt;/h2&gt;
+
+&lt;p&gt;You're probably thinking Angular is an old-school framework, only used in legacy apps and corporate environments. And yes, the latter is correct, but recent releases (yes, it's still very active) have some awesome features, that make it a very viable choice in 2025.&lt;/p&gt;
+
+&lt;p&gt;Unlike other frameworks, Angular ships with everything batteries-included: routing, forms, HTTP, testing, internationalization, animations, SSR, and more - all officially maintained and deeply integrated. No need to cobble together a stack.&lt;/p&gt;
+
+&lt;p&gt;But it can be verbose to write with. &lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TypeScript from the start&lt;/li&gt;
+&lt;li&gt;Very stable nowadays&lt;/li&gt;
+&lt;li&gt;Everything needed for large apps is included&lt;/li&gt;
+&lt;li&gt;AOT compilation of templates, making it faster than some&lt;/li&gt;
+&lt;li&gt;Plenty of jobs in the corporate world&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Steeper learning curve (RxJS, DI, modules, zones)&lt;/li&gt;
+&lt;li&gt;Verbose compared to frameworks like Svelte or Vue&lt;/li&gt;
+&lt;li&gt;Smaller community than React/Vue in open-source or tutorials&lt;/li&gt;
+&lt;li&gt;Less flexible — you build the Angular way&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  My Thoughts
+&lt;/h3&gt;
+
+&lt;p&gt;Angular isn't cool, but it is consistent, powerful, and scalable. There isn't really anything missing, so you don't need to npm install a ton of third-party deps just to do common tasks. &lt;/p&gt;
+
+&lt;p&gt;I didn't find it complicated to get up to speed with, but there was a lot I needed to learn from the docs, especially with the template syntax, component definitions,  directives, injections, etc. The only thing I struggled with, was initially getting hydration working for my SSR routes. Everything else was smooth sailing.&lt;/p&gt;
+
+&lt;p&gt;I'd consider Angular again for large apps, where stability, structure and long-term support matter, but not so much for smaller apps.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/lissy93/domain-locker" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fw98cgucvl97gqgu2fegr.png" alt="Domain Locker" width="800" height="365"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Lit
+&lt;/h2&gt;
+
+&lt;p&gt;Lit is a super lightweight framework for building standards-based Web Components, built around modern browser APIs (like Custom Elements and Shadow DOM) and is great when you want framework-agnostic, reusable UI components.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Uses native Web Components and common standards&lt;/li&gt;
+&lt;li&gt;Performant, as no virtual DOM, and updates are minimal and direct&lt;/li&gt;
+&lt;li&gt;Works with any framework (or none)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Verbose syntax: &lt;a class="mentioned-user" href="https://dev.to/click"&gt;@click&lt;/a&gt;, ?disabled, .value, etc.&lt;/li&gt;
+&lt;li&gt;Class-based components feel outdated&lt;/li&gt;
+&lt;li&gt;SSR is experimental and hard to set up&lt;/li&gt;
+&lt;li&gt;Ecosystem and learning resources are niche&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  My Thoughts
+&lt;/h3&gt;
+
+&lt;p&gt;I personally found that writing Lit components was a bit like stepping back into the old days of React. Components are class-based, and even the simplest of components are quite verbose, with a fair amount of boilerplate code.&lt;/p&gt;
+
+&lt;p&gt;The funny expression syntax (for attributes), caught me up a few times, forgetting to precede properties with a &lt;code&gt;.&lt;/code&gt;, booleans with a &lt;code&gt;?&lt;/code&gt;, event listeners with an &lt;code&gt;@&lt;/code&gt; and all values with a &lt;code&gt;$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Server-rendering is still experimental, and was such a pain to get working in a standalone Vite + Lit project.&lt;/p&gt;
+
+&lt;p&gt;Because it's web-components, and using the shadow DOM, each component is totally isolated. Which has it's pros and cons, but if you're not used to this, you might notice that things like your global CSS reset or styles do not work the way you'd expect.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/email-comparison" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzz9bzeqhi5dt10cy4vtz.png" alt="Email Comparison" width="800" height="373"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Marko
+&lt;/h2&gt;
+
+&lt;p&gt;Marko is a declarative language and high-performance web framework, built and maintained by eBay.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Concise syntax, with short-hand options for markup, no need to import components/custom tags&lt;/li&gt;
+&lt;li&gt;Quite easy SSR and isomorphic UI components&lt;/li&gt;
+&lt;li&gt;Easy routing with Marko run&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Very niche and limited support - you definitely could not vibe code with Marko!&lt;/li&gt;
+&lt;li&gt;Amazing when it works, but if you face an issue, you'll be delving into Marko's source and resolving it yourself&lt;/li&gt;
+&lt;li&gt;Missing docs (e.g. &lt;a href="https://github.com/marko-js/website-next/blob/main/docs/guide/low-level-apis.md" rel="noopener noreferrer"&gt;Low level APIs&lt;/a&gt; is just empty)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  My Thoughts
+&lt;/h3&gt;
+
+&lt;p&gt;I actually really liked what Marko was going for, the templating made a lot of sense. But it slightly feels like using a framework from the future, but in the past, it's both futuristic and out-dated at the same time.&lt;/p&gt;
+
+&lt;p&gt;The main drawback, and it's a big one - was that there's very limited info online. The docs are sparce, you cannot just grep github to find examples, AI tools have no idea of Marko basics, there's limited community support and even intelisense is very limited. So, if you face issues, you'll be delving into Marko's source yourself. And it does have a few quirks, which are often undocumented (e.g. if you use &lt;code&gt;class {}&lt;/code&gt; in a top-level view or layout, all interactivity will just break, without an error message). &lt;/p&gt;
+
+&lt;p&gt;So as much as I loved working with Marko, I don't feel I can recommend it for any serious project, just because the community is so small. I also don't think it's going to be actively maintained for much longer, as repo activity as been slowing down for the past few years, and ebay seems to be the only core maintainers.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/permissionator" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff2jprhez3y605tr5yva4.png" alt="Permissionator" width="800" height="321"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  jQuery
+&lt;/h2&gt;
+
+&lt;p&gt;Did you think I'd forget about our old friend jQuery?! Nearly 20 years since it's first release, and jQuery is still present on over 70% of the top 100k websites (that's largely correlated with WordPress usage).&lt;/p&gt;
+
+&lt;p&gt;That number is now starting to decline, and with good reason - for simple apps, many of the features of jQuery can now be done nativity with modern JavaScript, and for more complex apps modern frameworks just do the job far better.&lt;/p&gt;
+
+&lt;p&gt;...but earlier this year, and for the first time since 2016, a new major version, &lt;a href="https://blog.jquery.com/2024/02/06/jquery-4-0-0-beta/" rel="noopener noreferrer"&gt;jQuery 4&lt;/a&gt; has been published.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No build tools, dependency managers, transpilers etc&lt;/li&gt;
+&lt;li&gt;It's very much battle-tested&lt;/li&gt;
+&lt;li&gt;Useful for supporting (very) old browsers which don't have the newer JavaScript features&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Not much that jQuery can do, which can't be done with vanilla JS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That said, I couldn't quite bring myself to build a modern app using jQuery. Though I have used it (many years ago) for &lt;a href="https://github.com/Lissy93/revision-quizzes" rel="noopener noreferrer"&gt;revision-quizzes&lt;/a&gt;, &lt;a href="https://github.com/Lissy93/intern-magnet" rel="noopener noreferrer"&gt;intern-magnet&lt;/a&gt; and &lt;a href="https://github.com/Lissy93/usermonkey" rel="noopener noreferrer"&gt;user-monkey&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Alpine
+&lt;/h2&gt;
+
+&lt;p&gt;Enables you to easily sprinkle reactivity into server-rendered HTML (no SPAs, no hydration, no SSR). It's ideal for simple UI enhancements without a full build setup.&lt;/p&gt;
+
+&lt;p&gt;What's clever is how Alpine stays out of your way. The HTML is still readable, the JavaScript is minimal, and everything degrades gracefully if Alpine doesn't load. It's progressive enhancement done right - the page works without JavaScript, but becomes interactive when it loads.&lt;/p&gt;
+
+&lt;p&gt;The syntax reads naturally: &lt;code&gt;x-on:click="searchWeather()"&lt;/code&gt;, &lt;code&gt;x-text="temperature"&lt;/code&gt;, &lt;code&gt;x-bind:class="{'active': isExpanded}"&lt;/code&gt;. It's declarative like Vue templates but lives right in the HTML. The reactive updates happen automatically when you modify the data.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zero setup — works with just a &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag&lt;/li&gt;
+&lt;li&gt; Ideal for small enhancements in SSR or static sites&lt;/li&gt;
+&lt;li&gt;Easy, declarative syntax inspired by Vue
+
+&lt;ul&gt;
+&lt;li&gt;Progressive enhancement by default&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Not meant for large apps — lacks routing, state management, SSR, etc
+&lt;/li&gt;
+&lt;li&gt;  Limited tooling and structure for big teams&lt;/li&gt;
+&lt;li&gt;  Can get messy if you cram lots of logic into HTML attributes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  My Thoughs
+&lt;/h3&gt;
+
+&lt;p&gt;Alpine hits a really sweet spot for simple interactivity. When you don't want a full framework and just need modals, dropdowns, toggles, or light client-side behaviour then Alpine is perfect.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/who-dat" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0t6z8ggo1r5zgeozch87.png" alt="Who Dat" width="800" height="385"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Solid
+&lt;/h2&gt;
+
+&lt;p&gt;Solid looks a lot like React at first glance, but under the hood it's completely different, and much faster. Instead of a virtual DOM, Solid uses fine-grained reactivity (similar to Svelte and Vue's internals) to update only what actually changed. The result is tiny bundles, almost no runtime overhead, and great performance.&lt;/p&gt;
+
+&lt;p&gt;You still write JSX, still define components, still use hooks - but everything is reactive by default. Signals (&lt;code&gt;createSignal&lt;/code&gt;) replace &lt;code&gt;useState&lt;/code&gt;, computations run automatically when their dependencies change, and nothing re-renders unnecessarily. It feels familiar, but without the awkward parts of React.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Extremely fast: no virtual DOM, fine-grained reactivity, tiny bundle&lt;/li&gt;
+&lt;li&gt;  Feels familiar, if you're from a React background&lt;/li&gt;
+&lt;li&gt;  Very scalable, for large, highly interactive interfaces&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Much smaller ecosystem and community&lt;/li&gt;
+&lt;li&gt;SSR is strong, but full-stack frameworks like SolidStart are still maturing&lt;/li&gt;
+&lt;li&gt;JSX.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  My Thoughts
+&lt;/h3&gt;
+
+&lt;p&gt;Solid feels like "what React could have been" if it were designed today. You get the React ergonomics without the re-rendering dance, memoization hacks, or performance footguns. It genuinely feels snappy to build with. But because it's still relatively niche, you won’t find as many libraries, tutorials, or job listings.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/cso/" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkiyqf6lpkderz5t2klo6.png" alt="Chief Snack Officer" width="800" height="302"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Astro
+&lt;/h2&gt;
+
+&lt;p&gt;Astro is less of a framework, and more of a content-first site builder. &lt;/p&gt;
+
+&lt;p&gt;Astro statically builds your site, and uses barley no JavaScript by default. Interactivity comes from "islands", which are tiny isolated components, writen with any framework of your choice (like React, Svelte, Vue, Solid, etc), and are used to sprinkle in interactivity which get hydrated on client-side, only when needed.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Best option for SEO (SSG,SSR), plus all the benefits of interactivity only when you need it.&lt;/li&gt;
+&lt;li&gt;First-class MD/MDX support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It's good for content-heavy sites, but definetly not a good choice for SPA/interactive apps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  My Thoughts
+&lt;/h3&gt;
+
+&lt;p&gt;For a blog, docs, a marketing site, or a “mostly static with a few interactive bits” project, it’s honestly hard to beat. I love Astro, it's DX and flexibility, but it does have very specific use-case.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/awesome-privacy/" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3pg8po8zhen99n6aj026.png" alt="Awesome Privacy" width="800" height="379"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Van.js
+&lt;/h2&gt;
+
+&lt;p&gt;Van is a tiny (like seriously tiny - under 1kb) Grab 'n Go reactive UI framework with no virtual DOM, no build tools, no dependencies and no heavy abstractions. It works with entirely with plain DOM nodes, using simple reactive primitives (&lt;code&gt;van.state&lt;/code&gt;, &lt;code&gt;van.derive&lt;/code&gt;) to update the UI when data changes. It feels closer to "reactive vanilla JS" than a traditional framework.&lt;/p&gt;
+
+&lt;p&gt;The API is intentionally minimal. You create components as functions that return DOM elements, bind state directly in your markup-like calls, and that’s… pretty much it. No JSX, no compiler, no bundler, no fancy lifecycle hooks. Just JavaScript and DOM APIs with a sprinkling of reactivity.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Extremely small and fast, perfect for tiny widgets or embedded components&lt;/li&gt;
+&lt;li&gt;  No build step; works in a &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag&lt;/li&gt;
+&lt;li&gt;  Very simple reactivity model&lt;/li&gt;
+&lt;li&gt;  Easy to learn if you’re comfortable with vanilla JS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Definetly not suitable for larger applications&lt;/li&gt;
+&lt;li&gt;No component abstraction beyond functions, no templating system, no event system&lt;/li&gt;
+&lt;li&gt;Awesome for simple reactivity, but gets unwieldy fast for anything larger&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/raid-calculator" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc6n3kec86aeuedckn1ln.png" alt="RAID Calculator" width="800" height="355"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Qwik
+&lt;/h2&gt;
+
+&lt;p&gt;Qwik is kinda wild. It completely rethinks how web apps work by doing something called "resumability" - your page loads instantly with zero JavaScript, then individual components wake up only when you interact with them. It's like having a webpage that's asleep until you poke it.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Pros
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Super low TTFB, with &amp;lt;1KB JS on initial load&lt;/li&gt;
+&lt;li&gt;Scales really well for large apps with complex routes or dynamic content&lt;/li&gt;
+&lt;li&gt;Familiar developer ergonomics, with JSX + Vite + signals + file-based routing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  Cons
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SSR is required, it cannot work purley client side&lt;/li&gt;
+&lt;li&gt;Steeper learning curve, and some concepts (like resumability and serialization) may seem alien to devs at first&lt;/li&gt;
+&lt;li&gt;Debugging can be complex, because logic is split across server boundaries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  My Thoughts
+&lt;/h3&gt;
+
+&lt;p&gt;If you're working on a very large or complex app, which also needs to be highly performant, then Qwik is a natural option. Sure it has a smaller community, steeper learning curve, and is more complex than other options, but when every byte matters then this is just the price to pay.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What I built
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Lissy93/personal-security-checklist/" rel="noopener noreferrer"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy5pdqnxw0l9agh9hvyky.png" alt="Digital Defense" width="800" height="436"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Hol' Up - It's not a fair test if you built different apps!
+&lt;/h2&gt;
+
+&lt;p&gt;That's a very fair point, but don't worry - I got you!&lt;/p&gt;
+
+&lt;p&gt;In order to more impartially compare these frameworks, I've also built an identical mini-app in each of them, and benchmarked each to compare performance.&lt;br&gt;
+You can check this out here: &lt;a href="https://github.com/Lissy93/framework-benchmarks" rel="noopener noreferrer"&gt;https://github.com/Lissy93/framework-benchmarks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There's a shared test suite to confirm that each app meets identical requirements, each app uses all the same shared assets and styles, and then I have a set of performance benchmarking scripts which run all the actual performance tests. These results then get processed and put into the &lt;a href="https://github.com/Lissy93/framework-benchmarks/tree/results" rel="noopener noreferrer"&gt;&lt;code&gt;results&lt;/code&gt;&lt;/a&gt; branch, along with some charts and summaries which are in the main readme and on the &lt;a href="https://framework-benchmarks.as93.net/" rel="noopener noreferrer"&gt;framework-benchmarks homepage&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;
+  
+  
+  Conclusion
+&lt;/h2&gt;
+
+&lt;p&gt;So there we go, 12 frameworks, 12 apps (and 12 years of pain). If you're trying to choose a framework for your next project, check out &lt;a href="https://stack-match.as93.net/" rel="noopener noreferrer"&gt;Stack Match&lt;/a&gt; the framework comparison tool.&lt;/p&gt;
+
+&lt;p&gt;And if you like this kind of content, consider dropping me a follow 🩷&lt;br&gt;
+I'm &lt;a href="https://github.com/lissy93/" rel="noopener noreferrer"&gt;@Lissy93&lt;/a&gt; on GitHub, and &lt;a class="mentioned-user" href="https://dev.to/lissy93"&gt;@lissy93&lt;/a&gt; here on DEV. I build a lot of developer tools, security and privacy apps and self-hostable stuff for Linux, which you can check out on my site  &lt;a href="https://010000010110110001101001011000110110100101100001.com" rel="noopener noreferrer"&gt;https://010000010110110001101001011000110110100101100001.com&lt;/a&gt; (yeah, really memorable domain name!)&lt;/p&gt;
+
+&lt;p&gt;Anyway, thanks for reading, happy coding, and happy new year!! &lt;/p&gt;
+
+&lt;p&gt;Oh, and almost forgot - which framework is truly the best? Well that would have to obviously be [character limit reached]&lt;/p&gt;
+
+</description>
+      <category>webdev</category>
+      <category>javascript</category>
+      <category>frontend</category>
+      <category>performance</category>
+    </item>
+    <item>
       <title>50 ways to bring in extra cash as a developer 💰</title>
       <dc:creator>Alicia Sykes</dc:creator>
       <pubDate>Mon, 20 Nov 2023 10:00:00 +0000</pubDate>
