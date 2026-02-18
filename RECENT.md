@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `17 Feb 2026` - **[Lissy93 closed an issue in domain-locker](https://github.com/Lissy93/domain-locker/issues/74)**
-- `17 Feb 2026` - **[Lissy93 commented on an issue in domain-locker](https://github.com/Lissy93/domain-locker/issues/74#issuecomment-3916917767)**
-- `16 Feb 2026` - **[Lissy93 pushed networking-toolbox](https://github.com/Lissy93/networking-toolbox/compare/b0d0dc0870...203b815bfc)**
-- `15 Feb 2026` - **[Lissy93 deleted](https://github.com/Lissy93/networking-toolbox/compare/3f9eca9a1c...0000000000)**
-- `15 Feb 2026` - **[Lissy93 pushed networking-toolbox](https://github.com/Lissy93/networking-toolbox/compare/bcb7597dfb...b0d0dc0870)**
+- `18 Feb 2026` - **[Lissy93 deleted](https://github.com/Lissy93/email-comparison/compare/472770c03e...0000000000)**
+- `18 Feb 2026` - **[Lissy93 pushed email-comparison](https://github.com/Lissy93/email-comparison/compare/ce2295f44e...ed345a1036)**
+- `18 Feb 2026` - **[Lissy93 contributed to Lissy93/email-comparison](https://github.com/Lissy93/email-comparison/pull/43)**
+- `18 Feb 2026` - **[Lissy93 pushed email-comparison](https://github.com/Lissy93/email-comparison/compare/72a293b063...472770c03e)**
+- `18 Feb 2026` - **[Lissy93 pushed email-comparison](https://github.com/Lissy93/email-comparison/compare/bebcde1171...72a293b063)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
