@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `23 Feb 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/5391cc66b8...cc3a63870a)**
-- `23 Feb 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/suprunchuk/awesome-privacy/compare/6719979ff7...e532dfe331)**
-- `23 Feb 2026` - **[Lissy93 pushed awesome-privacy-1](https://github.com/ethancarlton-cyber/awesome-privacy-1/compare/88be4c5265...603a10f5df)**
-- `23 Feb 2026` - **[Lissy93 deleted](https://github.com/Lissy93/awesome-privacy/compare/e74c15a67a...0000000000)**
-- `23 Feb 2026` - **[Lissy93 closed a pull request in awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/390)**
+- `24 Feb 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/38f013a549...02da4de50e)**
+- `24 Feb 2026` - **[Lissy93 closed a pull request in awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/379)**
+- `24 Feb 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/843a49181f...8428fdce33)**
+- `24 Feb 2026` - **[Lissy93 pushed awesome-privacy-1](https://github.com/ccleberg/awesome-privacy-1/compare/7225c8d1b7...59927480aa)**
+- `24 Feb 2026` - **[Lissy93 closed a pull request in awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/373)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
