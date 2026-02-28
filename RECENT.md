@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `27 Feb 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/c011827454...5ec99fe783)**
-- `27 Feb 2026` - **[Lissy93 commented on commit aptabase/aptabase@5a8936852a](https://github.com/aptabase/aptabase/commit/5a8936852a20c26267ffaefd3544f91e3ca94135#commitcomment-178336625)**
-- `26 Feb 2026` - **[Lissy93 closed an issue in awesome-privacy](https://github.com/Lissy93/awesome-privacy/issues/384)**
-- `26 Feb 2026` - **[Lissy93 closed an issue in awesome-privacy](https://github.com/Lissy93/awesome-privacy/issues/391)**
-- `26 Feb 2026` - **[Lissy93 deleted](https://github.com/Lissy93/awesome-privacy/compare/3da9abf4d5...0000000000)**
+- `28 Feb 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/122bb0fc43...930bc76031)**
+- `28 Feb 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/11542c9372...122bb0fc43)**
+- `28 Feb 2026` - **[Lissy93 pushed personal-security-checklist](https://github.com/Lissy93/personal-security-checklist/compare/51f334e94a...be35e8f9a7)**
+- `28 Feb 2026` - **[Lissy93 pushed personal-security-checklist](https://github.com/Lissy93/personal-security-checklist/compare/7314b770c0...a6366c10d5)**
+- `28 Feb 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/8e9c490def...16e19a7dd3)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
