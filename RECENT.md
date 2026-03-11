@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `10 Mar 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/f6b46a1232...399295064c)**
-- `10 Mar 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/94e88985f0...f6b46a1232)**
-- `10 Mar 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/a5a9f54320...94e88985f0)**
-- `10 Mar 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/79ba457678...a5a9f54320)**
-- `10 Mar 2026` - **[Lissy93 closed an issue in dashy](https://github.com/Lissy93/dashy/issues/1881)**
+- `11 Mar 2026` - **[Lissy93 released v2.0.0 at Lissy93/readme-contribs](https://github.com/Lissy93/readme-contribs/releases/tag/v2.0.0)**
+- `11 Mar 2026` - **[Lissy93 commented on an issue in ulli](https://github.com/rltvty2/ulli/issues/10#issuecomment-4039286457)**
+- `11 Mar 2026` - **[Lissy93 opened a pull request in dashy](https://github.com/Lissy93/dashy/pull/2007)**
+- `11 Mar 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/448c62541b...e544c8733c)**
+- `11 Mar 2026` - **[Lissy93 closed an issue in dashy](https://github.com/Lissy93/dashy/issues/1953)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
