@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `16 Mar 2026` - **[Lissy93 pushed dashy](https://github.com/JasperX777/dashy/compare/b760786ee4...7b2ab67cb0)**
-- `16 Mar 2026` - **[Lissy93 pushed dashy](https://github.com/JasperX777/dashy/compare/21d5b421f9...b760786ee4)**
-- `16 Mar 2026` - **[Lissy93 pushed domain-locker](https://github.com/Lissy93/domain-locker/compare/d285050752...9c2962de33)**
-- `16 Mar 2026` - **[Lissy93 opened a pull request in awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/434)**
-- `16 Mar 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/c6abdd39d7...37f8ffa7bc)**
+- `17 Mar 2026` - **[Lissy93 commented on an issue in awesome-privacy](https://github.com/Lissy93/awesome-privacy/issues/426#issuecomment-4078530655)**
+- `17 Mar 2026` - **[Lissy93 closed an issue in awesome-privacy](https://github.com/Lissy93/awesome-privacy/issues/366)**
+- `17 Mar 2026` - **[Lissy93 commented on an issue in awesome-privacy](https://github.com/Lissy93/awesome-privacy/issues/366#issuecomment-4075374716)**
+- `17 Mar 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/a6be80622e...addd5eb797)**
+- `17 Mar 2026` - **[Lissy93 closed an issue in dashy](https://github.com/Lissy93/dashy/issues/1821)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
