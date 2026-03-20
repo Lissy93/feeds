@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `19 Mar 2026` - **[Lissy93 starred OWASP/Top10](https://github.com/OWASP/Top10)**
-- `19 Mar 2026` - **[Lissy93 pushed cv](https://github.com/Lissy93/cv/compare/2cb3761817...36cb7728ba)**
-- `19 Mar 2026` - **[Lissy93 pushed cv](https://github.com/Lissy93/cv/compare/2f56a622a5...2cb3761817)**
-- `19 Mar 2026` - **[Lissy93 pushed cv](https://github.com/Lissy93/cv/compare/6327504717...2f56a622a5)**
-- `19 Mar 2026` - **[Lissy93 pushed cv](https://github.com/Lissy93/cv/compare/519996b7c8...6327504717)**
+- `20 Mar 2026` - **[Lissy93 opened a pull request in awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/443)**
+- `20 Mar 2026` - **[Lissy93 created a branch](https://github.com/Lissy93/awesome-privacy/compare/0000000000...fd19ac808b)**
+- `20 Mar 2026` - **[Lissy93 deleted](https://github.com/Lissy93/awesome-privacy/compare/bc226ec203...0000000000)**
+- `20 Mar 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/a860863321...bbafb2908e)**
+- `20 Mar 2026` - **[Lissy93 contributed to Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/434)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
