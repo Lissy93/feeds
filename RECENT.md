@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `27 Mar 2026` - **[Lissy93 starred livrasand/gitGost](https://github.com/livrasand/gitGost)**
-- `27 Mar 2026` - **[Lissy93 closed a pull request in awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/460)**
-- `27 Mar 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/40502e71eb...ca4702933d)**
-- `27 Mar 2026` - **[Lissy93 closed an issue in awesome-privacy](https://github.com/Lissy93/awesome-privacy/issues/361)**
-- `27 Mar 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/PythonGermany/awesome-privacy/compare/8a99fe23f0...dd23ed764f)**
+- `28 Mar 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/246326722b...5f84c75e9a)**
+- `28 Mar 2026` - **[Lissy93 pushed Lissy93-awesome-privacy](https://github.com/Shiina18/Lissy93-awesome-privacy/compare/d6d9ae19e9...8ef32fe7d4)**
+- `28 Mar 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/5d6fe8ad77...246326722b)**
+- `28 Mar 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/8984abc214...4155d6bcfc)**
+- `28 Mar 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/ReduxFlakes/awesome-privacy/compare/165e5c83aa...82c81b70e7)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
