@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `24 Apr 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/aa4c7a0e71...381dcf7410)**
-- `24 Apr 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/bd961027b2...aa4c7a0e71)**
-- `24 Apr 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/6699851496...bd961027b2)**
-- `24 Apr 2026` - **[Lissy93 closed a pull request in dashy](https://github.com/Lissy93/dashy/pull/2091)**
-- `24 Apr 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/c4249e7d7e...6699851496)**
+- `25 Apr 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/7166ebd7cd...f9b80f7837)**
+- `25 Apr 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/b84a9b5af3...7166ebd7cd)**
+- `25 Apr 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Lissy93/awesome-privacy/compare/17d59437e5...9ad78e8af1)**
+- `25 Apr 2026` - **[Lissy93 pushed awesome-privacy](https://github.com/Sitric1/awesome-privacy/compare/d2fcdcc8a4...cfb2d632a2)**
+- `25 Apr 2026` - **[Lissy93 pushed dashy](https://github.com/Lissy93/dashy/compare/09fd86876f...b84a9b5af3)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
