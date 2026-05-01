@@ -32,11 +32,11 @@
 
 ## GitHub [![GitHub - @Lissy93](https://img.shields.io/badge/-Lissy93-3a3a3a?style=flat&logo=GitHub&logoColor=white)](https://github.com/Lissy93 "GitHub - @Lissy93") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/github.atom)
 <!-- github-feed start -->
-- `30 Apr 2026` - **[Lissy93 pushed bug-bounties](https://github.com/Lissy93/bug-bounties/compare/1cce7967b9...c89c3f8aa5)**
-- `30 Apr 2026` - **[Lissy93 pushed bug-bounties](https://github.com/Lissy93/bug-bounties/compare/9994991310...1cce7967b9)**
-- `30 Apr 2026` - **[Lissy93 pushed bug-bounties](https://github.com/Lissy93/bug-bounties/compare/de5d5ba9b9...02d664593f)**
-- `30 Apr 2026` - **[Lissy93 closed an issue in bug-bounties](https://github.com/Lissy93/bug-bounties/issues/14)**
-- `30 Apr 2026` - **[Lissy93 pushed bug-bounties](https://github.com/Lissy93/bug-bounties/compare/4857f6e87f...22d5ad1450)**
+- ` 1 May 2026` - **[Lissy93 closed a pull request in awesome-privacy](https://github.com/Lissy93/awesome-privacy/pull/528)**
+- ` 1 May 2026` - **[Lissy93 deleted](https://github.com/Lissy93/bug-bounties/compare/75ef2d20a7...0000000000)**
+- ` 1 May 2026` - **[Lissy93 closed an issue in bug-bounties](https://github.com/Lissy93/bug-bounties/issues/26)**
+- ` 1 May 2026` - **[Lissy93 pushed bug-bounties](https://github.com/Lissy93/bug-bounties/compare/79b0b2e9fa...e7cdae2292)**
+- ` 1 May 2026` - **[Lissy93 pushed bug-bounties](https://github.com/Lissy93/bug-bounties/compare/e9bd832267...79b0b2e9fa)**
 <!-- github-feed end -->
 
 ## YouTube [![YouTube - Alicia Sykes](https://img.shields.io/badge/-Alicia_Sykes-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@AliciaSykes "YouTube - Alicia Sykes") [![RSS Feed](https://img.shields.io/badge/-RSS-FFF?style=flat&logo=rss&logoColor=FFA500)](https://raw.githubusercontent.com/Lissy93/feeds/main/youtube.atom)
